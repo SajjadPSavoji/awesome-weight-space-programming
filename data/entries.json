@@ -485,5 +485,22 @@
     },
     "summary": "A meta-network turns language and video into LoRA weights for a frozen VLA, with no test-time optimization.",
     "added": "2026-11-04"
+  },
+  {
+    "id": "wsp-auditing-clinical-decision-networks",
+    "title": "Weight-space programming for auditing clinical decision networks",
+    "authors": "Humza Nusrat, Omar Nusrat",
+    "org": "Henry Ford Health",
+    "date": "2026-11-03",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.05341"
+    },
+    "repo": "hnusrat1/weightspace-rt",
+    "summary": "Claude Opus 5.5 audited small head-and-neck planning-request screening networks (433 to 4,801 parameters) blind, without tools, data or code execution. It named the broken rule in 16 of 18 flawed networks and repaired each of the 16 by changing a median of 3 parameters. Checks used about 420,000 requests.",
+    "added": "2026-11-04"
   }
 ]

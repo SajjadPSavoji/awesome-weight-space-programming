@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-30-blue)
+![Entries](https://img.shields.io/badge/entries-31-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -27,7 +27,7 @@
 - **2026-11-04** · [pi-weight-space-programming](https://github.com/felipepenha/pi-weight-space-programming) (Tools, Harnesses and Agent Skills)
 - **2026-11-04** · [The 'Astra can read and write weights to improve Qwen' post is misleading](https://honnibal.dev/blog/astra-read-write-misleading) (Analyses and Critiques)
 - **2026-11-04** · [MIT team says GPT-6 Astra can improve other AI models by editing their weights. Critics say its biggest result relied on standard ML engineering.](https://www.rdworldonline.com/mit-team-says-gpt-6-astra-can-fix-an-ai-model-by-editing-its-weights-critics-say-the-method-was-standard-ml-engineering/) (Analyses and Critiques)
-- **2026-11-04** · [Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights](https://rikiyat.github.io/blog/weight-space-programming/) (The Original Report)
+- **2026-11-04** · [Weight-space programming for auditing clinical decision networks](https://arxiv.org/abs/2611.05341) (Other Domains)
 
 ## 🧭 Milestones
 
@@ -45,6 +45,7 @@
 - [🦾 Robotics and Control](#-robotics-and-control) (3)
   - [Vision-language-action models](#vision-language-action-models) (2)
   - [RL control policies](#rl-control-policies) (1)
+- [🧩 Other Domains](#-other-domains) (1)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (1)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (6)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (2)
@@ -114,6 +115,15 @@
   latentpaths · *GitHub* · 2026-11-02 · `💻 code / results`  
   [[Code](https://github.com/latentpaths/policy-surgery)] [[Project](https://www.latentpaths.com/projects/policy-surgery)] ![GitHub stars](https://img.shields.io/github/stars/latentpaths/policy-surgery?style=social)  
   GPT-OSS-120B edits a 4,996-parameter LunarLander PPO actor after its dynamics change. Reversed thrusters: 0 to 226 of 256 held-out episodes. Crosswind and reduced thrust gain 3 to 6 points, and only one of those intervals excludes zero. Separate selection, approval and test seeds, with every failure kept.
+
+## 🧩 Other Domains
+
+*Classifiers, small decision networks and anything else.*
+
+- **[Weight-space programming for auditing clinical decision networks](https://arxiv.org/abs/2611.05341)**  
+  Henry Ford Health · *Preprint* · 2026-11-03 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.05341)] ![GitHub stars](https://img.shields.io/github/stars/hnusrat1/weightspace-rt?style=social)  
+  Claude Opus 5.5 audited small head-and-neck planning-request screening networks (433 to 4,801 parameters) blind, without tools, data or code execution. It named the broken rule in 16 of 18 flawed networks and repaired each of the 16 by changing a median of 3 parameters. Checks used about 420,000 requests.
 
 ## 📊 Benchmarks and Evaluations
 
