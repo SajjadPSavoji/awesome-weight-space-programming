@@ -1,0 +1,489 @@
+[
+  {
+    "id": "sparks-wsp",
+    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "authors": "Rikiya Takehi, Jayden Teoh, Alex Zhang, Omar Khattab",
+    "org": "MIT CSAIL",
+    "date": "2026-11-02",
+    "venue": "Blog report",
+    "category": "origin",
+    "kind": "report",
+    "evidence": "code",
+    "milestone": "Term coined",
+    "links": {
+      "post": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "code": "https://github.com/RikiyaT/lm_understand-logs",
+      "thread": "https://x.com/rikiyatakehi/status/2117313742891327994"
+    },
+    "repo": "RikiyaT/lm_understand-logs",
+    "summary": "GPT-6 Astra names what networks were trained on from their weights alone, repairs a stuck Kinetix car policy (0% to 100%, 3.5% of weights, one reply, no tools), writes MinAtar and 9x9 Go networks from zero, and lifts Qwen3.5-0.8B on MATH-500 from 7.9% to 48.1% by removing a loop direction (0.016% of weights). Edits removed a blocker; they did not add a missing ability (Gemma 3 270M: no gain).",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "guo-xie-robot-wsp",
+    "title": "Astra weight edits on a VLA, a world action model and humanoid control",
+    "authors": "Lingxiao Guo, Angchen Xie",
+    "date": "2026-11-04",
+    "venue": "X thread",
+    "category": "robotics-vla",
+    "kind": "post",
+    "evidence": "post",
+    "milestone": "First robot policies",
+    "links": {
+      "thread": "https://x.com/Lingxiao234/status/2118048171649806424"
+    },
+    "summary": "π0.5 on 5 RoboTwin 2.0 tasks: 27% to 65% with about 4 edits on held-out episodes; on one task 4 of 3.6B parameters took success from 28/92 to 82/92. FastWAM gains 8.7 points. Unitree G1 policies adapt to a hidden payload by rewiring waist and knee gains. Candidates are found by probing saved inputs offline, then checked with rollouts.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "geeksongs-smolvla",
+    "title": "Weight-Space Programming for VLAs",
+    "authors": "Geeksongs",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "robotics-vla",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Geeksongs/Weight-Space-Programming-VLA",
+      "model": "https://huggingface.co/pythonsong/smolvla-libero-wsp-B35"
+    },
+    "repo": "Geeksongs/Weight-Space-Programming-VLA",
+    "summary": "Changing one number in SmolVLA (the x-action output bias) lifts a LIBERO-Spatial task from 42/100 to 64/100 on unseen initial states (Fisher p = 0.003). The fault was read off rollouts: the gripper closed too far along x and regrasped.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "latentpaths-policy-surgery",
+    "title": "Policy Surgery",
+    "authors": "latentpaths",
+    "date": "2026-11-02",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/latentpaths/policy-surgery",
+      "project": "https://www.latentpaths.com/projects/policy-surgery"
+    },
+    "repo": "latentpaths/policy-surgery",
+    "summary": "GPT-OSS-120B edits a 4,996-parameter LunarLander PPO actor after its dynamics change. Reversed thrusters: 0 to 226 of 256 held-out episodes. Crosswind and reduced thrust gain 3 to 6 points, and only one of those intervals excludes zero. Separate selection, approval and test seeds, with every failure kept.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "csinva-autoresearch",
+    "title": "Weight-space programming autoresearch",
+    "authors": "csinva",
+    "date": "2026-11",
+    "venue": "GitHub",
+    "category": "llm-read",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/csinva/weight-space-programming-autoresearch"
+    },
+    "repo": "csinva/weight-space-programming-autoresearch",
+    "summary": "Claude, running as a coding agent, hand-writes transformer weights: 959 programs, and all 10 algorithmic tasks reach 100% within three attempts. A second test is mostly negative: Claude Opus 5.5 reading Qwen3.5-0.8B weights predicts the effects of 420 edits only slightly better than without the numbers (+0.06 correlation).",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "ati-weights-editing",
+    "title": "weights_editing: replicating Sparks of Weight-Space Programming across LLMs",
+    "authors": "The Alan Turing Institute",
+    "org": "The Alan Turing Institute",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/alan-turing-institute/weights_editing"
+    },
+    "repo": "alan-turing-institute/weights_editing",
+    "summary": "Replicates the weight-editing experiments with several LLMs as the editor.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "openwsp",
+    "title": "OpenWSP",
+    "authors": "OpenWSP",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/openwsp/openwsp"
+    },
+    "repo": "openwsp/openwsp",
+    "summary": "An open replication with a Python kernel over weights, a forward-pass service and a versioned edit format (CLI, SDK and MCP server). The math replication was in progress when checked, and its one-shot car repair with an open model failed.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "wspbench",
+    "title": "WSPBench",
+    "authors": "alexcarterhq",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/alexcarterhq/wspbench",
+      "project": "https://wspbench.com"
+    },
+    "repo": "alexcarterhq/wspbench",
+    "summary": "Does weight access help an agent diagnose and repair a model? GPT-6.1 Sol repaired 30/32 faults with behavior probes plus weights, against 14/32 with probes alone and 5/32 for a scripted solver at the same probe budget. All three kept 8 clean controls intact.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "weightspace-lib",
+    "title": "weightspace",
+    "authors": "Leo Marciano",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/leofmarciano/weightspace"
+    },
+    "repo": "leofmarciano/weightspace",
+    "summary": "Apache-2.0 Python library: read, fix, write and improve any torch.nn.Module with an LLM, using budgeted probes, tracked edits and sparse patches. Its own rerun of the Qwen experiment did not beat the original edit.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "weight-surgery-skill",
+    "title": "weight-surgery",
+    "authors": "Lorenzo Famiglini",
+    "date": "2026-11-02",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/lorenzofamiglini/weight-surgery"
+    },
+    "repo": "lorenzofamiglini/weight-surgery",
+    "summary": "Open agent skill that reads weights first, keeps a fixed forward-pass budget and proves fixes on held-out data. On a BERT NER model, a fitted control beat the hand edit (+0.109 vs +0.032 F1).",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "di37-skill",
+    "title": "weight-space-programming-skill",
+    "authors": "di37",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/di37/weight-space-programming-skill"
+    },
+    "repo": "di37/weight-space-programming-skill",
+    "summary": "Claude Code skill for improving a small open LLM by editing its weights directly, with no training.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "oumi-weights-lab",
+    "title": "weights-lab",
+    "authors": "Oumi",
+    "org": "Oumi",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/oumi-ai/weights-lab"
+    },
+    "repo": "oumi-ai/weights-lab",
+    "summary": "Agent skill for editing LLM weights.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "pi-wsp",
+    "title": "pi-weight-space-programming",
+    "authors": "Felipe Penha",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/felipepenha/pi-weight-space-programming"
+    },
+    "repo": "felipepenha/pi-weight-space-programming",
+    "summary": "Extension for the Pi coding agent with skills for reading and editing weights.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "xero-wsp-skill",
+    "title": "weight-space-programming (agent skill)",
+    "authors": "xero00000",
+    "date": "2026-11-02",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/xero00000/weight-space-programming"
+    },
+    "repo": "xero00000/weight-space-programming",
+    "summary": "Agent skill for reasoning-driven weight inspection, targeted edits and small-network construction.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "honnibal-critique",
+    "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+    "authors": "Matthew Honnibal",
+    "date": "2026-11-03",
+    "venue": "Blog",
+    "category": "analysis",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://honnibal.dev/blog/astra-read-write-misleading"
+    },
+    "summary": "Separates reading weights directly from repairing a model with code and practice feedback: raw-weight reading without tools appears only on the smallest networks, and the language-model results used Python and forward passes.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "rdworld-coverage",
+    "title": "MIT team says GPT-6 Astra can improve other AI models by editing their weights. Critics say its biggest result relied on standard ML engineering.",
+    "authors": "R&D World",
+    "date": "2026-11-03",
+    "venue": "News",
+    "category": "analysis",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://www.rdworldonline.com/mit-team-says-gpt-6-astra-can-fix-an-ai-model-by-editing-its-weights-critics-say-the-method-was-standard-ml-engineering/"
+    },
+    "summary": "News coverage of the claims and the methodological pushback.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "rome",
+    "title": "Locating and Editing Factual Associations in GPT (ROME)",
+    "authors": "Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov",
+    "date": "2022-02-10",
+    "venue": "NeurIPS 2022",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2202.05262",
+      "code": "https://github.com/kmeng01/rome",
+      "project": "https://rome.baulab.info/"
+    },
+    "repo": "kmeng01/rome",
+    "summary": "Rank-one edits to a single MLP layer rewrite a stored fact.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "memit",
+    "title": "Mass-Editing Memory in a Transformer (MEMIT)",
+    "authors": "Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, David Bau",
+    "date": "2022-10-13",
+    "venue": "ICLR 2023",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2210.07229",
+      "code": "https://github.com/kmeng01/memit",
+      "project": "https://memit.baulab.info/"
+    },
+    "repo": "kmeng01/memit",
+    "summary": "Extends ROME to thousands of edits at once across several layers.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "task-arithmetic",
+    "title": "Editing Models with Task Arithmetic",
+    "authors": "Gabriel Ilharco et al.",
+    "date": "2022-12-08",
+    "venue": "ICLR 2023",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.04089",
+      "code": "https://github.com/mlfoundations/task_vectors"
+    },
+    "repo": "mlfoundations/task_vectors",
+    "summary": "Adding and subtracting fine-tuning weight differences (task vectors) steers a model's behavior.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "actadd",
+    "title": "Steering Language Models With Activation Engineering (ActAdd)",
+    "authors": "Alexander Matt Turner et al.",
+    "date": "2023-08-20",
+    "venue": "Preprint",
+    "category": "found-steering",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2308.10248"
+    },
+    "summary": "Adds a direction computed from contrasting prompts to the residual stream at inference.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "repe",
+    "title": "Representation Engineering: A Top-Down Approach to AI Transparency",
+    "authors": "Andy Zou et al.",
+    "date": "2023-10-02",
+    "venue": "Preprint",
+    "category": "found-steering",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.01405",
+      "code": "https://github.com/andyzoujm/representation-engineering"
+    },
+    "repo": "andyzoujm/representation-engineering",
+    "summary": "Reads and controls high-level concepts through population-level directions in representations.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "caa",
+    "title": "Steering Llama 2 via Contrastive Activation Addition (CAA)",
+    "authors": "Nina Rimsky et al.",
+    "date": "2023-12-09",
+    "venue": "ACL 2024",
+    "category": "found-steering",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.06681"
+    },
+    "summary": "Steering vectors from paired positive and negative examples shift behaviors such as sycophancy.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "refusal-direction",
+    "title": "Refusal in Language Models Is Mediated by a Single Direction",
+    "authors": "Andy Arditi et al.",
+    "date": "2024-06-17",
+    "venue": "NeurIPS 2024",
+    "category": "found-steering",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.11717"
+    },
+    "summary": "Orthogonalizing weights against one direction removes refusal. It is the same kind of edit as the Qwen loop fix.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "tracr",
+    "title": "Tracr: Compiled Transformers as a Laboratory for Interpretability",
+    "authors": "David Lindner et al.",
+    "date": "2023-01-12",
+    "venue": "NeurIPS 2023",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2301.05062",
+      "code": "https://github.com/google-deepmind/tracr"
+    },
+    "repo": "google-deepmind/tracr",
+    "summary": "Compiles RASP programs into transformer weights with known structure.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "wsl-survey",
+    "title": "A Survey of Weight Space Learning: Understanding, Representation, and Generation",
+    "authors": "Xiaolong Han et al.",
+    "date": "2026-03-10",
+    "venue": "Preprint",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.10090"
+    },
+    "summary": "Taxonomy of learning on weights: geometry and symmetries, weight embeddings, and weight generation.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "wa-lqr",
+    "title": "Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control (WA-LQR)",
+    "authors": "",
+    "date": "2026-07",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.14943"
+    },
+    "summary": "Closed-loop LQR activation steering of Cosmos-Policy, DiT4DiT and LingBot-VA under camera, gripper and noise perturbations. Linear separability predicts which models can be steered.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "coast",
+    "title": "Contrastive Conceptor Activation Steering (COAST): Unlocking Vision-Language-Action Models through Hidden States",
+    "authors": "Miranda Muqing Miao, Subin Kim, Brandon Yang, Lyle Ungar",
+    "date": "2026-05",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.17144"
+    },
+    "summary": "Training-free conceptor steering of a VLA's action-expert residual stream (GR00T N1.5), learned from a few success and failure rollouts.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "dimas",
+    "title": "DiMaS: Distribution Matching for Steering Vision-Language-Action Models",
+    "authors": "Khayatan, Meziane, Parekh, Cord",
+    "date": "2026-07",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.14280",
+      "code": "https://github.com/pegah-kh/dimas"
+    },
+    "repo": "pegah-kh/dimas",
+    "summary": "In flow-matching VLAs, behavioral features are linearly decodable but not linearly steerable, which motivates distribution matching instead.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "dart",
+    "title": "Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts (DART)",
+    "authors": "Taewook Kang, Taeheon Kim, Donghyun Shin, Jonghyun Choi",
+    "date": "2026-07-01",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.00666"
+    },
+    "summary": "Adapts a VLA to camera and embodiment shifts from one demonstration through weight-vector arithmetic with subspace alignment.",
+    "added": "2026-11-04"
+  },
+  {
+    "id": "wizard",
+    "title": "Robotic Policy Adaptation via Weight-Space Meta-Learning (WIZARD)",
+    "authors": "Christian Bianchi et al.",
+    "date": "2026-06",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.07217"
+    },
+    "summary": "A meta-network turns language and video into LoRA weights for a frozen VLA, with no test-time optimization.",
+    "added": "2026-11-04"
+  }
+]
