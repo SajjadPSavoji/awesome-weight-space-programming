@@ -84,7 +84,8 @@ def render(cats, entries, mirror: bool = False) -> str:
     by_cat: dict[str, list] = {}
     for e in entries:
         by_cat.setdefault(e["category"], []).append(e)
-    today = date.today()
+    # anchor on the newest addition, not the clock, so the build is reproducible (CI --check)
+    today = max((date.fromisoformat(e["added"]) for e in entries if len(e.get("added", "")) == 10), default=date.today())
     lines: list[str] = []
     repo = f"{OWNER}/{CANON}"
     lines += [
