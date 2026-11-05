@@ -32,7 +32,7 @@
     "links": {
       "thread": "https://x.com/Lingxiao234/status/2118048171649806424"
     },
-    "summary": "π0.5 on 5 RoboTwin 2.0 tasks: 27% to 65% with about 4 edits on held-out episodes; on one task 4 of 3.6B parameters took success from 28/92 to 82/92. FastWAM gains 8.7 points. Unitree G1 policies adapt to a hidden payload by rewiring waist and knee gains. Candidates are found by probing saved inputs offline, then checked with rollouts.",
+    "summary": "π0.5 on 5 RoboTwin 2.0 tasks: 27% to 65% with about 4 edits on held-out episodes; on one task 4 of 3.6B parameters took success from 28/92 to 82/92. FastWAM gains 8.7 points. Unitree G1 policies adapt to a hidden payload by rewiring waist and knee gains. Candidates are found by probing saved inputs offline, then checked with rollouts. Each edited π0.5 was fine-tuned on one task, so gains hold for that task only; no code or paper as of 2026-11-05.",
     "added": "2026-11-04"
   },
   {
@@ -99,7 +99,7 @@
       "code": "https://github.com/alan-turing-institute/weights_editing"
     },
     "repo": "alan-turing-institute/weights_editing",
-    "summary": "Replicates the weight-editing experiments with several LLMs as the editor.",
+    "summary": "Replicates the weight-editing experiments with several LLMs as the editor. The repository returned 404 on 2026-11-05.",
     "added": "2026-11-04"
   },
   {
@@ -115,7 +115,7 @@
       "code": "https://github.com/openwsp/openwsp"
     },
     "repo": "openwsp/openwsp",
-    "summary": "An open replication with a Python kernel over weights, a forward-pass service and a versioned edit format (CLI, SDK and MCP server). The math replication was in progress when checked, and its one-shot car repair with an open model failed.",
+    "summary": "An open replication with a Python kernel over weights, a forward-pass service and a versioned edit format (CLI, SDK and MCP server). Its own one-shot GPT-6 Astra rerun of the car repair failed (0/1,024, 2,918 weights changed).",
     "added": "2026-11-04"
   },
   {
@@ -616,5 +616,295 @@
     "repo": "ZhangYiqun018/rethinking-weight-space-programming",
     "summary": "Re-runs the report's experiments with baselines and controls. Tuned PPO reaches 99.2–114.4 on Seaquest vs Astra's 53.1. Unedited Qwen3.5-0.8B with thinking off scores 44.2% on MATH-500. A difference-of-means direction with no LLM reaches 41.9%. Without simulator source in the prompt, Seaquest median falls to 0.8.",
     "added": "2026-11-05"
+  },
+  {
+    "id": "cuzyoung-pi05-opus",
+    "title": "Opus 5.5 makes π0.5 move faster and smoother by editing its weights",
+    "authors": "Ziyang Gong et al.",
+    "date": "2026-11-05",
+    "venue": "Project page",
+    "category": "robotics-vla",
+    "kind": "report",
+    "evidence": "post",
+    "links": {
+      "post": "https://cuzyoung.github.io/robotics-weight-editing/en/",
+      "code": "https://github.com/Cuzyoung/robotics-weight-editing"
+    },
+    "summary": "Claude Opus 5.5, working in Claude Code from recorded rollouts, changed 1.16% of a Training-Time-RTC π0.5 for a real YAM bimanual robot. Bottle placement got 12.0% faster at 40 Hz and jumps between action chunks fell 89.8%; both policies kept 100% success (3 runs per condition). The edits were a RoPE intervention fitted into Q/K weights by least squares and a repair of a prefix-handling bug in official RTC. Project page only, no code or weights.",
+    "added": "2026-11-05",
+    "org": "Shanghai Innovation Institute, SJTU, HKU",
+    "milestone": "First Claude edit of a robot policy"
+  },
+  {
+    "id": "admiral",
+    "title": "Admiral: Muse Spark repairs a multi-agent RL policy by editing its weights",
+    "authors": "Fares Boudelaa",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/faresboudelaa/admiral"
+    },
+    "summary": "Meta Muse Spark built a gated \"steer home\" circuit in a 163,874-parameter MAPPO capture-the-flag boat policy (PyQuaticus), changing 2.9% of weights. Against the hard heuristic opponent, paired score rose +0.36 over 200 held-out matches; against medium, +0.01 (not significant). Ships a reusable sandboxed numpy kernel with a match budget and a no-training audit.",
+    "added": "2026-11-05",
+    "repo": "faresboudelaa/admiral"
+  },
+  {
+    "id": "f1tenth-wsp",
+    "title": "Weight-space programming for F1TENTH autonomous racing",
+    "authors": "Ro0t-set",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Ro0t-set/f1tenth-weight-space-racing"
+    },
+    "summary": "GPT-6 Astra edited 1,276 scalars of a PPO LiDAR racing controller: completions went from 167 to 180 of 210 paired starts and crashes from 43 to 30. Runnable with a lock file and checkpoints.",
+    "added": "2026-11-05",
+    "repo": "Ro0t-set/f1tenth-weight-space-racing"
+  },
+  {
+    "id": "drone-delay-wsp",
+    "title": "Quadrotor PPO under actuation delay: LLM weight edits vs a gain sweep",
+    "authors": "filippos-p",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/filippos-p/drone-ppo-delay-robustness"
+    },
+    "summary": "Two LLMs each made one blind edit to a PyBullet quadrotor policy. At 4 ms delay the original succeeds 5%, the LLM edits 16% and 12%, a 28-variant output-gain sweep 67% and retraining for 7M steps 61%; at 8 ms or more the LLM edits score 0–1%. A clear case of a scripted baseline beating the LLM edit.",
+    "added": "2026-11-05",
+    "repo": "filippos-p/drone-ppo-delay-robustness"
+  },
+  {
+    "id": "wsp-lab",
+    "title": "wsp-lab: cross-editor stress test of weight-space programming",
+    "authors": "WKJBryan",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/WKJBryan/wsp-lab"
+    },
+    "summary": "An agentic GLM-5.3 editor repaired a CartPole MLP from 9.4 to 371.6 return, while a matched-norm random edit scored 9.5. Pre-registered, with an untouched baseline and a retraining upper bound; a blind Qwen3.5-0.8B repair gave no gain.",
+    "added": "2026-11-05",
+    "repo": "WKJBryan/wsp-lab"
+  },
+  {
+    "id": "kinetix-opus-repro",
+    "title": "Reproducing Sparks of Weight-Space Programming with Claude Opus 5.5",
+    "authors": "Ephraiem Sarabamoun",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/EphraiemSarabamoun/weight-space-programming-opus"
+    },
+    "summary": "Claude Opus 5.5 repeats the Kinetix car repair at 1,024/1,024 episodes, changing 1.70% of weights, along with other experiments from the report.",
+    "added": "2026-11-05",
+    "repo": "EphraiemSarabamoun/weight-space-programming-opus"
+  },
+  {
+    "id": "kinetix-fable-repro",
+    "title": "Replication of Sparks of Weight-Space Programming with Claude Fable 5.1",
+    "authors": "Ludvik1kul",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Ludvik1kul/weight-space-programming-replication"
+    },
+    "summary": "Claude Fable 5.1 repeats the Kinetix car repair at 1,024/1,024 episodes, changing 2.16% of weights, and the MinAtar experiments.",
+    "added": "2026-11-05",
+    "repo": "Ludvik1kul/weight-space-programming-replication"
+  },
+  {
+    "id": "harleycoops-breakout",
+    "title": "Weight-space Breakout pipeline and FailureIsAllYouNeed",
+    "authors": "Christian (Harley) Cooper",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/HarleyCoops/weight-space-breakout-pipeline",
+      "model": "https://huggingface.co/HarleyCooper"
+    },
+    "summary": "A hosted Qwen editor repairs injected faults in a 17,253-parameter Breakout policy behind a verifier gate, publishing accepted weights to Hugging Face. A useful negative result: the one accepted repair just restored the known reference policy, one run made 123 turns without submitting an edit, and a later qualified repair improved sampled play while greedy return fell from 10.25 to 1.57. Follow-up repo: FailureIsAllYouNeed.",
+    "added": "2026-11-05",
+    "repo": "HarleyCoops/weight-space-breakout-pipeline"
+  },
+  {
+    "id": "fable-breakout-write",
+    "title": "Claude Fable 5.1 writes a Breakout network from scratch",
+    "authors": "niqbal",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/niqbal/fable-weight-space-breakout"
+    },
+    "summary": "Fable 5.1 writes all 20,486 weights of a MinAtar Breakout policy in one reply and scores 501.6 ± 5.8, against 517.4 for Astra in the report.",
+    "added": "2026-11-05",
+    "repo": "niqbal/fable-weight-space-breakout"
+  },
+  {
+    "id": "barneyjm-minatar",
+    "title": "Weight-space MinAtar: Opus 5.5 and Fable 5.1 write game policies",
+    "authors": "Barneyjm",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Barneyjm/weight-space-minatar"
+    },
+    "summary": "Blind one-shot weight writing for MinAtar Breakout, Asterix and Seaquest. On Breakout, Fable 5.1 scores 533.9 and Opus 5.5 scores 7.1.",
+    "added": "2026-11-05",
+    "repo": "Barneyjm/weight-space-minatar"
+  },
+  {
+    "id": "weight-space-horizon",
+    "title": "Weight-space horizon: re-evaluating the released MinAtar networks",
+    "authors": "hamley241",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/hamley241/weight-space-horizon"
+    },
+    "summary": "A pre-registered re-evaluation finds 51.6% of the released Breakout episodes still running at the 10K-step cap; a 30K cap adds 405.3 reward. Episode caps are a way to misread WSP scores.",
+    "added": "2026-11-05",
+    "repo": "hamley241/weight-space-horizon"
+  },
+  {
+    "id": "openwish",
+    "title": "OpenWiSH: Open Weight-Space Harness",
+    "authors": "Alexander Aghili",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Alexander-Aghili/OpenWiSH"
+    },
+    "summary": "An agent-agnostic harness (claude -p, Codex or the Anthropic API) where agents inspect and edit weights through a Rust edit gate. Already runs Kinetix and MinAtar tasks.",
+    "added": "2026-11-05",
+    "repo": "Alexander-Aghili/OpenWiSH"
+  },
+  {
+    "id": "roboirs",
+    "title": "RoboIRS: Inference-Time Internal Representation Steering for Generalist Robot Policies",
+    "authors": "Lei, Liu, Li, Zhang, Liang, She et al.",
+    "date": "2026-10",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04681",
+      "project": "https://rollingoat.github.io/roboirs/"
+    },
+    "summary": "Linear classifiers on success and failure rollouts pick intervention sites and directions in frozen policies. π0.5 on 15 LIBERO-PRO tasks: 44.4% to 66.2%; Cosmos Policy: 35.4% to 55.4%. A plain diff-of-means direction already reaches 62.6% on π0.5, the baseline any agent edit has to beat.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "tv-negation-audit",
+    "title": "Suppression Sticks, Locality Is Fragile: A Closed-Loop Audit of Task-Vector Negation in VLA Policies",
+    "authors": "Wang, Guo, Dai, Zhao, Guo, Xiong",
+    "date": "2026-08",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04692"
+    },
+    "summary": "Subtracting per-skill task vectors on 10 LIBERO-Goal skills: 5 are cleanly suppressed, 3 resist and 2 collapse the policy. Unrelated tasks keep only 52% of their success on average, and cosine between task vectors does not predict the outcome.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "tinylora-vla",
+    "title": "Behavioral Steering of Vision-Language-Action Models in the Low-Parameter Regime",
+    "authors": "Tcheng, Zhu",
+    "date": "2026-10",
+    "venue": "NeurIPS 2026 RoboPAD Workshop",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.00522"
+    },
+    "summary": "TinyLoRA adapters of 8 to 384 parameters on a frozen OpenVLA-OFT, trained by GRPO or gradient-free CMA-ES. With 256 parameters carry height rises 120 mm at 92% success. The closest tiny-weight-edit baseline for an agent edit.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "causal-robot-fm",
+    "title": "Causal Analysis of Robot Foundation Models Enables Efficiency Gains",
+    "authors": "Swann, Papillon, Jacobs, Boppana, Haklay, Bigelow et al.",
+    "date": "2026-10",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.20750"
+    },
+    "summary": "Activation patching on π0.5, MolmoAct2 and MolmoBot: information reaches the action expert through a narrow band of mid-to-late cross-attention layers, and patching there redirects which object is picked and where the arm moves. A map of where edits should land.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "drvla-sae",
+    "title": "Sparse Autoencoders Reveal Interpretable and Steerable Features in VLA Models",
+    "authors": "Swann, McGranahan, Buurmeijer, Kennedy, Schwager",
+    "date": "2026-03",
+    "venue": "CoRL 2026",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.19183",
+      "code": "https://github.com/swannaiden/drvla"
+    },
+    "summary": "SAEs on π0.5 and OpenVLA: amplifying general features induces matching behavior and ablating them destroys performance, but most features are episode-specific memorization.",
+    "added": "2026-11-05",
+    "repo": "swannaiden/drvla"
+  },
+  {
+    "id": "haon-vla-steering",
+    "title": "Mechanistic Interpretability for Steering Vision-Language-Action Models",
+    "authors": "Häon, Stocking, Chuang, Tomlin",
+    "date": "2025-08",
+    "venue": "CoRL 2025",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.00328",
+      "code": "https://github.com/vla-mech-interp/mechanistic-steering-vlas"
+    },
+    "summary": "Steering OpenVLA and π0 through FFN value vectors shifts end-effector motion on LIBERO by 27.7% on average; only the low and slow steers held up on hardware.",
+    "added": "2026-11-05",
+    "repo": "vla-mech-interp/mechanistic-steering-vlas"
   }
 ]
