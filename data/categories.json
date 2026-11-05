@@ -62,6 +62,12 @@
     ]
   },
   {
+    "id": "games",
+    "title": "Games",
+    "emoji": "🧪",
+    "blurb": "Weight programming of game-playing networks and board-game policies."
+  },
+  {
     "id": "bench",
     "title": "Benchmarks and Evaluations",
     "emoji": "📊",

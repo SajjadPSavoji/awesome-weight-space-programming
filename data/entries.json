@@ -502,5 +502,119 @@
     "repo": "hnusrat1/weightspace-rt",
     "summary": "Claude Opus 5.5 audited small head-and-neck planning-request screening networks (433 to 4,801 parameters) blind, without tools, data or code execution. It named the broken rule in 16 of 18 flawed networks and repaired each of the 16 by changing a median of 3 parameters. Checks used about 420,000 requests.",
     "added": "2026-11-04"
+  },
+  {
+    "id": "auremhq-wsp-kit",
+    "title": "Weight-Space Programming (wsp-kit)",
+    "authors": "AuremHQ",
+    "org": "Aurem",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/AuremHQ/weight-space-programming"
+    },
+    "repo": "AuremHQ/weight-space-programming",
+    "summary": "Tool that tries to fix small open-weight models by editing weights directly, with an eval gate deciding whether an edit ships. Reports its own CPU runs on Qwen3-0.6B and GPT2-124M: in 60-item list-looping tests no edit passed the gate, so 0 weights shipped. Only the smoke-test pipeline passed (failing score 64.14 → 75.43).",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "ctrimm-safety-net-wsp",
+    "title": "Weight-Space Programming for the Social Safety Net",
+    "authors": "ctrimm",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ctrimm/weight-space-programming"
+    },
+    "repo": "ctrimm/weight-space-programming",
+    "summary": "Tests whether an LLM can write, with no training, the exact weights of small networks computing four simplified US benefit formulas (SNAP, EITC, SSI, Medicaid). Three of four match the formula to within a trillionth of a dollar; the EITC network differs at one point by 2.4 cents. Trained networks are off by dollars.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "statsleelab-wsp-reproduction",
+    "title": "Sparks of Weight-Space Programming — Complete Reproduction & Interactive Guide (EN / KO)",
+    "authors": "statsleelab",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/statsleelab/weight_space_programming",
+      "project": "https://statsleelab.github.io/weight_space_programming/"
+    },
+    "repo": "statsleelab/weight_space_programming",
+    "summary": "Reproduction of all 8 experiments of the MIT report from the released weights, prompts and logs, with standalone NumPy/SciPy verification scripts. Reports max tensor difference 0.0 and a full run of about 3.5 seconds on CPU. Includes a bilingual (English/Korean) interactive web report and a separate Drosophila connectome weight-edit page.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "nishio-geister-wsp",
+    "title": "Writing neural-network weights for Geister without training",
+    "authors": "NISHIO Hirokazu",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/nishio/geister-weight-space-programming"
+    },
+    "repo": "nishio/geister-weight-space-programming",
+    "summary": "Claude Opus 5.5 agents write, read and fix neural-network weights for Geister, a two-player hidden-information game, without training. Compared with PPO and text-prompted small LMs, on an 8-core CPU machine. Repository includes per-item results (G1-G26), writer and reader run transcripts, audits, and an English summary and Japanese report.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "spliceai-weight-space-programming",
+    "title": "Weight-space programming on a clinical splicing model",
+    "authors": "KristinaMruts",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/KristinaMruts/weight-space-programming-spliceai"
+    },
+    "repo": "KristinaMruts/weight-space-programming-spliceai",
+    "summary": "Claude Opus 5.5 hand-edits 165 weights of OpenSpliceAI-MANE-10000nt to separate pathogenic from benign ClinVar variants. Hidden-test AUPRC 0.9385 → 0.9746. A temperature-only control gives 0.9695 and gradient fine-tuning of the same layers 0.9697-0.9710; authors conclude the edit matched ordinary training rather than beating it.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "alexbodner-wsp-scaling",
+    "title": "Can GPT-6 Astra read and write GPT-2's weights?",
+    "authors": "Alex Bodner",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "llm-read",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/AlexBodner/wsp-scaling"
+    },
+    "repo": "AlexBodner/wsp-scaling",
+    "summary": "Asks GPT-6 Astra to find induction heads in scrambled GPT-2 small (124M) weights. With Python and no hint it picked all five induction heads in both runs (10 of 10 picks); with no tools, 0 of 10. Silencing the five heads cuts repeat accuracy from 98.6% to 28.9%. One model, few runs, no size sweep.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "rethinking-weight-space-programming",
+    "title": "Rethinking Weight-Space Programming",
+    "authors": "Yiqun Zhang",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ZhangYiqun018/rethinking-weight-space-programming"
+    },
+    "repo": "ZhangYiqun018/rethinking-weight-space-programming",
+    "summary": "Re-runs the report's experiments with baselines and controls. Tuned PPO reaches 99.2–114.4 on Seaquest vs Astra's 53.1. Unedited Qwen3.5-0.8B with thinking off scores 44.2% on MATH-500. A difference-of-means direction with no LLM reaches 41.9%. Without simulator source in the prompt, Seaquest median falls to 0.8.",
+    "added": "2026-11-05"
   }
 ]

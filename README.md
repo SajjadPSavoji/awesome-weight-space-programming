@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-31-blue)
+![Entries](https://img.shields.io/badge/entries-38-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,18 +16,18 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-05** · [Weight-Space Programming (wsp-kit)](https://github.com/AuremHQ/weight-space-programming) (Tools, Harnesses and Agent Skills)
+- **2026-11-05** · [Can GPT-6 Astra read and write GPT-2's weights?](https://github.com/AlexBodner/wsp-scaling) (Reading and predicting from weights)
+- **2026-11-05** · [Rethinking Weight-Space Programming](https://github.com/ZhangYiqun018/rethinking-weight-space-programming) (Analyses and Critiques)
+- **2026-11-05** · [Weight-Space Programming for the Social Safety Net](https://github.com/ctrimm/weight-space-programming) (Other Domains)
+- **2026-11-05** · [Writing neural-network weights for Geister without training](https://github.com/nishio/geister-weight-space-programming) (Games)
+- **2026-11-05** · [Weight-space programming on a clinical splicing model](https://github.com/KristinaMruts/weight-space-programming-spliceai) (Other Domains)
+- **2026-11-05** · [Sparks of Weight-Space Programming — Complete Reproduction & Interactive Guide (EN / KO)](https://github.com/statsleelab/weight_space_programming) (Analyses and Critiques)
 - **2026-11-04** · [Astra weight edits on a VLA, a world action model and humanoid control](https://x.com/Lingxiao234/status/2118048171649806424) (Vision-language-action models)
 - **2026-11-04** · [Weight-Space Programming for VLAs](https://github.com/Geeksongs/Weight-Space-Programming-VLA) (Vision-language-action models)
 - **2026-11-04** · [weights_editing: replicating Sparks of Weight-Space Programming across LLMs](https://github.com/alan-turing-institute/weights_editing) (Repairing behavior)
 - **2026-11-04** · [OpenWSP](https://github.com/openwsp/openwsp) (Repairing behavior)
 - **2026-11-04** · [WSPBench](https://github.com/alexcarterhq/wspbench) (Benchmarks and Evaluations)
-- **2026-11-04** · [weightspace](https://github.com/leofmarciano/weightspace) (Tools, Harnesses and Agent Skills)
-- **2026-11-04** · [weight-space-programming-skill](https://github.com/di37/weight-space-programming-skill) (Tools, Harnesses and Agent Skills)
-- **2026-11-04** · [weights-lab](https://github.com/oumi-ai/weights-lab) (Tools, Harnesses and Agent Skills)
-- **2026-11-04** · [pi-weight-space-programming](https://github.com/felipepenha/pi-weight-space-programming) (Tools, Harnesses and Agent Skills)
-- **2026-11-04** · [The 'Astra can read and write weights to improve Qwen' post is misleading](https://honnibal.dev/blog/astra-read-write-misleading) (Analyses and Critiques)
-- **2026-11-04** · [MIT team says GPT-6 Astra can improve other AI models by editing their weights. Critics say its biggest result relied on standard ML engineering.](https://www.rdworldonline.com/mit-team-says-gpt-6-astra-can-fix-an-ai-model-by-editing-its-weights-critics-say-the-method-was-standard-ml-engineering/) (Analyses and Critiques)
-- **2026-11-04** · [Weight-space programming for auditing clinical decision networks](https://arxiv.org/abs/2611.05341) (Other Domains)
 
 ## 🧭 Milestones
 
@@ -39,16 +39,17 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (3)
+- [💬 Language Models](#-language-models) (4)
   - [Repairing behavior](#repairing-behavior) (2)
-  - [Reading and predicting from weights](#reading-and-predicting-from-weights) (1)
+  - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
 - [🦾 Robotics and Control](#-robotics-and-control) (3)
   - [Vision-language-action models](#vision-language-action-models) (2)
   - [RL control policies](#rl-control-policies) (1)
-- [🧩 Other Domains](#-other-domains) (1)
+- [🧩 Other Domains](#-other-domains) (3)
+- [🧪 Games](#-games) (1)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (1)
-- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (6)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (2)
+- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (7)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (4)
 - [📚 Foundations and Related Fields](#-foundations-and-related-fields) (14)
   - [Model editing and weight arithmetic](#model-editing-and-weight-arithmetic) (3)
   - [Activation steering and representation engineering](#activation-steering-and-representation-engineering) (4)
@@ -88,6 +89,11 @@
 
 ### Reading and predicting from weights
 
+- **[Can GPT-6 Astra read and write GPT-2's weights?](https://github.com/AlexBodner/wsp-scaling)**  
+  Alex Bodner · *GitHub* · 2026-11-05 · `💻 code / results`  
+  [[Code](https://github.com/AlexBodner/wsp-scaling)] ![GitHub stars](https://img.shields.io/github/stars/AlexBodner/wsp-scaling?style=social)  
+  Asks GPT-6 Astra to find induction heads in scrambled GPT-2 small (124M) weights. With Python and no hint it picked all five induction heads in both runs (10 of 10 picks); with no tools, 0 of 10. Silencing the five heads cuts repeat accuracy from 98.6% to 28.9%. One model, few runs, no size sweep.
+
 - **[Weight-space programming autoresearch](https://github.com/csinva/weight-space-programming-autoresearch)**  
   csinva · *GitHub* · 2026-11 · `💻 code / results`  
   [[Code](https://github.com/csinva/weight-space-programming-autoresearch)] ![GitHub stars](https://img.shields.io/github/stars/csinva/weight-space-programming-autoresearch?style=social)  
@@ -120,10 +126,29 @@
 
 *Classifiers, small decision networks and anything else.*
 
+- **[Weight-Space Programming for the Social Safety Net](https://github.com/ctrimm/weight-space-programming)**  
+  ctrimm · *GitHub* · 2026-11-04 · `💻 code / results`  
+  [[Code](https://github.com/ctrimm/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/ctrimm/weight-space-programming?style=social)  
+  Tests whether an LLM can write, with no training, the exact weights of small networks computing four simplified US benefit formulas (SNAP, EITC, SSI, Medicaid). Three of four match the formula to within a trillionth of a dollar; the EITC network differs at one point by 2.4 cents. Trained networks are off by dollars.
+
+- **[Weight-space programming on a clinical splicing model](https://github.com/KristinaMruts/weight-space-programming-spliceai)**  
+  KristinaMruts · *GitHub* · 2026-11-04 · `💻 code / results`  
+  [[Code](https://github.com/KristinaMruts/weight-space-programming-spliceai)] ![GitHub stars](https://img.shields.io/github/stars/KristinaMruts/weight-space-programming-spliceai?style=social)  
+  Claude Opus 5.5 hand-edits 165 weights of OpenSpliceAI-MANE-10000nt to separate pathogenic from benign ClinVar variants. Hidden-test AUPRC 0.9385 → 0.9746. A temperature-only control gives 0.9695 and gradient fine-tuning of the same layers 0.9697-0.9710; authors conclude the edit matched ordinary training rather than beating it.
+
 - **[Weight-space programming for auditing clinical decision networks](https://arxiv.org/abs/2611.05341)**  
   Henry Ford Health · *Preprint* · 2026-11-03 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.05341)] ![GitHub stars](https://img.shields.io/github/stars/hnusrat1/weightspace-rt?style=social)  
   Claude Opus 5.5 audited small head-and-neck planning-request screening networks (433 to 4,801 parameters) blind, without tools, data or code execution. It named the broken rule in 16 of 18 flawed networks and repaired each of the 16 by changing a median of 3 parameters. Checks used about 420,000 requests.
+
+## 🧪 Games
+
+*Weight programming of game-playing networks and board-game policies.*
+
+- **[Writing neural-network weights for Geister without training](https://github.com/nishio/geister-weight-space-programming)**  
+  NISHIO Hirokazu · *GitHub* · 2026-11-04 · `💻 code / results`  
+  [[Code](https://github.com/nishio/geister-weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/nishio/geister-weight-space-programming?style=social)  
+  Claude Opus 5.5 agents write, read and fix neural-network weights for Geister, a two-player hidden-information game, without training. Compared with PPO and text-prompted small LMs, on an 8-core CPU machine. Repository includes per-item results (G1-G26), writer and reader run transcripts, audits, and an English summary and Japanese report.
 
 ## 📊 Benchmarks and Evaluations
 
@@ -137,6 +162,11 @@
 ## 🛠️ Tools, Harnesses and Agent Skills
 
 *Libraries and agent skills for reading and editing weights.*
+
+- **[Weight-Space Programming (wsp-kit)](https://github.com/AuremHQ/weight-space-programming)**  
+  Aurem · *GitHub* · 2026-11-05 · `💻 code / results`  
+  [[Code](https://github.com/AuremHQ/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/AuremHQ/weight-space-programming?style=social)  
+  Tool that tries to fix small open-weight models by editing weights directly, with an eval gate deciding whether an edit ships. Reports its own CPU runs on Qwen3-0.6B and GPT2-124M: in 60-item list-looping tests no edit passed the gate, so 0 weights shipped. Only the smoke-test pipeline passed (failing score 64.14 → 75.43).
 
 - **[weightspace](https://github.com/leofmarciano/weightspace)**  
   Leo Marciano · *GitHub* · 2026-11-03 · `💻 code / results`  
@@ -172,6 +202,11 @@
 
 *Audits, replications of claims and critical takes.*
 
+- **[Rethinking Weight-Space Programming](https://github.com/ZhangYiqun018/rethinking-weight-space-programming)**  
+  Yiqun Zhang · *GitHub* · 2026-11-05 · `💻 code / results`  
+  [[Code](https://github.com/ZhangYiqun018/rethinking-weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/ZhangYiqun018/rethinking-weight-space-programming?style=social)  
+  Re-runs the report's experiments with baselines and controls. Tuned PPO reaches 99.2–114.4 on Seaquest vs Astra's 53.1. Unedited Qwen3.5-0.8B with thinking off scores 44.2% on MATH-500. A difference-of-means direction with no LLM reaches 41.9%. Without simulator source in the prompt, Seaquest median falls to 0.8.
+
 - **[The 'Astra can read and write weights to improve Qwen' post is misleading](https://honnibal.dev/blog/astra-read-write-misleading)**  
   Matthew Honnibal · *Blog* · 2026-11-03 · `💬 post only`  
   [[Post](https://honnibal.dev/blog/astra-read-write-misleading)]  
@@ -181,6 +216,11 @@
   R&D World · *News* · 2026-11-03 · `💬 post only`  
   [[Post](https://www.rdworldonline.com/mit-team-says-gpt-6-astra-can-fix-an-ai-model-by-editing-its-weights-critics-say-the-method-was-standard-ml-engineering/)]  
   News coverage of the claims and the methodological pushback.
+
+- **[Sparks of Weight-Space Programming — Complete Reproduction & Interactive Guide (EN / KO)](https://github.com/statsleelab/weight_space_programming)**  
+  statsleelab · *GitHub* · 2026-11-03 · `💻 code / results`  
+  [[Code](https://github.com/statsleelab/weight_space_programming)] [[Project](https://statsleelab.github.io/weight_space_programming/)] ![GitHub stars](https://img.shields.io/github/stars/statsleelab/weight_space_programming?style=social)  
+  Reproduction of all 8 experiments of the MIT report from the released weights, prompts and logs, with standalone NumPy/SciPy verification scripts. Reports max tensor difference 0.0 and a full run of about 3.5 seconds on CPU. Includes a bilingual (English/Korean) interactive web report and a separate Drosophila connectome weight-edit page.
 
 ## 📚 Foundations and Related Fields
 
