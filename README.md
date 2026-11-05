@@ -46,7 +46,7 @@
   - [Vision-language-action models](#vision-language-action-models) (2)
   - [RL control policies](#rl-control-policies) (1)
 - [🧩 Other Domains](#-other-domains) (3)
-- [🧪 Games](#-games) (1)
+- [🎮 Games](#-games) (1)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (1)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (7)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (4)
@@ -141,7 +141,7 @@
   [[Paper](https://arxiv.org/abs/2611.05341)] ![GitHub stars](https://img.shields.io/github/stars/hnusrat1/weightspace-rt?style=social)  
   Claude Opus 5.5 audited small head-and-neck planning-request screening networks (433 to 4,801 parameters) blind, without tools, data or code execution. It named the broken rule in 16 of 18 flawed networks and repaired each of the 16 by changing a median of 3 parameters. Checks used about 420,000 requests.
 
-## 🧪 Games
+## 🎮 Games
 
 *Weight programming of game-playing networks and board-game policies.*
 
