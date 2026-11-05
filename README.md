@@ -274,7 +274,7 @@ Entries are newest first within each section. Summaries report the source's own 
 
 ## How This List Is Maintained
 
-A daily automated sweep checks arXiv, GitHub and the Hugging Face Hub for new work on weight-space programming. Entries need to do weight-space programming or be direct groundwork for it. Papers should come from an identifiable research group or release code; repositories should show traction or report a held-out result. Categories grow as the field does: a new section opens when work no longer fits the existing ones. Corrections are welcome as issues or pull requests.
+An automated sweep (daily) checks arXiv, GitHub and the Hugging Face Hub for new work. Entries need to do weight-space programming or be direct groundwork for it. On-topic papers are listed whatever their traction; repositories are listed once they show traction or come from an organization, and young ones are kept on a watch list and re-checked. Categories grow as the field does: a new section opens when work no longer fits the existing ones. Corrections are welcome as issues or pull requests.
 
 ## Related Lists
 

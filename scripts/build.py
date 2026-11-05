@@ -16,9 +16,6 @@ from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-OWNER = "SajjadPSavoji"
-CANON = "awesome-weight-space-programming"
-MIRROR = "awesome-wsp"
 NEWS_DAYS = 14
 NEWS_MAX = 12
 
@@ -33,9 +30,10 @@ LINK_ORDER = [("paper", "Paper"), ("post", "Post"), ("thread", "Thread"), ("code
 
 
 def load():
+    meta = json.loads((ROOT / "data/list.json").read_text())
     cats = json.loads((ROOT / "data/categories.json").read_text())
     entries = json.loads((ROOT / "data/entries.json").read_text())
-    return cats, entries
+    return meta, cats, entries
 
 
 def slug(text: str) -> str:
@@ -80,25 +78,24 @@ def sort_key(e: dict):
     return e["date"]
 
 
-def render(cats, entries, mirror: bool = False) -> str:
+def render(meta, cats, entries, mirror: bool = False) -> str:
     by_cat: dict[str, list] = {}
     for e in entries:
         by_cat.setdefault(e["category"], []).append(e)
     # anchor on the newest addition, not the clock, so the build is reproducible (CI --check)
     today = max((date.fromisoformat(e["added"]) for e in entries if len(e.get("added", "")) == 10), default=date.today())
     lines: list[str] = []
-    repo = f"{OWNER}/{CANON}"
+    repo = f"{meta['owner']}/{meta['canon']}"
     lines += [
         '<div align="center">',
         "",
-        "# Awesome Weight-Space Programming [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+        f"# {meta['title']} [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
         "",
-        "**Language models that read, edit and write the weights of other neural networks directly, "
-        "without gradient descent.**",
+        f"**{meta['tagline']}**",
         "",
         f"[![Last commit](https://img.shields.io/github/last-commit/{repo}?color=green)](https://github.com/{repo}/commits/main)",
         f"![Entries](https://img.shields.io/badge/entries-{len(entries)}-blue)",
-        "![Updated](https://img.shields.io/badge/updated-daily-orange)",
+        f"![Updated](https://img.shields.io/badge/updated-{meta.get('updated', 'daily')}-orange)",
         "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)",
         "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)",
         "",
@@ -106,17 +103,13 @@ def render(cats, entries, mirror: bool = False) -> str:
         "",
     ]
     if mirror:
-        lines += [f"> **This is a mirror of [{CANON}](https://github.com/{repo}).** Same content, rebuilt "
+        lines += [f"> **This is a mirror of [{meta['canon']}](https://github.com/{repo}).** Same content, rebuilt "
                   f"from the same data. Please star and open pull requests there.", ""]
-    lines += [
-        "*Weight-space programming* was named in the MIT CSAIL report "
-        "[Sparks of Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/) "
-        "(2026-11-02). A general LLM is given another network's weights, sometimes with code and a "
-        "budget of forward passes, and changes the numbers to explain, repair or build behavior. This "
-        "list tracks the papers, code, benchmarks and critiques that follow, grouped by the kind of "
-        "network being programmed. It is rebuilt from [`data/entries.json`](data/entries.json).",
-        "",
-    ]
+    lines += [meta["intro"], ""]
+    if meta.get("survey"):
+        sv = meta["survey"]
+        lines += [f"> 📄 **Companion survey:** [{sv['title']}]({sv['url']})"
+                  + (f" ({sv['version']})" if sv.get("version") else ""), ""]
     # News
     recent = [e for e in entries if e.get("added") and date.fromisoformat(e["added"]) >= today - timedelta(days=NEWS_DAYS)]
     recent.sort(key=lambda e: (e["added"], e["date"]), reverse=True)
@@ -168,28 +161,23 @@ def render(cats, entries, mirror: bool = False) -> str:
         "Entries are newest first within each section. Summaries report the source's own numbers and "
         "settings. Evidence labels say what kind of source backs an entry, not whether its claims hold.", "",
         "## How This List Is Maintained", "",
-        "A daily automated sweep checks arXiv, GitHub and the Hugging Face Hub for new work on weight-space "
-        "programming. Entries need to do weight-space programming or be direct groundwork for it. Papers "
-        "should come from an identifiable research group or release code; repositories should show "
-        "traction or report a held-out result. Categories grow as the field does: a new section opens "
-        "when work no longer fits the existing ones. Corrections are welcome as issues or pull requests.", "",
+        f"An automated sweep ({meta.get('updated', 'daily')}) checks arXiv, GitHub and the Hugging Face Hub for new "
+        f"work. {meta['scope']} On-topic papers are listed whatever their traction; repositories are listed "
+        "once they show traction or come from an organization, and young ones are kept on a watch list and "
+        "re-checked. Categories grow as the field does: a new section opens when work no longer fits the "
+        "existing ones. Corrections are welcome as issues or pull requests.", "",
         "## Related Lists", "",
-        "- [Awesome Weight Space Learning](https://github.com/Zehong-Wang/Awesome-Weight-Space-Learning): learning on and generating weights.",
-        "- [Awesome Weight-Space Learning (ege-erdogan)](https://github.com/ege-erdogan/awesome-weight-space-learning)",
-        "- [Knowledge Editing Papers](https://github.com/zjunlp/KnowledgeEditingPapers): editing facts in LLMs.",
-        "- [Awesome LLM Interpretability](https://github.com/JShollaj/awesome-llm-interpretability)",
-        "- [Awesome VLA & WAM](https://github.com/DravenALG/awesome-vla-wam): robot foundation models.",
-        "- [awesome-weight-space-programming (brighterr)](https://github.com/brighterr/awesome-weight-space-programming): another list on the same topic.",
+        *[f"- [{n}]({u})" + (f": {d}" if d else "") for n, u, d in meta.get("related", [])],
         "",
         "## Contributing", "",
         "Add an object to [`data/entries.json`](data/entries.json), run `python3 scripts/build.py`, and "
         "open a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the fields and inclusion rules.", "",
         "## Citation", "",
         "```bibtex",
-        "@misc{awesome-weight-space-programming,",
-        "  author       = {Pakdamansavoji, Sajjad},",
-        "  title        = {Awesome Weight-Space Programming},",
-        "  year         = {2026},",
+        f"@misc{{{meta['canon']},",
+        f"  author       = {{{meta['author']}}},",
+        f"  title        = {{{meta['title']}}},",
+        f"  year         = {{{meta['year']}}},",
         f"  howpublished = {{\\url{{https://github.com/{repo}}}}}",
         "}",
         "```", "",
@@ -206,17 +194,17 @@ def render(cats, entries, mirror: bool = False) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mirror", help="path to the awesome-wsp clone")
+    ap.add_argument("--mirror", help="path to the mirror repo clone")
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
     sys.path.insert(0, str(ROOT / "scripts"))
     from validate import validate  # noqa: E402
-    cats, entries = load()
+    meta, cats, entries = load()
     errors = validate(cats, entries)
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    text = render(cats, entries)
+    text = render(meta, cats, entries)
     if args.check:
         stale = (ROOT / "README.md").read_text() != text
         print("README.md is stale: run scripts/build.py" if stale else "README.md is up to date")
@@ -224,7 +212,7 @@ def main() -> int:
     (ROOT / "README.md").write_text(text)
     if args.mirror:
         m = Path(args.mirror).expanduser()
-        (m / "README.md").write_text(render(cats, entries, mirror=True))
+        (m / "README.md").write_text(render(meta, cats, entries, mirror=True))
     print(f"built README: {len(entries)} entries")
     return 0
 

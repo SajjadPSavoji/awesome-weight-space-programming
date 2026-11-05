@@ -35,8 +35,9 @@ Thank you for helping keep this list accurate.
 - **In scope:** work where a model reads, edits or writes another network's weights directly, and
   benchmarks, tools and critiques of that work. Groundwork such as model editing, activation steering,
   compiled weights and weight-space learning goes under *Foundations*.
-- **Papers:** from an identifiable research group, or with released code.
-- **Repositories:** some traction (stars, forks, citations), or a held-out result in a new setting.
+- **Papers:** any on-topic paper or report, whatever its traction.
+- **Repositories:** some traction (stars, forks) or an organization owner. Young repositories are
+  watched and re-checked, and join the list once they gain traction.
 - **Summaries:** neutral. Quote the source's numbers and conditions, with no adjectives.
 
 ## Corrections
