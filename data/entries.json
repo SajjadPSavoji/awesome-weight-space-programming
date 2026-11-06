@@ -1,20 +1,5 @@
 [
   {
-    "id": "orbit-audits",
-    "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
-    "authors": "Sungguk Cha, Mintae Kim, Youngsub Han, Byoung-Ki Jeon, Sangyeob Lee",
-    "date": "2026-11-04",
-    "venue": "Preprint",
-    "category": "bench",
-    "kind": "paper",
-    "evidence": "preprint",
-    "links": {
-      "paper": "https://arxiv.org/abs/2611.05798"
-    },
-    "summary": "Audits visual recognition from shallow ReLU neural-field weights under function-preserving neuron permutations and positive rescalings. Compares supervised and language-model readers, separating recognition accuracy, agreement on transformed weights, and fresh identical-prompt variation; canonicalization alone does not establish recognition.",
-    "added": "2026-11-06"
-  },
-  {
     "id": "sparks-wsp",
     "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
     "authors": "Rikiya Takehi, Jayden Teoh, Alex Zhang, Omar Khattab",
@@ -952,5 +937,99 @@
     "repo": "mraad/weight-space-programming",
     "summary": "Replicates Weight-Space Programming on Claude with no training. Claude names Breakout from raw weights (correct, 93% confidence; 60% with W1 rows shuffled). A Claude-written Breakout network scores 269.4 ± 7.4 (PPO 500M: 25.3, GPT-6 Astra: 517.4). In the Three Pads lander game, each Claude-written 484-weight network lands 3,000 of 3,000 flights.",
     "added": "2026-11-05"
+  },
+  {
+    "id": "llm-weight-reading-memorization-audit",
+    "title": "Can an LLM Actually Reason and Program about Neural Network's Weights or is it just memorization on steroids? Exploring \"Weight-Space Programming\"",
+    "authors": "Nazmus Sakib Ahmed",
+    "date": "2026-11-05",
+    "venue": "Preprint",
+    "category": "analysis",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08070"
+    },
+    "summary": "Tests Claude Opus 5.5 reading raw weights, given as plain text without tools, of ~125,000-parameter CNNs trained on five image datasets. Finds accurate local arithmetic but reliance on dataset priors: with CIFAR-10 labels permuted, every class pair the model interprets is wrong. Exploratory, mostly single runs; provides an auditing protocol.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "iyadhkhalfallah-weight-space-programming",
+    "title": "IyadhKhalfallah/weight-space-programming",
+    "authors": "IyadhKhalfallah",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/IyadhKhalfallah/weight-space-programming"
+    },
+    "repo": "IyadhKhalfallah/weight-space-programming",
+    "summary": "Experiments editing and writing models without gradient descent, plus a wsl CLI that applies reversible weight patches with per-slice regression checks. A hand-written XGBoost model reached AUC 0.809 on rain forecasting with zero labels (0.839 when trained on 2.5 years). On a 0.8B LLM, the author's edit did not reproduce the published effect.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "allthingssecurity-weight-space-programming",
+    "title": "allthingssecurity/weight_space_programming",
+    "authors": "allthingssecurity",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/allthingssecurity/weight_space_programming"
+    },
+    "repo": "allthingssecurity/weight_space_programming",
+    "summary": "Writes parameters of a randomly initialized model with the Qwen3.5-0.8B architecture directly, without gradient descent, to answer ABAP questions. Reports 18/25 correct in a small, unblinded static review, with random controls at 0/25. Includes 7 supplied-answer recall cases; not an expert ABAP model.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "fderrigo-weight-space-programming-experiments",
+    "title": "fderrigo/weight-space-programming-experiments",
+    "authors": "Filippo Derrigo",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/fderrigo/weight-space-programming-experiments"
+    },
+    "repo": "fderrigo/weight-space-programming-experiments",
+    "summary": "Code, patches and results for two no-training edits chosen by Codex. Qwen2.5-0.5B-Instruct Pinocchio fix changed 8.868% of values: target answers 0/24 to 11/24, with 7/8 original controls preserved. Qwen3-0.6B patch raised unauthorized tool calls on target requests from 1/40 to 13/40; selectivity incomplete.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "sachgaur-wsp",
+    "title": "sachgaur/WSP",
+    "authors": "sachgaur",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/sachgaur/WSP"
+    },
+    "repo": "sachgaur/WSP",
+    "summary": "LeNet/MNIST pilot testing whether an agent can diagnose a failure from bounded numerical queries and repair it by editing the final classifier without training. Paired comparison of Astra and DeepSeek editors on fault and shortcut cases over seeds 42, 43 and 44, with a protocol fixed before evaluation.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "orbit-audits",
+    "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
+    "authors": "Sungguk Cha, Mintae Kim, Youngsub Han, Byoung-Ki Jeon, Sangyeob Lee",
+    "date": "2026-11-04",
+    "venue": "Preprint",
+    "category": "bench",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.05798"
+    },
+    "summary": "Tests whether readers recognize what shallow ReLU neural fields encode from their weights (480 shape fields, 1,000 MNIST fields), using hidden-neuron permutations and positive rescalings that leave the function unchanged. Compares statistics, set and language-model readers, with 1,920 scored reasoning-model sessions, and separates accuracy, agreement across transformed copies and disagreement on fresh identical prompts.",
+    "added": "2026-11-06"
   }
 ]
