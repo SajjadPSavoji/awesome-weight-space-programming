@@ -1016,5 +1016,20 @@
     "repo": "sachgaur/WSP",
     "summary": "LeNet/MNIST pilot testing whether an agent can diagnose a failure from bounded numerical queries and repair it by editing the final classifier without training. Paired comparison of Astra and DeepSeek editors on fault and shortcut cases over seeds 42, 43 and 44, with a protocol fixed before evaluation.",
     "added": "2026-11-06"
+  },
+  {
+    "id": "orbit-audits",
+    "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
+    "authors": "Sungguk Cha, Mintae Kim, Youngsub Han, Byoung-Ki Jeon, Sangyeob Lee",
+    "date": "2026-11-04",
+    "venue": "Preprint",
+    "category": "bench",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.05798"
+    },
+    "summary": "Tests whether readers recognize what shallow ReLU neural fields encode from their weights (480 shape fields, 1,000 MNIST fields), using hidden-neuron permutations and positive rescalings that leave the function unchanged. Compares statistics, set and language-model readers, with 1,920 scored reasoning-model sessions, and separates accuracy, agreement across transformed copies and disagreement on fresh identical prompts.",
+    "added": "2026-11-06"
   }
 ]
