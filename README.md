@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-56-blue)
+![Entries](https://img.shields.io/badge/entries-58-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -21,13 +21,13 @@
 - **2026-11-05** · [Rethinking Weight-Space Programming](https://github.com/ZhangYiqun018/rethinking-weight-space-programming) (Analyses and Critiques)
 - **2026-11-05** · [Opus 5.5 makes π0.5 move faster and smoother by editing its weights](https://cuzyoung.github.io/robotics-weight-editing/en/) (Vision-language-action models)
 - **2026-11-05** · [wsp-lab: cross-editor stress test of weight-space programming](https://github.com/WKJBryan/wsp-lab) (RL control policies)
+- **2026-11-05** · [WeightLoop: Weight-Space Programming with Experimental Feedback](https://arxiv.org/abs/2611.07319) (Other Domains)
+- **2026-11-05** · [mraad/weight-space-programming](https://github.com/mraad/weight-space-programming) (Games)
 - **2026-11-05** · [Weight-Space Programming for the Social Safety Net](https://github.com/ctrimm/weight-space-programming) (Other Domains)
 - **2026-11-05** · [Writing neural-network weights for Geister without training](https://github.com/nishio/geister-weight-space-programming) (Games)
 - **2026-11-05** · [Weight-space programming on a clinical splicing model](https://github.com/KristinaMruts/weight-space-programming-spliceai) (Other Domains)
 - **2026-11-05** · [Admiral: Muse Spark repairs a multi-agent RL policy by editing its weights](https://github.com/faresboudelaa/admiral) (RL control policies)
 - **2026-11-05** · [Quadrotor PPO under actuation delay: LLM weight edits vs a gain sweep](https://github.com/filippos-p/drone-ppo-delay-robustness) (RL control policies)
-- **2026-11-05** · [Claude Fable 5.1 writes a Breakout network from scratch](https://github.com/niqbal/fable-weight-space-breakout) (Games)
-- **2026-11-05** · [Weight-space MinAtar: Opus 5.5 and Fable 5.1 write game policies](https://github.com/Barneyjm/weight-space-minatar) (Games)
 
 ## 🧭 Milestones
 
@@ -46,8 +46,8 @@
 - [🦾 Robotics and Control](#-robotics-and-control) (10)
   - [Vision-language-action models](#vision-language-action-models) (3)
   - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (3)
-- [🎮 Games](#-games) (4)
+- [🧩 Other Domains](#-other-domains) (4)
+- [🎮 Games](#-games) (5)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (1)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (8)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (5)
@@ -162,6 +162,11 @@
 
 *Classifiers, small decision networks and anything else.*
 
+- **[WeightLoop: Weight-Space Programming with Experimental Feedback](https://arxiv.org/abs/2611.07319)**  
+  Mengran Li, Bo Li, Weijing Zhao, Chengyang Zhang, et al. · *Preprint* · 2026-11-05 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.07319)]  
+  Framework in which GPT-6 Astra reads a task specification and model implementation, then writes a bounded parameter-editing program. The program turns experimental feedback into edits to a deployed predictor, with no further LLM calls or gradient retraining. In offline replay, targeted edits improve mean ranking utility in seven of eight endpoint-budget settings.
+
 - **[Weight-Space Programming for the Social Safety Net](https://github.com/ctrimm/weight-space-programming)**  
   ctrimm · *GitHub* · 2026-11-04 · `💻 code / results`  
   [[Code](https://github.com/ctrimm/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/ctrimm/weight-space-programming?style=social)  
@@ -180,6 +185,11 @@
 ## 🎮 Games
 
 *Weight programming of game-playing networks and board-game policies.*
+
+- **[mraad/weight-space-programming](https://github.com/mraad/weight-space-programming)**  
+  mraad · *GitHub* · 2026-11-05 · `💻 code / results`  
+  [[Code](https://github.com/mraad/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/mraad/weight-space-programming?style=social)  
+  Replicates Weight-Space Programming on Claude with no training. Claude names Breakout from raw weights (correct, 93% confidence; 60% with W1 rows shuffled). A Claude-written Breakout network scores 269.4 ± 7.4 (PPO 500M: 25.3, GPT-6 Astra: 517.4). In the Three Pads lander game, each Claude-written 484-weight network lands 3,000 of 3,000 flights.
 
 - **[Writing neural-network weights for Geister without training](https://github.com/nishio/geister-weight-space-programming)**  
   NISHIO Hirokazu · *GitHub* · 2026-11-04 · `💻 code / results`  

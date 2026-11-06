@@ -906,5 +906,36 @@
     "summary": "Steering OpenVLA and π0 through FFN value vectors shifts end-effector motion on LIBERO by 27.7% on average; only the low and slow steers held up on hardware.",
     "added": "2026-11-05",
     "repo": "vla-mech-interp/mechanistic-steering-vlas"
+  },
+  {
+    "id": "weightloop",
+    "title": "WeightLoop: Weight-Space Programming with Experimental Feedback",
+    "authors": "Mengran Li, Bo Li, Weijing Zhao, Chengyang Zhang, et al.",
+    "date": "2026-11-05",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.07319"
+    },
+    "summary": "Framework in which GPT-6 Astra reads a task specification and model implementation, then writes a bounded parameter-editing program. The program turns experimental feedback into edits to a deployed predictor, with no further LLM calls or gradient retraining. In offline replay, targeted edits improve mean ranking utility in seven of eight endpoint-budget settings.",
+    "added": "2026-11-05"
+  },
+  {
+    "id": "mraad-weight-space-programming",
+    "title": "mraad/weight-space-programming",
+    "authors": "mraad",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/mraad/weight-space-programming"
+    },
+    "repo": "mraad/weight-space-programming",
+    "summary": "Replicates Weight-Space Programming on Claude with no training. Claude names Breakout from raw weights (correct, 93% confidence; 60% with W1 rows shuffled). A Claude-written Breakout network scores 269.4 ± 7.4 (PPO 500M: 25.3, GPT-6 Astra: 517.4). In the Three Pads lander game, each Claude-written 484-weight network lands 3,000 of 3,000 flights.",
+    "added": "2026-11-05"
   }
 ]
