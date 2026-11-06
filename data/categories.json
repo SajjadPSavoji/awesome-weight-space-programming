@@ -94,63 +94,78 @@
     "children": [
       {
         "id": "found-compiled",
-        "title": "Hand-set and compiled weights"
+        "title": "Hand-set and compiled weights",
+        "short": "Compiled weights"
       },
       {
         "id": "found-rules",
-        "title": "Rule insertion and extraction"
+        "title": "Rule insertion and extraction",
+        "short": "Rule insertion, extraction"
       },
       {
         "id": "found-surgery",
-        "title": "Weight surgery and pruning"
+        "title": "Weight surgery and pruning",
+        "short": "Surgery and pruning"
       },
       {
         "id": "found-fastweights",
-        "title": "Fast weights and self-modifying networks"
+        "title": "Fast weights and self-modifying networks",
+        "short": "Fast weights"
       },
       {
         "id": "found-evo",
-        "title": "Neuroevolution and gradient-free weight search"
+        "title": "Neuroevolution and gradient-free weight search",
+        "short": "Neuroevolution"
       },
       {
         "id": "found-hyper",
-        "title": "Hypernetworks and weight generation"
+        "title": "Hypernetworks and weight generation",
+        "short": "Hypernetworks"
       },
       {
         "id": "found-editing",
-        "title": "Model editing"
+        "title": "Model editing",
+        "short": "Model editing"
       },
       {
         "id": "found-merging",
-        "title": "Weight arithmetic and merging"
+        "title": "Weight arithmetic and merging",
+        "short": "Weight arithmetic"
       },
       {
         "id": "found-wsl",
-        "title": "Weight-space learning"
+        "title": "Weight-space learning",
+        "short": "Weight-space learning"
       },
       {
         "id": "found-interp",
-        "title": "Mechanistic interpretability that reads weights"
+        "title": "Mechanistic interpretability that reads weights",
+        "short": "Mech. interpretability"
       },
       {
         "id": "found-steering",
-        "title": "Activation steering"
+        "title": "Activation steering",
+        "short": "Activation steering"
       },
       {
         "id": "found-autointerp",
-        "title": "Automated interpretability agents"
+        "title": "Automated interpretability agents",
+        "short": "Interpretability agents"
       },
       {
         "id": "found-lang",
-        "title": "Language-to-weights and LLM program search"
+        "title": "Language-to-weights and LLM program search",
+        "short": "Language-to-weights"
       },
       {
         "id": "found-security",
-        "title": "Weight-level security and safety"
+        "title": "Weight-level security and safety",
+        "short": "Security and safety"
       },
       {
         "id": "found-robot",
-        "title": "Policy surgery, control and robot policies"
+        "title": "Policy surgery, control and robot policies",
+        "short": "Policy surgery, control"
       }
     ]
   }
