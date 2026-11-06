@@ -67,8 +67,8 @@ def validate(cats: list[dict], entries: list[dict]) -> list[str]:
         if len(e["summary"].split()) > MAX_SUMMARY_WORDS:
             errs.append(f"{tag}: summary over {MAX_SUMMARY_WORDS} words")
         if "citations" in e and (not isinstance(e["citations"], int) or e["citations"] < 0
-                                 or e.get("citations_source") not in ("S2", "OA")):
-            errs.append(f"{tag}: citations must be a count with citations_source S2 or OA")
+                                 or e.get("citations_source") not in ("S2", "OA", "CR")):
+            errs.append(f"{tag}: citations must be a count with citations_source S2, OA or CR")
         if "|" in e["title"]:
             errs.append(f"{tag}: title may not contain |")
     return errs

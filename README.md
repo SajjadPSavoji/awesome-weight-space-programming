@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-232-blue)
+![Entries](https://img.shields.io/badge/entries-522-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,18 +16,18 @@
 
 ## 🔥 Recently Added
 
-- **2026-11-06** · [IyadhKhalfallah/weight-space-programming](https://github.com/IyadhKhalfallah/weight-space-programming) (Tools, Harnesses and Agent Skills)
-- **2026-11-06** · [allthingssecurity/weight_space_programming](https://github.com/allthingssecurity/weight_space_programming) (Writing networks from scratch)
-- **2026-11-06** · [fderrigo/weight-space-programming-experiments](https://github.com/fderrigo/weight-space-programming-experiments) (Repairing behavior)
-- **2026-11-06** · [sachgaur/WSP](https://github.com/sachgaur/WSP) (Other Domains)
-- **2026-11-06** · [Can an LLM Actually Reason and Program about Neural Network's Weights or is it just memorization on steroids? Exploring "Weight-Space Programming"](https://arxiv.org/abs/2611.08070) (Analyses and Critiques)
-- **2026-11-06** · [Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers](https://arxiv.org/abs/2611.05798) (Benchmarks and Evaluations)
-- **2026-11-05** · [Weight-Space Programming (wsp-kit)](https://github.com/AuremHQ/weight-space-programming) (Tools, Harnesses and Agent Skills)
-- **2026-11-05** · [Can GPT-6 Astra read and write GPT-2's weights?](https://github.com/AlexBodner/wsp-scaling) (Reading and predicting from weights)
-- **2026-11-05** · [Rethinking Weight-Space Programming](https://github.com/ZhangYiqun018/rethinking-weight-space-programming) (Analyses and Critiques)
-- **2026-11-05** · [Opus 5.5 makes π0.5 move faster and smoother by editing its weights](https://cuzyoung.github.io/robotics-weight-editing/en/) (Vision-language-action models)
-- **2026-11-05** · [wsp-lab: cross-editor stress test of weight-space programming](https://github.com/WKJBryan/wsp-lab) (RL control policies)
-- **2026-11-05** · [WeightLoop: Weight-Space Programming with Experimental Feedback](https://arxiv.org/abs/2611.07319) (Other Domains)
+- **2026-11-07** · [Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility](https://arxiv.org/abs/2610.20139) (Interpretability)
+- **2026-11-07** · [From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models](https://arxiv.org/abs/2609.19553) (Model merging and weight arithmetic)
+- **2026-11-07** · [Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions](https://arxiv.org/abs/2609.30909) (Steering, representation engineering and unlearning)
+- **2026-11-07** · [A Survey on the Linear Representation Hypothesis](https://arxiv.org/abs/2609.22695) (Interpretability)
+- **2026-11-07** · [Open Technical Problems in Open-Weight AI Model Risk Management](https://arxiv.org/abs/2608.07514) (Backdoors and weight-level attacks)
+- **2026-11-07** · [Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks](https://arxiv.org/abs/2607.07907) (Steering, representation engineering and unlearning)
+- **2026-11-07** · [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) (LLMs as optimizers and self-improving agents)
+- **2026-11-07** · [Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops](https://arxiv.org/abs/2607.07663) (LLMs as optimizers and self-improving agents)
+- **2026-11-07** · [Position: The Term "Machine Unlearning" Is Overused in LLMs](https://arxiv.org/abs/2606.27379) (Steering, representation engineering and unlearning)
+- **2026-11-07** · [Make Mechanistic Interpretability Auditable: A Call to Develop Guidelines via Continuous Collaborative Reviewing](https://arxiv.org/abs/2606.00033) (Interpretability)
+- **2026-11-07** · [Large Language Models as Optimizers: A Survey of Direct vs. Tool-Augmented Approaches and Their Performance Frontiers](https://arxiv.org/abs/2606.15577) (LLMs as optimizers and self-improving agents)
+- **2026-11-07** · [Safety in Self-Evolving LLM Agent Systems: Threats, Amplification, and Case Studies](https://arxiv.org/abs/2606.23075) (LLMs as optimizers and self-improving agents)
 
 ## 🧭 Milestones
 
@@ -68,6 +68,19 @@
   - [Language-to-weights and LLM program search](#language-to-weights-and-llm-program-search) (12)
   - [Weight-level security and safety](#weight-level-security-and-safety) (12)
   - [Policy surgery, control and robot policies](#policy-surgery-control-and-robot-policies) (22)
+- [📖 Surveys and Reviews](#-surveys-and-reviews) (290)
+  - [Model and knowledge editing](#model-and-knowledge-editing) (22)
+  - [Model merging and weight arithmetic](#model-merging-and-weight-arithmetic) (13)
+  - [Steering, representation engineering and unlearning](#steering-representation-engineering-and-unlearning) (30)
+  - [Interpretability](#interpretability) (60)
+  - [Rule extraction and neural-symbolic integration](#rule-extraction-and-neural-symbolic-integration) (30)
+  - [Weight-space learning, parameter generation and hypernetworks](#weight-space-learning-parameter-generation-and-hypernetworks) (8)
+  - [Meta-learning, learned optimizers and fast weights](#meta-learning-learned-optimizers-and-fast-weights) (14)
+  - [Neuroevolution and gradient-free search](#neuroevolution-and-gradient-free-search) (17)
+  - [Pruning and compression](#pruning-and-compression) (20)
+  - [Backdoors and weight-level attacks](#backdoors-and-weight-level-attacks) (30)
+  - [LLMs as optimizers and self-improving agents](#llms-as-optimizers-and-self-improving-agents) (31)
+  - [Verification and policy reuse](#verification-and-policy-reuse) (15)
 - [Legend](#legend)
 - [How This List Is Maintained](#how-this-list-is-maintained)
 - [Related Lists](#related-lists)
@@ -1310,11 +1323,1489 @@
   [[Paper](https://arxiv.org/abs/2610.20750)]  
   Activation patching on π0.5, MolmoAct2 and MolmoBot: information reaches the action expert through a narrow band of mid-to-late cross-attention layers, and patching there redirects which object is picked and where the arm moves. A map of where edits should land.
 
+## 📖 Surveys and Reviews
+
+*Surveys, reviews, tutorials, books and position papers of the fields that read, edit or write weights. None, to our knowledge, covers a general language model doing so.*
+
+### Model and knowledge editing
+
+- **[Is Model Editing Built on Sand? Revealing Its Illusory Success and Fragile Foundation](https://arxiv.org/abs/2510.00625)**  
+  Wei Liu et al. · *Preprint* · 2025-10 · `📝 preprint` · 7 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2510.00625)]  
+  Argues that reported model editing success is illusory, with editors exploiting shortcuts instead of semantics, and introduces new evaluation methods showing state-of-the-art approaches collapse even under simple negation queries.
+
+- **[A Dual-Axis Taxonomy of Knowledge Editing for LLMs: From Mechanisms to Functions](https://arxiv.org/abs/2508.08795)**  
+  Amir Mohammad Salehoof et al. · *Preprint* · 2025-08 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2508.08795)]  
+  Introduces a taxonomy of knowledge editing for LLMs along two axes: editing mechanism and the function of edited knowledge, spanning factual, temporal, conceptual, commonsense, and social knowledge, plus problem definition, evaluation tasks, and datasets.
+
+- **[Editing Across Languages: A Survey of Multilingual Knowledge Editing](https://arxiv.org/abs/2505.14393)**  
+  Nadir Durrani, Basel Mousi, Fahim Dalvi · *EMNLP 2025* · 2025-05 · `📄 peer-reviewed` · 4 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2505.14393)]  
+  Surveys multilingual knowledge editing, organizing methods into parameter-based, memory-based, fine-tuning, and hypernetwork approaches, and reviewing benchmarks, transfer findings, cross-lingual propagation challenges, and open problems including language anisotropy, evaluation coverage, and edit scalability.
+
+- **[Bring Your Own Knowledge: A Survey of Methods for LLM Knowledge Expansion](https://arxiv.org/abs/2502.12598)**  
+  Mingyang Wang et al. · *Workshop* · 2025-02 · `📄 peer-reviewed` · 19 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.12598)]  
+  Surveys methods for expanding LLM knowledge across factual information, domain expertise, language proficiency, and user preferences, covering continual learning, model editing, and retrieval-based adaptation, and discussing knowledge consistency and scalability challenges.
+
+- **[Position: Editing Large Language Models Poses Serious Safety Risks](https://arxiv.org/abs/2502.02958)**  
+  Paul Youssef et al. · *ICML 2025* · 2025-02 · `📄 peer-reviewed` · 27 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.02958)]  
+  Argues that editing LLMs poses overlooked safety risks, citing malicious use cases, ecosystem vulnerabilities, and low institutional awareness, and calls for tamper-resistant models, countermeasures, and securing the AI ecosystem.
+
+- **[The Mirage of Model Editing: Revisiting Evaluation in the Wild](https://arxiv.org/abs/2502.11177)**  
+  Wanli Yang et al. · *ACL 2025* · 2025-02 · `📄 peer-reviewed` · 34 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.11177)]  
+  Revisits model editing evaluation with the QAEdit benchmark and WILD framework, showing that single-edit performance drops from 96.8% to 38.5% under realistic testing and that sequential editing fails drastically at 1000 edits.
+
+- **[Knowledge Mechanisms in Large Language Models: A Survey and Perspective](https://arxiv.org/abs/2407.15017)**  
+  Mengru Wang et al. · *Findings of EMNLP 2024* · 2024-07 · `📄 peer-reviewed` · 82 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2407.15017)]  
+  Reviews knowledge mechanisms in LLMs through a taxonomy of knowledge utilization (memorization, comprehension and application, creation) and knowledge evolution in individual and group models, and discusses the fragility of parametric knowledge and potential dark knowledge.
+
+- **[Editing the Mind of Giants: An In-Depth Exploration of Pitfalls of Knowledge Editing in Large Language Models](https://arxiv.org/abs/2406.01436)**  
+  Cheng-Hsun Hsueh et al. · *Findings of EMNLP 2024* · 2024-06 · `📄 peer-reviewed` · 15 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2406.01436)]  
+  Surveys side effects of knowledge editing in LLMs, such as knowledge distortion and loss of general abilities, re-evaluating methods with consistent metrics and benchmarks and reviewing related work and research directions.
+
+- **[Fundamental Problems With Model Editing: How Should Rational Belief Revision Work in LLMs?](https://arxiv.org/abs/2406.19354)**  
+  Peter Hase et al. · *TMLR* · 2024-06 · `📄 peer-reviewed` · 38 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2406.19354)]  
+  Critiques the standard formulation of model editing as belief revision, describing 12 open problems in problem definition, benchmarks, and editable beliefs, and proposes a semi-synthetic Wikidata testbed evaluated against an idealized Bayesian agent.
+
+- **[Towards Lifelong Learning of Large Language Models: A Survey](https://arxiv.org/abs/2406.06391)**  
+  Junhao Zheng et al. · *ACM Computing Surveys* · 2024-06 · `📄 peer-reviewed` · 121 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2406.06391)]  
+  Surveys lifelong learning for LLMs, splitting strategies into internal knowledge (continual pretraining and finetuning) and external knowledge (retrieval-based and tool-based), with a taxonomy of 12 scenarios and emerging techniques like model expansion and data selection.
+
+- **[Knowledge Conflicts for LLMs: A Survey](https://arxiv.org/abs/2403.08319)**  
+  Rongwu Xu et al. · *EMNLP 2024* · 2024-03 · `📄 peer-reviewed` · 418 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2403.08319)]  
+  Surveys knowledge conflicts in LLMs across three categories: context-memory, inter-context, and intra-memory conflict, examining their causes, model behaviors under conflict, and available solutions for improving robustness.
+
+- **[Continual Learning for Large Language Models: A Survey](https://arxiv.org/abs/2402.01364)**  
+  Wu et al. · *Preprint* · 2024-02 · `📄 peer-reviewed` · 205 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2402.01364)]  
+  Surveys continual learning for LLMs through a multi-stage categorization of continual pretraining, instruction tuning, and alignment, contrasting it with simpler adaptation, retrieval-augmented generation, and model editing, and discussing benchmarks, challenges, and future directions.
+
+- **[A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286)**  
+  Ningyu Zhang et al. · *Preprint* · 2024-01 · `📝 preprint` · 194 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2401.01286)]  
+  Reviews knowledge editing approaches for LLMs under a three-group categorization: using external knowledge, merging knowledge into the model, and editing intrinsic knowledge. Adds the KnowEdit benchmark for empirical evaluation and an analysis of knowledge location.
+
+- **[Knowledge Editing for Large Language Models](https://aclanthology.org/2024.lrec-tutorials.6)**  
+  Ningyu Zhang, Yunzhi Yao, Shumin Deng · *LREC-COLING 2024 tutorials* · 2024 · `📄 peer-reviewed`  
+  [[Paper](https://aclanthology.org/2024.lrec-tutorials.6)]  
+  Presents a tutorial on knowledge editing for large language models, serving as an introduction to the topic of modifying what a model knows after it has been trained.
+
+- **[Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications](https://arxiv.org/abs/2311.05876)**  
+  Zhangyin Feng et al. · *Preprint* · 2023-11 · `📝 preprint` · 57 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2311.05876)]  
+  Reviews how knowledge is integrated into LLMs through knowledge editing and retrieval augmentation, presenting a taxonomy of methods, benchmarks, and applications, along with analysis of methods and future research directions.
+
+- **[Knowledge Editing for Large Language Models: A Survey](https://arxiv.org/abs/2310.16218)**  
+  Song Wang et al. · *ACM Computing Surveys* · 2023-10 · `📄 peer-reviewed` · 299 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2310.16218)]  
+  Reviews knowledge-based model editing for LLMs, formalizing the problem and organizing methods in a taxonomy based on how new knowledge is introduced, then covering metrics, datasets, and applications.
+
+- **[A Survey on Knowledge Editing of Neural Networks](https://arxiv.org/abs/2310.19704)**  
+  Vittorio Mazzia et al. · *IEEE TNNLS* · 2023-10 · `📄 peer-reviewed` · 55 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2310.19704)]  
+  Reviews knowledge editing for neural networks, formalizing the problem in a common framework, distinguishing it from continual learning, and surveying the main editing approaches and datasets proposed so far.
+
+- **[Emptying the Ocean with a Spoon: Should We Edit Models?](https://arxiv.org/abs/2310.11958)**  
+  Yuval Pinter, Michael Elhadad · *Findings of EMNLP 2023* · 2023-10 · `📄 peer-reviewed` · 33 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2310.11958)]  
+  Argues that direct model editing cannot be trusted as a systematic remedy for LLM factual errors, contrasting it with retrieval-based architectures, concept erasure, and attribution methods, and calls for cautious, limited use.
+
+- **[Unveiling the Pitfalls of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2310.02129)**  
+  Zhoubo Li et al. · *ICLR 2024* · 2023-10 · `📄 peer-reviewed` · 51 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2310.02129)]  
+  Investigates side effects of knowledge editing in LLMs using new benchmark datasets and metrics, identifying knowledge conflict from logically clashing edits and knowledge distortion of the model's innate knowledge structure.
+
+- **[On Knowledge Editing in Federated Learning: Perspectives, Challenges, and Future Directions](https://arxiv.org/abs/2306.01431)**  
+  Leijie Wu et al. · *Preprint* · 2023-06 · `📝 preprint` · 5 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2306.01431)]  
+  Surveys knowledge editing, covering augmentation and removal, in federated learning, proposing a Federated Editable Learning paradigm across the FL lifecycle, placing existing methods within it, and outlining challenges and future directions.
+
+- **[Editing Large Language Models: Problems, Methods, and Opportunities](https://arxiv.org/abs/2305.13172)**  
+  Yunzhi Yao et al. · *EMNLP 2023* · 2023-05 · `📄 peer-reviewed` · 516 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2305.13172)]  
+  Surveys model editing for LLMs, defining the task and its challenges, empirically comparing leading methods, and introducing a new benchmark dataset to evaluate editing techniques and guide method selection for specific tasks.
+
+- **[Editing Large Language Models](https://aclanthology.org/2023.ijcnlp-tutorials.4.pdf)**  
+  Same group as row 12 (author list not given in notes) · *AACL-IJCNLP 2023 tutorial* · 2023 · `📄 peer-reviewed`  
+  [[Paper](https://aclanthology.org/2023.ijcnlp-tutorials.4.pdf)]  
+  Presents a three-hour tutorial on editing large language models, introducing the practice of modifying the behavior and knowledge of an already trained model.
+
+### Model merging and weight arithmetic
+
+- **[From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models](https://arxiv.org/abs/2609.19553)**  
+  Shuo Cai et al. · *Findings of EMNLP 2026* · 2026-09 · `📄 peer-reviewed` · 4 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2609.19553)]  
+  Defines model fusion for LLMs and organizes prior work into parameter-level, representation-level, and behavior-level fusion. Also reviews metrics, benchmarks, applications, challenges, and future directions.
+
+- **[Model Merging in the Era of Large Language Models: Methods, Applications, and Future Directions](https://arxiv.org/abs/2603.09938)**  
+  Mingyang Song, Mao Zheng · *Preprint* · 2026-03 · `📝 preprint` · 4 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2603.09938)]  
+  Surveys merging of fine-tuned LLMs through the FUSE taxonomy of foundations, unification strategies, scenarios, and ecosystem. Covers weight averaging, task vector arithmetic, sparsification, mixture-of-experts, evolutionary optimization, applications, tools, and benchmarks.
+
+- **[A Short Survey of Averaging Techniques in Stochastic Gradient Methods](https://arxiv.org/abs/2603.09634)**  
+  K. Lakshmanan · *Preprint* · 2026-03 · `📝 preprint` · 2 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2603.09634)]  
+  Surveys averaging techniques in stochastic gradient optimization, from the theory of Polyak–Ruppert averaging to tail averaging, exponential moving averages, and stochastic weight averaging. Covers modern developments, machine learning applications, finite-sample results, and open problems.
+
+- **[A Unified Study of LoRA Variants: Taxonomy, Review, Codebase, and Empirical Evaluation](https://arxiv.org/abs/2601.22708)**  
+  Haonan He et al. · *Preprint* · 2026-01 · `📝 preprint` · 4 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2601.22708)]  
+  Presents a unified study of LoRA variants, categorizing them along four axes: rank, optimization dynamics, initialization, and mixture-of-experts integration. Adds a theoretical review, a modular codebase, and a large-scale evaluation across language and image tasks.
+
+- **[From Task-Specific Models to Unified Systems: A Review of Model Merging Approaches](https://arxiv.org/abs/2503.08998)**  
+  Wei Ruan et al. · *Preprint* · 2025-03 · `📝 preprint` · 15 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2503.08998)]  
+  Reviews model merging methods, establishing a new taxonomy and systematically comparing approaches, motivated by inconsistent terminology and settings where training data is inaccessible. Aims to give newcomers a structured overview of key developments.
+
+- **[Harnessing Multiple Large Language Models: A Survey on LLM Ensemble](https://arxiv.org/abs/2502.18036)**  
+  Zhijun Chen et al. · *IJCAI* · 2025-02 · `📄 peer-reviewed` · 137 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.18036)]  
+  Reviews LLM ensemble methods, introducing a taxonomy and classifying approaches as ensemble-before-inference, ensemble-during-inference, or ensemble-after-inference. Also covers benchmarks, applications, and future research directions.
+
+- **[Low-Rank Adaptation for Foundation Models: A Comprehensive Review](https://arxiv.org/abs/2501.00365)**  
+  Menglin Yang et al. · *Preprint* · 2025-01 · `📝 preprint` · 67 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2501.00365)]  
+  Reviews low-rank adaptation for foundation models beyond LLMs, covering technique foundations, emerging frontiers, and applications across multiple domains. Discusses challenges in theoretical understanding, scalability, and robustness.
+
+- **[Deep Model Merging: The Sister of Neural Network Interpretability -- A Survey](https://arxiv.org/abs/2410.12927)**  
+  Arham Khan et al. · *Preprint* · 2024-10 · `📝 preprint` · 1 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2410.12927)]  
+  Surveys model merging through the lens of loss landscape geometry, distilling four characteristics: mode convexity, determinism, directedness, and connectivity. Argues these insights apply to interpretability and robustness, and proposes research directions at their intersection.
+
+- **[Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities](https://arxiv.org/abs/2408.07666)**  
+  Enneng Yang et al. · *ACM Computing Surveys* · 2024-08 · `📄 peer-reviewed` · 337 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2408.07666)]  
+  Surveys model merging across methods, theories, and applications, proposing a taxonomy of merging methods and covering use in LLMs, multimodal LLMs, and over ten machine learning subfields, with challenges and future directions.
+
+- **[A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning](https://arxiv.org/abs/2408.07057)**  
+  Prateek Yadav et al. · *Preprint* · 2024-08 · `📝 preprint` · 78 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2408.07057)]  
+  Surveys methods that recycle specialized expert models through routers, proposing a taxonomy of key design choices and suitable applications. Also inventories software tools and applications, and relates MoErging to model merging, multitask learning, and mixture-of-experts.
+
+- **[Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models](https://arxiv.org/abs/2407.06089)**  
+  Jinliang Lu et al. · *Preprint* · 2024-07 · `📝 preprint` · 72 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2407.06089)]  
+  Surveys collaborative strategies for LLMs, categorized into merging in parameter space, ensembling model outputs, and cooperation among models for specific tasks, and discusses motivations, applications, and future research directions.
+
+- **[A Survey on LoRA of Large Language Models](https://arxiv.org/abs/2407.11046)**  
+  Yuren Mao et al. · *Frontiers of Computer Science* · 2024-07 · `📄 peer-reviewed` · 203 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2407.11046)]  
+  Reviews LoRA for large language models, categorizing progress into downstream adaptation variants, cross-task generalization by mixing multiple LoRA plugins, efficiency improvements, federated privacy-preserving methods, and applications. Also discusses future directions.
+
+- **[Deep Model Fusion: A Survey](https://arxiv.org/abs/2309.15698)**  
+  Weishi Li et al. · *IEEE TNNLS* · 2023-09 · `📄 peer-reviewed` · 140 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2309.15698)]  
+  Surveys deep model fusion in four categories: mode connectivity, alignment, weight averaging, and ensemble learning, and analyzes challenges of fusing large-scale models such as high computational cost and interference between heterogeneous models.
+
+### Steering, representation engineering and unlearning
+
+- **[Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions](https://arxiv.org/abs/2609.30909)**  
+  Xiaoyu Xu et al. · *Preprint* · 2026-09 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2609.30909)]  
+  Compares machine unlearning methods, benchmarks, and evidence across LLMs and systems with retrieval, memory, tools, and agents. Organizes them with a five-layer framework, seven-stage lifecycle, and six evidence dimensions, and argues current evidence is insufficient to establish removal.
+
+- **[Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks](https://arxiv.org/abs/2607.07907)**  
+  Sarwar et al. · *Findings of ACL 2026* · 2026-07 · `📄 peer-reviewed` · 10 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2607.07907)]  
+  Surveys unlearning in multimodal foundation models across vision, language, audio and video, offering a system-oriented view. Provides a taxonomy comparing architectures and modalities by trade-offs among deletion strength, retention, efficiency, reversibility and robustness, and notes open problems.
+
+- **[Position: The Term "Machine Unlearning" Is Overused in LLMs](https://arxiv.org/abs/2606.27379)**  
+  Yoon, Jun, No · *ICML 2026* · 2026-06 · `📄 peer-reviewed` · 5 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2606.27379)]  
+  Argues that "machine unlearning" is overused in LLM research and should be reserved for dataset-defined deletion approximating retraining without a specified forget set. Contends that refusal, entity removal and suppression need different terminology and evaluations matching their objectives.
+
+- **[Is your algorithm unlearning or untraining?](https://arxiv.org/abs/2604.07962)**  
+  Triantafillou et al. · *Preprint* · 2026-04 · `📄 peer-reviewed` · 6 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2604.07962)]  
+  Argues that "unlearning" is overloaded across two problem formulations, distinguishing untraining, which reverses the influence of a forget set, from unlearning, which removes the broader underlying concept or behaviour. Gives technical definitions and maps literature settings to each.
+
+- **[Unlearning in LLMs: Methods, Evaluation, and Open Challenges](https://arxiv.org/abs/2601.13264)**  
+  Tyler Lizzo, Larry Heck · *Preprint* · 2026-01 · `📝 preprint` · 1 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2601.13264)]  
+  Surveys unlearning methods for LLMs, categorized as data-centric, parameter-centric, architecture-centric, hybrid, and other strategies. Reviews benchmarks, metrics, and datasets, and outlines open problems including efficiency, formal guarantees, multimodal unlearning, and adversarial relearning.
+
+- **[A Survey on Unlearning in Large Language Models](https://arxiv.org/abs/2510.25117)**  
+  Ruichen Qiu et al. · *Preprint* · 2025-10 · `📝 preprint` · 7 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2510.25117)]  
+  Reviews over 180 papers on LLM unlearning published since 2021, with a taxonomy by pipeline phase separating parameter modification from parameter selection. Analyzes evaluation, comparing 18 benchmarks and dividing memorization metrics into 10 categories.
+
+- **[A Survey on Training-free Alignment of Large Language Models](https://arxiv.org/abs/2508.09016)**  
+  Birong Pan et al. · *Findings of EMNLP 2025* · 2025-08 · `📄 peer-reviewed` · 4 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2508.09016)]  
+  Reviews training-free alignment of LLMs, categorizing methods by pre-decoding, in-decoding, and post-decoding stages, examined for both LLMs and multimodal LLMs. Identifies key challenges and future directions.
+
+- **[Generative Model Unlearning: A Survey through Target Events, Unlearning Operators, and Evaluation Protocols](https://arxiv.org/abs/2507.19894)**  
+  Feng et al. · *Preprint* · 2025-07 · `📄 peer-reviewed` · 4 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2507.19894)]  
+  Reviews generative model unlearning by formulating it as target-constrained distributional projection, where a target event, an unlearning operator and evidence on suppression, preservation and cost define a request. Reorganizes prior studies under this view.
+
+- **[SoK: Machine Unlearning for Large Language Models](https://arxiv.org/abs/2506.09227)**  
+  Jie Ren et al. · *Preprint* · 2025-06 · `📝 preprint` · 14 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2506.09227)]  
+  Proposes an intention-oriented taxonomy of LLM unlearning, distinguishing true removal of internal knowledge from suppression of behavioral effects. Examines evaluation limitations and practical challenges such as scalability and sequential unlearning.
+
+- **[Towards Reliable Forgetting: A Survey on Machine Unlearning Verification](https://arxiv.org/abs/2506.15115)**  
+  Xue et al. · *ACM Computing Surveys 2026* · 2025-06 · `📄 peer-reviewed` · 19 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2506.15115)]  
+  Surveys methods for verifying machine unlearning, proposing a taxonomy of behavioral verification and parametric verification based on the type of evidence used. Examines assumptions, strengths and limitations of representative methods, identifies deployment vulnerabilities, and lists open problems.
+
+- **[Erasing Concepts, Steering Generations: A Comprehensive Survey of Concept Suppression](https://arxiv.org/abs/2505.19398)**  
+  Yiwei Xie, Ping Liu, Zheng Zhang · *Preprint* · 2025-05 · `📝 preprint` · 13 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2505.19398)]  
+  Surveys concept erasure in text-to-image diffusion models, organizing approaches along intervention level, optimization structure, and semantic scope. Discusses evaluation benchmarks, metrics, datasets, trade-offs, and future directions such as adversarial robustness.
+
+- **[A Comprehensive Survey of Machine Unlearning Techniques for Large Language Models](https://arxiv.org/abs/2503.01854)**  
+  Jiahui Geng et al. · *Preprint* · 2025-03 · `📝 preprint` · 43 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2503.01854)]  
+  Surveys machine unlearning for LLMs, introducing definitions, paradigms, and a taxonomy of existing studies. Categorizes approaches by strengths and limitations, reviews evaluation metrics and benchmarks, and outlines future research directions.
+
+- **[Taxonomy, Opportunities, and Challenges of Representation Engineering for Large Language Models](https://arxiv.org/abs/2502.19649)**  
+  Jan Wehner et al. · *TMLR* · 2025-02 · `📄 peer-reviewed` · 45 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.19649)]  
+  Surveys representation engineering for LLMs, which manipulates internal representations to control behavior, framing it as a pipeline of representation identification, operationalization, and control. Compares strengths and weaknesses, identifies challenges, and offers best-practice guidance.
+
+- **[Representation Engineering for Large-Language Models: Survey and Research Challenges](https://arxiv.org/abs/2502.17601)**  
+  Lukasz Bartoszcze et al. · *Preprint* · 2025-02 · `📝 preprint` · 29 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.17601)]  
+  Formalizes the goals and methods of representation engineering, which uses contrasting inputs to detect and edit high-level concept representations in LLMs. Compares it with mechanistic interpretability, prompt engineering, and fine-tuning, outlines risks, and sets a research agenda.
+
+- **[A Comprehensive Survey on Concept Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2502.14896)**  
+  Changhoon Kim, Yanjun Qi · *Preprint* · 2025-02 · `📝 preprint` · 13 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.14896)]  
+  Surveys concept erasure in text-to-image diffusion models, categorizing methods as fine-tuning for parameter updates, closed-form edits, or inference-time interventions, and by the architectural components they modify. Also covers adversarial attacks, defenses, datasets, metrics, and benchmarks.
+
+- **[Position: Bridge the Gaps between Machine Unlearning and AI Regulation](https://arxiv.org/abs/2502.12430)**  
+  Marino et al. · *NeurIPS 2025* · 2025-02 · `📄 peer-reviewed` · 9 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.12430)]  
+  Argues that machine unlearning's usefulness for AI regulation depends on researchers closing gaps between current methods and applications, using the EU AI Act as a case study. Catalogs potential compliance applications and flags the technical gaps for each.
+
+- **[Open Problems in Machine Unlearning for AI Safety](https://arxiv.org/abs/2501.04952)**  
+  Barez et al. · *Preprint* · 2025-01 · `📄 peer-reviewed` · 67 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2501.04952)]  
+  Identifies open problems in using machine unlearning for AI safety, focusing on dual-use knowledge in domains such as cybersecurity and CBRN. Covers side effects of removing dangerous knowledge, tensions with existing safety mechanisms, and challenges in evaluation and robustness.
+
+- **[Machine Unlearning Doesn't Do What You Think: Lessons for Generative AI Policy and Research](https://arxiv.org/abs/2412.06966)**  
+  Cooper et al. · *NeurIPS 2025* · 2024-12 · `📄 peer-reviewed` · 20 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2412.06966)]  
+  Argues that machine unlearning does not deliver what policy discussions expect for generative AI, offering a framework for researchers and policymakers. Identifies mismatches between unlearning goals, removing information from parameters or suppressing it in outputs, and feasible implementations.
+
+- **[Position: LLM Unlearning Benchmarks are Weak Measures of Progress](https://arxiv.org/abs/2410.02879)**  
+  Thaker et al. · *SaTML 2025* · 2024-10 · `📄 peer-reviewed` · 76 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2410.02879)]  
+  Argues that LLM unlearning benchmarks give an overly optimistic view of method effectiveness. Shows through simple benign modifications to popular benchmarks that supposedly unlearned information remains accessible or retained performance degrades, and recommends cautious interpretation and better future practice.
+
+- **[Controllable Text Generation for Large Language Models: A Survey](https://arxiv.org/abs/2408.12599)**  
+  Xun Liang et al. · *Preprint* · 2024-08 · `📝 preprint` · 93 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2408.12599)]  
+  Reviews controllable text generation for LLMs, dividing tasks into content control and attribute control. Covers retraining, fine-tuning, reinforcement learning, prompt engineering, latent space manipulation, and decoding-time intervention, plus evaluation, applications, and challenges.
+
+- **[Preserving Privacy in Large Language Models: A Survey on Current Threats and Solutions](https://arxiv.org/abs/2408.05212)**  
+  Miranda et al. · *TMLR 2025* · 2024-08 · `📄 peer-reviewed` · 33 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2408.05212)]  
+  Surveys privacy threats to LLMs, reviewing privacy attacks and the memorization of sensitive information. Organizes solutions along the learning pipeline, from dataset anonymization to differential privacy during training or inference and machine unlearning after training.
+
+- **[Machine Unlearning in Generative AI: A Survey](https://arxiv.org/abs/2407.20516)**  
+  Zheyuan Liu et al. · *Preprint* · 2024-07 · `📝 preprint` · 77 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2407.20516)]  
+  Surveys machine unlearning in generative AI, spanning language and vision generative models, with a new problem formulation, evaluation methods, and structured discussion of the advantages and limitations of different technique types. Presents challenges and directions.
+
+- **[Digital Forgetting in Large Language Models: A Survey of Unlearning Methods](https://arxiv.org/abs/2404.02062)**  
+  Alberto Blanco-Justicia et al. · *Artificial Intelligence Review 58, art.* · 2024-04 · `📄 peer-reviewed` · 74 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2404.02062)]  
+  Surveys digital forgetting in LLMs, covering background, motivations, desired properties, and a detailed taxonomy of machine unlearning methods. Also details datasets, models, and metrics for evaluating forgetting, retention, and runtime, and discusses challenges.
+
+- **[Machine Unlearning for Traditional Models and Large Language Models: A Short Survey](https://arxiv.org/abs/2404.01206)**  
+  Yi Xu · *Preprint* · 2024-04 · `📄 peer-reviewed` · 19 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2404.01206)]  
+  Surveys machine unlearning for traditional models and LLMs, covering definitions, classification, evaluation criteria and challenges in different settings. Categorizes unlearning for each model type and proposes ways to measure effectiveness and efficiency.
+
+- **[The Frontier of Data Erasure: Machine Unlearning for Large Language Models](https://arxiv.org/abs/2403.15779)**  
+  Qu et al. · *Preprint* · 2024-03 · `📄 peer-reviewed` · 27 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2403.15779)]  
+  Reviews machine unlearning for large language models, presenting methods for targeted forgetting without full retraining. Divides existing research into unlearning from unstructured textual data and from structured classification data, and discusses challenges in preserving model integrity.
+
+- **[Rethinking Machine Unlearning for Large Language Models](https://arxiv.org/abs/2402.08787)**  
+  Sijia Liu et al. · *Nature Machine Intelligence* · 2024-02 · `📄 peer-reviewed` · 383 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2402.08787)]  
+  Explores machine unlearning for LLMs across conceptual formulation, methodologies, metrics, and applications, highlighting unlearning scope, data-model interaction, and multifaceted efficacy assessment. Connects it to model editing and influence functions, and outlines an assessment framework.
+
+- **[Eight Methods to Evaluate Robust Unlearning in LLMs](https://arxiv.org/abs/2402.16835)**  
+  Lynch et al. · *Preprint* · 2024-02 · `📄 peer-reviewed` · 185 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2402.16835)]  
+  Surveys techniques and limitations of existing LLM unlearning evaluations, then applies a set of robustness tests to the Who's Harry Potter model. Finds extractable knowledge, comparable latent representations and collateral unlearning, arguing for comprehensive rather than ad-hoc evaluation.
+
+- **[Knowledge Unlearning for LLMs: Tasks, Methods, and Challenges](https://arxiv.org/abs/2311.15766)**  
+  Nianwen Si et al. · *Preprint* · 2023-11 · `📝 preprint` · 48 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2311.15766)]  
+  Surveys knowledge unlearning for LLMs, defining the problem and categorizing methods into parameter optimization, parameter merging, and in-context learning. Presents evaluation datasets and concludes with ongoing challenges and future directions.
+
+- **[Right to be Forgotten in the Era of Large Language Models: Implications, Challenges, and Solutions](https://arxiv.org/abs/2307.03941)**  
+  Zhang et al. · *AI and Ethics* · 2023-07 · `📄 peer-reviewed` · 117 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2307.03941)]  
+  Examines how data-erasure rights under the GDPR challenge LLM-based systems, which store and process information differently from search engine indexes. Discusses technical solutions including differential privacy, machine unlearning, model editing and guardrails.
+
+- **[A Survey of Machine Unlearning](https://arxiv.org/abs/2209.02299)**  
+  Nguyen et al. · *ACM TIST* · 2022-09 · `📄 peer-reviewed` · 515 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2209.02299)]  
+  Surveys machine unlearning's concepts, scenarios, methods and applications, motivated by right-to-be-forgotten regulation. Covers formulations, design criteria, removal requests and algorithms, and highlights current trends and new research areas.
+
+### Interpretability
+
+- **[Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility](https://arxiv.org/abs/2610.20139)**  
+  Salima Lamsiyah et al. · *Preprint* · 2026-10 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2610.20139)]  
+  Surveys 138 studies on sparse autoencoders in NLP, proposing a task-grounded taxonomy that links dictionary design, feature operations and NLP functions, and assessing evidence on recoverability, interpretability, faithfulness and behavioral utility.
+
+- **[A Survey on the Linear Representation Hypothesis](https://arxiv.org/abs/2609.22695)**  
+  Sewoong Lee et al. · *BlackboxNLP 2026* · 2026-09 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2609.22695)]  
+  Analyzes inconsistencies in how the linear representation hypothesis is treated across AI, neuroscience and cognitive science, and proposes a formalization that makes dependencies on model, representation location, feature definition and evaluation dataset explicit, plus open problems.
+
+- **[Make Mechanistic Interpretability Auditable: A Call to Develop Guidelines via Continuous Collaborative Reviewing](https://arxiv.org/abs/2606.00033)**  
+  Michael Lan et al. · *ACL 2026* · 2026-06 · `📄 peer-reviewed` · 4 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2606.00033)]  
+  Argues that mechanistic interpretability lacks standardized auditing and calls for continuous collaborative reviewing, expert-verified guidelines and protocols, and source-based systems that track the arguments on which claims depend.
+
+- **[Position: Mechanistic Interpretability Must Disclose Identification Assumptions for Causal Claims](https://arxiv.org/abs/2605.08012)**  
+  Zezheng Lin, Fengming Liu · *Preprint* · 2026-05 · `📝 preprint` · 1 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2605.08012)]  
+  Argues that mechanistic interpretability papers should disclose identification assumptions behind causal claims, based on audits of 10 papers across four methodological strands and then 30 papers, and proposes a disclosure norm.
+
+- **[Attention Sink in Transformers: A Survey on Utilization, Interpretation, and Mitigation](https://arxiv.org/abs/2604.10098)**  
+  Zunhai Su et al. · *Preprint* · 2026-04 · `📝 preprint` · 11 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2604.10098)]  
+  Surveys attention sink in Transformers, where attention concentrates on a few uninformative tokens, organizing research into fundamental utilization, mechanistic interpretation and strategic mitigation.
+
+- **[Locate, Steer, and Improve: A Practical Survey of Actionable Mechanistic Interpretability in Large Language Models](https://arxiv.org/abs/2601.14004)**  
+  Hengyuan Zhang et al. · *Computer Science Review* · 2026-01 · `📄 peer-reviewed` · 28 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2601.14004)]  
+  Surveys mechanistic interpretability as an intervention methodology for LLMs, structured as a pipeline of localizing, steering and improving. Categorizes diagnosis and intervention methods by interpretable object and covers gains in alignment, capability and efficiency.
+
+- **[Towards a Mechanistic Understanding of Large Reasoning Models: A Survey of Training, Inference, and Failures](https://arxiv.org/abs/2601.19928)**  
+  Yi Hu et al. · *Preprint* · 2026-01 · `📝 preprint` · 6 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2601.19928)]  
+  Surveys the mechanistic understanding of large reasoning models, organizing findings into training dynamics, reasoning mechanisms and unintended behaviors, and discusses under-explored challenges including applied interpretability, improved methodologies and a unified theoretical framework.
+
+- **[Mechanistic Interpretability for Understanding Language Abilities in Large Language Models: A Survey](https://doi.org/10.20944/preprints202607.1441.v1)**  
+  Xufeng Duan et al. · *Preprint* · 2026 · `📝 preprint`  
+  [[Paper](https://doi.org/10.20944/preprints202607.1441.v1)]  
+  Surveys mechanistic interpretability work on language abilities in LLMs, covering probing, neuron-level and circuit-level analysis, and causal interventions used to study linguistic competence.
+
+- **[Mechanistic Interpretability for Large Language Model Alignment: Progress, Challenges, and Future Directions](https://doi.org/10.20944/preprints202602.0128.v1)**  
+  Usman Naseem · *Preprint* · 2026 · `📝 preprint`  
+  [[Paper](https://doi.org/10.20944/preprints202602.0128.v1)]  
+  Reviews mechanistic interpretability for LLM alignment, covering techniques such as circuit discovery, feature visualization, activation steering and causal intervention, along with progress, challenges and future directions.
+
+- **[Interpreting Language Models Through Concept Descriptions: A Survey](https://arxiv.org/abs/2510.01048)**  
+  Nils Feldhus, Laura Kopf · *BlackboxNLP 2025* · 2025-10 · `📄 peer-reviewed` · 8 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2510.01048)]  
+  Surveys methods that use generator models to produce natural-language concept descriptions of neurons, attention heads and SAE features, covering generation methods, automated and human evaluation metrics, and underlying datasets. Identifies a need for more rigorous causal evaluation.
+
+- **[A Review of Developmental Interpretability in Large Language Models](https://arxiv.org/abs/2508.15841)**  
+  Ihor Kendiukhov · *Preprint* · 2025-08 · `📝 preprint` · 3 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2508.15841)]  
+  Reviews developmental interpretability in LLMs, moving from static post-hoc analysis to studying training itself, covering probing, causal tracing and circuit analysis, circuit formation, emergent abilities as phase transitions, parallels with human development, safety implications and open challenges.
+
+- **[Mechanistic Interpretability Needs Philosophy](https://arxiv.org/abs/2506.18852)**  
+  Iwan Williams et al. · *Preprint* · 2025-06 · `📝 preprint` · 10 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2506.18852)]  
+  Argues that mechanistic interpretability needs ongoing engagement with philosophy to clarify concepts, refine methods and handle epistemic and ethical complexities, illustrating this with three open problems from the MI literature.
+
+- **[Position: Use Sparse Autoencoders to Discover Unknowns](https://arxiv.org/abs/2506.23845)**  
+  Kenny Peng et al. · *ICML 2026* · 2025-06 · `📄 peer-reviewed` · 26 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2506.23845)]  
+  Argues that sparse autoencoders are less effective for acting on known concepts but well suited to discovering unknown ones, a distinction that reconciles negative and positive results, and outlines use cases in interpretability, safety, and social and health sciences.
+
+- **[Towards Transparent AI: A Survey on Explainable Large Language Models](https://arxiv.org/abs/2506.21812)**  
+  Avash Palikhe et al. · *Preprint* · 2025-06 · `📝 preprint` · 17 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2506.21812)]  
+  Reviews explainability techniques for LLMs categorized by transformer architecture (encoder-only, decoder-only, and encoder-decoder), then covers their evaluation, practical applications, available resources, open challenges, and future directions.
+
+- **[Position: Mechanistic Interpretability Should Prioritize Feature Consistency in SAEs](https://arxiv.org/abs/2505.20254)**  
+  Xiangchen Song et al. · *Preprint* · 2025-05 · `📝 preprint` · 18 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2505.20254)]  
+  Argues that SAE research should prioritize feature consistency across training runs, proposes the PW-MCC metric to measure it, and reports that TopK SAEs reach high consistency on LLM activations with suitable architectural choices.
+
+- **[LLMs for Explainable AI: A Comprehensive Survey](https://arxiv.org/abs/2504.00125)**  
+  Ahsan Bilal, David Ebert, Beiyu Lin · *Preprint* · 2025-04 · `📝 preprint` · 101 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2504.00125)]  
+  Surveys approaches that use LLMs to turn complex model outputs into understandable narratives, covering evaluation techniques for LLM-generated explanations, challenges and limitations, real-world applications, and future directions.
+
+- **[A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models](https://arxiv.org/abs/2503.05613)**  
+  Dong Shu et al. · *Findings of EMNLP 2025* · 2025-03 · `📄 peer-reviewed` · 94 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2503.05613)]  
+  Surveys sparse autoencoders for interpreting LLMs, covering their architecture, design improvements and training strategies, input-based and output-based feature explanation methods, structural and functional evaluation metrics, and applications to understanding and manipulating model behavior.
+
+- **[A Survey on Mechanistic Interpretability for Multi-Modal Foundation Models](https://arxiv.org/abs/2502.17516)**  
+  Zihao Lin et al. · *Preprint* · 2025-02 · `📝 preprint` · 42 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2502.17516)]  
+  Surveys mechanistic interpretability for multimodal foundation models, including contrastive and generative vision-language models and text-to-image models, covering adaptation of LLM interpretability methods and mechanistic differences from unimodal models, organized in a structured taxonomy of methods.
+
+- **[Open Problems in Mechanistic Interpretability](https://arxiv.org/abs/2501.16496)**  
+  Lee Sharkey et al. · *Preprint* · 2025-01 · `📝 preprint` · 218 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2501.16496)]  
+  Discusses, as a forward-facing review, the frontier of mechanistic interpretability and its open problems, spanning conceptual and practical improvements to methods, applying them to specific scientific and engineering goals, and socio-technical challenges.
+
+- **[Explainable and Interpretable Multimodal Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2412.02104)**  
+  Yunkai Dang et al. · *Preprint* · 2024-12 · `📝 preprint` · 95 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2412.02104)]  
+  Surveys interpretability and explainability of multimodal LLMs, proposing a framework that categorizes research by data, model, and training and inference, and analyzing token-level to embedding-level representations, architecture analysis and design, and transparency-enhancing strategies.
+
+- **[Mechanistic?](https://arxiv.org/abs/2410.09087)**  
+  Naomi Saphra, Sarah Wiegreffe · *BlackboxNLP 2024* · 2024-10 · `📄 peer-reviewed` · 62 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2410.09087)]  
+  Distinguishes four uses of the term "mechanistic" in interpretability research, from a narrow causal-claim definition to a broad cultural one. Traces the history of the NLP interpretability community and the mechanistic community, arguing the polysemy reflects a divide.
+
+- **[Attention Heads of Large Language Models: A Survey](https://arxiv.org/abs/2409.03752)**  
+  Zifan Zheng et al. · *Patterns 2025* · 2024-09 · `📄 peer-reviewed` · 111 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2409.03752)]  
+  Surveys the roles of attention heads in LLMs through a four-stage framework of Knowledge Recalling, In-Context Identification, Latent Reasoning and Expression Preparation, and divides discovery methods into Modeling-Free and Modeling-Required, alongside evaluation methods and benchmarks.
+
+- **[The Quest for the Right Mediator: Surveying Mechanistic Interpretability Through the Lens of Causal Mediation Analysis](https://arxiv.org/abs/2408.01416)**  
+  Aaron Mueller et al. · *Computational Linguistics* · 2024-08 · `📄 peer-reviewed` · 21 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2408.01416)]  
+  Surveys mechanistic interpretability through causal mediation analysis, taxonomizing the field by the types of causal units (mediators) used and the methods for searching over them. Discusses pros and cons of each and recommends new mediators and standardized evaluations.
+
+- **[The Cognitive Revolution in Interpretability: From Explaining Behavior to Interpreting Representations and Algorithms](https://arxiv.org/abs/2408.05859)**  
+  Adam Davies, Ashkan Khakzar · *Preprint* · 2024-08 · `📝 preprint` · 21 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2408.05859)]  
+  Grounds mechanistic interpretability in cognitive science, arguing for a shift from explaining behavior to interpreting representations, echoing psychology's move beyond behaviorism. Proposes a taxonomy of semantic interpretation (learned representations) and algorithmic interpretation (operations over them).
+
+- **[A Practical Review of Mechanistic Interpretability for Transformer-Based Language Models](https://arxiv.org/abs/2407.02646)**  
+  Daking Rai et al. · *Preprint* · 2024-07 · `📝 preprint` · 160 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2407.02646)]  
+  Surveys mechanistic interpretability for transformer-based language models from a task-centric perspective, organizing its taxonomy around research questions. Outlines objects of study, techniques, evaluation methods and key findings for each task, as a roadmap for newcomers.
+
+- **[XAI meets LLMs: A Survey of the Relation between Explainable AI and Large Language Models](https://arxiv.org/abs/2407.15248)**  
+  Erik Cambria et al. · *Preprint* · 2024-07 · `📝 preprint` · 58 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2407.15248)]  
+  Surveys the relation between XAI and LLM research, examining two paths, improving performance through XAI and interpreting models, and covering both peer-reviewed and arXiv preprint papers while advocating balanced progress in both fields.
+
+- **[Position: An Inner Interpretability Framework for AI Inspired by Lessons from Cognitive Neuroscience](https://arxiv.org/abs/2406.01352)**  
+  Martina G. Vilas et al. · *ICML 2024* · 2024-06 · `📄 peer-reviewed` · 12 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2406.01352)]  
+  Proposes a conceptual framework for building mechanistic explanations in AI inner interpretability, drawing lessons from cognitive neuroscience, and gives concrete methodological strategies to address recent critiques of the field.
+
+- **[A Primer on the Inner Workings of Transformer-based Language Models](https://arxiv.org/abs/2405.00208)**  
+  Javier Ferrando et al. · *Preprint* · 2024-05 · `📝 preprint` · 112 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2405.00208)]  
+  Introduces techniques for interpreting the inner workings of Transformer-based language models, focusing on decoder-only architectures. Overviews known internal mechanisms these models implement, with connections across popular approaches and active research directions.
+
+- **[Interpretability Needs a New Paradigm](https://arxiv.org/abs/2405.05386)**  
+  Madsen et al. · *Preprint* · 2024-05 · `📄 peer-reviewed` · 17 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2405.05386)]  
+  Argues that interpretability should explore new paradigms while staying vigilant about faithfulness, examining the intrinsic and post-hoc paradigms and presenting three emerging ones: easily measurable faithfulness, optimized faithful explanations, and joint prediction-and-explanation models.
+
+- **[Mechanistic Interpretability for AI Safety -- A Review](https://arxiv.org/abs/2404.14082)**  
+  Leonard Bereska, Efstratios Gavves · *TMLR* · 2024-04 · `📄 peer-reviewed` · 579 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2404.14082)]  
+  Reviews mechanistic interpretability for AI safety, which reverse engineers network computations into human-understandable algorithms and concepts. Covers foundational concepts such as features, methodologies for causally dissecting behavior, benefits and risks, and challenges of scalability and automation.
+
+- **[How to use and interpret activation patching](https://arxiv.org/abs/2404.15255)**  
+  Stefan Heimersheim, Neel Nanda · *Preprint* · 2024-04 · `📝 preprint` · 253 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2404.15255)]  
+  Provides advice and best practices for applying activation patching, covering the different ways to apply it, how to interpret results as evidence about circuits, and the choice of metric and its pitfalls.
+
+- **[Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era](https://arxiv.org/abs/2403.08946)**  
+  Xuansheng Wu et al. · *ACM TKDD* · 2024-03 · `📄 peer-reviewed` · 102 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2403.08946)]  
+  Introduces 10 strategies for using explainability with LLMs, covering how XAI can explain and improve LLM-based systems and how LLMs can improve XAI techniques, with key techniques and associated challenges for each.
+
+- **[An introduction to graphical tensor notation for mechanistic interpretability](https://arxiv.org/abs/2402.01790)**  
+  Jordan K. Taylor · *Preprint* · 2024-02 · `📝 preprint` · 11 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2402.01790)]  
+  Introduces graphical tensor notation and applies it first to decompositions such as SVD, CP, Tucker and tensor networks, then to foundational approaches for understanding language models, ending with an induction head circuit example.
+
+- **[Towards Uncovering How Large Language Model Works: An Explainability Perspective](https://arxiv.org/abs/2402.10688)**  
+  Haiyan Zhao et al. · *Preprint* · 2024-02 · `📝 preprint` · 34 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2402.10688)]  
+  Reviews how knowledge is composed in LLM parameters via mechanistic interpretability and embedded in representations via probing and representation engineering, then examines training dynamics such as grokking and memorization and applications to editing, pruning, and alignment.
+
+- **[Rethinking Interpretability in the Era of Large Language Models](https://arxiv.org/abs/2402.01761)**  
+  Chandan Singh et al. · *Preprint* · 2024-02 · `📝 preprint` · 161 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2402.01761)]  
+  Argues that LLMs offer an opportunity to redefine interpretability with broader scope, including auditing LLMs; reviews evaluation of both interpreting LLMs and using LLMs for explanation, and highlights dataset analysis and interactive explanations as priorities.
+
+- **[From Understanding to Utilization: A Survey on Explainability for Large Language Models](https://arxiv.org/abs/2401.12874)**  
+  Haoyan Luo, Lucia Specia · *Preprint* · 2024-01 · `📝 preprint` · 66 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2401.12874)]  
+  Surveys explainability for pre-trained Transformer LLMs, classifying methods into local and global analyses, then covering uses in model editing, controlled generation, and model enhancement, along with evaluation metrics and datasets.
+
+- **[Explaining AI through mechanistic interpretability](https://doi.org/10.1007/s13194-024-00614-4)**  
+  Lena Kästner, Barnaby Crook · *European Journal for Philosophy of Science* · 2024 · `📄 peer-reviewed` · 49 citations (S2)  
+  [[Paper](https://doi.org/10.1007/s13194-024-00614-4)]  
+  Offers a philosophy-of-science account of explanation in mechanistic interpretability, treating the field's results as explanations of how AI systems work.
+
+- **[Concept-based Explainable Artificial Intelligence: A Survey](https://arxiv.org/abs/2312.12936)**  
+  Eleonora Poeta et al. · *ACM Computing Surveys* · 2023-12 · `📄 peer-reviewed` · 161 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2312.12936)]  
+  Reviews concept-based explainable AI methods, defining concepts and explanation types, presenting a taxonomy of nine categories with guidelines for choosing one, and reporting common evaluation strategies including metrics, human evaluations, and datasets.
+
+- **[Explainability of Vision Transformers: A Comprehensive Review and New Perspectives](https://arxiv.org/abs/2311.06786)**  
+  Rojina Kashefi et al. · *Multimedia Tools and Applications* · 2023-11 · `📄 peer-reviewed` · 34 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2311.06786)]  
+  Reviews explainability methods for vision transformers, organizing them in a taxonomy by motivations, structures, and application scenarios, and covering evaluation criteria, tools and frameworks, unexplored aspects, and future research directions.
+
+- **[Explainability for Large Language Models: A Survey](https://arxiv.org/abs/2309.01029)**  
+  Haiyan Zhao et al. · *ACM TIST 2024* · 2023-09 · `📄 peer-reviewed` · 994 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2309.01029)]  
+  Introduces a taxonomy of explainability techniques for Transformer-based language models, split by fine-tuning and prompting paradigms, with local and global explanations in each, plus evaluation metrics, uses for debugging, and open challenges.
+
+- **[Interpretability in Activation Space Analysis of Transformers: A Focused Survey](https://arxiv.org/abs/2302.09304)**  
+  Soniya Vijayakumar · *CEUR-WS CIKM 2022 Workshops* · 2023-02 · `📄 peer-reviewed` · 4 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2302.09304)]  
+  Reviews interpretability methods that examine the activation space formed by neuron activations in transformer feed-forward layers, discussing each work in detail and pointing to future research directions given limited existing research.
+
+- **[Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability](https://arxiv.org/abs/2301.04709)**  
+  Atticus Geiger et al. · *JMLR 2025* · 2023-01 · `📄 peer-reviewed` · 245 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2301.04709)]  
+  Presents causal abstraction as a theoretical foundation for mechanistic interpretability, generalizing it to arbitrary mechanism transformation and formalizing concepts such as polysemantic neurons and the linear representation hypothesis. Unifies methods including activation patching, circuit analysis, sparse autoencoders and steering.
+
+- **[Towards Faithful Model Explanation in NLP: A Survey](https://arxiv.org/abs/2209.11326)**  
+  Qing Lyu, Marianna Apidianaki, Chris Callison-Burch · *Computational Linguistics 2024* · 2022-09 · `📄 peer-reviewed` · 268 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2209.11326)]  
+  Reviews over 110 NLP model explanation methods through the lens of faithfulness, covering its definition and evaluation, and groups approaches into five categories: similarity-based, model-internal structure analysis, backpropagation-based, counterfactual intervention, and self-explanatory models.
+
+- **[Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks](https://arxiv.org/abs/2207.13243)**  
+  Tilman Räuker et al. · *IEEE SaTML 2023* · 2022-07 · `📄 peer-reviewed` · 206 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2207.13243)]  
+  Reviews over 300 works on inner interpretability of deep neural networks. Organizes methods by which network part they explain (weights, neurons, subnetworks or latent representations) and whether they are intrinsic or post hoc, and links interpretability to adjacent fields.
+
+- **[Interpreting Deep Learning Models in Natural Language Processing: A Review](https://arxiv.org/abs/2110.10470)**  
+  Xiaofei Sun et al. · *Preprint* · 2021-10 · `📝 preprint` · 55 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2110.10470)]  
+  Reviews interpretation methods for neural NLP models, organized into training-based, test-based, and hybrid approaches, with sub-categories such as influence-function, KNN-based, attention-based, saliency-based, and perturbation-based methods, and points out deficiencies and future directions.
+
+- **[Neuron-level Interpretation of Deep NLP Models: A Survey](https://arxiv.org/abs/2108.13138)**  
+  Hassan Sajjad, Nadir Durrani, Fahim Dalvi · *TACL 2022* · 2021-08 · `📄 peer-reviewed` · 111 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2108.13138)]  
+  Surveys neuron-level analysis of deep NLP models, covering methods to discover and understand neurons, evaluation methods, major findings including cross-architecture comparisons, applications such as controlling models and domain adaptation, and open issues.
+
+- **[Post-hoc Interpretability for Neural NLP: A Survey](https://arxiv.org/abs/2108.04840)**  
+  Andreas Madsen, Siva Reddy, Sarath Chandar · *ACM Computing Surveys 55:155, 2022* · 2021-08 · `📄 peer-reviewed` · 336 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2108.04840)]  
+  Categorizes recent post-hoc interpretability methods for neural NLP by how they communicate explanations to humans, discusses each method in depth, and examines how the explanations are validated.
+
+- **[Probing Classifiers: Promises, Shortcomings, and Advances](https://arxiv.org/abs/2102.12452)**  
+  Yonatan Belinkov · *Computational Linguistics 2022* · 2021-02 · `📄 peer-reviewed` · 1.3k citations (S2)  
+  [[Paper](https://arxiv.org/abs/2102.12452)]  
+  Reviews the probing classifiers framework, in which a classifier predicts linguistic properties from model representations, and critically examines its promises, methodological shortcomings and advances.
+
+- **[A Survey on Neural Network Interpretability](https://arxiv.org/abs/2012.14261)**  
+  Yu Zhang et al. · *IEEE TETCI 5:726–742* · 2020-12 · `📄 peer-reviewed` · 976 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2012.14261)]  
+  Reviews neural network interpretability research, clarifying definitions and proposing a three-dimensional taxonomy by engagement type (passive versus active), explanation type, and local-to-global focus, then summarizes evaluation methods and research directions.
+
+- **[Explainable Deep Learning: A Field Guide for the Uninitiated](https://arxiv.org/abs/2004.14545)**  
+  Gabrielle Ras et al. · *JAIR* · 2020-04 · `📄 peer-reviewed` · 618 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2004.14545)]  
+  Offers a field guide for newcomers to explainable deep learning, introducing three dimensions that define foundational methods, discussing evaluation of explanations, relating explainability to adjacent research areas, and covering user-oriented explanation design and future directions.
+
+- **[A Primer in BERTology: What we know about how BERT works](https://arxiv.org/abs/2002.12327)**  
+  Anna Rogers, Olga Kovaleva, Anna Rumshisky · *TACL* · 2020-02 · `📄 peer-reviewed` · 2.1k citations (S2)  
+  [[Paper](https://arxiv.org/abs/2002.12327)]  
+  Surveys over 150 studies of BERT, covering what information the model learns and how it is represented, modifications to training objectives and architecture, overparameterization, and compression approaches, before outlining future research directions.
+
+- **[On Interpretability of Artificial Neural Networks: A Survey](https://arxiv.org/abs/2001.02522)**  
+  Fenglei Fan et al. · *IEEE TRPMS* · 2020-01 · `📄 peer-reviewed` · 437 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2001.02522)]  
+  Reviews studies on understanding the mechanisms of neural networks under a comprehensive taxonomy, describes applications of interpretability especially in medicine, and discusses future directions such as links to fuzzy logic and brain science.
+
+- **[Zoom In: An Introduction to Circuits](https://doi.org/10.23915/distill.00024.001)**  
+  Chris Olah et al. · *Distill* · 2020 · `📄 peer-reviewed` · 853 citations (S2)  
+  [[Paper](https://doi.org/10.23915/distill.00024.001)]  
+  Lays out a foundational agenda for the circuits research programme, framing neural network understanding around features, circuits and universality.
+
+- **[Analysis Methods in Neural Language Processing: A Survey](https://arxiv.org/abs/1812.08951)**  
+  Yonatan Belinkov, James Glass · *TACL 2019* · 2018-12 · `📄 peer-reviewed` · 692 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1812.08951)]  
+  Surveys analysis methods for neural language processing models, categorizing them by prominent research trends, and highlights existing limitations and potential directions for future work.
+
+- **[Explaining Explanations: An Overview of Interpretability of Machine Learning](https://arxiv.org/abs/1806.00069)**  
+  Leilani H. Gilpin et al. · *IEEE DSAA 2018* · 2018-06 · `📄 peer-reviewed` · 2.3k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1806.00069)]  
+  Defines explainability and uses that definition to classify existing interpretability literature, discusses why current explanatory methods for deep neural networks are insufficient, and suggests future research directions for explanatory AI.
+
+- **[Visual Interpretability for Deep Learning: a Survey](https://arxiv.org/abs/1802.00614)**  
+  Quanshi Zhang, Song-Chun Zhu · *Frontiers of IT & EE* · 2018-02 · `📄 peer-reviewed` · 939 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1802.00614)]  
+  Reviews studies on understanding CNN representations and learning interpretable, disentangled middle-layer representations, covering visualization, diagnosis of pre-trained CNNs, disentanglement, middle-to-end learning, and prospective trends in explainable AI.
+
+- **[A Survey Of Methods For Explaining Black Box Models](https://arxiv.org/abs/1802.01933)**  
+  Riccardo Guidotti et al. · *ACM Computing Surveys* · 2018-02 · `📄 peer-reviewed` · 5.6k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1802.01933)]  
+  Classifies the main problems addressed in black-box explanation literature by the notion of explanation and the type of black box system, helping researchers find relevant proposals and placing open research questions in perspective.
+
+- **[Methods for Interpreting and Understanding Deep Neural Networks](https://arxiv.org/abs/1706.07979)**  
+  Grégoire Montavon, Wojciech Samek, Klaus-Robert Müller · *Digital Signal Processing* · 2017-06 · `📄 peer-reviewed` · 2.7k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1706.07979)]  
+  Introduces techniques for interpreting deep neural networks and explaining their predictions as an entry-level tutorial, with theory, practical tricks, recommendations for use on real data, and a discussion of applications.
+
+- **[Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608)**  
+  Doshi-Velez, Kim · *Preprint* · 2017-02 · `📄 peer-reviewed` · 5.9k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1702.08608)]  
+  Argues for a more rigorous science of interpretable machine learning by defining interpretability, describing when it is needed, suggesting a taxonomy for rigorous evaluation, and exposing open questions.
+
+- **[The Mythos of Model Interpretability](https://arxiv.org/abs/1606.03490)**  
+  Lipton · *CACM/Queue* · 2016-06 · `📄 peer-reviewed` · 4.9k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1606.03490)]  
+  Examines the diverse and sometimes discordant motivations for interpretability and the model properties and techniques thought to confer it, contrasting transparency with post-hoc explanation and questioning claims that linear models are interpretable while deep networks are not.
+
+### Rule extraction and neural-symbolic integration
+
+- **[Neuro-Symbolic Artificial Intelligence: A Task-Directed Survey in the Black-Box Models Era](https://arxiv.org/abs/2603.03177)**  
+  Giovanni Pio Delvecchio, Lorenzo Molfetta, Gianluca Moro · *IJCAI 2025* · 2026-03 · `📄 peer-reviewed` · 9 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2603.03177)]  
+  Surveys task-specific advances in neuro-symbolic methods, especially in natural language processing and computer vision, examining how symbolic systems can improve explainability and reasoning. Provides reproducibility details and per-paper comments in an accompanying repository.
+
+- **[Neuro-Symbolic AI in 2024: A Systematic Review](https://arxiv.org/abs/2501.05435)**  
+  Brandon C. Colelough, William Regli · *LNSAI@IJCAI* · 2025-01 · `📄 peer-reviewed` · 108 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2501.05435)]  
+  Reviews neuro-symbolic AI research from 2020 to 2024 using the PRISMA methodology, analyzing 167 papers selected from 1,428 candidates. Maps coverage across learning, reasoning, knowledge representation, explainability and meta-cognition, and identifies gaps.
+
+- **[Rule-Extraction Methods From Feedforward Neural Networks: A Systematic Literature Review](https://arxiv.org/abs/2312.12878)**  
+  Sara El Mekkaoui, Loubna Benabbou, Abdelaziz Berrado · *Preprint* · 2023-12 · `📝 preprint` · 3 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2312.12878)]  
+  Reviews systematically the rule-extraction methods for feedforward neural networks, covering two decades of approaches mostly suited to shallow networks with recent developments for deep learning, limited to supervised learning and crisp rules.
+
+- **[Neurosymbolic AI and its Taxonomy: a survey](https://arxiv.org/abs/2305.08876)**  
+  Wandemberg Gibaut et al. · *Preprint* · 2023-05 · `📝 preprint` · 15 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2305.08876)]  
+  Surveys recent research on models that combine symbolic processing with neural networks, presented as a route toward AGI beyond scaling data and model size. Classifies and compares the models and their applications.
+
+- **[Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing](https://arxiv.org/abs/2210.15889)**  
+  Wenguan Wang, Yi Yang, Fei Wu · *IEEE TPAMI* · 2022-10 · `📄 peer-reviewed` · 86 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2210.15889)]  
+  Provides a systematic overview of neuro-symbolic computing, from its history and background to a categorization of recent approaches by neural-symbolic integration, knowledge representation, knowledge embedding and functionality, with applications, benchmarks on three tasks and open problems.
+
+- **[Neuro-symbolic approaches in artificial intelligence](https://doi.org/10.1093/nsr/nwac035)**  
+  Pascal Hitzler et al. · *National Science Review* · 2022 · `📄 peer-reviewed` · 194 citations (S2)  
+  [[Paper](https://doi.org/10.1093/nsr/nwac035)]  
+  Gives an overview of neuro-symbolic approaches in AI, describing how they combine neural network learning with symbolic methods and representations.
+
+- **[The Third AI Summer: AAAI Robert S. Engelmore Memorial Lecture](https://doi.org/10.1002/aaai.12036)**  
+  Henry Kautz · *AI Magazine* · 2022 · `📄 peer-reviewed` · 85 citations (CR)  
+  [[Paper](https://doi.org/10.1002/aaai.12036)]  
+  Presents a memorial lecture laying out an agenda for AI's third summer, and is the origin of a six-type taxonomy of neural-symbolic system designs.
+
+- **[A review of some techniques for inclusion of domain-knowledge into deep neural networks](https://doi.org/10.1038/s41598-021-04590-0)**  
+  Tirtharaj Dash et al. · *Scientific Reports* · 2022 · `📄 peer-reviewed` · 198 citations (S2)  
+  [[Paper](https://doi.org/10.1038/s41598-021-04590-0)]  
+  Reviews ways of injecting prior domain knowledge into deep networks, grouped by whether the knowledge alters the inputs, the loss, or the model.
+
+- **[A Survey on Neural-symbolic Learning Systems](https://arxiv.org/abs/2111.08164)**  
+  Dongran Yu et al. · *Neural Networks 2023* · 2021-11 · `📄 peer-reviewed` · 138 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2111.08164)]  
+  Surveys neural-symbolic learning systems, which combine neural perception with symbolic cognition, from four perspectives: challenges, methods, applications and future directions.
+
+- **[From Statistical Relational to Neurosymbolic Artificial Intelligence: a Survey](https://arxiv.org/abs/2108.11451)**  
+  Giuseppe Marra et al. · *Artificial Intelligence* · 2021-08 · `📄 peer-reviewed` · 155 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2108.11451)]  
+  Surveys the integration of learning and reasoning in neurosymbolic and statistical relational AI, characterizing systems along seven shared dimensions such as logical inference, syntax, semantics, learning scope, representations and learning tasks.
+
+- **[Neuro-Symbolic Artificial Intelligence: Current Trends](https://arxiv.org/abs/2105.05330)**  
+  Md Kamruzzaman Sarker et al. · *AI Communications* · 2021-05 · `📄 peer-reviewed` · 155 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2105.05330)]  
+  Provides a structured overview of current neuro-symbolic AI trends by categorizing recent publications from key conferences, intended as a starting point for research on the topic.
+
+- **[Neuro-Symbolic Artificial Intelligence: The State of the Art](https://doi.org/10.3233/FAIA342)**  
+  Pascal Hitzler, Md Kamruzzaman Sarker (eds.) · *IOS Press FAIA* · 2021 · `📄 peer-reviewed` · 130 citations (S2)  
+  [[Paper](https://doi.org/10.3233/FAIA342)]  
+  Compiles an edited volume of chapters presenting the state of the art in combining symbolic methods with neural networks.
+
+- **[Neurosymbolic AI: The 3rd Wave](https://arxiv.org/abs/2012.05876)**  
+  Artur d'Avila Garcez, Luís C. Lamb · *Artificial Intelligence Review 2023* · 2020-12 · `📄 peer-reviewed` · 714 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2012.05876)]  
+  Relates early and recent neurosymbolic research that integrates neural learning with symbolic knowledge representation and logical reasoning, drawing on 20 years of work to identify key ingredients and challenges for the next decade.
+
+- **[Extracting Relational Explanations From Deep Neural Networks: A Survey From a Neural-Symbolic Perspective](https://doi.org/10.1109/TNNLS.2019.2944672)**  
+  Joe Townsend, Thomas Chaton, João M. Monteiro · *IEEE TNNLS* · 2020 · `📄 peer-reviewed` · 70 citations (S2)  
+  [[Paper](https://doi.org/10.1109/TNNLS.2019.2944672)]  
+  Surveys work connecting rule extraction with neural-symbolic integration, covering how relational explanations can be obtained from deep neural networks.
+
+- **[Neural-Symbolic Computing: An Effective Methodology for Principled Integration of Machine Learning and Reasoning](https://arxiv.org/abs/1905.06088)**  
+  Artur d'Avila Garcez et al. · *FLAP / Journal of Applied Logics* · 2019-05 · `📄 peer-reviewed` · 433 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1905.06088)]  
+  Surveys recent neural-symbolic computing work as a principled way to integrate machine learning and reasoning, outlining the methodology's main characteristics and its role in building explainable, accountable AI systems.
+
+- **[Informed Machine Learning -- A Taxonomy and Survey of Integrating Knowledge into Learning Systems](https://arxiv.org/abs/1903.12394)**  
+  Laura von Rueden et al. · *IEEE TKDE* · 2019-03 · `📄 peer-reviewed` · 957 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1903.12394)]  
+  Introduces a taxonomy of approaches that integrate prior knowledge into machine learning, classifying them by knowledge source, representation, and integration point in the pipeline. Surveys papers covering representations such as algebraic equations, logic rules and simulation results.
+
+- **[Neural-Symbolic Learning and Reasoning: A Survey and Interpretation](https://arxiv.org/abs/1711.03902)**  
+  Tarek R. Besold et al. · *Preprint* · 2017-11 · `📝 preprint` · 519 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1711.03902)]  
+  Surveys neural-symbolic learning and reasoning through the views of several researchers, in three parts: scope and theoretical foundations, systems and applications, and challenges with directions for future research.
+
+- **[Rule Extraction Algorithm for Deep Neural Networks: A Review](https://arxiv.org/abs/1610.05267)**  
+  Tameru Hailesilassie · *IJCSIS 14:371–381* · 2016-10 · `📄 peer-reviewed` · 106 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1610.05267)]  
+  Reviews rule extraction algorithms for deep neural networks, classifying them as decompositional, pedagogical or eclectic and evaluating them by the network structure each targets, and finds limited study of deep-network extraction.
+
+- **[Rule extraction from neural networks — A comparative study](https://doi.org/10.1109/ICPRIME.2012.6208380)**  
+  M. Gethsiyal Augasta, T. Kathirvalavakumar · *PRIME-2012, IEEE* · 2012 · `📄 peer-reviewed` · 55 citations (S2)  
+  [[Paper](https://doi.org/10.1109/ICPRIME.2012.6208380)]  
+  Compares existing rule-extraction methods for neural networks side by side, contrasting how the approaches differ and perform, without proposing a new method.
+
+- **[Rule extraction from support vector machines: A review](https://doi.org/10.1016/j.neucom.2010.02.016)**  
+  Nahla Barakat, Andrew P. Bradley · *Neurocomputing* · 2010 · `📄 peer-reviewed` · 224 citations (S2)  
+  [[Paper](https://doi.org/10.1016/j.neucom.2010.02.016)]  
+  Reviews rule extraction from support vector machines, a model family adjacent to neural networks, and reuses the ADT taxonomy to categorize the extraction approaches.
+
+- **[Rule Extraction from Support Vector Machines](https://doi.org/10.1007/978-3-540-75390-2)**  
+  Joachim Diederich (ed.) · *Studies in Computational Intelligence* · 2008 · `📄 peer-reviewed` · 223 citations (S2)  
+  [[Paper](https://doi.org/10.1007/978-3-540-75390-2)]  
+  Collects edited chapters on rule extraction from support vector machines, covering methods for deriving comprehensible rules from trained SVM models.
+
+- **[Neural-Symbolic Cognitive Reasoning](https://doi.org/10.1007/978-3-540-73246-4)**  
+  Artur S. d'Avila Garcez, Luís C. Lamb, Dov M. Gabbay · *Springer Cognitive Technologies* · 2008 · `📄 peer-reviewed` · 249 citations (S2)  
+  [[Paper](https://doi.org/10.1007/978-3-540-73246-4)]  
+  Presents a book-length treatment of reasoning in neural-symbolic systems, combining connectionist learning with logic for cognitive reasoning and learning.
+
+- **[Perspectives of Neural-Symbolic Integration](https://doi.org/10.1007/978-3-540-73954-8)**  
+  Barbara Hammer, Pascal Hitzler (eds.) · *Studies in Computational Intelligence* · 2007 · `📄 peer-reviewed` · 98 citations (S2)  
+  [[Paper](https://doi.org/10.1007/978-3-540-73954-8)]  
+  Collects edited chapters on neural-symbolic integration, spanning approaches to combining connectionist learning with symbolic knowledge representation and reasoning.
+
+- **[Rule Extraction from Recurrent Neural Networks: A Taxonomy and Review](https://doi.org/10.1162/0899766053630350)**  
+  Henrik Jacobsson · *Neural Computation* · 2005 · `📄 peer-reviewed` · 185 citations (S2)  
+  [[Paper](https://doi.org/10.1162/0899766053630350)]  
+  Reviews methods for extracting finite-state machines and rules from recurrent neural networks, organizing them within a taxonomy of extraction approaches.
+
+- **[Dimensions of Neural-symbolic Integration — A Structured Survey](https://arxiv.org/abs/cs/0511042)**  
+  Sebastian Bader, Pascal Hitzler · *We Will Show Them! Essays in Honour of Dov Gabbay* · 2005 · `📄 peer-reviewed` · 161 citations (S2)  
+  [[Paper](https://arxiv.org/abs/cs/0511042)]  
+  Surveys neural-symbolic integration, covering how connectionist systems handle symbolic knowledge and the logics involved, and classifies systems by their architectures and abilities along several dimensions.
+
+- **[Neural-Symbolic Learning Systems: Foundations and Applications](https://doi.org/10.1007/978-1-4471-0211-3)**  
+  Artur S. d'Avila Garcez, Krysia B. Broda, Dov M. Gabbay · *Springer Perspectives in Neural Computing* · 2002 · `📄 peer-reviewed` · 348 citations (S2)  
+  [[Paper](https://doi.org/10.1007/978-1-4471-0211-3)]  
+  Introduces the CILP approach of translating logic programs into neural networks, alongside knowledge extraction, as a book-length treatment of neural-symbolic learning foundations and applications.
+
+- **[Neuro-fuzzy rule generation: survey in soft computing framework](https://doi.org/10.1109/72.846746)**  
+  Sushmita Mitra, Yoichi Hayashi · *IEEE Transactions on Neural Networks* · 2000 · `📄 peer-reviewed` · 790 citations (S2)  
+  [[Paper](https://doi.org/10.1109/72.846746)]  
+  Surveys fuzzy-rule extraction and generation from neural and neuro-fuzzy models, treating how rule bases are obtained from such networks within a soft computing framework.
+
+- **[Knowledge-Based Neurocomputing](https://doi.org/10.7551/mitpress/4070.001.0001)**  
+  Ian Cloete, Jacek M. Zurada (eds.) · *MIT Press* · 2000 · `📄 peer-reviewed` · 74 citations (S2)  
+  [[Paper](https://doi.org/10.7551/mitpress/4070.001.0001)]  
+  Compiles an edited volume of chapters on knowledge-based neural computing, addressing how knowledge is combined with neural network models.
+
+- **[Using neural networks for data mining](https://doi.org/10.1016/S0167-739X(97)00022-8)**  
+  Mark W. Craven, Jude W. Shavlik · *Future Generation Computer Systems* · 1997 · `📄 peer-reviewed` · 302 citations (S2)  
+  [[Paper](https://doi.org/10.1016/S0167-739X(97)00022-8)]  
+  Surveys approaches that make trained neural networks comprehensible through rule extraction, focusing on the TREPAN-era methods used in data mining.
+
+- **[Combining Symbolic and Neural Learning](https://doi.org/10.1007/BF00993982)**  
+  Jude W. Shavlik · *Machine Learning* · 1994 · `📄 peer-reviewed` · 2 citations (S2)  
+  [[Paper](https://doi.org/10.1007/BF00993982)]  
+  Surveys approaches that combine symbolic and neural learning, giving an overview of how the two paradigms are integrated.
+
+### Weight-space learning, parameter generation and hypernetworks
+
+- **[Position: Weight Space Should Be a First-Class Generative AI Modality](https://arxiv.org/abs/2605.18632)**  
+  Zhangyang Wang, Peihao Wang, Kai Wang · *ICML 2026* · 2026-05 · `📄 peer-reviewed` · 8 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2605.18632)]  
+  Argues that model checkpoints should be treated as a first-class data modality and that generative modeling in weight space should become a core primitive. Organizes existing methods into a five-stage pipeline, surveys practical applications, and clarifies current limits.
+
+- **[Symmetry in Neural Network Parameter Spaces](https://arxiv.org/abs/2506.13018)**  
+  Bo Zhao, Robin Walters, Rose Yu · *TMLR* · 2025-06 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2506.13018)]  
+  Surveys symmetries in neural network parameter spaces, meaning transformations that leave the network function unchanged, and how they shape loss landscapes and learning dynamics. Summarizes the literature, links symmetry to learning theory, and identifies gaps.
+
+- **[Where Do We Stand with Implicit Neural Representations? A Technical and Performance Survey](https://arxiv.org/abs/2411.03688)**  
+  Amer Essakine et al. · *TMLR 2025* · 2024-11 · `📄 peer-reviewed` · 72 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2411.03688)]  
+  Reviews implicit neural representation methods, which model data as continuous functions using multilayer perceptrons, under a taxonomy of activation functions, position encoding, combined strategies and network structure optimisation. Includes an experimental comparison across tasks and discusses limitations.
+
+- **[Model Lakes](https://arxiv.org/abs/2403.02327)**  
+  Koyena Pal, David Bau, Renée J. Miller · *EDBT 2025* · 2024-03 · `📄 peer-reviewed` · 8 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2403.02327)]  
+  Introduces the concept of model lakes, inspired by data lakes, for finding, differentiating and understanding collections of deep learning models. Formalizes tasks including attribution, versioning, search and benchmarking, and discusses research challenges and applicable data management techniques.
+
+- **[Learning from models beyond fine-tuning](https://arxiv.org/abs/2310.08184)**  
+  Hongling Zheng et al. · *Nature Machine Intelligence 7:6–17* · 2023-10 · `📄 peer-reviewed` · 121 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2310.08184)]  
+  Reviews methods that adapt foundation models through the model interface without access to raw training data, grouped into five areas: model tuning, distillation, reuse, meta learning and model editing. Closes with open issues and future directions.
+
+- **[Implicit Neural Representation in Medical Imaging: A Comparative Survey](https://arxiv.org/abs/2307.16142)**  
+  Molaei et al. · *ICCVW 2023* · 2023-07 · `📄 peer-reviewed` · 196 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2307.16142)]  
+  Surveys implicit neural representation models in medical imaging, covering reconstruction, segmentation, registration, novel view synthesis and compression. Discusses advantages, limitations, data-related challenges and future directions, and compiles cited studies with open-source implementations.
+
+- **[A Brief Review of Hypernetworks in Deep Learning](https://arxiv.org/abs/2306.06955)**  
+  Vinod Kumar Chauhan et al. · *Artificial Intelligence Review 57, art.* · 2023-06 · `📄 peer-reviewed` · 215 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2306.06955)]  
+  Reviews hypernetworks, which generate weights for a target network, and categorizes them by five design criteria: inputs, outputs, variability of inputs and outputs, and architecture. Covers applications across deep learning problem settings and open challenges.
+
+- **[Dynamic Neural Networks: A Survey](https://arxiv.org/abs/2102.04906)**  
+  Yizeng Han et al. · *Preprint* · 2021-02 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2102.04906)]  
+  Reviews dynamic networks that adapt their structure or parameters to each input, divided into instance-wise, spatial-wise and temporal-wise categories. Covers architecture design, decision-making schemes, optimization techniques, applications and open problems.
+
+### Meta-learning, learned optimizers and fast weights
+
+- **[Fast weight programming and linear transformers: from machine learning to neurobiology](https://arxiv.org/abs/2508.08435)**  
+  Kazuki Irie, Samuel J. Gershman · *TMLR 2025* · 2025-08 · `📄 peer-reviewed` · 8 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2508.08435)]  
+  Reviews Fast Weight Programmers, recurrent networks with matrix-form hidden states whose fast weights are programmed by a trained network, covering technical foundations, computational characteristics, links to transformers and state space models, and synaptic plasticity models in the brain.
+
+- **[Efficient Attention Mechanisms for Large Language Models: A Survey](https://arxiv.org/abs/2507.19595)**  
+  Yutao Sun et al. · *Patterns 7, per S2* · 2025-07 · `📄 peer-reviewed` · 33 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2507.19595)]  
+  Surveys efficient attention for large language models, split into linear attention (kernel approximations, recurrent formulations, fast-weight dynamics) and sparse attention (fixed patterns, block-wise routing, clustering), covering algorithms, hardware considerations, and pretrained models using efficient or hybrid local-global attention designs.
+
+- **[Learning to optimize: A tutorial for continuous and mixed-integer optimization](https://arxiv.org/abs/2405.15251)**  
+  Xiaohan Chen, Jialin Liu, Wotao Yin · *Science China Mathematics* · 2024-05 · `📄 peer-reviewed` · 23 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2405.15251)]  
+  Introduces learning-to-optimize techniques that use machine learning to accelerate optimization algorithms, estimate solutions quickly, or reshape the problem itself. Considers prerequisites for successful application and problem structure, as a guide for practitioners and researchers.
+
+- **[Meta-learning approaches for few-shot learning: A survey of recent advances](https://arxiv.org/abs/2303.07502)**  
+  Hassan Gharoun et al. · *Preprint* · 2023-03 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2303.07502)]  
+  Surveys meta-learning approaches for few-shot learning after a brief introduction, organizing recent methods into metric-based, memory-based and learning-based families. Discusses current challenges and directions for future research.
+
+- **[Annotated History of Modern AI and Deep Learning](https://arxiv.org/abs/2212.11279)**  
+  Jürgen Schmidhuber · *Preprint* · 2022-12 · `📝 preprint` · 53 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2212.11279)]  
+  Presents a timeline of significant events in the history of neural networks, machine learning, deep learning, AI and mathematics, crediting foundational contributors from the chain rule onward. Frames machine learning as credit assignment and supplements an earlier deep learning survey.
+
+- **[Tutorial on amortized optimization](https://arxiv.org/abs/2202.00665)**  
+  Brandon Amos · *Foundations and Trends in Machine Learning* · 2022-02 · `📄 peer-reviewed` · 130 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2202.00665)]  
+  Introduces the foundations of amortized optimization, which uses learning to predict solutions to repeated, similar problems. Overviews applications in variational inference, sparse coding, meta-learning, control, reinforcement learning, convex optimization, optimal transport and deep equilibrium networks.
+
+- **[Learning to Optimize: A Primer and A Benchmark](https://arxiv.org/abs/2103.12828)**  
+  Tianlong Chen et al. · *JMLR 23:1–59, 2022* · 2021-03 · `📄 peer-reviewed` · 404 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2103.12828)]  
+  Presents the first comprehensive survey and benchmark of learning to optimize for continuous optimization, setting up taxonomies and categorizing existing works and directions. Benchmarks many approaches on representative problems and releases the Open-L2O software package.
+
+- **[Meta-learning in natural and artificial intelligence](https://arxiv.org/abs/2011.13464)**  
+  Jane X. Wang · *Current Opinion in Behavioral Sciences* · 2020-11 · `📄 peer-reviewed` · 170 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2011.13464)]  
+  Reviews meta-learning across biological and artificial intelligence, recasting research from cognitive science, psychology and neuroscience within a common framework. Discusses recent points of interaction between AI and neuroscience and new directions arising from this perspective.
+
+- **[A Survey of Deep Meta-Learning](https://arxiv.org/abs/2010.03522)**  
+  Mike Huisman, Jan N. van Rijn, Aske Plaat · *Artificial Intelligence Review* · 2020-10 · `📄 peer-reviewed` · 442 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2010.03522)]  
+  Surveys deep meta-learning after laying a theoretical foundation, categorizing key methods as metric-based, model-based or optimization-based techniques. Identifies open challenges such as evaluation on heterogeneous benchmarks and reducing computational cost.
+
+- **[Meta-Learning in Neural Networks: A Survey](https://arxiv.org/abs/2004.05439)**  
+  Timothy M. Hospedales et al. · *IEEE TPAMI* · 2020-04 · `📄 peer-reviewed` · 2.9k citations (S2)  
+  [[Paper](https://arxiv.org/abs/2004.05439)]  
+  Describes the contemporary meta-learning landscape, defining the field and positioning it relative to transfer learning and hyperparameter optimization. Proposes a new taxonomy of methods, surveys applications such as few-shot and reinforcement learning, and discusses challenges.
+
+- **[Generalizing from a Few Examples: A Survey on Few-Shot Learning](https://arxiv.org/abs/1904.05046)**  
+  Wang et al. · *ACM Computing Surveys* · 2019-04 · `📄 peer-reviewed` · 2.2k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1904.05046)]  
+  Surveys few-shot learning from a formal definition, distinguishing it from related problems and arguing the core issue is unreliable empirical risk. Categorizes methods by how prior knowledge is used: data, model or algorithm, and discusses pros, cons and future directions.
+
+- **[Meta-Learning: A Survey](https://arxiv.org/abs/1810.03548)**  
+  Joaquin Vanschoren · *Automated Machine Learning* · 2018-10 · `📄 peer-reviewed` · 851 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1810.03548)]  
+  Provides an overview of meta-learning, the practice of learning from how machine learning approaches perform across many tasks in order to learn new tasks faster. Covers its use in designing pipelines and architectures and replacing hand-engineered algorithms.
+
+- **[Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828)**  
+  Jürgen Schmidhuber · *Neural Networks* · 2014-04 · `📄 peer-reviewed` · 18k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1404.7828)]  
+  Reviews the history of deep learning, distinguishing shallow from deep learners by the depth of their credit assignment paths. Covers supervised learning including the history of backpropagation, unsupervised learning, reinforcement learning, evolutionary computation, and indirect search for short programs encoding large networks.
+
+- **[A Perspective View and Survey of Meta-Learning](https://doi.org/10.1023/A:1019956318069)**  
+  Ricardo Vilalta, Youssef Drissi · *Artificial Intelligence Review* · 2002 · `📄 peer-reviewed` · 1.3k citations (S2)  
+  [[Paper](https://doi.org/10.1023/A:1019956318069)]  
+  Surveys meta-learning from a classical perspective that frames the field as dynamic bias selection, and presents an early overview of the area.
+
+### Neuroevolution and gradient-free search
+
+- **[Neuroevolution: Harnessing Creativity in AI Agent Design](https://neuroevolutionbook.com)**  
+  Sebastian Risi et al. · *MIT Press* · 2025 · `📄 peer-reviewed`  
+  [[Paper](https://neuroevolutionbook.com)]  
+  Presents a textbook on neuroevolution rather than a survey, including a chapter on indirect encodings spanning developmental, grammatical, and hypernetwork approaches, HyperNEAT, and self-attention viewed as a dynamic indirect encoding.
+
+- **[Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey on Hybrid Algorithms](https://arxiv.org/abs/2401.11963)**  
+  Pengyi Li et al. · *IEEE TEVC* · 2024-01 · `📄 peer-reviewed` · 118 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2401.11963)]  
+  Surveys hybrids of evolutionary algorithms and reinforcement learning in three directions: EA-assisted optimization of RL, RL-assisted optimization of EA, and synergistic optimization, analyzing research branches in each, the problems they address, and open challenges.
+
+- **[Evolutionary Reinforcement Learning: A Survey](https://arxiv.org/abs/2303.04150)**  
+  Hui Bai, Ran Cheng, Yaochu Jin · *Intelligent Computing* · 2023-03 · `📄 peer-reviewed` · 117 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2303.04150)]  
+  Surveys methods integrating evolutionary computation into reinforcement learning, categorized by RL research field: hyperparameter optimization, policy search, exploration, reward shaping, meta-RL, and multi-objective RL, then discusses future directions in efficient methods, benchmarks, and scalable platforms.
+
+- **[Survey on Evolutionary Deep Learning: Principles, Algorithms, Applications and Open Issues](https://arxiv.org/abs/2208.10658)**  
+  Nan Li et al. · *ACM Computing Surveys* · 2022-08 · `📄 peer-reviewed` · 145 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2208.10658)]  
+  Analyzes evolutionary deep learning through an AutoML lens, introducing a taxonomy of what and how to evolve across the pipeline from feature engineering and model generation to deployment, with focus on solution representation and search paradigms.
+
+- **[Lights and Shadows in Evolutionary Deep Learning: Taxonomy, Critical Methodological Analysis, Cases of Study, Learned Lessons, Recommendations and Challenges](https://arxiv.org/abs/2008.03620)**  
+  Aritz D. Martinez et al. · *Information Fusion* · 2020-08 · `📄 peer-reviewed` · 33 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2008.03620)]  
+  Reviews and critically examines bio-inspired optimization combined with deep learning along three axes: a taxonomy with historical perspective, a methodological critique with two case studies and recommendations, and challenges for future research.
+
+- **[A Survey on Evolutionary Neural Architecture Search](https://arxiv.org/abs/2008.10937)**  
+  Yuqiao Liu et al. · *IEEE TNNLS* · 2020-08 · `📄 peer-reviewed` · 630 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2008.10937)]  
+  Reviews over 200 papers on evolutionary computation methods for neural architecture search, organized by core components, discussing their design principles and justifications, and outlining current challenges and future research.
+
+- **[Neuroevolution in Deep Neural Networks: Current Trends and Future Challenges](https://arxiv.org/abs/2006.05415)**  
+  Edgar Galván, Peter Mooney · *IEEE Transactions on AI* · 2020-06 · `📄 peer-reviewed` · 183 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2006.05415)]  
+  Reviews evolutionary algorithms used for architectural configuration and training of deep neural networks, evaluating strengths and limitations, and identifying current issues, challenges, and promising future research directions.
+
+- **[A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning](https://arxiv.org/abs/2006.06224)**  
+  Sijia Liu et al. · *IEEE Signal Processing Magazine* · 2020-06 · `📄 peer-reviewed` · 362 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2006.06224)]  
+  Reviews zeroth-order optimization, which uses only function evaluations through gradient estimation, descent direction computation, and solution update, covering underlying intuition, optimization principles, convergence analysis advances, and applications such as black-box robustness evaluation, explanation generation, and sensor management.
+
+- **[Evolution strategies for continuous optimization: A survey of the state-of-the-art](https://doi.org/10.1016/j.swevo.2020.100694)**  
+  Zhenhua Li et al. · *Swarm and Evolutionary Computation 56:100694* · 2020 · `📄 peer-reviewed` · 86 citations (CR)  
+  [[Paper](https://doi.org/10.1016/j.swevo.2020.100694)]  
+  Reviews the state of the art in evolution strategies, a family of evolutionary algorithms for optimizing over continuous search spaces, as a survey of methods developed in this area.
+
+- **[Derivative-free optimization methods](https://arxiv.org/abs/1904.11585)**  
+  Jeffrey Larson, Matt Menickelly, Stefan M. Wild · *Acta Numerica* · 2019-04 · `📄 peer-reviewed` · 139 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1904.11585)]  
+  Reviews derivative-free, or zeroth-order, optimization for black-box objectives, categorizing methods by assumed properties of the function and method features: deterministic methods, randomized methods, structured objectives, stochastic oracles, and constraint handling.
+
+- **[Designing neural networks through neuroevolution](https://doi.org/10.1038/s42256-018-0006-z)**  
+  Kenneth O. Stanley et al. · *Nature Machine Intelligence 1:24–35* · 2019 · `📄 peer-reviewed` · 597 citations (CR)  
+  [[Paper](https://doi.org/10.1038/s42256-018-0006-z)]  
+  Surveys neuroevolution at deep-learning scale, covering evolution strategies and genetic algorithms for weights, HyperNEAT and CPPN encodings, novelty search, and open-endedness.
+
+- **[The CMA Evolution Strategy: A Tutorial](https://arxiv.org/abs/1604.00772)**  
+  Nikolaus Hansen · *Preprint* · 2016-04 · `📝 preprint` · 1.9k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1604.00772)]  
+  Introduces CMA-ES, a stochastic method for real-parameter optimization of non-linear, non-convex functions, motivating and deriving the algorithm from intuitive concepts and from requirements of continuous-domain search.
+
+- **[Neuroevolution in Games: State of the Art and Open Challenges](https://arxiv.org/abs/1410.7326)**  
+  Sebastian Risi, Julian Togelius · *IEEE TCIAIG* · 2014-10 · `📄 peer-reviewed` · 152 citations (S2)  
+  [[Paper](https://arxiv.org/abs/1410.7326)]  
+  Surveys neuroevolution applied to games, analysing work along five axes: the role neuroevolution plays in a game, network types, how networks are evolved, how fitness is determined, and input types, plus open challenges.
+
+- **[Neuroevolution: from architectures to learning](https://doi.org/10.1007/s12065-007-0002-4)**  
+  Dario Floreano, Peter Dürr, Claudio Mattiussi · *Evolutionary Intelligence 1:47–62* · 2008 · `📄 peer-reviewed` · 775 citations (S2)  
+  [[Paper](https://doi.org/10.1007/s12065-007-0002-4)]  
+  Reviews neuroevolution from evolving architectures to evolving learning, contrasting direct and developmental encodings and covering the evolution of plasticity rules.
+
+- **[A Taxonomy for Artificial Embryogeny](https://doi.org/10.1162/106454603322221487)**  
+  Kenneth O. Stanley, Risto Miikkulainen · *Artificial Life* · 2003 · `📄 peer-reviewed` · 511 citations (S2)  
+  [[Paper](https://doi.org/10.1162/106454603322221487)]  
+  Organizes indirect and developmental encodings into a taxonomy with five dimensions, providing a framework for classifying and comparing approaches that grow solutions rather than specifying them directly.
+
+- **[Evolution strategies – A comprehensive introduction](https://doi.org/10.1023/A:1015059928466)**  
+  Hans-Georg Beyer, Hans-Paul Schwefel · *Natural Computing* · 2002 · `📄 peer-reviewed` · 2.9k citations (S2)  
+  [[Paper](https://doi.org/10.1023/A:1015059928466)]  
+  Introduces evolution strategies, providing a comprehensive introductory overview of this family of evolutionary optimization algorithms and serving as a general entry point to the topic.
+
+- **[Combinations of genetic algorithms and neural networks: a survey of the state of the art](https://doi.org/10.1109/COGANN.1992.273950)**  
+  J. David Schaffer, L. Darrell Whitley, Larry J. Eshelman · *COGANN-92 workshop* · 1992 · `📄 peer-reviewed` · 647 citations (S2)  
+  [[Paper](https://doi.org/10.1109/COGANN.1992.273950)]  
+  Reviews early work in which genetic algorithms set neural network weights, architectures, and learning parameters, giving a state-of-the-art overview of the combination.
+
+### Pruning and compression
+
+- **[A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms](https://arxiv.org/abs/2409.16694)**  
+  Ruihao Gong et al. · *Preprint* · 2024-09 · `📝 preprint` · 50 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2409.16694)]  
+  Surveys low-bit quantization for large language models from basic, system and algorithm perspectives: data formats and concepts, frameworks across hardware platforms, and techniques and toolkits for low-bit training and inference.
+
+- **[A Survey on Efficient Inference for Large Language Models](https://arxiv.org/abs/2404.14294)**  
+  Zixuan Zhou et al. · *Preprint* · 2024-04 · `📝 preprint` · 280 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2404.14294)]  
+  Surveys efficient LLM inference, analyzing causes of inefficiency such as model size, quadratic attention and autoregressive decoding, and organizing the literature into data-level, model-level and system-level optimization, with comparative experiments on representative methods.
+
+- **[A Survey of Lottery Ticket Hypothesis](https://arxiv.org/abs/2403.04861)**  
+  Bohan Liu et al. · *Preprint* · 2024-03 · `📝 preprint` · 33 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2403.04861)]  
+  Examines research on the Lottery Ticket Hypothesis, the claim that dense networks contain sparse winning subnetworks, from several perspectives, discusses issues in existing work such as efficiency and scalability, and lists directions for further exploration.
+
+- **[Model Compression and Efficient Inference for Large Language Models: A Survey](https://arxiv.org/abs/2402.09748)**  
+  Wenxiao Wang et al. · *Preprint* · 2024-02 · `📝 preprint` · 113 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2402.09748)]  
+  Investigates compression and efficient inference for large language models from an algorithmic view, categorizing methods into quantization, pruning, distillation, compact architecture design and dynamic networks, distinguishing medium from large models, and introducing inference frameworks.
+
+- **[A Survey on Transformer Compression](https://arxiv.org/abs/2402.05964)**  
+  Yehui Tang et al. · *Preprint* · 2024-02 · `📝 preprint` · 93 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2402.05964)]  
+  Reviews compression methods for Transformer-based language and vision models, categorized into pruning, quantization, knowledge distillation and efficient architecture design such as Mamba, RetNet and RWKV, and examines relations among the methods.
+
+- **[A Comprehensive Survey of Compression Algorithms for Language Models](https://arxiv.org/abs/2401.15347)**  
+  Seungcheol Park et al. · *ACM Computing Surveys* · 2024-01 · `📄 peer-reviewed` · 25 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2401.15347)]  
+  Surveys language-model compression algorithms spanning pruning, quantization, knowledge distillation, low-rank approximation, parameter sharing and efficient architecture design, summarizing overall trends, analyzing representative algorithms in depth, and proposing future research topics.
+
+- **[Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863)**  
+  Zhongwei Wan et al. · *Preprint* · 2023-12 · `📝 preprint` · 276 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2312.03863)]  
+  Reviews efficient large language model research through a taxonomy of three categories: model-centric, data-centric and framework-centric approaches. Links to a maintained repository that organizes the featured papers.
+
+- **[A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Analysis, and Recommendations](https://arxiv.org/abs/2308.06767)**  
+  Hongrong Cheng, Miao Zhang, Javen Qinfeng Shi · *IEEE TPAMI* · 2023-08 · `📄 peer-reviewed` · 626 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2308.06767)]  
+  Reviews pruning in a four-part taxonomy: universal or specific speedup, when to prune, how to prune, and fusion with other compression; compares eight pairs of contrast settings and covers LLM and multimodal model pruning.
+
+- **[A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633)**  
+  Xunyu Zhu et al. · *TACL* · 2023-08 · `📄 peer-reviewed` · 554 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2308.07633)]  
+  Surveys model compression techniques for large language models, covering quantization, pruning and knowledge distillation, along with benchmarking strategies and evaluation metrics for assessing compressed models.
+
+- **[Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/abs/2303.00566)**  
+  Yang He, Lingao Xiao · *IEEE TPAMI* · 2023-03 · `📄 peer-reviewed` · 447 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2303.00566)]  
+  Surveys structured pruning of deep convolutional networks, comparing techniques by filter ranking, regularization, dynamic execution, neural architecture search, the lottery ticket hypothesis, and applications, while contrasting them with unstructured pruning and outlining research opportunities.
+
+- **[A Survey on Model Compression and Acceleration for Pretrained Language Models](https://arxiv.org/abs/2202.07105)**  
+  Canwen Xu, Julian McAuley · *AAAI 2023* · 2022-02 · `📄 peer-reviewed` · 104 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2202.07105)]  
+  Reviews compression and acceleration of Transformer-based pretrained language models, focusing on the inference stage and covering benchmarks, metrics and methodology within the broader context of efficient NLP.
+
+- **[A Survey of Quantization Methods for Efficient Neural Network Inference](https://arxiv.org/abs/2103.13630)**  
+  Amir Gholami et al. · *Low-Power Computer Vision* · 2021-03 · `📄 peer-reviewed` · 1.8k citations (S2)  
+  [[Paper](https://arxiv.org/abs/2103.13630)]  
+  Surveys approaches to quantizing numerical values in deep neural network computations, covering the advantages and disadvantages of current methods and presenting a snapshot of this active research area for efficient inference.
+
+- **[Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554)**  
+  Torsten Hoefler et al. · *JMLR 22:1–124* · 2021-02 · `📄 peer-reviewed` · 1.1k citations (S2)  
+  [[Paper](https://arxiv.org/abs/2102.00554)]  
+  Surveys sparsity in deep learning and provides a tutorial on sparsification for inference and training, distilling more than 300 papers on removing and adding network elements, training strategies, and exploiting sparsity on hardware, plus open problems.
+
+- **[Pruning and Quantization for Deep Neural Network Acceleration: A Survey](https://arxiv.org/abs/2101.09671)**  
+  Tailin Liang et al. · *Neurocomputing* · 2021-01 · `📄 peer-reviewed` · 1.1k citations (S2)  
+  [[Paper](https://arxiv.org/abs/2101.09671)]  
+  Surveys pruning and quantization for accelerating deep networks, separating static from dynamic pruning and comparing element-, channel-, shape-, filter-, layer- and network-wise granularities. Covers quantization to 8-bit and lower, including binary networks, and offers practical guidance.
+
+- **[A Survey on Deep Neural Network Compression: Challenges, Overview, and Solutions](https://arxiv.org/abs/2010.03954)**  
+  Rahul Mishra, Hari Prabhat Gupta, Tanima Dutta · *Preprint* · 2020-10 · `📝 preprint` · 112 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2010.03954)]  
+  Reviews DNN compression literature aimed at reducing storage and computation for resource-constrained IoT devices, dividing approaches into network pruning, sparse representation, bit precision, knowledge distillation and miscellaneous categories, with challenges per category and future directions.
+
+- **[An Overview of Neural Network Compression](https://arxiv.org/abs/2006.03669)**  
+  James O'Neill · *Preprint* · 2020-06 · `📝 preprint` · 126 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2006.03669)]  
+  Reviews older and current compression techniques for deep networks, including pruning, quantization, tensor decomposition, knowledge distillation and their combinations, mostly in the context of recurrent, convolutional and self-attention architectures.
+
+- **[Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)**  
+  Jianping Gou et al. · *IJCV* · 2020-06 · `📄 peer-reviewed` · 4.9k citations (S2)  
+  [[Paper](https://arxiv.org/abs/2006.05525)]  
+  Surveys knowledge distillation, in which a small student model learns from a large teacher, organized by knowledge categories, training schemes, teacher-student architectures, distillation algorithms, performance comparison and applications, plus open challenges and future directions.
+
+- **[What is the State of Neural Network Pruning?](https://arxiv.org/abs/2003.03033)**  
+  Davis Blalock et al. · *MLSys 2020* · 2020-03 · `📄 peer-reviewed` · 1.3k citations (S2)  
+  [[Paper](https://arxiv.org/abs/2003.03033)]  
+  Presents a meta-analysis of pruning literature, aggregating results across 81 papers and controlled pruning of hundreds of models, finding a lack of standardized benchmarks and metrics, and introducing ShrinkBench, an open-source evaluation framework.
+
+- **[Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey](https://doi.org/10.1109/JPROC.2020.2976475)**  
+  Lei Deng et al. · *Proceedings of the IEEE* · 2020 · `📄 peer-reviewed` · 1k citations (S2)  
+  [[Paper](https://doi.org/10.1109/JPROC.2020.2976475)]  
+  Surveys techniques for compressing neural networks and the hardware used to accelerate them, treating algorithmic model compression and hardware acceleration as the two main areas of coverage.
+
+- **[A Survey of Model Compression and Acceleration for Deep Neural Networks](https://arxiv.org/abs/1710.09282)**  
+  Yu Cheng et al. · *Preprint* · 2017-10 · `📝 preprint` · 1.3k citations (S2)  
+  [[Paper](https://arxiv.org/abs/1710.09282)]  
+  Reviews techniques for compacting and accelerating DNN models in four categories: parameter pruning and quantization, low-rank factorization, transferred or compact convolutional filters, and knowledge distillation, analyzing each, with evaluation metrics, datasets, benchmark efforts, and future challenges.
+
+### Backdoors and weight-level attacks
+
+- **[Open Technical Problems in Open-Weight AI Model Risk Management](https://arxiv.org/abs/2608.07514)**  
+  Stephen Casper et al. · *TMLR 2026* · 2026-08 · `📄 peer-reviewed` · 4 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2608.07514)]  
+  Presents 16 open technical challenges for open-weight model safety across training data, training algorithms, evaluations, deployment and ecosystem monitoring, arguing that openness about research and evaluations is key.
+
+- **[Rethinking Reasoning: A Survey on Reasoning-based Backdoors in LLMs](https://arxiv.org/abs/2510.07697)**  
+  Man Hu et al. · *Findings of ACL 2026* · 2025-10 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2510.07697)]  
+  Reviews reasoning-based backdoor attacks in LLMs, proposing a taxonomy that groups them into associative, passive and active attacks, and covers defense strategies, current challenges and future research directions.
+
+- **[Backdoor Attacks and Defenses in Computer Vision Domain: A Survey](https://arxiv.org/abs/2509.07504)**  
+  Bilal Hussain Abbasi et al. · *Preprint* · 2025-09 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2509.07504)]  
+  Reviews computer-vision backdoor attacks and defenses using a multi-dimensional taxonomy by injection stage, trigger type, labeling strategy, representation stage and target task, and discusses where defenses succeed or fail and gaps such as supply-chain and hardware threats.
+
+- **[Architectural Backdoors in Deep Learning: A Survey of Vulnerabilities, Detection, and Defense](https://arxiv.org/abs/2507.12919)**  
+  Victoria Childress, Josh Collyer, Jodie Knapp · *Preprint* · 2025-07 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2507.12919)]  
+  Consolidates research on architectural backdoors embedded in a model's computational graph, spanning compiler-level manipulations, tainted AutoML pipelines and supply-chain vulnerabilities, and assesses detection and defense strategies such as static graph inspection, dynamic fuzzing and partial formal verification.
+
+- **[A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment](https://arxiv.org/abs/2504.15585)**  
+  Kun Wang et al. · *Preprint* · 2025-04 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2504.15585)]  
+  Surveys LLM and agent safety across the full lifecycle of data preparation, pre-training, post-training, deployment and commercialization, drawing on over 800 papers to organize security issues holistically.
+
+- **[Data Poisoning in Deep Learning: A Survey](https://arxiv.org/abs/2503.22759)**  
+  Pinlong Zhao et al. · *Preprint* · 2025-03 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2503.22759)]  
+  Reviews data poisoning attacks in deep learning, categorizing them from multiple perspectives, extending the discussion to poisoning of large language models, and outlining open challenges and research directions.
+
+- **[A Survey on Backdoor Threats in Large Language Models (LLMs): Attacks, Defenses, and Evaluations](https://arxiv.org/abs/2502.05224)**  
+  Yihe Zhou et al. · *Transactions on Artificial Intelligence 2025* · 2025-02 · `📄 peer-reviewed` · 29 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2502.05224)]  
+  Surveys backdoor threats to large language models, adapting a general machine-learning attack taxonomy to training-time white-box backdoor attacks, and covers corresponding defense methods as a guideline for future research.
+
+- **[Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety](https://arxiv.org/abs/2502.05206)**  
+  Xingjun Ma et al. · *Preprint* · 2025-02 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2502.05206)]  
+  Reviews safety research on vision foundation, language, vision-language and diffusion models and model-powered agents, with a taxonomy of threats from adversarial and backdoor attacks to jailbreaks and extraction, plus defenses, benchmarks and open challenges.
+
+- **[On Evaluating the Durability of Safeguards for Open-Weight LLMs](https://arxiv.org/abs/2412.07097)**  
+  Xiangyu Qi et al. · *venue unverified* · 2024-12 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2412.07097)]  
+  Argues that evaluating durable safeguards for open-weight LLMs against adversarial fine-tuning is difficult, using case studies to show evaluation pitfalls and urging claims limited to well-defined, rigorously examined threat models.
+
+- **[Harmful Fine-tuning Attacks and Defenses for Large Language Models: A Survey](https://arxiv.org/abs/2409.18169)**  
+  Tiansheng Huang et al. · *ACM Computing Surveys 2026* · 2024-09 · `📄 peer-reviewed` · 5 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2409.18169)]  
+  Reviews harmful fine-tuning attacks and defenses for LLMs, formulating the threat model and organizing the literature by attack setting, defense design and evaluation methodology, with a curated companion paper list.
+
+- **[A Survey of Trojan Attacks and Defenses to Deep Neural Networks](https://arxiv.org/abs/2408.08920)**  
+  Lingxin Jin et al. · *Preprint* · 2024-08 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2408.08920)]  
+  Surveys Trojan attacks on deep networks and countermeasures, tracing the concept from traditional Trojans to neural network Trojans, comparing attack and defense strategies, and assessing the feasibility of such attacks in real-world scenarios.
+
+- **[A Survey on Failure Analysis and Fault Injection in AI Systems](https://arxiv.org/abs/2407.00125)**  
+  Guangba Yu et al. · *ACM TOSEM 2025* · 2024-07 · `📄 peer-reviewed` · 18 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2407.00125)]  
+  Surveys failure analysis and fault injection approaches across six layers of AI systems, analyzing 160 papers and repositories to build a taxonomy of failures and assess what faults injection tools can simulate.
+
+- **[Open Problems in Technical AI Governance](https://arxiv.org/abs/2407.14981)**  
+  Anka Reuel et al. · *TMLR 2025* · 2024-07 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2407.14981)]  
+  Introduces technical AI governance and presents a taxonomy and incomplete catalog of its open problems, as a resource for technical researchers and funders seeking to contribute to AI governance.
+
+- **[A Survey of Recent Backdoor Attacks and Defenses in Large Language Models](https://arxiv.org/abs/2406.06852)**  
+  Shuai Zhao et al. · *TMLR* · 2024-06 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2406.06852)]  
+  Surveys backdoor attacks and defenses in large language models from a fine-tuning perspective, classifying attacks into full-parameter fine-tuning, parameter-efficient fine-tuning and no fine-tuning, and discussing future directions such as attacks without fine-tuning and more covert algorithms.
+
+- **[Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2406.07973)**  
+  Shang Wang et al. · *ACM Computing Surveys 2025* · 2024-06 · `📄 peer-reviewed` · 46 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2406.07973)]  
+  Surveys privacy and security threats unique to large language models across four scenarios: pre-training, fine-tuning, deployment and LLM-based agents, and analyzes potential countermeasures for each scenario.
+
+- **[Backdoor Attacks and Countermeasures in Natural Language Processing Models: A Comprehensive Security Review](https://arxiv.org/abs/2309.06055)**  
+  Pengzhou Cheng et al. · *IEEE TNNLS 2025* · 2023-09 · `📄 peer-reviewed` · 33 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2309.06055)]  
+  Reviews backdoor attacks and countermeasures for language models, organizing attacks into four categories by attacker capability and affected stage, and countermeasures into sample inspection and model inspection, with benchmark datasets and comparative evaluations.
+
+- **[A Comprehensive Overview of Backdoor Attacks in Large Language Models within Communication Networks](https://arxiv.org/abs/2308.14367)**  
+  Haomiao Yang et al. · *IEEE Network 2024* · 2023-08 · `📄 peer-reviewed` · 61 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2308.14367)]  
+  Surveys backdoor attacks on large language models in communication networks, proposing a taxonomy of input-triggered, prompt-triggered, instruction-triggered and demonstration-triggered attacks, and analyzes benchmark datasets and open challenges.
+
+- **[Attacks in Adversarial Machine Learning: A Systematic Survey from the Life-cycle Perspective](https://arxiv.org/abs/2302.09457)**  
+  Baoyuan Wu et al. · *International Journal of Computer Vision 2026* · 2023-02 · `📄 peer-reviewed` · 5 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2302.09457)]  
+  Reviews adversarial machine learning attacks from a life-cycle perspective, proposing a unified mathematical framework and taxonomy covering backdoor attacks, weight attacks and adversarial attacks, and clarifying connections and differences among these paradigms.
+
+- **[Backdoor Learning for NLP: Recent Advances, Challenges, and Future Research Directions](https://arxiv.org/abs/2302.06801)**  
+  Marwan Omar · *Preprint* · 2023-02 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2302.06801)]  
+  Surveys backdoor learning for NLP, covering attack techniques, applications, defenses and mitigation methods, plus evaluation metrics, benchmark datasets, threat models and open challenges, with a continually updated companion paper list.
+
+- **[A Survey of Bit-Flip Attacks on Deep Neural Network and Corresponding Defense Methods](https://doi.org/10.3390/electronics12040853)**  
+  Qian et al. · *Electronics 12:853* · 2023 · `📄 peer-reviewed` · 36 citations (CR)  
+  [[Paper](https://doi.org/10.3390/electronics12040853)]  
+  Surveys bit-flip attacks on deep neural networks and corresponding defense methods, covering fault-injection techniques such as RowHammer, clock glitching and laser injection.
+
+- **[A Survey on Backdoor Attack and Defense in Natural Language Processing](https://arxiv.org/abs/2211.11958)**  
+  Xuan Sheng et al. · *IEEE QRS 2022* · 2022-11 · `📄 peer-reviewed` · 24 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2211.11958)]  
+  Reviews backdoor attacks and defenses in natural language processing, where attackers manipulate training to inject triggers, and summarizes benchmark datasets and open issues for building systems that resist such attacks.
+
+- **[A Survey of Neural Trojan Attacks and Defenses in Deep Learning](https://arxiv.org/abs/2202.07183)**  
+  Jie Wang, Ghulam Mubashar Hassan, Naveed Akhtar · *Preprint* · 2022-02 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2202.07183)]  
+  Reviews techniques for devising Trojan attacks on deep learning and their defenses, organizing recent literature systematically and explaining key concepts with minimal assumed background, including risks from outsourced training or data annotation.
+
+- **[An Overview of Backdoor Attacks Against Deep Neural Networks and Possible Defences](https://arxiv.org/abs/2111.08429)**  
+  Wei Guo, Benedetta Tondi, Mauro Barni · *IEEE Open Journal of Signal Processing 2022* · 2021-11 · `📄 peer-reviewed` · 89 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2111.08429)]  
+  Reviews published work on training-time backdoor attacks against deep networks and their defenses, classifying them by the attacker's control over training and the defender's ability to verify training data integrity and monitor the network.
+
+- **[Exploiting Vulnerabilities in Deep Neural Networks: Adversarial and Fault-Injection Attacks](https://arxiv.org/abs/2105.03251)**  
+  Faiq Khalid, Muhammad Abdullah Hanif, Muhammad Shafique · *Preprint* · 2021-05 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2105.03251)]  
+  Overviews vulnerabilities of deep neural networks in cyber-physical systems, covering adversarial and fault-injection attacks, challenges in practical implementation, and prospective approaches toward robust, resilient DNN-based systems.
+
+- **[Security of Neural Networks from Hardware Perspective: A Survey and Beyond](https://doi.org/10.1145/3394885.3431639)**  
+  Qian Xu, Md Tanvir Arafin, Gang Qu · *ASP-DAC 2021* · 2021 · `📄 peer-reviewed` · 30 citations (CR)  
+  [[Paper](https://doi.org/10.1145/3394885.3431639)]  
+  Surveys hardware-level security threats to deep neural networks, including fault injection, and discusses directions beyond the surveyed work.
+
+- **[Dataset Security for Machine Learning: Data Poisoning, Backdoor Attacks, and Defenses](https://arxiv.org/abs/2012.10544)**  
+  Micah Goldblum et al. · *IEEE TPAMI 2023* · 2020-12 · `📄 peer-reviewed` · 295 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2012.10544)]  
+  Categorizes dataset vulnerabilities and exploits in machine learning, covering poisoning and backdoor threat models, defenses and open problems, and develops a unified taxonomy of the threat models and the relationships among them.
+
+- **[Artificial Neural Networks and Fault Injection Attacks](https://arxiv.org/abs/2008.07072)**  
+  Shahin Tajik, Fatemeh Ganji · *LNCS book chapter 2022* · 2020-08 · `📄 peer-reviewed` · 4 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2008.07072)]  
+  Examines security assessment of neural network accelerators under fault injection attacks, comparing their assets with those of cryptographic systems to define threat models, and explores fault attacks mounted on such platforms.
+
+- **[Backdoor Learning: A Survey](https://arxiv.org/abs/2007.08745)**  
+  Yiming Li et al. · *IEEE TNNLS* · 2020-07 · `📄 peer-reviewed` · 521 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2007.08745)]  
+  Surveys backdoor attacks and defenses in deep learning, categorizing existing work, offering a unified framework for analyzing poisoning-based attacks, relating backdoors to adversarial attacks and data poisoning, and summarizing benchmark datasets.
+
+- **[Backdoor Attacks and Countermeasures on Deep Learning: A Comprehensive Review](https://arxiv.org/abs/2007.10760)**  
+  Yansong Gao et al. · *Preprint* · 2020-07 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2007.10760)]  
+  Organizes backdoor attacks into six categories by attacker capability and pipeline stage and defenses into four classes, comparing their strengths and weaknesses and covering beneficial uses such as intellectual property protection, honeypots and data deletion verification.
+
+- **[A Survey on Impact of Transient Faults on BNN Inference Accelerators](https://arxiv.org/abs/2004.05915)**  
+  Navid Khoshavi, Connor Broyles, Yu Bi · *Preprint* · 2020-04 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2004.05915)]  
+  Examines the impact of soft errors on binarized neural network inference accelerators, using fault injection on image classifiers trained on CIFAR-10 and MNIST to show drastic accuracy drops.
+
+### LLMs as optimizers and self-improving agents
+
+- **[Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104)**  
+  Zhe Ren et al. · *Preprint* · 2026-07 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2607.13104)]  
+  Frames modern self-improving agents as a foundation model coupled with a scaffold of prompts, memory, tools and control logic, formalizes self-improvement as a self-induced update operator, and organizes prior work by update target and driving signal.
+
+- **[Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops](https://arxiv.org/abs/2607.07663)**  
+  Mingguang Chen, Licheng Wang, Bo Qu · *Preprint* · 2026-07 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2607.07663)]  
+  Surveys 1,250 arXiv papers from 2024–2026 along two axes: what the system improves and the degree of loop closure, separating bounded self-refinement from open-ended recursive self-improvement and ordering evaluator signals into a verification hierarchy.
+
+- **[Large Language Models as Optimizers: A Survey of Direct vs. Tool-Augmented Approaches and Their Performance Frontiers](https://arxiv.org/abs/2606.15577)**  
+  Roko Peran et al. · *MIPRO 2026* · 2026-06 · `📄 peer-reviewed` · 1 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2606.15577)]  
+  Surveys LLMs used as optimizers across three paradigms: direct optimization via iterative prompting, tool-augmented optimization that orchestrates external solvers, and tool-creating optimization that discovers reusable algorithms. Describes benchmark-based performance frontiers and argues for trade-offs between direct and tool-augmented approaches.
+
+- **[Safety in Self-Evolving LLM Agent Systems: Threats, Amplification, and Case Studies](https://arxiv.org/abs/2606.23075)**  
+  Ruixiao Lin et al. · *Preprint* · 2026-06 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2606.23075)]  
+  Analyzes security and privacy threats in self-evolving LLM agent systems using a matrix of five functional modules by five lifecycle stages, identifying seven amplification effects and comparing two open-source frameworks in case studies.
+
+- **[Position: Agentic Evolution is the Path to Evolving LLMs](https://arxiv.org/abs/2602.00359)**  
+  Minhua Lin et al. · *Preprint* · 2026-02 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2602.00359)]  
+  Argues that agentic evolution, in which an autonomous evolver agent drives deployment-time adaptation, is the future of LLM adaptation, introduces the A-Evolve framework, and proposes an evolution-scaling hypothesis tying adaptation capacity to evolution compute.
+
+- **[A Comprehensive Survey on LLM-Guided Evolutionary Search](https://doi.org/10.20944/preprints202610.1122.v1)**  
+  Dongbin Zhao et al. · *Preprint* · 2026 · `📝 preprint`  
+  [[Paper](https://doi.org/10.20944/preprints202610.1122.v1)]  
+  Surveys LLM-guided evolutionary search, exemplified by AlphaEvolve, and presents itself as the first survey dedicated to this research direction.
+
+- **[Recursive Self-Improvement in AI: A Survey](https://doi.org/10.20944/preprints202609.2680.v1)**  
+  Hao Wu et al. · *Preprint* · 2026 · `📝 preprint`  
+  [[Paper](https://doi.org/10.20944/preprints202609.2680.v1)]  
+  Surveys recursive self-improvement in AI, contrasting approaches that automate the design of AI infrastructure with those that repair existing systems.
+
+- **[AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement—Definitions, Reliable Horizons, and Open Problems](https://doi.org/10.20944/preprints202608.2108.v1)**  
+  Kai Wu et al. · *Preprint* · 2026 · `📝 preprint`  
+  [[Paper](https://doi.org/10.20944/preprints202608.2108.v1)]  
+  Surveys the progression from long-horizon agents to recursive self-improvement, covering definitions, reliable horizons and open problems, with a section on self-modifying systems and a thesis about a composition gap.
+
+- **[A Survey of AI Scientists](https://arxiv.org/abs/2510.23045)**  
+  Guiyao Tie, Pan Zhou, Lichao Sun · *Preprint* · 2025-10 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2510.23045)]  
+  Surveys AI scientist systems through a six-stage framework spanning literature review, idea generation, experimental preparation, experimental execution, scientific writing and paper generation, and traces the field's evolution from foundational modules to closed-loop systems and current scalability work.
+
+- **[A Systematic Survey on Large Language Models for Evolutionary Optimization: From Modeling to Solving](https://arxiv.org/abs/2509.08269)**  
+  Yisong Zhang et al. · *IEEE Computational Intelligence Magazine 2026* · 2025-09 · `📄 peer-reviewed` · 3 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2509.08269)]  
+  Reviews large language models for evolutionary optimization through a workflow of optimization modeling and optimization solving, splitting solving into stand-alone optimizers, embedded low-level components, and high-level managers for algorithm selection and generation, plus benchmarks and applications.
+
+- **[Large Language Model-based Data Science Agent: A Survey](https://arxiv.org/abs/2508.02744)**  
+  Ke Chen et al. · *TMLR 2026* · 2025-08 · `📄 peer-reviewed` · 5 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2508.02744)]  
+  Reviews LLM-based agents for data science from two perspectives: agent design principles covering roles, execution, knowledge and reflection, and data science processes such as preprocessing, model development, evaluation and visualization, linked by a dual-perspective framework.
+
+- **[A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems](https://arxiv.org/abs/2508.07407)**  
+  Jinyuan Fang et al. · *Preprint* · 2025-08 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2508.07407)]  
+  Reviews self-evolving AI agents through a unified feedback-loop framework of system inputs, agent system, environment and optimisers, surveying techniques targeting each component, domain-specific strategies in biomedicine, programming and finance, and evaluation, safety and ethics.
+
+- **[From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery](https://arxiv.org/abs/2508.14111)**  
+  Jiaqi Wei et al. · *Preprint* · 2025-08 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2508.14111)]  
+  Reviews autonomous scientific discovery across life sciences, chemistry, materials science and physics, unifying process-, autonomy- and mechanism-oriented perspectives in a framework with five core capabilities and a four-stage discovery workflow.
+
+- **[A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence](https://arxiv.org/abs/2507.21046)**  
+  Huan-ang Gao et al. · *TMLR 01/2026* · 2025-07 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2507.21046)]  
+  Reviews self-evolving agents along three dimensions: what to evolve across agent components such as models, memory, tools and architecture, when to adapt by stage, and how, plus benchmarks, applications in coding, education and healthcare, and open challenges.
+
+- **[AI4Research: A Survey of Artificial Intelligence for Scientific Research](https://arxiv.org/abs/2507.01903)**  
+  Qiguang Chen et al. · *Science China Information Sciences 2026* · 2025-07 · `📄 peer-reviewed` · 1 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2507.01903)]  
+  Surveys AI for scientific research with a systematic taxonomy of five mainstream tasks, identifies research gaps and future directions on rigor, scalability and societal impact, and compiles applications, data corpora and tools.
+
+- **[Large Language Models and Evolutionary Computation: A Critical Review of Bidirectional Interaction, Automated Algorithm Design, and Co-Adaptive Systems](https://arxiv.org/abs/2505.15741)**  
+  Dikshit Chauhan et al. · *Computer Science Review* · 2025-05 · `📄 peer-reviewed` · 2 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2505.15741)]  
+  Reviews the bidirectional interaction between LLMs and evolutionary computation, covering EC improving LLM systems via prompt optimization and architecture search, LLMs improving EC via metaheuristic and heuristic design, and co-adaptive feedback-loop frameworks.
+
+- **[From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery](https://arxiv.org/abs/2505.13259)**  
+  Tianshi Zheng et al. · *EMNLP 2025* · 2025-05 · `📄 peer-reviewed` · 18 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2505.13259)]  
+  Surveys LLMs in scientific discovery through a three-level taxonomy of Tool, Analyst and Scientist that reflects escalating autonomy across the research lifecycle, and identifies challenges including robotic automation, self-improvement and ethical governance.
+
+- **[Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents](https://arxiv.org/abs/2503.24047)**  
+  Shuo Ren et al. · *Preprint* · 2025-03 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2503.24047)]  
+  Reviews LLM-based scientific agents, covering their architectures, design, benchmarks, applications and ethical considerations, and how they differ from general-purpose agents in tasks from hypothesis generation to experiment design, data analysis and simulation.
+
+- **[Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions](https://arxiv.org/abs/2503.08979)**  
+  Mourad Gridach et al. · *Preprint* · 2025-03 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2503.08979)]  
+  Surveys agentic AI for scientific discovery, categorizing existing systems and tools and their progress in chemistry, biology and materials science, and covering evaluation metrics, implementation frameworks, datasets, challenges such as reliability and ethics, and human-AI collaboration directions.
+
+- **[LLM4SR: A Survey on Large Language Models for Scientific Research](https://arxiv.org/abs/2501.04306)**  
+  Ziming Luo et al. · *Preprint* · 2025-01 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2501.04306)]  
+  Surveys the roles of LLMs across four stages of the research cycle: hypothesis discovery, experiment planning and implementation, scientific writing and peer reviewing, covering task-specific methods, evaluation benchmarks, challenges and future directions.
+
+- **[Large Language Models for Constructing and Optimizing Machine Learning Workflows: A Survey](https://arxiv.org/abs/2411.10478)**  
+  Yang Gu et al. · *ACM TOSEM 2026* · 2024-11 · `📄 peer-reviewed` · 16 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2411.10478)]  
+  Reviews how LLMs construct and optimize machine learning workflows, organized around data and feature engineering, model selection and hyperparameter optimization, and workflow evaluation, with discussion of advantages, limitations, open challenges and future directions.
+
+- **[Deep Insights into Automated Optimization with Large Language Models and Evolutionary Algorithms](https://arxiv.org/abs/2410.20848)**  
+  He Yu, Jing Liu · *Preprint* · 2024-10 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2410.20848)]  
+  Reviews LLM use in optimization, focusing on LLMs as solution generators and algorithm designers, and proposes an LLM-EA paradigm analyzed through individual representation, variation operators and fitness evaluation.
+
+- **[A Systematic Survey on Large Language Models for Algorithm Design](https://arxiv.org/abs/2410.14716)**  
+  Fei Liu et al. · *Preprint* · 2024-10 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2410.14716)]  
+  Surveys LLMs for algorithm design with a taxonomy of LLM roles as optimizers, predictors, extractors and designers, synthesizing literature across three pipeline phases and applications, and outlining open challenges.
+
+- **[Open-Endedness is Essential for Artificial Superhuman Intelligence](https://arxiv.org/abs/2406.04268)**  
+  Edward Hughes et al. · *Preprint* · 2024-06 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2406.04268)]  
+  Argues that open-endedness, formally defined through novelty and learnability, is essential for artificial superhuman intelligence, outlines a path via open-ended systems built on foundation models, and examines safety implications.
+
+- **[Exploring the Improvement of Evolutionary Computation via Large Language Models](https://arxiv.org/abs/2405.02876)**  
+  Jinyu Cai et al. · *GECCO 2024 Companion* · 2024-05 · `📄 peer-reviewed` · 13 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2405.02876)]  
+  Offers a forward-looking overview of how LLMs can improve evolutionary computation, focusing on the algorithms themselves, population design and additional enhancements.
+
+- **[When Large Language Model Meets Optimization](https://arxiv.org/abs/2405.10098)**  
+  Sen Huang et al. · *Swarm and Evolutionary Computation 2024* · 2024-05 · `📄 peer-reviewed` · 67 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2405.10098)]  
+  Reviews the combination of LLMs and optimization algorithms, covering how LLMs support modeling and decision-making in optimization and how optimization algorithms refine LLM architectures and output quality.
+
+- **[A Survey on Self-Evolution of Large Language Models](https://arxiv.org/abs/2404.14387)**  
+  Zhengwei Tao et al. · *Preprint* · 2024-04 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2404.14387)]  
+  Surveys self-evolution of LLMs as iterative cycles of experience acquisition, experience refinement, updating and evaluation, categorizes evolution objectives for LLMs and LLM-based agents, and gives a taxonomy and insights for each module.
+
+- **[Evolutionary Computation in the Era of Large Language Model: Survey and Roadmap](https://arxiv.org/abs/2401.10034)**  
+  Xingyu Wu et al. · *IEEE TEVC 2025* · 2024-01 · `📄 peer-reviewed` · 254 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2401.10034)]  
+  Surveys the interplay of evolutionary algorithms and LLMs, categorizing work into LLM-enhanced EA and EA-enhanced LLM, with integrated methods spanning code generation, software engineering and neural architecture search, plus a roadmap.
+
+- **[When Large Language Models Meet Evolutionary Algorithms: Potential Enhancements and Challenges](https://arxiv.org/abs/2401.10510)**  
+  Chao Wang et al. · *Research 2025* · 2024-01 · `📄 peer-reviewed` · 48 citations (S2)  
+  [[Paper](https://arxiv.org/abs/2401.10510)]  
+  Reviews conceptual parallels between LLMs and evolutionary algorithms at a micro level, then analyzes interdisciplinary research at a macro level, focusing on evolutionary fine-tuning and LLM-enhanced evolutionary algorithms.
+
+- **[AutoML in the Age of Large Language Models: Current Challenges, Future Opportunities and Risks](https://arxiv.org/abs/2306.08107)**  
+  Alexander Tornede et al. · *TMLR 2024* · 2023-06 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2306.08107)]  
+  Explores the symbiosis of AutoML and LLMs, surveying existing work on enhancing AutoML with LLMs and on using AutoML to improve LLMs, and critically assessing the risks of integrating the two fields.
+
+- **[AI-GAs: AI-generating algorithms, an alternate paradigm for producing general artificial intelligence](https://arxiv.org/abs/1905.10985)**  
+  Jeff Clune · *Preprint* · 2019-05 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/1905.10985)]  
+  Argues that the AI-generating algorithm approach, built on three pillars of meta-learning architectures, meta-learning learning algorithms and generating learning environments, deserves more research investment than the manual approach to general AI, and discusses safety and ethics.
+
+### Verification and policy reuse
+
+- **[Combining Trained Models in Reinforcement Learning](https://arxiv.org/abs/2605.02159)**  
+  Ujjwal Patil, Javad Ghofrani · *Preprint* · 2026-05 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2605.02159)]  
+  Presents a PRISMA-guided systematic review of pretrained knowledge reuse in deep reinforcement learning, narrowing 589 retrieved records to 15 empirical studies. Analyzes them by source-target similarity, diversity of reused models, and fairness of comparisons against from-scratch baselines.
+
+- **[Neural Network Verification is a Programming Language Challenge](https://arxiv.org/abs/2501.05867)**  
+  Lucas C. Cordeiro et al. · *ESOP 2025* · 2025-01 · `📄 peer-reviewed`  
+  [[Paper](https://arxiv.org/abs/2501.05867)]  
+  Argues that neural network verification challenges should be formulated as programming language challenges, and suggests possible future solutions drawing on insights from the programming language community.
+
+- **[Model checking deep neural networks: opportunities and challenges](https://doi.org/10.3389/fcomp.2025.1557977)**  
+  Sbai · *Frontiers in Computer Science* · 2025 · `📄 peer-reviewed` · 4 citations (CR)  
+  [[Paper](https://doi.org/10.3389/fcomp.2025.1557977)]  
+  Takes a model-checking perspective on deep neural networks, outlining the opportunities and challenges of applying that approach to them.
+
+- **[First Three Years of the International Verification of Neural Networks Competition (VNN-COMP)](https://arxiv.org/abs/2301.05815)**  
+  Christopher Brix et al. · *STTT 25 329–339* · 2023-01 · `📄 peer-reviewed` · 74 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2301.05815)]  
+  Summarizes and meta-analyzes the first three annual neural network verification competitions, held in 2020, 2021, and 2022, covering processes, rules, results, and observed trends across problem classes such as image classification, neural control, and reinforcement learning.
+
+- **[Adversarial Robustness of Deep Neural Networks: A Survey from a Formal Verification Perspective](https://arxiv.org/abs/2206.12227)**  
+  Mark Huasong Meng et al. · *IEEE TDSC 2024* · 2022-06 · `📄 peer-reviewed` · 46 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2206.12227)]  
+  Surveys 39 works on adversarial robustness verification for neural networks, analyzing how robustness is formulated and which verification techniques are used. Classifies techniques by property specification, problem reduction, and reasoning strategies.
+
+- **[A Survey of Zero-shot Generalisation in Deep Reinforcement Learning](https://arxiv.org/abs/2111.09794)**  
+  Robert Kirk et al. · *JAIR 76:201–264* · 2021-11 · `📄 peer-reviewed` · 192 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2111.09794)]  
+  Surveys zero-shot generalisation in deep reinforcement learning, using a unifying formalism to categorise existing benchmarks and methods. Offers a critical discussion with recommendations, including building benchmarks in underexplored settings such as offline RL and reward-function variation.
+
+- **[Introduction to Neural Network Verification](https://arxiv.org/abs/2109.10317)**  
+  Aws Albarghouthi · *Foundations and Trends in Programming Languages 2021* · 2021-09 · `📄 peer-reviewed` · 40 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2109.10317)]  
+  Introduces foundational ideas from formal verification and their adaptation to reasoning about the safety, security, correctness, and robustness of neural networks and deep learning, in book-length form.
+
+- **[A Review of Formal Methods applied to Machine Learning](https://arxiv.org/abs/2104.02466)**  
+  Caterina Urban, Antoine Miné · *Preprint* · 2021-04 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2104.02466)]  
+  Reviews formal methods for verifying machine learning systems, first recalling established methods in avionic software. Notes most methods target trained neural networks using SMT, optimization, or abstract interpretation, and also covers support vector machines and decision tree ensembles.
+
+- **[Towards Continual Reinforcement Learning: A Review and Perspectives](https://arxiv.org/abs/2012.13490)**  
+  Khimya Khetarpal et al. · *JAIR 2022* · 2020-12 · `📄 peer-reviewed` · 187 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2012.13490)]  
+  Reviews formulations and approaches to continual reinforcement learning, offering taxonomies of formulations, based on scope and driver of non-stationarity, and of methods. Covers evaluation benchmarks and metrics, and open problems linking the field to neuroscience.
+
+- **[SoK: Certified Robustness for Deep Neural Networks](https://arxiv.org/abs/2009.04131)**  
+  Linyi Li, Tao Xie, Bo Li · *IEEE S&P 2023* · 2020-09 · `📄 peer-reviewed` · 105 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2009.04131)]  
+  Systematizes certifiably robust approaches for deep neural networks, providing a taxonomy of robustness verification and robust training methods and discussing their strengths, limitations, and connections. Includes an open-source unified platform evaluating more than 20 representative approaches.
+
+- **[Transfer Learning in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2009.07888)**  
+  Zhuangdi Zhu et al. · *IEEE TPAMI 2023* · 2020-09 · `📄 peer-reviewed` · 714 citations (CR)  
+  [[Paper](https://arxiv.org/abs/2009.07888)]  
+  Surveys transfer learning approaches in deep reinforcement learning, proposing a framework that categorizes them and analyzes their goals, methodologies, compatible reinforcement learning backbones, and practical applications. Also connects transfer learning to related topics and outlines future challenges.
+
+- **[Algorithms for Verifying Deep Neural Networks](https://arxiv.org/abs/1903.06758)**  
+  Changliu Liu et al. · *Foundations and Trends in Optimization 2021* · 2019-03 · `📄 peer-reviewed` · 191 citations (CR)  
+  [[Paper](https://arxiv.org/abs/1903.06758)]  
+  Surveys methods for soundly verifying input-output properties of deep neural networks, drawing on reachability analysis, optimization, and search. Discusses connections between algorithms and provides pedagogical implementations compared on benchmark problems.
+
+- **[A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability](https://arxiv.org/abs/1812.08342)**  
+  Xiaowei Huang et al. · *Computer Science Review 2020* · 2018-12 · `📄 peer-reviewed` · 456 citations (CR)  
+  [[Paper](https://arxiv.org/abs/1812.08342)]  
+  Reviews research on making deep neural networks safe and trustworthy, organized around four aspects: verification, testing, adversarial attack and defence, and interpretability. Covers 202 papers, most published after 2017.
+
+- **[Towards Verified Artificial Intelligence](https://arxiv.org/abs/1606.08514)**  
+  Sanjit A. Seshia, Dorsa Sadigh, S. Shankar Sastry · *Preprint* · 2016-06 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/1606.08514)]  
+  Considers verified AI, meaning systems with provable correctness assurances, from a formal methods perspective. Describes five challenges for achieving it and five corresponding principles for addressing them.
+
+- **[Transfer Learning for Reinforcement Learning Domains: A Survey](https://www.jmlr.org/papers/v10/taylor09a.html)**  
+  Matthew E. Taylor, Peter Stone · *JMLR 10:1633–1685* · 2009 · `📄 peer-reviewed`  
+  [[Paper](https://www.jmlr.org/papers/v10/taylor09a.html)]  
+  Surveys the literature on transfer learning in classical reinforcement learning domains, giving an overview of how the topic has been studied.
+
 ## Legend
 
 `📄 peer-reviewed` · `📝 preprint` · `💻 code / results` · `💬 post only`
 
-Entries are newest first within each section, except historical sections, which read oldest first. Summaries report the source's own numbers and settings. Evidence labels say what kind of source backs an entry, not whether its claims hold. Citation counts, where shown, are from Semantic Scholar (S2) or OpenAlex (OA) at the time the entry was added; the two sources are not comparable, so read them as orders of magnitude.
+Entries are newest first within each section, except historical sections, which read oldest first. Summaries report the source's own numbers and settings. Evidence labels say what kind of source backs an entry, not whether its claims hold. Citation counts, where shown, are from Semantic Scholar (S2), OpenAlex (OA) or Crossref (CR) at the time the entry was added; the sources are not comparable, so read them as orders of magnitude.
 
 ## How This List Is Maintained
 

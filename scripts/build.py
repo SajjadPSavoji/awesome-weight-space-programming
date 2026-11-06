@@ -169,8 +169,8 @@ def render(meta, cats, entries, mirror: bool = False) -> str:
         " · ".join(f"`{v}`" for v in EVIDENCE.values()), "",
         "Entries are newest first within each section, except historical sections, which read oldest first. "
         "Summaries report the source's own numbers and settings. Evidence labels say what kind of source backs an "
-        "entry, not whether its claims hold. Citation counts, where shown, are from Semantic Scholar (S2) or "
-        "OpenAlex (OA) at the time the entry was added; the two sources are not comparable, so read them as "
+        "entry, not whether its claims hold. Citation counts, where shown, are from Semantic Scholar (S2), "
+        "OpenAlex (OA) or Crossref (CR) at the time the entry was added; the sources are not comparable, so read them as "
         "orders of magnitude.", "",
         "## How This List Is Maintained", "",
         f"An automated sweep ({meta.get('updated', 'daily')}) checks arXiv, GitHub and the Hugging Face Hub for new "

@@ -95,77 +95,148 @@
       {
         "id": "found-compiled",
         "title": "Hand-set and compiled weights",
-        "short": "Compiled weights"
+        "short": "Compiled weights",
+        "op": "write"
       },
       {
         "id": "found-rules",
         "title": "Rule insertion and extraction",
-        "short": "Rule insertion, extraction"
+        "short": "Rule insertion, extraction",
+        "op": "write"
       },
       {
         "id": "found-surgery",
         "title": "Weight surgery and pruning",
-        "short": "Surgery and pruning"
+        "short": "Surgery and pruning",
+        "op": "edit"
       },
       {
         "id": "found-fastweights",
         "title": "Fast weights and self-modifying networks",
-        "short": "Fast weights"
+        "short": "Fast weights",
+        "op": "write"
       },
       {
         "id": "found-evo",
         "title": "Neuroevolution and gradient-free weight search",
-        "short": "Neuroevolution"
+        "short": "Neuroevolution",
+        "op": "write"
       },
       {
         "id": "found-hyper",
         "title": "Hypernetworks and weight generation",
-        "short": "Hypernetworks"
+        "short": "Hypernetworks",
+        "op": "write"
       },
       {
         "id": "found-editing",
         "title": "Model editing",
-        "short": "Model editing"
+        "short": "Model editing",
+        "op": "edit"
       },
       {
         "id": "found-merging",
         "title": "Weight arithmetic and merging",
-        "short": "Weight arithmetic"
+        "short": "Weight arithmetic",
+        "op": "edit"
       },
       {
         "id": "found-wsl",
         "title": "Weight-space learning",
-        "short": "Weight-space learning"
+        "short": "Weight-space learning",
+        "op": "read"
       },
       {
         "id": "found-interp",
         "title": "Mechanistic interpretability that reads weights",
-        "short": "Mech. interpretability"
+        "short": "Mech. interpretability",
+        "op": "read"
       },
       {
         "id": "found-steering",
         "title": "Activation steering",
-        "short": "Activation steering"
+        "short": "Activation steering",
+        "op": "edit"
       },
       {
         "id": "found-autointerp",
         "title": "Automated interpretability agents",
-        "short": "Interpretability agents"
+        "short": "Interpretability agents",
+        "op": "read"
       },
       {
         "id": "found-lang",
         "title": "Language-to-weights and LLM program search",
-        "short": "Language-to-weights"
+        "short": "Language-to-weights",
+        "op": "write"
       },
       {
         "id": "found-security",
         "title": "Weight-level security and safety",
-        "short": "Security and safety"
+        "short": "Security and safety",
+        "op": "edit"
       },
       {
         "id": "found-robot",
         "title": "Policy surgery, control and robot policies",
-        "short": "Policy surgery, control"
+        "short": "Policy surgery, control",
+        "op": "edit"
+      }
+    ]
+  },
+  {
+    "id": "surveys",
+    "title": "Surveys and Reviews",
+    "emoji": "📖",
+    "blurb": "Surveys, reviews, tutorials, books and position papers of the fields that read, edit or write weights. None, to our knowledge, covers a general language model doing so.",
+    "children": [
+      {
+        "id": "surv-editing",
+        "title": "Model and knowledge editing"
+      },
+      {
+        "id": "surv-merging",
+        "title": "Model merging and weight arithmetic"
+      },
+      {
+        "id": "surv-steering",
+        "title": "Steering, representation engineering and unlearning"
+      },
+      {
+        "id": "surv-interp",
+        "title": "Interpretability"
+      },
+      {
+        "id": "surv-rules",
+        "title": "Rule extraction and neural-symbolic integration"
+      },
+      {
+        "id": "surv-wsl",
+        "title": "Weight-space learning, parameter generation and hypernetworks"
+      },
+      {
+        "id": "surv-meta",
+        "title": "Meta-learning, learned optimizers and fast weights"
+      },
+      {
+        "id": "surv-evo",
+        "title": "Neuroevolution and gradient-free search"
+      },
+      {
+        "id": "surv-pruning",
+        "title": "Pruning and compression"
+      },
+      {
+        "id": "surv-security",
+        "title": "Backdoors and weight-level attacks"
+      },
+      {
+        "id": "surv-agents",
+        "title": "LLMs as optimizers and self-improving agents"
+      },
+      {
+        "id": "surv-verify",
+        "title": "Verification and policy reuse"
       }
     ]
   }
