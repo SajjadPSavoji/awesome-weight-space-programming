@@ -1,5 +1,20 @@
 [
   {
+    "id": "orbit-audits",
+    "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
+    "authors": "Sungguk Cha, Mintae Kim, Youngsub Han, Byoung-Ki Jeon, Sangyeob Lee",
+    "date": "2026-11-04",
+    "venue": "Preprint",
+    "category": "bench",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.05798"
+    },
+    "summary": "Audits visual recognition from shallow ReLU neural-field weights under function-preserving neuron permutations and positive rescalings. Compares supervised and language-model readers, separating recognition accuracy, agreement on transformed weights, and fresh identical-prompt variation; canonicalization alone does not establish recognition.",
+    "added": "2026-11-06"
+  },
+  {
     "id": "sparks-wsp",
     "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
     "authors": "Rikiya Takehi, Jayden Teoh, Alex Zhang, Omar Khattab",

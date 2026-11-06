@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-58-blue)
+![Entries](https://img.shields.io/badge/entries-59-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,7 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-06** · [Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers](https://arxiv.org/abs/2611.05798) (Benchmarks and Evaluations)
 - **2026-11-05** · [Weight-Space Programming (wsp-kit)](https://github.com/AuremHQ/weight-space-programming) (Tools, Harnesses and Agent Skills)
 - **2026-11-05** · [Can GPT-6 Astra read and write GPT-2's weights?](https://github.com/AlexBodner/wsp-scaling) (Reading and predicting from weights)
 - **2026-11-05** · [Rethinking Weight-Space Programming](https://github.com/ZhangYiqun018/rethinking-weight-space-programming) (Analyses and Critiques)
@@ -27,7 +28,6 @@
 - **2026-11-05** · [Writing neural-network weights for Geister without training](https://github.com/nishio/geister-weight-space-programming) (Games)
 - **2026-11-05** · [Weight-space programming on a clinical splicing model](https://github.com/KristinaMruts/weight-space-programming-spliceai) (Other Domains)
 - **2026-11-05** · [Admiral: Muse Spark repairs a multi-agent RL policy by editing its weights](https://github.com/faresboudelaa/admiral) (RL control policies)
-- **2026-11-05** · [Quadrotor PPO under actuation delay: LLM weight edits vs a gain sweep](https://github.com/filippos-p/drone-ppo-delay-robustness) (RL control policies)
 
 ## 🧭 Milestones
 
@@ -48,7 +48,7 @@
   - [RL control policies](#rl-control-policies) (7)
 - [🧩 Other Domains](#-other-domains) (4)
 - [🎮 Games](#-games) (5)
-- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (1)
+- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (2)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (8)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (5)
 - [📚 Foundations and Related Fields](#-foundations-and-related-fields) (20)
@@ -214,6 +214,11 @@
 ## 📊 Benchmarks and Evaluations
 
 *Controlled tests of whether weight access helps.*
+
+- **[Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers](https://arxiv.org/abs/2611.05798)**  
+  Sungguk Cha, Mintae Kim, Youngsub Han, Byoung-Ki Jeon, Sangyeob Lee · *Preprint* · 2026-11-04 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.05798)]  
+  Audits visual recognition from shallow ReLU neural-field weights under function-preserving neuron permutations and positive rescalings. Compares supervised and language-model readers, separating recognition accuracy, agreement on transformed weights, and fresh identical-prompt variation; canonicalization alone does not establish recognition.
 
 - **[WSPBench](https://github.com/alexcarterhq/wspbench)**  
   alexcarterhq · *GitHub* · 2026-11-03 · `💻 code / results`  
