@@ -4176,9 +4176,8 @@
     "added": "2026-11-07"
   },
   {
-    "id": "notes-2023-editing-survey",
+    "id": "zjunlp-2023-editing-tutorial",
     "title": "Editing Large Language Models",
-    "authors": "Same group as row 12 (author list not given in notes)",
     "date": "2023",
     "venue": "AACL-IJCNLP 2023 tutorial",
     "category": "surv-editing",
@@ -4188,7 +4187,8 @@
       "paper": "https://aclanthology.org/2023.ijcnlp-tutorials.4.pdf"
     },
     "summary": "Presents a three-hour tutorial on editing large language models, introducing the practice of modifying the behavior and knowledge of an already trained model.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "org": "zjunlp group"
   },
   {
     "id": "pinter-2023-emptying-ocean-survey",
@@ -5090,7 +5090,7 @@
     "citations_source": "S2"
   },
   {
-    "id": "ruker-2022-transparent-ai-survey",
+    "id": "rauker-2022-transparent-ai-survey",
     "title": "Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks",
     "authors": "Tilman Räuker et al.",
     "date": "2022-07",
@@ -5260,7 +5260,7 @@
     "citations_source": "S2"
   },
   {
-    "id": "kstner-2024-explaining-ai-survey",
+    "id": "kastner-2024-explaining-ai-survey",
     "title": "Explaining AI through mechanistic interpretability",
     "authors": "Lena Kästner, Barnaby Crook",
     "date": "2024",
@@ -6153,7 +6153,7 @@
     "citations_source": "S2"
   },
   {
-    "id": "ed-2008-rule-extraction-survey",
+    "id": "diederich-2008-rule-extraction-survey",
     "title": "Rule Extraction from Support Vector Machines",
     "authors": "Joachim Diederich (ed.)",
     "date": "2008",
@@ -7048,7 +7048,7 @@
     "citations_source": "S2"
   },
   {
-    "id": "galvn-2020-neuroevolution-current-survey",
+    "id": "galvan-2020-neuroevolution-current-survey",
     "title": "Neuroevolution in Deep Neural Networks: Current Trends and Future Challenges",
     "authors": "Edgar Galván, Peter Mooney",
     "date": "2020-06",

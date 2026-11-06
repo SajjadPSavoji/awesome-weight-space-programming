@@ -1435,7 +1435,7 @@
   Surveys model editing for LLMs, defining the task and its challenges, empirically comparing leading methods, and introducing a new benchmark dataset to evaluate editing techniques and guide method selection for specific tasks.
 
 - **[Editing Large Language Models](https://aclanthology.org/2023.ijcnlp-tutorials.4.pdf)**  
-  Same group as row 12 (author list not given in notes) · *AACL-IJCNLP 2023 tutorial* · 2023 · `📄 peer-reviewed`  
+  zjunlp group · *AACL-IJCNLP 2023 tutorial* · 2023 · `📄 peer-reviewed`  
   [[Paper](https://aclanthology.org/2023.ijcnlp-tutorials.4.pdf)]  
   Presents a three-hour tutorial on editing large language models, introducing the practice of modifying the behavior and knowledge of an already trained model.
 
