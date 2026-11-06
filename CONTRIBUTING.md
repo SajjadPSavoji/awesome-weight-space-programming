@@ -2,6 +2,23 @@
 
 Thank you for helping keep this list accurate.
 
+## How it works
+
+To contribute, open a pull request and follow the style of the existing entries (fields below; look at a
+few neighbours in your category for summary length and tone). Every pull request is reviewed, and it is
+merged once its relevance is confirmed. We may adjust the wording or the category to keep the list
+consistent; the commit stays yours.
+
+**If you are an author of the work,** say so in the pull request and include the details:
+
+- your affiliation, and the full author list;
+- the status: preprint, under review, or accepted (and at which venue);
+- links to the paper, code, data and models, as available;
+- the headline result with its setting (model, task, baseline), as it appears in the work;
+- in a line, what it adds beyond the entries already listed.
+
+Self-submissions are welcome; the disclosure is what lets reviewers check them quickly.
+
 ## Adding an entry
 
 1. Add one object to [`data/entries.json`](data/entries.json):

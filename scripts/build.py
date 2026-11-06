@@ -170,8 +170,13 @@ def render(meta, cats, entries, mirror: bool = False) -> str:
         *[f"- [{n}]({u})" + (f": {d}" if d else "") for n, u, d in meta.get("related", [])],
         "",
         "## Contributing", "",
-        "Add an object to [`data/entries.json`](data/entries.json), run `python3 scripts/build.py`, and "
-        "open a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the fields and inclusion rules.", "",
+        "Contributions are welcome. To add a work, open a pull request that adds one object to "
+        "[`data/entries.json`](data/entries.json) in the same style as the existing entries, then run "
+        "`python3 scripts/build.py`. Each pull request is reviewed, and it is merged once its relevance "
+        "is confirmed. **If you are an author of the work, say so** in the pull request and include the "
+        "details: affiliation, status (preprint, under review or accepted, and where), links to code and "
+        "data, and the headline result with its setting. See [CONTRIBUTING.md](CONTRIBUTING.md) for the "
+        "fields and inclusion rules.", "",
         "## Citation", "",
         "```bibtex",
         f"@misc{{{meta['canon']},",
