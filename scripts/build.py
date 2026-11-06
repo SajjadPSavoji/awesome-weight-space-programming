@@ -67,7 +67,8 @@ def render_entry(e: dict) -> str:
     stars = (f" ![GitHub stars](https://img.shields.io/github/stars/{e['repo']}?style=social)"
              if e.get("repo") else "")
     who = e.get("org") or e.get("authors") or ""
-    meta = " · ".join(x for x in [who, f"*{e['venue']}*", e["date"], f"`{EVIDENCE[e['evidence']]}`"] if x)
+    cites = f"{cite_count(e['citations'])} citations ({e['citations_source']})" if e.get("citations") else ""
+    meta = " · ".join(x for x in [who, f"*{e['venue']}*", e["date"], f"`{EVIDENCE[e['evidence']]}`", cites] if x)
     return (f"- **[{e['title']}]({primary(e)})**  \n"
             f"  {meta}  \n"
             f"  {links}{stars}  \n"
@@ -76,6 +77,10 @@ def render_entry(e: dict) -> str:
 
 def sort_key(e: dict):
     return e["date"]
+
+
+def cite_count(n: int) -> str:
+    return f"{n / 1000:.1f}k".replace(".0k", "k") if n >= 1000 else str(n)
 
 
 def render(meta, cats, entries, mirror: bool = False) -> str:
@@ -111,7 +116,10 @@ def render(meta, cats, entries, mirror: bool = False) -> str:
         lines += [f"> 📄 **Companion survey:** [{sv['title']}]({sv['url']})"
                   + (f" ({sv['version']})" if sv.get("version") else ""), ""]
     # News
-    recent = [e for e in entries if e.get("added") and date.fromisoformat(e["added"]) >= today - timedelta(days=NEWS_DAYS)]
+    history = {c["id"] for c in cats if c.get("order") == "oldest"}
+    history |= {ch["id"] for c in cats if c["id"] in history for ch in c.get("children", [])}
+    recent = [e for e in entries if e.get("added") and e["category"] not in history
+              and date.fromisoformat(e["added"]) >= today - timedelta(days=NEWS_DAYS)]
     recent.sort(key=lambda e: (e["added"], e["date"]), reverse=True)
     if recent:
         lines += ["## 🔥 Recently Added", ""]
@@ -141,7 +149,8 @@ def render(meta, cats, entries, mirror: bool = False) -> str:
               "- [Related Lists](#related-lists)", "- [Contributing](#contributing)", "- [Citation](#citation)", ""]
     # Sections
     for c in cats:
-        own = sorted(by_cat.get(c["id"], []), key=sort_key, reverse=True)
+        newest = c.get("order") != "oldest"  # history sections read oldest first
+        own = sorted(by_cat.get(c["id"], []), key=sort_key, reverse=newest)
         kids = [ch for ch in c.get("children", []) if by_cat.get(ch["id"])]
         if not own and not kids:
             continue
@@ -152,14 +161,17 @@ def render(meta, cats, entries, mirror: bool = False) -> str:
             lines.append(render_entry(e))
         for ch in kids:
             lines += [f"### {ch['title']}", ""]
-            for e in sorted(by_cat[ch["id"]], key=sort_key, reverse=True):
+            for e in sorted(by_cat[ch["id"]], key=sort_key, reverse=newest):
                 lines.append(render_entry(e))
     # Footer
     lines += [
         "## Legend", "",
         " · ".join(f"`{v}`" for v in EVIDENCE.values()), "",
-        "Entries are newest first within each section. Summaries report the source's own numbers and "
-        "settings. Evidence labels say what kind of source backs an entry, not whether its claims hold.", "",
+        "Entries are newest first within each section, except historical sections, which read oldest first. "
+        "Summaries report the source's own numbers and settings. Evidence labels say what kind of source backs an "
+        "entry, not whether its claims hold. Citation counts, where shown, are from Semantic Scholar (S2) or "
+        "OpenAlex (OA) at the time the entry was added; the two sources are not comparable, so read them as "
+        "orders of magnitude.", "",
         "## How This List Is Maintained", "",
         f"An automated sweep ({meta.get('updated', 'daily')}) checks arXiv, GitHub and the Hugging Face Hub for new "
         f"work. {meta['scope']} On-topic papers are listed whatever their traction; repositories are listed "

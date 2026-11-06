@@ -5,18 +5,42 @@
   "owner": "SajjadPSavoji",
   "canon": "awesome-weight-space-programming",
   "mirror": "awesome-wsp",
-  "intro": "*Weight-space programming* was named in the MIT CSAIL report [Sparks of Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/) (2026-11-02). A general LLM is given another network's weights, sometimes with code and a budget of forward passes, and changes the numbers to explain, repair or build behavior. This list tracks the papers, code, benchmarks and critiques that follow, grouped by the kind of network being programmed. It is rebuilt from [`data/entries.json`](data/entries.json).",
+  "intro": "*Weight-space programming* was named in the MIT CSAIL report [Sparks of Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/) (2026-11-02). A general LLM is given another network's weights, sometimes with code and a budget of forward passes, and changes the numbers to explain, repair or build behavior. This list tracks the papers, code, benchmarks and critiques that follow, grouped by the kind of network being programmed. The [Foundations](#-foundations-weight-programming-before-wsp) section traces the eighty years of earlier work, from McCulloch and Pitts (1943) to 2025, that read, edited or wrote weights under other names. It is rebuilt from [`data/entries.json`](data/entries.json).",
   "scope": "Entries need to do weight-space programming or be direct groundwork for it.",
   "updated": "daily",
   "year": 2026,
   "author": "Pakdamansavoji, Sajjad",
   "related": [
-    ["Awesome Weight Space Learning", "https://github.com/Zehong-Wang/Awesome-Weight-Space-Learning", "learning on and generating weights."],
-    ["Awesome Weight-Space Learning (ege-erdogan)", "https://github.com/ege-erdogan/awesome-weight-space-learning", ""],
-    ["Knowledge Editing Papers", "https://github.com/zjunlp/KnowledgeEditingPapers", "editing facts in LLMs."],
-    ["Awesome LLM Interpretability", "https://github.com/JShollaj/awesome-llm-interpretability", ""],
-    ["Awesome VLA & WAM", "https://github.com/DravenALG/awesome-vla-wam", "robot foundation models."],
-    ["awesome-weight-space-programming (brighterr)", "https://github.com/brighterr/awesome-weight-space-programming", "another list on the same topic."]
+    [
+      "Awesome Weight Space Learning",
+      "https://github.com/Zehong-Wang/Awesome-Weight-Space-Learning",
+      "learning on and generating weights."
+    ],
+    [
+      "Awesome Weight-Space Learning (ege-erdogan)",
+      "https://github.com/ege-erdogan/awesome-weight-space-learning",
+      ""
+    ],
+    [
+      "Knowledge Editing Papers",
+      "https://github.com/zjunlp/KnowledgeEditingPapers",
+      "editing facts in LLMs."
+    ],
+    [
+      "Awesome LLM Interpretability",
+      "https://github.com/JShollaj/awesome-llm-interpretability",
+      ""
+    ],
+    [
+      "Awesome VLA & WAM",
+      "https://github.com/DravenALG/awesome-vla-wam",
+      "robot foundation models."
+    ],
+    [
+      "awesome-weight-space-programming (brighterr)",
+      "https://github.com/brighterr/awesome-weight-space-programming",
+      "another list on the same topic."
+    ]
   ],
   "survey": null
 }

@@ -87,29 +87,70 @@
   },
   {
     "id": "foundations",
-    "title": "Foundations and Related Fields",
-    "emoji": "📚",
-    "blurb": "Earlier work the field builds on.",
+    "title": "Foundations: Weight Programming Before WSP",
+    "emoji": "📜",
+    "order": "oldest",
+    "blurb": "Eighty years of work that read, edited or wrote network weights under other names, oldest first, in fourteen lineages; plus recent related work that does not use a language model as the editor.",
     "children": [
       {
-        "id": "found-editing",
-        "title": "Model editing and weight arithmetic"
-      },
-      {
-        "id": "found-steering",
-        "title": "Activation steering and representation engineering"
-      },
-      {
         "id": "found-compiled",
-        "title": "Compiled and hand-written weights"
+        "title": "Hand-set and compiled weights"
+      },
+      {
+        "id": "found-rules",
+        "title": "Rule insertion and extraction"
+      },
+      {
+        "id": "found-surgery",
+        "title": "Weight surgery and pruning"
+      },
+      {
+        "id": "found-fastweights",
+        "title": "Fast weights and self-modifying networks"
+      },
+      {
+        "id": "found-evo",
+        "title": "Neuroevolution and gradient-free weight search"
+      },
+      {
+        "id": "found-hyper",
+        "title": "Hypernetworks and weight generation"
+      },
+      {
+        "id": "found-editing",
+        "title": "Model editing"
+      },
+      {
+        "id": "found-merging",
+        "title": "Weight arithmetic and merging"
       },
       {
         "id": "found-wsl",
         "title": "Weight-space learning"
       },
       {
+        "id": "found-interp",
+        "title": "Mechanistic interpretability that reads weights"
+      },
+      {
+        "id": "found-steering",
+        "title": "Activation steering"
+      },
+      {
+        "id": "found-autointerp",
+        "title": "Automated interpretability agents"
+      },
+      {
+        "id": "found-lang",
+        "title": "Language-to-weights and LLM program search"
+      },
+      {
+        "id": "found-security",
+        "title": "Weight-level security and safety"
+      },
+      {
         "id": "found-robot",
-        "title": "Steering and adapting robot policies"
+        "title": "Policy surgery, control and robot policies"
       }
     ]
   }

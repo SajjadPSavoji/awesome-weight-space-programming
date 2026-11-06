@@ -11,7 +11,7 @@ REQUIRED = ["id", "title", "date", "venue", "category", "kind", "evidence", "lin
 KINDS = {"paper", "report", "repo", "post", "model", "dataset", "benchmark"}
 EVIDENCE = {"peer", "preprint", "code", "post"}
 LINK_KEYS = {"paper", "post", "thread", "code", "project", "model", "data"}
-DATE = re.compile(r"^\d{4}-\d{2}(-\d{2})?$")
+DATE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 ID = re.compile(r"^[a-z0-9][a-z0-9\-]*$")
 REPO = re.compile(r"^[\w.\-]+/[\w.\-]+$")
 MAX_SUMMARY_WORDS = 90
@@ -47,7 +47,7 @@ def validate(cats: list[dict], entries: list[dict]) -> list[str]:
             errs.append(f"{tag}: duplicate id")
         seen.add(e["id"])
         if not DATE.match(e["date"]) or not DATE.match(e["added"]):
-            errs.append(f"{tag}: dates must be YYYY-MM or YYYY-MM-DD")
+            errs.append(f"{tag}: dates must be YYYY, YYYY-MM or YYYY-MM-DD")
         if e["category"] not in cids:
             errs.append(f"{tag}: unknown category {e['category']}")
         if e["kind"] not in KINDS:
@@ -66,6 +66,9 @@ def validate(cats: list[dict], entries: list[dict]) -> list[str]:
             errs.append(f"{tag}: repo must be owner/name")
         if len(e["summary"].split()) > MAX_SUMMARY_WORDS:
             errs.append(f"{tag}: summary over {MAX_SUMMARY_WORDS} words")
+        if "citations" in e and (not isinstance(e["citations"], int) or e["citations"] < 0
+                                 or e.get("citations_source") not in ("S2", "OA")):
+            errs.append(f"{tag}: citations must be a count with citations_source S2 or OA")
         if "|" in e["title"]:
             errs.append(f"{tag}: title may not contain |")
     return errs

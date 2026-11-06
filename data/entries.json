@@ -278,7 +278,9 @@
     },
     "repo": "kmeng01/rome",
     "summary": "Rank-one edits to a single MLP layer rewrite a stored fact.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 3685,
+    "citations_source": "S2"
   },
   {
     "id": "memit",
@@ -296,7 +298,9 @@
     },
     "repo": "kmeng01/memit",
     "summary": "Extends ROME to thousands of edits at once across several layers.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 1339,
+    "citations_source": "S2"
   },
   {
     "id": "task-arithmetic",
@@ -304,7 +308,7 @@
     "authors": "Gabriel Ilharco et al.",
     "date": "2022-12-08",
     "venue": "ICLR 2023",
-    "category": "found-editing",
+    "category": "found-merging",
     "kind": "paper",
     "evidence": "peer",
     "links": {
@@ -313,7 +317,9 @@
     },
     "repo": "mlfoundations/task_vectors",
     "summary": "Adding and subtracting fine-tuning weight differences (task vectors) steers a model's behavior.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 1391,
+    "citations_source": "S2"
   },
   {
     "id": "actadd",
@@ -368,14 +374,16 @@
     "authors": "Andy Arditi et al.",
     "date": "2024-06-17",
     "venue": "NeurIPS 2024",
-    "category": "found-steering",
+    "category": "found-security",
     "kind": "paper",
     "evidence": "peer",
     "links": {
       "paper": "https://arxiv.org/abs/2406.11717"
     },
     "summary": "Orthogonalizing weights against one direction removes refusal. It is the same kind of edit as the Qwen loop fix.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 1295,
+    "citations_source": "S2"
   },
   {
     "id": "tracr",
@@ -392,7 +400,9 @@
     },
     "repo": "google-deepmind/tracr",
     "summary": "Compiles RASP programs into transformer weights with known structure.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 125,
+    "citations_source": "S2"
   },
   {
     "id": "wsl-survey",
@@ -905,7 +915,9 @@
     },
     "summary": "Steering OpenVLA and π0 through FFN value vectors shifts end-effector motion on LIBERO by 27.7% on average; only the low and slow steers held up on hardware.",
     "added": "2026-11-05",
-    "repo": "vla-mech-interp/mechanistic-steering-vlas"
+    "repo": "vla-mech-interp/mechanistic-steering-vlas",
+    "citations": 55,
+    "citations_source": "S2"
   },
   {
     "id": "weightloop",
@@ -1030,6 +1042,2937 @@
       "paper": "https://arxiv.org/abs/2611.05798"
     },
     "summary": "Tests whether readers recognize what shallow ReLU neural fields encode from their weights (480 shape fields, 1,000 MNIST fields), using hidden-neuron permutations and positive rescalings that leave the function unchanged. Compares statistics, set and language-model readers, with 1,920 scored reasoning-model sessions, and separates accuracy, agreement across transformed copies and disagreement on fresh identical prompts.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "mcculloch-pitts-1943",
+    "title": "A logical calculus of the ideas immanent in nervous activity",
+    "authors": "W.S. McCulloch, W. Pitts",
+    "org": "U. Illinois College of Medicine / U. Chicago",
+    "date": "1943",
+    "venue": "Bulletin of Mathematical Biophysics",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1007/BF02478259"
+    },
+    "summary": "Proves that nets of threshold units with hand-chosen excitatory and inhibitory connections can realise any finite logical expression: the first networks whose weights are programmed by hand.",
+    "citations": 18600,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "kleene-1956",
+    "title": "Representation of events in nerve nets and finite automata",
+    "authors": "S.C. Kleene",
+    "date": "1956",
+    "venue": "Automata Studies, Princeton UP",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1515/9781400882618-002"
+    },
+    "summary": "Proves that nets of threshold units are equivalent to finite automata and introduces regular expressions, the theoretical root of compiling automata into networks.",
+    "citations": 1960,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "hopfield-1982",
+    "title": "Neural networks and physical systems with emergent collective computational abilities",
+    "authors": "J.J. Hopfield",
+    "org": "Caltech / Bell Laboratories",
+    "date": "1982",
+    "venue": "PNAS",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1073/pnas.79.8.2554"
+    },
+    "summary": "Writes the weights of a symmetric recurrent network in one pass with the outer-product rule T_ij = Σ_s (2V_i^s−1)(2V_j^s−1) over the stored patterns, with no training.",
+    "citations": 20500,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "One-pass outer-product weight writing"
+  },
+  {
+    "id": "hopfield-tank-1985",
+    "title": "Neural\" computation of decisions in optimization problems",
+    "authors": "J.J. Hopfield, D.W. Tank",
+    "org": "Caltech / AT&T Bell Laboratories",
+    "date": "1985",
+    "venue": "Biological Cybernetics",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1007/BF00339943"
+    },
+    "summary": "Derives a continuous Hopfield network's weights analytically from an energy function that encodes the Travelling Salesman Problem, with no learning. Moves from storing memories to compiling a task into the network.",
+    "citations": 3440,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "personnaz-1986",
+    "title": "Collective computational properties of neural networks: New learning mechanisms",
+    "authors": "L. Personnaz, I. Guyon, G. Dreyfus",
+    "org": "ESPCI Paris",
+    "date": "1986",
+    "venue": "Physical Review A",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1103/PhysRevA.34.4217"
+    },
+    "summary": "Gives a closed-form pseudo-inverse rule, W = X X⁺, that computes the weights of an associative network directly from the patterns to be stored.",
+    "citations": 325,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "siegelmann-sontag-1995",
+    "title": "On the computational power of neural nets",
+    "authors": "H.T. Siegelmann, E.D. Sontag",
+    "org": "Rutgers University",
+    "date": "1995",
+    "venue": "J. Computer and System Sciences",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1006/jcss.1995.1013"
+    },
+    "summary": "Proves, by explicit weight construction, that a finite recurrent network with rational weights simulates any Turing machine. Appeared at COLT 1992 and in the Journal of Computer and System Sciences in 1995.",
+    "citations": 1140,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "gruau-1995",
+    "title": "A neural compiler",
+    "authors": "F. Gruau, J.-Y. Ratajszczak, G. Wiber",
+    "org": "LIP, ENS Lyon; CEA Grenoble",
+    "date": "1995",
+    "venue": "Theoretical Computer Science",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1016/0304-3975(94)00200-3"
+    },
+    "summary": "Presents a neural compiler that translates programs in a high-level, Pascal-like language into networks whose weights and topology are fully determined by the program.",
+    "citations": 45,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "omlin-giles-1996",
+    "title": "Constructing deterministic finite-state automata in recurrent neural networks",
+    "authors": "C.W. Omlin, C.L. Giles",
+    "org": "NEC Research Institute / RPI",
+    "date": "1996",
+    "venue": "Journal of the ACM",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1145/235809.235811"
+    },
+    "summary": "Gives a provably stable way to program a second-order recurrent network so that it implements any given deterministic finite-state automaton.",
+    "citations": 210,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "rasp-2021",
+    "title": "Thinking Like Transformers",
+    "authors": "Weiss, Goldberg, Yahav",
+    "org": "Technion, Bar-Ilan University / AI2",
+    "date": "2021-06",
+    "venue": "ICML 2021",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2106.06981"
+    },
+    "summary": "Proposes RASP, a programming language whose primitives map transformer-encoder attention and feed-forward computation. Provides RASP programs for histograms, sorting and Dyck-languages, relates task difficulty to required layers and heads, and shows a transformer can be trained to mimic a RASP solution.",
+    "citations": 222,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "von-oswald-2023",
+    "title": "Transformers Learn In-Context by Gradient Descent",
+    "authors": "von Oswald et al.",
+    "org": "ETH Zürich / Google Research",
+    "date": "2022-12",
+    "venue": "ICML 2023",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.07677"
+    },
+    "summary": "Gives a simple weight construction showing a single linear self-attention layer matches gradient descent on a regression loss. Shows empirically that self-attention-only Transformers trained on regression tasks match gradient-descent models or the construction's weights.",
+    "citations": 932,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "giannou-2023",
+    "title": "Looped Transformers as Programmable Computers",
+    "authors": "Giannou et al.",
+    "org": "UW–Madison and others",
+    "date": "2023-01",
+    "venue": "ICML 2023",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2301.13196"
+    },
+    "summary": "Programs transformers with specific weights and places them in a loop, with the input sequence acting as a punchcard. Emulates a small instruction-set computer, mapping iterative algorithms to programs run by a looped, 13-layer transformer.",
+    "citations": 319,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "willshaw-1969",
+    "title": "Non-Holographic Associative Memory",
+    "authors": "D. J. Willshaw, O. P. Buneman, H. C. Longuet-Higgins",
+    "date": "1969",
+    "venue": "Nature",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1038/222960a0"
+    },
+    "summary": "Introduces a clipped outer-product associative memory whose connection matrix is written in one shot from the patterns to be stored, following Hebb's correlation rule.",
+    "citations": 1060,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "kohonen-1972",
+    "title": "Correlation Matrix Memories",
+    "authors": "Teuvo Kohonen",
+    "date": "1972",
+    "venue": "IEEE Transactions on Computers",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1109/TC.1972.5008975"
+    },
+    "summary": "Presents a correlation-matrix memory whose matrix is written in one shot as a sum of outer products of the patterns to be stored.",
+    "citations": 1010,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "transformer-programs",
+    "title": "Learning Transformer Programs",
+    "authors": "Dan Friedman, Alexander Wettig, Danqi Chen",
+    "date": "2023-06",
+    "venue": "NeurIPS 2023",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2306.01128"
+    },
+    "summary": "Trains modified Transformers that are then converted into discrete, human-readable programs, building on RASP. Learns programs for in-context learning, sorting, Dyck languages, named entity recognition and text classification, performing on par with standard Transformers of comparable size.",
+    "citations": 60,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "akyurek-2022",
+    "title": "What learning algorithm is in-context learning? Investigations with linear models",
+    "authors": "Ekin Akyürek et al.",
+    "date": "2022-11",
+    "venue": "ICLR 2023",
+    "category": "found-compiled",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.15661"
+    },
+    "summary": "Proves by construction that transformers can implement gradient descent and closed-form ridge regression for linear models. Shows trained in-context learners match gradient descent, ridge and least-squares predictors, with preliminary evidence of shared algorithmic features in late layers.",
+    "citations": 833,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "gallant-1988",
+    "title": "Connectionist expert systems",
+    "authors": "S.I. Gallant",
+    "org": "Northeastern University",
+    "date": "1988",
+    "venue": "Communications of the ACM",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1145/42372.42377"
+    },
+    "summary": "Builds an expert system on a connectionist network (MACIE) and explains its conclusions by inspecting which weighted inputs determined each unit's output.",
+    "citations": 715,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "saito-nakano-1988",
+    "title": "Medical diagnostic expert system based on PDP model",
+    "authors": "K. Saito, R. Nakano",
+    "org": "NTT",
+    "date": "1988",
+    "venue": "Proc. IEEE ICNN'88",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1109/ICNN.1988.23855"
+    },
+    "summary": "Extracts if-then rules from a backpropagation network trained for medical diagnosis, at NTT. Presents a diagnostic expert system built on a parallel distributed processing model, with rules read from the trained network.",
+    "citations": 250,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "touretzky-hinton-1988",
+    "title": "A distributed connectionist production system",
+    "authors": "D.S. Touretzky, G.E. Hinton",
+    "org": "Carnegie Mellon University",
+    "date": "1988",
+    "venue": "Cognitive Science",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1207/s15516709cog1203_4"
+    },
+    "summary": "Implements rule matching and variable binding in a distributed connectionist production system, a network built to carry out symbolic rules.",
+    "citations": 330,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "garson-1991",
+    "title": "Interpreting neural-network connection weights",
+    "authors": "G.D. Garson",
+    "date": "1991",
+    "venue": "AI Expert",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.5555/129449.129452"
+    },
+    "summary": "Proposes a weight-product measure of each input's importance, computed from the connection weights alone with no data.",
+    "citations": 1480,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "rulenet-1992",
+    "title": "Rule induction through integrated symbolic and subsymbolic processing",
+    "authors": "C. McMillan, M.C. Mozer, P. Smolensky",
+    "org": "U. Colorado Boulder",
+    "date": "1992",
+    "venue": "NIPS 1991",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/1991/hash/cf67355a3333e6e143439161adc2d82e-Abstract.html"
+    },
+    "summary": "Describes RuleNet, which alternates learning with projecting the network's weights onto explicit rules and re-inserting those rules into the network.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "giles-omlin-1993",
+    "title": "Extraction, insertion and refinement of symbolic rules in dynamically driven recurrent neural networks",
+    "authors": "C.L. Giles, C.W. Omlin",
+    "org": "NEC Research Institute / RPI; OpenAlex lists U. Maryland and RPI",
+    "date": "1993",
+    "venue": "Connection Science",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1080/09540099308915703"
+    },
+    "summary": "Inserts known DFA transitions into second-order recurrent networks by programming a subset of weights to large values (±H), trains the network, then extracts refined automata by clustering hidden states, all in one paper.",
+    "citations": 110,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Insert, refine, extract in one paper"
+  },
+  {
+    "id": "towell-shavlik-1993",
+    "title": "Extracting refined rules from knowledge-based neural networks",
+    "authors": "G.G. Towell, J.W. Shavlik",
+    "org": "U. Wisconsin–Madison",
+    "date": "1993",
+    "venue": "Machine Learning",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1007/BF00993103"
+    },
+    "summary": "Extracts rules from trained knowledge-based networks by clustering weights and rewriting each unit as an 'M of these N antecedents' rule. Together with KBANN, it closes the knowledge-to-weights-to-knowledge loop.",
+    "citations": 760,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "kbann",
+    "title": "Knowledge-based artificial neural networks",
+    "authors": "G.G. Towell, J.W. Shavlik",
+    "org": "U. Wisconsin–Madison",
+    "date": "1994",
+    "venue": "Artificial Intelligence",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1016/0004-3702(94)90105-8"
+    },
+    "summary": "Turns each propositional Horn clause into a unit whose weights (±ω) and bias are set analytically, adds low-weight links, then refines the network by backpropagation: a compiler from knowledge to weights.",
+    "citations": 900,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Rules compiled into network weights"
+  },
+  {
+    "id": "fu-1994",
+    "title": "Rule generation from neural networks",
+    "authors": "L. Fu",
+    "org": "University of Florida",
+    "date": "1994",
+    "venue": "IEEE Trans. Systems, Man, and Cybernetics",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1109/21.299696"
+    },
+    "summary": "Introduces the KT algorithm, which generates rules from a trained neural network by searching subsets of each unit's incoming weights.",
+    "citations": 410,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "andrews-1995",
+    "title": "Survey and critique of techniques for extracting rules from trained artificial neural networks",
+    "authors": "R. Andrews, J. Diederich, A.B. Tickle",
+    "org": "Queensland University of Technology",
+    "date": "1995",
+    "venue": "Knowledge-Based Systems",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1016/0950-7051(96)81920-4"
+    },
+    "summary": "Surveys techniques for extracting rules from trained networks and fixes the decompositional versus pedagogical taxonomy: read individual weights and units, or treat the network as a black box.",
+    "citations": 1380,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "trepan",
+    "title": "Extracting tree-structured representations of trained networks",
+    "authors": "M.W. Craven, J.W. Shavlik",
+    "org": "U. Wisconsin–Madison",
+    "date": "1996",
+    "venue": "NIPS 1995",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html"
+    },
+    "summary": "Extracts tree-structured representations (TREPAN) from trained networks by querying the network as an oracle rather than reading its weights.",
+    "citations": 600,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "tickle-1998",
+    "title": "The truth will come to light: directions and challenges in extracting the knowledge embedded within trained artificial neural networks",
+    "authors": "A.B. Tickle, R. Andrews, M. Golea, J. Diederich",
+    "org": "QUT / ANU",
+    "date": "1998",
+    "venue": "IEEE Trans. Neural Networks",
+    "category": "found-rules",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1109/72.728352"
+    },
+    "summary": "Reviews directions and open challenges in extracting the knowledge embedded in trained neural networks, following the decompositional and pedagogical split.",
+    "citations": 470,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "skeletonization-1989",
+    "title": "Skeletonization: A technique for trimming the fat from a network via relevance assessment",
+    "authors": "M.C. Mozer, P. Smolensky",
+    "org": "U. Colorado Boulder",
+    "date": "1989",
+    "venue": "NIPS 1988",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/1988/hash/07e1cd7dca89a1678042477183b7ac3f-Abstract.html"
+    },
+    "summary": "Introduces skeletonization, which assesses the relevance of units in a trained network and deletes the least relevant ones. The aim is a minimal network that is more interpretable.",
+    "citations": 540,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "optimal-brain-damage",
+    "title": "Optimal brain damage",
+    "authors": "Y. LeCun, J.S. Denker, S.A. Solla",
+    "org": "AT&T Bell Laboratories",
+    "date": "1990",
+    "venue": "NIPS 1989",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/1989/hash/6c9882bbac1c7093bd25041881277658-Abstract.html"
+    },
+    "summary": "Ranks weights by a saliency computed from a diagonal approximation of the Hessian and deletes the lowest-ranked ones. Bell Labs authors present it as a way to prune trained networks.",
+    "citations": 3210,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "karnin-1990",
+    "title": "A simple procedure for pruning back-propagation trained neural networks",
+    "authors": "E.D. Karnin",
+    "org": "IBM Haifa Research",
+    "date": "1990",
+    "venue": "IEEE Trans. Neural Networks",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1109/72.80236"
+    },
+    "summary": "Proposes a simple procedure for pruning back-propagation trained networks by estimating the sensitivity of the error to each weight and removing low-sensitivity weights.",
+    "citations": 750,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "sietsma-dow-1991",
+    "title": "Creating artificial neural networks that generalize",
+    "authors": "J. Sietsma, R.J.F. Dow",
+    "org": "Defence Science and Technology Organisation",
+    "date": "1991",
+    "venue": "Neural Networks",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1016/0893-6080(91)90033-2"
+    },
+    "summary": "Studies how to build networks that generalize, pruning hidden units whose outputs are constant or duplicate other units.",
+    "citations": 690,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "optimal-brain-surgeon",
+    "title": "Second order derivatives for network pruning: Optimal Brain Surgeon",
+    "authors": "B. Hassibi, D.G. Stork",
+    "org": "Stanford University / Ricoh California Research Center",
+    "date": "1993",
+    "venue": "NIPS 1992",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/1992/hash/303ed4c69846ab36c2904d3ba8573050-Abstract.html"
+    },
+    "summary": "Uses the full inverse Hessian to choose which weight to delete and to compute a closed-form update for all remaining weights. The update is commonly written δw = −(w_q/[H⁻¹]_qq) H⁻¹ e_q.",
+    "citations": 1500,
+    "citations_source": "OA",
+    "added": "2026-11-06",
+    "history_milestone": "Closed-form weight edit"
+  },
+  {
+    "id": "reed-1993",
+    "title": "Pruning algorithms — a survey",
+    "authors": "R. Reed",
+    "org": "University of Washington",
+    "date": "1993",
+    "venue": "IEEE Trans. Neural Networks",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1109/72.248452"
+    },
+    "summary": "Surveys pruning algorithms for neural networks, from sensitivity-based weight removal to penalty terms, consolidating the field as of 1993.",
+    "citations": 1880,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "net2net",
+    "title": "Net2Net: Accelerating Learning via Knowledge Transfer",
+    "authors": "Tianqi Chen, Ian Goodfellow, Jonathon Shlens",
+    "org": "Google",
+    "date": "2015-11",
+    "venue": "ICLR 2016",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1511.05641"
+    },
+    "summary": "Transfers the information in a trained network into a wider or deeper network through function-preserving transformations, so the new network starts with the same function. Reports a new state-of-the-art ImageNet accuracy after adding depth to Inception modules.",
+    "citations": 825,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "network-morphism",
+    "title": "Network Morphism",
+    "authors": "Tao Wei, Changhu Wang, Yong Rui, Chang Wen Chen",
+    "org": "Microsoft Research Asia + SUNY Buffalo",
+    "date": "2016-03",
+    "venue": "ICML 2016",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1603.01670"
+    },
+    "summary": "Studies how to morph a trained network into a new one that completely preserves its function. Introduces network morphism equations and algorithms for changes of depth, width, kernel size and subnet, plus parametric activations for non-linearities.",
+    "citations": 207,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "michel-2019",
+    "title": "Are Sixteen Heads Really Better than One?",
+    "authors": "Paul Michel, Omer Levy, Graham Neubig",
+    "org": "CMU + Facebook AI Research",
+    "date": "2019-05",
+    "venue": "NeurIPS 2019",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1905.10650"
+    },
+    "summary": "Observes that a large percentage of attention heads can be removed at test time without significantly impacting performance, and some layers can be reduced to a single head. Also examines greedy pruning algorithms.",
+    "citations": 450,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "obc-2022",
+    "title": "Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning",
+    "authors": "Elias Frantar, Dan Alistarh",
+    "org": "IST Austria",
+    "date": "2022-08",
+    "venue": "NeurIPS 2022",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2208.11580"
+    },
+    "summary": "Introduces a framework covering weight pruning and quantization in the one-shot, post-training setting. It is built on an exact and efficient realization of the Optimal Brain Surgeon framework, extended to quantization.",
+    "citations": 85,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "sparsegpt",
+    "title": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+    "authors": "Elias Frantar, Dan Alistarh",
+    "org": "IST Austria",
+    "date": "2023-01",
+    "venue": "ICML 2023",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2301.00774"
+    },
+    "summary": "Prunes GPT-family models in one shot without retraining. Runs on OPT-175B and BLOOM-176B in under 4.5 hours, reaching 60% unstructured sparsity with negligible perplexity increase, ignoring more than 100 billion weights.",
+    "citations": 204,
+    "citations_source": "OA",
+    "added": "2026-11-06",
+    "history_milestone": "OBS-style editing at 175B scale"
+  },
+  {
+    "id": "wanda",
+    "title": "A Simple and Effective Pruning Approach for Large Language Models (Wanda)",
+    "authors": "Mingjie Sun, Zhuang Liu, Anna Bair, J. Zico Kolter",
+    "org": "CMU, Meta AI, Bosch Center for AI",
+    "date": "2023-06",
+    "venue": "ICLR 2024",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2306.11695"
+    },
+    "summary": "Prunes pretrained LLMs by weight magnitude multiplied by input activation on a per-output basis. Requires no retraining or weight update, and is evaluated on LLaMA and LLaMA-2 against magnitude pruning.",
+    "citations": 302,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "lottery-ticket",
+    "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+    "authors": "Jonathan Frankle, Michael Carbin",
+    "date": "2018-03",
+    "venue": "ICLR 2019",
+    "category": "found-surgery",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1803.03635"
+    },
+    "summary": "Proposes that dense, randomly initialized networks contain subnetworks that reach comparable test accuracy when trained in isolation. Finds winning tickets under 10-20% of the size of fully-connected and convolutional networks on MNIST and CIFAR10.",
+    "citations": 1971,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "von-der-malsburg-1981",
+    "title": "The correlation theory of brain function",
+    "authors": "C. von der Malsburg",
+    "date": "1981",
+    "venue": "Internal report, MPI Göttingen (reprinted 1994)",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1007/978-1-4612-4320-5_2"
+    },
+    "summary": "Introduces dynamic links: synapses that change on a fast timescale to bind features temporarily, the earliest form of fast weights.",
+    "citations": 1440,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "schmidhuber-1992-fwp",
+    "title": "Learning to control fast-weight memories: An alternative to dynamic recurrent networks",
+    "authors": "J. Schmidhuber",
+    "date": "1992",
+    "venue": "Neural Computation",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1162/neco.1992.4.1.131"
+    },
+    "summary": "Describes a slow network that learns to output context-dependent weight changes for a second, fast network, so one net programs another net's weights on the fly. Offered as an alternative to dynamic recurrent networks.",
+    "citations": 640,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Net programs another net's weights"
+  },
+  {
+    "id": "schmidhuber-1993-srwm",
+    "title": "A 'self-referential' weight matrix",
+    "authors": "J. Schmidhuber",
+    "date": "1993",
+    "venue": "Proc. ICANN '93, Springer",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1007/978-1-4471-2063-6_107"
+    },
+    "summary": "Adds special units that let a network address, read and modify any of its own weights, including the weights of the modification machinery itself, defining a self-referential weight matrix.",
+    "citations": 117,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "goedel-machine",
+    "title": "Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+    "authors": "Jürgen Schmidhuber",
+    "date": "2003-09",
+    "venue": "Preprint",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/cs/0309048"
+    },
+    "summary": "Presents self-referential problem solvers that rewrite any part of their own code once a proof searcher finds a proof the rewrite is useful. Shows such a self-rewrite is globally optimal, with no local maxima.",
+    "citations": 120,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "ba-fast-weights-2016",
+    "title": "Using Fast Weights to Attend to the Recent Past",
+    "authors": "Jimmy Ba et al.",
+    "date": "2016-10",
+    "venue": "NeurIPS 2016",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1610.06258"
+    },
+    "summary": "Adds fast weights, variables that change slower than activities but faster than standard weights, as temporary memory of the recent past. Provides a neurally plausible form of attention to the past without storing copies of neural activity patterns.",
+    "citations": 386,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "neural-network-quine",
+    "title": "Neural Network Quine",
+    "authors": "Oscar Chang, Hod Lipson",
+    "date": "2018-03",
+    "venue": "IEEE ALIFE 2018",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1803.05859"
+    },
+    "summary": "Builds self-replicating neural networks that replicate by learning to output their own weights, trained with a loss function and a regeneration method. Also adds an MNIST classification task, observing a trade-off between classification and replication.",
+    "citations": 28,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "schlag-2021",
+    "title": "Linear Transformers Are Secretly Fast Weight Programmers",
+    "authors": "Imanol Schlag, Kazuki Irie, Jürgen Schmidhuber",
+    "date": "2021-02",
+    "venue": "ICML 2021",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2102.11174"
+    },
+    "summary": "Shows the formal equivalence of linearised self-attention and early-1990s fast weight controllers, where a slow net programs another net's fast weights through additive outer products. Replaces additive updates with a delta-rule-like instruction and tests on retrieval, translation and language modelling.",
+    "citations": 651,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Linear transformers equal fast weight programmers"
+  },
+  {
+    "id": "irie-srwm-2022",
+    "title": "A Modern Self-Referential Weight Matrix That Learns to Modify Itself",
+    "authors": "Kazuki Irie, Imanol Schlag, Róbert Csordás, Jürgen Schmidhuber",
+    "date": "2022-02",
+    "venue": "ICML 2022",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2202.05780"
+    },
+    "summary": "Proposes a scalable self-referential weight matrix that uses outer products and the delta update rule to modify itself during runtime. Evaluates it on supervised few-shot learning and multi-task reinforcement learning with procedurally generated game environments.",
+    "citations": 52,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "kirsch-2022",
+    "title": "Eliminating Meta Optimization Through Self-Referential Meta Learning",
+    "authors": "Louis Kirsch, Jürgen Schmidhuber",
+    "date": "2022-12",
+    "venue": "Preprint",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.14392"
+    },
+    "summary": "Investigates self-referential meta learning systems that modify themselves without explicit meta optimization. Proposes fitness monotonic execution, in which a network self-modifies on bandit and classic control tasks by receiving more computational resources when it performs better.",
+    "citations": 14,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "ttt-layers",
+    "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+    "authors": "Yu Sun et al.",
+    "date": "2024-07",
+    "venue": "ICML 2025",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.04620"
+    },
+    "summary": "Makes the hidden state of a sequence layer a machine learning model, updated by a step of self-supervised learning even on test sequences. Evaluates TTT-Linear and TTT-MLP at 125M to 1.3B parameters against Transformer and Mamba.",
+    "citations": 441,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "titans",
+    "title": "Titans: Learning to Memorize at Test Time",
+    "authors": "Ali Behrouz, Peilin Zhong, Vahab Mirrokni",
+    "date": "2024-12",
+    "venue": "Preprint",
+    "category": "found-fastweights",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.00663"
+    },
+    "summary": "Introduces a neural long-term memory module that learns to memorize historical context at test time, combined with attention in a family of three architecture variants. Reports scaling to context windows larger than 2M.",
+    "citations": 422,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "montana-davis-1989",
+    "title": "Training feedforward neural networks using genetic algorithms",
+    "authors": "D.J. Montana, L. Davis",
+    "date": "1989",
+    "venue": "Proc. 11th IJCAI",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://ijcai.org/proceedings/1989/122"
+    },
+    "summary": "Applies a genetic algorithm directly to weight space, evolving real-valued weight genomes for a feedforward sonar classifier. It is one of the first uses of genetic algorithms to set network weights in 1989.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "genitor",
+    "title": "Genetic algorithms and neural networks: optimizing connections and connectivity",
+    "authors": "D. Whitley, T. Starkweather, C. Bogart",
+    "date": "1990",
+    "venue": "Parallel Computing",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1016/0167-8191(90)90086-O"
+    },
+    "summary": "Uses the GENITOR genetic algorithm to optimize a network's weights and its connectivity together, treating both as a single search problem rather than training weights by gradient descent on a fixed topology.",
+    "citations": 810,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "kitano-1990",
+    "title": "Designing neural networks using genetic algorithms with graph generation system",
+    "authors": "H. Kitano",
+    "org": "Center for Machine Translation, CMU, and NEC Corporation, Tokyo",
+    "date": "1990",
+    "venue": "Complex Systems",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://www.complex-systems.com/abstracts/v04_i04_a06/"
+    },
+    "summary": "Evolves graph-grammar rules with a genetic algorithm, and the rules emit the network's connectivity matrix. The search runs over programs that generate networks instead of over the networks themselves.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "cellular-encoding",
+    "title": "Automatic definition of modular neural networks",
+    "authors": "F. Gruau",
+    "org": "ENS Lyon",
+    "date": "1994",
+    "venue": "Adaptive Behavior",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1177/105971239400300202"
+    },
+    "summary": "Presents cellular encoding, which a thesis record calls a machine language for neural networks. It comes with a compiler from a high-level language, so evolution and explicit compilation share one representation.",
+    "citations": 320,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Evolution meets explicit compilation"
+  },
+  {
+    "id": "yao-1999",
+    "title": "Evolving artificial neural networks",
+    "authors": "X. Yao",
+    "date": "1999",
+    "venue": "Proceedings of the IEEE",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1109/5.784219"
+    },
+    "summary": "Reviews the field of evolving neural networks and gives a taxonomy that separates direct encodings from indirect encodings. It is published in Proceedings of the IEEE in 1999.",
+    "citations": 2220,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "neat",
+    "title": "Evolving neural networks through augmenting topologies",
+    "authors": "K.O. Stanley, R. Miikkulainen",
+    "org": "University of Texas at Austin",
+    "date": "2002",
+    "venue": "Evolutionary Computation",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1162/106365602320169811"
+    },
+    "summary": "Introduces NEAT, a method that evolves connection weights and network topology together. It links the early neuroevolution work to the modern era.",
+    "citations": 3780,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "cppn-2007",
+    "title": "Compositional pattern producing networks: A novel abstraction of development",
+    "authors": "Kenneth O. Stanley",
+    "org": "UCF",
+    "date": "2007",
+    "venue": "Genetic Programming and Evolvable Machines",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1007/s10710-007-9028-8"
+    },
+    "summary": "Introduces compositional pattern producing networks, small evolved networks that generate patterns; HyperNEAT later uses them to paint the weights of large, geometrically regular networks.",
+    "citations": 853,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "hyperneat",
+    "title": "A Hypercube-Based Encoding for Evolving Large-Scale Neural Networks",
+    "authors": "Kenneth O. Stanley, David B. D'Ambrosio, Jason Gauci",
+    "org": "Univ. of Central Florida",
+    "date": "2009",
+    "venue": "Artificial Life",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1162/artl.2009.15.2.15202"
+    },
+    "summary": "Introduces HyperNEAT, a hypercube-based indirect encoding in which a small evolved network generates the weights of a large, geometrically regular network, used to evolve large-scale neural networks.",
+    "citations": 894,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "compressed-network-search",
+    "title": "Evolving large-scale neural networks for vision-based reinforcement learning",
+    "authors": "Jan Koutník, Giuseppe Cuccu, Jürgen Schmidhuber, Faustino Gomez",
+    "org": "IDSIA",
+    "date": "2013",
+    "venue": "GECCO 2013",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1145/2463372.2463509"
+    },
+    "summary": "Encodes a network of over 1M weights as a few DCT coefficients and evolves those coefficients. The resulting network learns to drive in the TORCS simulator directly from pixels.",
+    "citations": 173,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "openai-es",
+    "title": "Evolution Strategies as a Scalable Alternative to Reinforcement Learning",
+    "authors": "Tim Salimans et al.",
+    "org": "OpenAI",
+    "date": "2017-03",
+    "venue": "Preprint",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/1703.03864"
+    },
+    "summary": "Tests Evolution Strategies, a black-box optimizer, as an alternative to MDP-based RL on MuJoCo and Atari. Communicating only scalars lets it scale to over a thousand workers, solving 3D humanoid walking in 10 minutes.",
+    "citations": 1892,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Backprop-free RL at scale"
+  },
+  {
+    "id": "deep-ga",
+    "title": "Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning",
+    "authors": "Felipe Petroski Such et al.",
+    "org": "Uber AI Labs",
+    "date": "2017-12",
+    "venue": "Preprint",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/1712.06567"
+    },
+    "summary": "Evolves DNN weights with a simple gradient-free genetic algorithm that performs well on Atari and humanoid locomotion. It evolves networks with over four million free parameters, the largest evolved with a traditional evolutionary algorithm.",
+    "citations": 785,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "es-llm-2025",
+    "title": "Evolution Strategies at Scale: LLM Fine-Tuning Beyond Reinforcement Learning",
+    "authors": "Xin Qiu et al.",
+    "date": "2025-09",
+    "venue": "Preprint",
+    "category": "found-evo",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.24372"
+    },
+    "summary": "Applies evolution strategies to full-parameter fine-tuning of LLMs at the billion-parameter scale, without dimensionality reduction. The paper reports that it outperforms established RL implementations on several axes, including tolerance to delayed rewards and stability.",
+    "citations": 44,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "denil-2013",
+    "title": "Predicting Parameters in Deep Learning",
+    "authors": "Misha Denil et al.",
+    "date": "2013-06",
+    "venue": "NeurIPS 2013",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1306.0543"
+    },
+    "summary": "Shows that a small set of weight values per feature can predict the remaining weights of several deep learning architectures. In the best case, more than 95% of a network's weights are predicted without any drop in accuracy.",
+    "citations": 1500,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "hypernetworks",
+    "title": "HyperNetworks",
+    "authors": "David Ha, Andrew M. Dai, Quoc V. Le",
+    "date": "2016-09",
+    "venue": "ICLR 2017",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1609.09106"
+    },
+    "summary": "Introduces hypernetworks, where one network generates the weights of another, trained end-to-end with backpropagation. Generates non-shared LSTM weights with near state-of-the-art sequence modelling results, and gives respectable image recognition results with fewer learnable parameters.",
+    "citations": 2126,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Named the weight-generating network"
+  },
+  {
+    "id": "dynamic-filter-networks",
+    "title": "Dynamic Filter Networks",
+    "authors": "Bert De Brabandere, Xu Jia, Tinne Tuytelaars, Luc Van Gool",
+    "date": "2016-05",
+    "venue": "NeurIPS 2016",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1605.09673"
+    },
+    "summary": "Introduces a layer whose convolution filters are generated dynamically from the input rather than fixed after training. Reaches state-of-the-art on moving MNIST with a much smaller model, and demonstrates video and stereo prediction.",
+    "citations": 1128,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "l2l-2016",
+    "title": "Learning to learn by gradient descent by gradient descent",
+    "authors": "Marcin Andrychowicz et al.",
+    "date": "2016-06",
+    "venue": "NeurIPS 2016",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1606.04474"
+    },
+    "summary": "Casts the design of an optimization algorithm as a learning problem, implementing learned optimizers with LSTMs. They outperform hand-designed competitors on trained tasks and generalize to new tasks with similar structure, including neural network training and neural art.",
+    "citations": 2333,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "smash",
+    "title": "SMASH: One-Shot Model Architecture Search through HyperNetworks",
+    "authors": "Andrew Brock, Theodore Lim, J. M. Ritchie, Nick Weston",
+    "date": "2017-08",
+    "venue": "ICLR 2018",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1708.05344"
+    },
+    "summary": "Trains an auxiliary HyperNet that generates the weights of a main model conditioned on its architecture. Validation performance of networks with generated weights ranks architectures at the cost of one training run, tested on CIFAR-10, CIFAR-100, STL-10, ModelNet10 and Imagenet32x32.",
+    "citations": 855,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "leo",
+    "title": "Meta-Learning with Latent Embedding Optimization",
+    "authors": "Andrei A. Rusu et al.",
+    "date": "2018-07",
+    "venue": "ICLR 2019",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1807.05960"
+    },
+    "summary": "Learns a data-dependent latent generative representation of model parameters and performs gradient-based meta-learning in that low-dimensional latent space. Reports state-of-the-art few-shot classification on miniImageNet and tieredImageNet.",
+    "citations": 1578,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "graph-hypernetworks",
+    "title": "Graph HyperNetworks for Neural Architecture Search",
+    "authors": "Chris Zhang, Mengye Ren, Raquel Urtasun",
+    "date": "2018-10",
+    "venue": "ICLR 2019",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1810.05749"
+    },
+    "summary": "Proposes a graph neural network hypernetwork that generates weights for a given architecture by inference over its topology. Random architectures scored with generated weights let search run nearly 10 times faster than other random search methods on CIFAR-10 and ImageNet.",
+    "citations": 307,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "ghn-2",
+    "title": "Parameter Prediction for Unseen Deep Architectures",
+    "authors": "Boris Knyazev, Michal Drozdzal, Graham W. Taylor, Adriana Romero-Soriano",
+    "date": "2021-10",
+    "venue": "NeurIPS 2021",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2110.13100"
+    },
+    "summary": "Introduces the DeepNets-1M dataset of architecture graphs and a graph hypernetwork that predicts parameters in one forward pass. It predicts all 24 million parameters of a ResNet-50, reaching 60% accuracy on CIFAR-10.",
+    "citations": 114,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Zero-shot weights for unseen networks"
+  },
+  {
+    "id": "hypertransformer",
+    "title": "HyperTransformer: Model Generation for Supervised and Semi-Supervised Few-Shot Learning",
+    "authors": "Andrey Zhmoginov, Mark Sandler, Max Vladymyrov",
+    "date": "2022-01",
+    "venue": "ICML 2022",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2201.04182"
+    },
+    "summary": "Uses a Transformer to generate the weights of a convolutional network directly from support samples for few-shot learning. For larger target models, generating only the last layer gives results competitive with or better than state-of-the-art methods.",
+    "citations": 87,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "gpt-checkpoints",
+    "title": "Learning to Learn with Generative Models of Neural Network Checkpoints",
+    "authors": "William Peebles et al.",
+    "date": "2022-09",
+    "venue": "Preprint",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2209.12892"
+    },
+    "summary": "Trains a conditional diffusion transformer on a dataset of network checkpoints. Given initial parameters and a prompted loss, error or return, it predicts parameter updates achieving that metric, optimizing unseen parameters in one update.",
+    "citations": 109,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "velo",
+    "title": "VeLO: Training Versatile Learned Optimizers by Scaling Up",
+    "authors": "Luke Metz et al.",
+    "date": "2022-11",
+    "venue": "Preprint",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.09760"
+    },
+    "summary": "Trains a small neural network optimizer that ingests gradients and outputs parameter updates, meta-trained with approximately four thousand TPU-months of compute. It needs no hyperparameter tuning; code, data and a benchmark suite are open-sourced.",
+    "citations": 90,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "p-diff",
+    "title": "Neural Network Diffusion",
+    "authors": "Kai Wang et al.",
+    "date": "2024-02",
+    "venue": "Preprint",
+    "category": "found-hyper",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.13144"
+    },
+    "summary": "Trains an autoencoder on a subset of trained network parameters, then a diffusion model on its latents, to synthesize new parameters. Generated models match or improve on trained networks across architectures and datasets, without memorizing them.",
+    "citations": 65,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "editable-training",
+    "title": "Editable Neural Networks",
+    "authors": "Anton Sinitsin et al.",
+    "org": "Yandex + HSE University",
+    "date": "2020-04",
+    "venue": "ICLR 2020",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2004.00345"
+    },
+    "summary": "Introduces Editable Training, a model-agnostic training technique that encourages fast editing of a trained model, patching a mistake on one sample without changing behavior on other samples. Tests it on large-scale image classification and machine translation.",
+    "citations": 232,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "bau-2020",
+    "title": "Rewriting a Deep Generative Model",
+    "authors": "David Bau et al.",
+    "org": "MIT CSAIL + Adobe Research",
+    "date": "2020-07",
+    "venue": "ECCV 2020",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2007.15646"
+    },
+    "summary": "Treats a layer of a deep generative model as a linear associative memory and derives an algorithm to modify one entry, changing a rule. Includes an interactive interface and outperforms fine-tuning and edit-transfer baselines on multiple datasets.",
+    "citations": 165,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Rank-one edit of a layer"
+  },
+  {
+    "id": "knowledgeeditor",
+    "title": "Editing Factual Knowledge in Language Models",
+    "authors": "Nicola De Cao, Wilker Aziz, Ivan Titov",
+    "org": "University of Amsterdam",
+    "date": "2021-04",
+    "venue": "EMNLP 2021",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2104.08164"
+    },
+    "summary": "Trains a hyper-network with constrained optimization to predict the weight update that changes one fact without affecting other knowledge. Tests it on a BERT fact-checking model and a BART question-answering model, with paraphrases changing consistently.",
+    "citations": 232,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "santurkar-2021",
+    "title": "Editing a classifier by rewriting its prediction rules",
+    "authors": "Shibani Santurkar et al.",
+    "org": "MIT",
+    "date": "2021-12",
+    "venue": "NeurIPS 2021",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2112.01008"
+    },
+    "summary": "Presents a methodology for modifying a classifier's behavior by directly rewriting its prediction rules. Requires virtually no additional data collection and applies to adapting a model to new environments and ignoring spurious features.",
+    "citations": 105,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "mend",
+    "title": "Fast Model Editing at Scale",
+    "authors": "Eric Mitchell et al.",
+    "org": "Stanford",
+    "date": "2021-10",
+    "venue": "ICLR 2022",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2110.11309"
+    },
+    "summary": "Introduces MEND, small auxiliary editing networks that transform the fine-tuning gradient with a low-rank decomposition to make fast, local edits from one input-output pair. Trains on a single GPU in under a day for models of 10 billion+ parameters.",
+    "citations": 195,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "knowledge-neurons",
+    "title": "Knowledge Neurons in Pretrained Transformers",
+    "authors": "Damai Dai et al.",
+    "org": "Peking University + Microsoft Research",
+    "date": "2021-04",
+    "venue": "ACL 2022",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2104.08696"
+    },
+    "summary": "Introduces a knowledge attribution method that identifies neurons expressing a relational fact in BERT on cloze tasks. Finds their activation correlates positively with the fact's expression, and case studies update and erase facts without fine-tuning.",
+    "citations": 804,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "serac",
+    "title": "Memory-Based Model Editing at Scale",
+    "authors": "Eric Mitchell et al.",
+    "org": "Stanford",
+    "date": "2022-06",
+    "venue": "ICML 2022",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2206.06520"
+    },
+    "summary": "Introduces SERAC, which stores edits in an explicit memory and learns to reason over them to modulate the base model's predictions. Adds three editing problems on question answering, fact-checking and dialogue; only SERAC performs well on all three.",
+    "citations": 64,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "hase-2023",
+    "title": "Does Localization Inform Editing? Surprising Differences in Causality-Based Localization vs. Knowledge Editing in Language Models",
+    "authors": "Peter Hase, Mohit Bansal, Been Kim, Asma Ghandeharioun",
+    "org": "Google Research + UNC Chapel Hill",
+    "date": "2023-01",
+    "venue": "NeurIPS 2023",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2301.04213"
+    },
+    "summary": "Shows that causal-tracing localization conclusions do not indicate which MLP layer is best to edit to override a stored fact. Also studies erasing and amplifying facts, where the edited layer predicts performance better than localization does.",
+    "citations": 44,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "uce",
+    "title": "Unified Concept Editing in Diffusion Models",
+    "authors": "Rohit Gandikota et al.",
+    "org": "Northeastern/MIT/Technion",
+    "date": "2023-08",
+    "venue": "WACV 2024",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2308.14761"
+    },
+    "summary": "Presents UCE, which edits text-to-image diffusion models without training, using a closed-form solution on text-conditional projections. Demonstrates simultaneous debiasing, style erasure and content moderation, with improved efficacy and scalability over prior work.",
+    "citations": 499,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "alphaedit",
+    "title": "AlphaEdit: Null-Space Constrained Knowledge Editing for Language Models",
+    "authors": "Junfeng Fang et al.",
+    "org": "USTC + National University of Singapore",
+    "date": "2024-10",
+    "venue": "ICLR 2025",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.02355"
+    },
+    "summary": "Projects the perturbation of locate-then-edit methods onto the null space of preserved knowledge before applying it to parameters. Boosts most such methods by an average of 36.7% on LLaMA3, GPT2-XL and GPT-J with one added line of code.",
+    "citations": 52,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "gan-dissection",
+    "title": "GAN Dissection: Visualizing and Understanding Generative Adversarial Networks",
+    "authors": "David Bau et al.",
+    "date": "2018-11",
+    "venue": "ICLR 2019",
+    "category": "found-editing",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1811.10597"
+    },
+    "summary": "Presents a framework to visualize GANs at unit, object and scene level, identifying interpretable units tied to object concepts and measuring their causal effect through interventions. Locating and removing artifact-causing units improves GAN outputs.",
+    "citations": 525,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "swa-2018",
+    "title": "Averaging Weights Leads to Wider Optima and Better Generalization",
+    "authors": "Izmailov et al.",
+    "date": "2018-03",
+    "venue": "UAI 2018",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1803.05407"
+    },
+    "summary": "Averages multiple points along the SGD trajectory with a cyclical or constant learning rate. Finds flatter solutions than SGD and approximates Fast Geometric Ensembling with one model. Improves test accuracy on CIFAR-10, CIFAR-100 and ImageNet across several architectures.",
+    "citations": 2266,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "garipov-2018",
+    "title": "Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs",
+    "authors": "Garipov et al.",
+    "date": "2018-02",
+    "venue": "NeurIPS 2018",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1802.10026"
+    },
+    "summary": "Shows that optima of deep network loss functions are connected by simple curves along which training and test accuracy stay nearly constant. Introduces a procedure to find them, and Fast Geometric Ensembling, which trains ensembles in the time of one model.",
+    "citations": 1027,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "frankle-lmc-2019",
+    "title": "Linear Mode Connectivity and the Lottery Ticket Hypothesis",
+    "authors": "Frankle, Dziugaite, Roy, Carbin",
+    "date": "2019-12",
+    "venue": "ICML 2020",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1912.05671"
+    },
+    "summary": "Studies whether networks reach the same linearly connected minimum under different SGD noise. Finds vision models become stable early in training, and shows lottery-ticket subnetworks reach full accuracy only when stable: at initialization on MNIST, early in training on ImageNet.",
+    "citations": 881,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "wise-ft",
+    "title": "Robust fine-tuning of zero-shot models",
+    "authors": "Wortsman et al.",
+    "date": "2021-09",
+    "venue": "CVPR 2022",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2109.01903"
+    },
+    "summary": "Introduces WiSE-FT, which ensembles the weights of zero-shot and fine-tuned models such as CLIP. On ImageNet and five derived distribution shifts it improves shifted accuracy by 4 to 6 pp over prior work and ImageNet accuracy by 1.6 pp.",
+    "citations": 1109,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "model-soups",
+    "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+    "authors": "Wortsman et al.",
+    "date": "2022-03",
+    "venue": "ICML 2022",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2203.05482"
+    },
+    "summary": "Averages the weights of multiple models fine-tuned with different hyperparameters, adding no inference or memory cost. The resulting ViT-G model attains 90.94% top-1 accuracy on ImageNet, reported as a new state of the art.",
+    "citations": 1917,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "fisher-merging",
+    "title": "Merging Models with Fisher-Weighted Averaging",
+    "authors": "Matena, Raffel",
+    "date": "2021-11",
+    "venue": "NeurIPS 2022",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2111.09832"
+    },
+    "summary": "Frames merging as choosing parameters that maximize joint posterior likelihood, approximating each posterior as a Gaussian with Fisher information as precision. Improves on simple averaging and is competitive with gradient-based transfer learning at lower cost.",
+    "citations": 784,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "git-re-basin",
+    "title": "Git Re-Basin: Merging Models modulo Permutation Symmetries",
+    "authors": "Ainsworth, Hayase, Srinivasa",
+    "date": "2022-09",
+    "venue": "ICLR 2023",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2209.04836"
+    },
+    "summary": "Introduces three algorithms that permute the hidden units of one model to align it with a reference model before merging in weight space. Demonstrates zero-barrier linear mode connectivity between independently trained ResNet models on CIFAR-10.",
+    "citations": 606,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Weights rewritten into another's coordinates"
+  },
+  {
+    "id": "ties-merging",
+    "title": "TIES-Merging: Resolving Interference When Merging Models",
+    "authors": "Yadav et al.",
+    "date": "2023-06",
+    "venue": "NeurIPS 2023",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2306.01708"
+    },
+    "summary": "Introduces TIES-Merging, which resets parameters that changed little during fine-tuning, resolves sign conflicts, and merges only parameters agreeing with the chosen sign. Reports outperforming existing merging methods across modalities, domains, task counts, model sizes and architectures.",
+    "citations": 1091,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "dare",
+    "title": "Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch",
+    "authors": "Yu et al.",
+    "date": "2023-11",
+    "venue": "ICML 2024",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.03099"
+    },
+    "summary": "Introduces DARE, which randomly drops delta parameters with ratio p and rescales the rest by 1/(1−p). Eliminates 90% or even 99% of SFT deltas, merges task-specific models, and yields a 7B model ranking first on the Open LLM Leaderboard.",
+    "citations": 911,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "sakana-evolutionary-merge",
+    "title": "Evolutionary optimization of model merging recipes",
+    "authors": "Akiba et al.",
+    "date": "2024-03",
+    "venue": "Nature Machine Intelligence",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.13187"
+    },
+    "summary": "Proposes an evolutionary search that automatically finds combinations of open-source models, in both parameter space and data flow space. Produces a Japanese Math LLM and a Japanese VLM, reporting state-of-the-art results on Japanese benchmarks.",
+    "citations": 283,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "mergekit",
+    "title": "Arcee's MergeKit: A Toolkit for Merging Large Language Models",
+    "authors": "Goddard et al.",
+    "date": "2024-03",
+    "venue": "EMNLP 2024",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.13257"
+    },
+    "summary": "Introduces MergeKit, an open-source extensible library for merging language model parameters on any hardware. Reports that thousands of models have been merged by the community, including checkpoints assessed on the Open LLM Leaderboard.",
+    "citations": 263,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "lora",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "authors": "Edward J. Hu et al.",
+    "date": "2021-06",
+    "venue": "ICLR 2022",
+    "category": "found-merging",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2106.09685"
+    },
+    "summary": "Freezes pre-trained weights and injects trainable rank decomposition matrices into each Transformer layer. Compared with GPT-3 175B fine-tuned with Adam, it cuts trainable parameters 10,000 times and GPU memory 3 times, with on-par or better quality.",
+    "citations": 25493,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "martin-mahoney-2018",
+    "title": "Implicit Self-Regularization in Deep Neural Networks: Evidence from Random Matrix Theory and Implications for Learning",
+    "authors": "C. H. Martin, M. W. Mahoney",
+    "date": "2018-10",
+    "venue": "JMLR",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1810.01075"
+    },
+    "summary": "Applies random matrix theory to layer weight matrices of pretrained and from-scratch networks, including AlexNet, Inception and LeNet5. Identifies 5+1 phases of training and a Heavy-Tailed Self-Regularization form in state-of-the-art models.",
+    "citations": 360,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "unterthiner-2020",
+    "title": "Predicting Neural Network Accuracy from Weights",
+    "authors": "Unterthiner et al.",
+    "date": "2020-02",
+    "venue": "Preprint",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2002.11448"
+    },
+    "summary": "Predicts a trained network's accuracy from simple weight statistics alone, ranking networks with R2 above 0.98. Releases 120k convolutional networks trained on four datasets; predictors transfer to unobserved datasets and architectures.",
+    "citations": 156,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "eilertsen-2020",
+    "title": "Classifying the classifier: dissecting the weight space of neural networks",
+    "authors": "Eilertsen et al.",
+    "date": "2020-02",
+    "venue": "ECAI 2020",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2002.05688"
+    },
+    "summary": "Trains meta-classifiers on weights to identify training-setup properties such as dataset, optimizer and architecture, using small subsets of consecutive weights. Releases the NWS dataset of 320K weight snapshots from 16K trained networks.",
+    "citations": 81,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "weightwatcher-2020",
+    "title": "Predicting trends in the quality of state-of-the-art neural networks without access to training or testing data",
+    "authors": "C. H. Martin, T. S. Peng, M. W. Mahoney",
+    "date": "2020-02",
+    "venue": "Nature Communications 2021",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2002.06716"
+    },
+    "summary": "Meta-analyzes hundreds of public pretrained models without training or test data. Finds norm-based metrics correlate with test accuracy, while power-law metrics from heavy-tailed self-regularization theory better separate well-trained from poorly-trained models.",
+    "citations": 188,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "hyper-representations",
+    "title": "Hyper-Representations: Self-Supervised Representation Learning on Neural Network Weights for Model Characteristic Prediction",
+    "authors": "Schürholt, Kostadinov, Borth",
+    "date": "2021-10",
+    "venue": "NeurIPS 2021",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2110.15288"
+    },
+    "summary": "Learns representations of weights from populations of networks by self-supervised learning, with domain-specific augmentations and an adapted attention architecture. Recovers model characteristics and outperforms prior work predicting hyper-parameters, test accuracy and generalization gap.",
+    "citations": 17,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "functa",
+    "title": "From data to functa: Your data point is a function and you can treat it like one",
+    "authors": "Dupont et al.",
+    "date": "2022-01",
+    "venue": "ICML 2022",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2201.12204"
+    },
+    "summary": "Treats data points as implicit neural representations called functa and proposes a framework for deep learning on them. Applies it to images, 3D shapes, NeRFs and manifold data for generation, imputation, view synthesis and classification.",
+    "citations": 249,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "model-zoos",
+    "title": "Model Zoos: A Dataset of Diverse Populations of Neural Network Models",
+    "authors": "Schürholt et al.",
+    "date": "2022-09",
+    "venue": "NeurIPS 2022 Datasets & Benchmarks",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2209.14764"
+    },
+    "summary": "Publishes 27 model zoos on eight image datasets, with 50,360 unique models plus sparsified twins, totaling over 3,844,360 model states. Provides analysis and benchmarks for studying weight-space structure across model populations.",
+    "citations": 53,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "dwsnets",
+    "title": "Equivariant Architectures for Learning in Deep Weight Spaces",
+    "authors": "Navon et al.",
+    "date": "2023-01",
+    "venue": "ICML 2023",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2301.12780"
+    },
+    "summary": "Presents an architecture that takes an MLP's weights and biases as input, using layers equivariant to neuron-permutation symmetry. Characterizes all affine equivariant and invariant layers, built from pooling, broadcasting and fully connected operations.",
+    "citations": 133,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Permutation symmetry fully characterized"
+  },
+  {
+    "id": "nfn",
+    "title": "Permutation Equivariant Neural Functionals",
+    "authors": "Zhou et al.",
+    "date": "2023-02",
+    "venue": "NeurIPS 2023",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2302.14040"
+    },
+    "summary": "Introduces permutation-equivariant neural functionals that process weights or gradients of MLPs and CNNs through NF-Layers with parameter sharing. Tasks include predicting generalization, producing winning-ticket sparsity masks, and classifying or editing implicit neural representations.",
+    "citations": 92,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "graph-metanetworks",
+    "title": "Graph Metanetworks for Processing Diverse Neural Architectures",
+    "authors": "Lim et al.",
+    "date": "2023-12",
+    "venue": "ICLR 2024",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.04501"
+    },
+    "summary": "Represents input networks as graphs and processes them with graph neural networks. Handles attention, normalization, convolutional and ResNet blocks, proves expressivity and equivariance to parameter permutation symmetries, and validates on several metanetwork tasks.",
+    "citations": 69,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "langosco-2023",
+    "title": "Detecting Backdoors with Meta-Models",
+    "authors": "Langosco et al.",
+    "date": "2023",
+    "venue": "NeurIPS 2023 Workshop",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://mlanthology.org/neuripsw/2023/langosco2023neuripsw-detecting/"
+    },
+    "summary": "Trains meta-models on about 4,000 clean and backdoored CNNs to detect backdoors from weights. Detects i.i.d.-trigger backdoors with over 99% accuracy.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "tracr-decompiler",
+    "title": "Neural Decompiling of Tracr Transformers",
+    "authors": "Thurnherr, Riesen",
+    "date": "2024-09",
+    "venue": "Preprint",
+    "category": "found-wsl",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.00061"
+    },
+    "summary": "Generates a dataset of transformer-weight and RASP-program pairs with Tracr, then trains a model to recover RASP code from weights. Reproduces over 30% of test programs exactly; over 70% of outputs are functionally equivalent.",
+    "added": "2026-11-06",
+    "history_milestone": "Weights decompiled back to code"
+  },
+  {
+    "id": "zeiler-fergus-2013",
+    "title": "Visualizing and Understanding Convolutional Networks",
+    "authors": "Matthew Zeiler, Rob Fergus",
+    "org": "NYU",
+    "date": "2013-11",
+    "venue": "ECCV 2014",
+    "category": "found-interp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1311.2901"
+    },
+    "summary": "Introduces a technique that projects activations back to pixels, plus an ablation study of layers. The diagnosis yields an architecture outperforming Krizhevsky et al. on ImageNet, and it beats prior results on Caltech-101 and Caltech-256 after softmax retraining.",
+    "citations": 17807,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "zoom-in-circuits",
+    "title": "Zoom In: An Introduction to Circuits",
+    "authors": "Olah et al.",
+    "org": "OpenAI Clarity team",
+    "date": "2020",
+    "venue": "Distill",
+    "category": "found-interp",
+    "kind": "post",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://distill.pub/2020/circuits/zoom-in/"
+    },
+    "summary": "Claims that features connect into circuits by weights, and reads circuits directly from InceptionV1 weights. Opens the Distill Circuits thread from the OpenAI Clarity team in 2020, framing circuits as the unit of study.",
+    "citations": 853,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "curve-circuits",
+    "title": "Curve Circuits",
+    "authors": "Cammarata et al.",
+    "org": "OpenAI",
+    "date": "2021",
+    "venue": "Distill",
+    "category": "found-interp",
+    "kind": "post",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://distill.pub/2020/circuits/curve-circuits/"
+    },
+    "summary": "Reverse-engineers the curve detection algorithm and uses its ideas to craft an artificial neural network from scratch that reimplements it. The page does not say whether every weight was set by hand.",
+    "added": "2026-11-06",
+    "history_milestone": "Earliest read-then-write round trip"
+  },
+  {
+    "id": "geva-2021",
+    "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+    "authors": "Geva, Schuster, Berant, Levy",
+    "org": "Tel Aviv University / AI2",
+    "date": "2020-12",
+    "venue": "EMNLP 2021",
+    "category": "found-interp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2012.14913"
+    },
+    "summary": "Shows that feed-forward layers act as key-value memories: keys correlate with textual patterns in training examples, and values induce output vocabulary distributions. Lower layers capture shallow patterns, upper layers more semantic ones; a layer's output composes its memories.",
+    "citations": 1827,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "framework-transformer-circuits",
+    "title": "A Mathematical Framework for Transformer Circuits",
+    "authors": "Elhage et al.",
+    "org": "Anthropic",
+    "date": "2021",
+    "venue": "Transformer Circuits thread",
+    "category": "found-interp",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://transformer-circuits.pub/2021/framework/index.html"
+    },
+    "summary": "Defines QK circuits (W_E^T W_QK W_E) and OV circuits (W_U W_OV W_E) that can be read directly from weight matrices, and finds induction heads by reading composition between heads. Published by Anthropic in December 2021.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "induction-heads",
+    "title": "In-context Learning and Induction Heads",
+    "authors": "Olsson et al.",
+    "org": "Anthropic",
+    "date": "2022",
+    "venue": "Transformer Circuits thread",
+    "category": "found-interp",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html"
+    },
+    "summary": "Finds induction heads, attention-head circuits that complete repeated patterns in context, by reading the composition between heads, and argues they drive much of in-context learning.",
+    "citations": 1116,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "toy-superposition",
+    "title": "Toy Models of Superposition",
+    "authors": "Elhage et al.",
+    "org": "Anthropic",
+    "date": "2022",
+    "venue": "Transformer Circuits thread",
+    "category": "found-interp",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://transformer-circuits.pub/2022/toy_model/index.html"
+    },
+    "summary": "Explains polysemantic neurons through superposition, where a model represents more features than it has neurons. Anthropic work with Harvard collaborators, published in 2022 in the Transformer Circuits thread and as arXiv 2209.10652.",
+    "citations": 1152,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "ioi-circuit",
+    "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
+    "authors": "Wang et al.",
+    "org": "Redwood Research",
+    "date": "2022-11",
+    "venue": "ICLR 2023",
+    "category": "found-interp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.00593"
+    },
+    "summary": "Explains how GPT-2 small performs indirect object identification with 26 attention heads in 7 main classes, found through causal interventions, and evaluates the explanation by faithfulness, completeness and minimality.",
+    "citations": 1437,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "dar-2023",
+    "title": "Analyzing Transformers in Embedding Space",
+    "authors": "Dar, Geva, Gupta, Berant",
+    "org": "Tel Aviv University",
+    "date": "2022-09",
+    "venue": "ACL 2023",
+    "category": "found-interp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2209.02535"
+    },
+    "summary": "Interprets all parameters of a trained Transformer by projecting them into embedding space, with no forward or backward pass. Applications include aligning parameters across models and building a classifier without training by translating a fine-tuned classifier's parameters.",
+    "citations": 161,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Weights read with zero forward passes"
+  },
+  {
+    "id": "nanda-grokking-2023",
+    "title": "Progress Measures for Grokking via Mechanistic Interpretability",
+    "authors": "Nanda et al.",
+    "org": "Nanda independent; Chan and Steinhardt at UC Berkeley",
+    "date": "2023-01",
+    "venue": "ICLR 2023",
+    "category": "found-interp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2301.05217"
+    },
+    "summary": "Fully reverse engineers the algorithm small transformers learn for modular addition, which uses discrete Fourier transforms and trigonometric identities. Confirms it through activations, weights and ablations, and defines progress measures splitting training into memorization, circuit formation and cleanup.",
+    "citations": 1057,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "towards-monosemanticity",
+    "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+    "authors": "Bricken et al.",
+    "org": "Anthropic",
+    "date": "2023",
+    "venue": "Transformer Circuits thread",
+    "category": "found-interp",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://transformer-circuits.pub/2023/monosemantic-features/index.html"
+    },
+    "summary": "Decomposes a one-layer transformer's MLP activations into thousands of interpretable features with sparse dictionary learning, giving a feature basis in place of individual neurons.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "apd-2025",
+    "title": "Interpretability in Parameter Space: Minimizing Mechanistic Description Length with Attribution-based Parameter Decomposition",
+    "authors": "Braun et al.",
+    "org": "Apollo Research",
+    "date": "2025-01",
+    "venue": "Preprint",
+    "category": "found-interp",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.14926"
+    },
+    "summary": "Introduces Attribution-based Parameter Decomposition, which splits a network's parameters into components that are faithful, minimal in number per input, and maximally simple. Identifies ground-truth mechanisms in toy settings; scaling to non-toy models remains open.",
+    "citations": 26,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "cunningham-2023",
+    "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+    "authors": "Hoagy Cunningham et al.",
+    "date": "2023-09",
+    "venue": "ICLR 2024",
+    "category": "found-interp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.08600"
+    },
+    "summary": "Trains sparse autoencoders to reconstruct language-model activations, learning sparsely activating features that are more interpretable and monosemantic than alternatives by automated measures. Pinpoints features causally responsible for counterfactual behavior on indirect object identification more finely than prior decompositions.",
+    "citations": 1797,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "network-dissection",
+    "title": "Network Dissection: Quantifying Interpretability of Deep Visual Representations",
+    "authors": "David Bau et al.",
+    "org": "MIT CSAIL",
+    "date": "2017-04",
+    "venue": "CVPR 2017",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1704.05796"
+    },
+    "summary": "Introduces a framework that scores individual hidden units of CNNs by their alignment with a dataset of semantic concepts, labelling units with objects, parts, scenes, textures, materials and colors. Compares networks across training tasks, initializations, depth, width, dropout and batch normalization.",
+    "citations": 1891,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "milan",
+    "title": "Natural Language Descriptions of Deep Visual Features",
+    "authors": "Hernandez et al.",
+    "org": "MIT",
+    "date": "2022-01",
+    "venue": "ICLR 2022",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2201.11114"
+    },
+    "summary": "Introduces MILAN, which labels vision neurons with open-ended natural-language descriptions by searching for strings that maximize pointwise mutual information with the image regions where the neuron is active. Uses the descriptions to remove spurious-feature neurons.",
+    "citations": 173,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "bills-2023",
+    "title": "Language Models Can Explain Neurons in Language Models",
+    "authors": "Bills et al.",
+    "org": "OpenAI",
+    "date": "2023",
+    "venue": "OpenAI interactive paper",
+    "category": "found-autointerp",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html"
+    },
+    "summary": "Has GPT-4 explain each GPT-2 XL MLP neuron, simulate its activations from that explanation, and score the match. Releases explanations for 307,200 neurons, over 1,000 scoring at least 0.8; the method works worse on larger models and later layers.",
+    "added": "2026-11-06",
+    "history_milestone": "LLM explains neurons automatically"
+  },
+  {
+    "id": "acdc",
+    "title": "Towards Automated Circuit Discovery for Mechanistic Interpretability",
+    "authors": "Conmy et al.",
+    "org": "Independent research, UCL, Cambridge and others",
+    "date": "2023-04",
+    "venue": "NeurIPS 2023",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2304.14997"
+    },
+    "summary": "Automates circuit discovery by pruning computational-graph edges whose patching barely changes the output. Rediscovers 5/5 component types in GPT-2 Small's Greater-Than circuit, selecting 68 of 32,000 edges, all found manually before.",
+    "citations": 924,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "find-benchmark",
+    "title": "FIND: A Function Description Benchmark for Evaluating Interpretability Methods",
+    "authors": "Schwettmann et al.",
+    "org": "MIT",
+    "date": "2023-09",
+    "venue": "NeurIPS 2023",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.03886"
+    },
+    "summary": "Introduces FIND, a benchmark of functions resembling neural-network components, with paired descriptions, for evaluating automated interpretability methods. Also presents an Automated Interpretability Agent that generates function descriptions interactively, and evaluates language-model description methods.",
+    "citations": 43,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "maia",
+    "title": "A Multimodal Automated Interpretability Agent",
+    "authors": "Rott Shaham et al.",
+    "org": "MIT CSAIL",
+    "date": "2024-04",
+    "venue": "ICML 2024",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.14394"
+    },
+    "summary": "Gives a pre-trained vision-language model tools to synthesize and edit inputs and compute maximally activating exemplars. Describes neurons comparably to expert human experimenters, reduces sensitivity to spurious features, and flags inputs likely to be misclassified.",
+    "citations": 79,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Interpretability agent with tools"
+  },
+  {
+    "id": "patchscopes",
+    "title": "Patchscopes: A Unifying Framework for Inspecting Hidden Representations of Language Models",
+    "authors": "Ghandeharioun et al.",
+    "org": "Google Research",
+    "date": "2024-01",
+    "venue": "ICML 2024",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.06102"
+    },
+    "summary": "Introduces a framework in which a language model explains its own hidden representations in natural language. Treats prior vocabulary-projection and intervention methods as instances, and mitigates failures on early layers. Allows a larger model to explain a smaller one.",
+    "citations": 296,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "paulo-2024",
+    "title": "Automatically Interpreting Millions of Features in Large Language Models",
+    "authors": "Paulo, Mallen, Juang, Belrose",
+    "org": "EleutherAI",
+    "date": "2024-10",
+    "venue": "ICML 2025",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.13928"
+    },
+    "summary": "Builds an open-source pipeline using LLMs to generate and score natural-language explanations for SAE features, with five new, cheaper scoring techniques including intervention scoring. Finds SAE latents much more interpretable than neurons, including sparsified ones.",
+    "citations": 133,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "hidden-objectives",
+    "title": "Auditing Language Models for Hidden Objectives",
+    "authors": "Marks et al.",
+    "org": "Anthropic",
+    "date": "2025-03",
+    "venue": "Preprint",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.10965"
+    },
+    "summary": "Trains a language model with a hidden objective of exploiting RLHF reward-model errors, then runs a blind auditing game with four teams. Three teams uncover the objective, using SAE interpretability, behavioral attacks and training data analysis.",
+    "citations": 91,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "auditing-agents",
+    "title": "Building and Evaluating Alignment Auditing Agents",
+    "authors": "Bricken et al.",
+    "org": "Anthropic",
+    "date": "2025",
+    "venue": "Anthropic Alignment Science blog",
+    "category": "found-autointerp",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://alignment.anthropic.com/2025/automated-auditing/"
+    },
+    "summary": "Builds alignment auditing agents, including a Claude Sonnet 4 investigator using SAE tools and steering. It solves the auditing game about 13% of the time, 42% with super-agent aggregation; interpretability tools raise win rates by roughly 10–20 points.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "dit-2025",
+    "title": "Learning to Interpret Weight Differences in Language Models",
+    "authors": "Goel, Kim, Shavit, Wang",
+    "org": "MIT",
+    "date": "2025-10",
+    "venue": "Preprint",
+    "category": "found-autointerp",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.05092"
+    },
+    "summary": "Introduces Diff Interpretation Tuning, which trains an adapter on synthetic labeled weight diffs so a finetuned model describes its own finetuning-induced changes. Demonstrates it on reporting hidden behaviors and summarizing finetuned knowledge.",
+    "citations": 17,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "elm-2022",
+    "title": "Evolution through Large Models",
+    "authors": "Joel Lehman et al.",
+    "date": "2022-06",
+    "venue": "Preprint",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2206.08896"
+    },
+    "summary": "Uses a code-generating LLM as the mutation operator in genetic programming, combined with MAP-Elites. Produces hundreds of thousands of Python programs for ambulating robots in Sodarace, then uses them to train a conditional model that outputs walkers for a terrain.",
+    "citations": 191,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "hypertuning",
+    "title": "HyperTuning: Toward Adapting Large Language Models without Back-propagation",
+    "authors": "Jason Phang, Yi Mao, Pengcheng He, Weizhu Chen",
+    "date": "2022-11",
+    "venue": "ICML 2023",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.12485"
+    },
+    "summary": "Trains a T5-based hypermodel, HyperT5, to generate soft prefixes or LoRA parameters for a frozen T5 model from few-shot examples, without backpropagation at adaptation. Evaluated on P3, MetaICL and Super-NaturalInstructions, it generates parameters for unseen tasks.",
+    "citations": 61,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "funsearch",
+    "title": "Mathematical discoveries from program search with large language models",
+    "authors": "Bernardino Romera-Paredes et al.",
+    "date": "2023",
+    "venue": "Nature",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41586-023-06924-6"
+    },
+    "summary": "Places an LLM inside an evolutionary loop where it proposes program mutations and an automated evaluator scores them. The system finds new cap-set constructions. Published in Nature by Google DeepMind authors.",
+    "citations": 1595,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "opro",
+    "title": "Large Language Models as Optimizers",
+    "authors": "Chengrun Yang et al.",
+    "date": "2023-09",
+    "venue": "ICLR 2024",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.03409"
+    },
+    "summary": "Prompts an LLM with earlier solutions and their scores so it generates new ones. Tested on linear regression, traveling salesman and prompt optimization; best prompts beat human-designed ones by up to 8% on GSM8K and up to 50% on Big-Bench Hard.",
+    "citations": 1293,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "evollm",
+    "title": "Large Language Models As Evolution Strategies",
+    "authors": "Robert Tjarko Lange, Yingtao Tian, Yujin Tang",
+    "date": "2024-02",
+    "venue": "GECCO 2024 Companion",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.18381"
+    },
+    "summary": "Prompts an LLM zero-shot with sorted, discretized population members and asks it to propose an improved mean, forming an evolution strategy. It outperforms random search and Gaussian Hill Climbing on synthetic BBOB functions and small neuroevolution tasks.",
+    "citations": 108,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "transformer-squared",
+    "title": "Transformer-Squared: Self-adaptive LLMs",
+    "authors": "Qi Sun, Edoardo Cetin, Yujin Tang",
+    "date": "2025-01",
+    "venue": "ICLR 2025",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.06252"
+    },
+    "summary": "Adapts an LLM at inference in two passes: a dispatch system identifies task properties, then expert vectors trained with reinforcement learning, acting on singular components of weight matrices, are mixed. Reports outperforming LoRA with fewer parameters, including on vision-language tasks.",
+    "citations": 22,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "neurogen",
+    "title": "NeuroGen: Neural Network Parameter Generation via Large Language Models",
+    "authors": "Jiaqi Wang, Yusen Zhang, Xi Li",
+    "date": "2025-05",
+    "venue": "Preprint",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.12470"
+    },
+    "summary": "Generates neural network parameters with an LLM in two stages: pretraining on network checkpoints, then instruction tuning with prompts describing data, task and architecture. Reports that it generates usable network parameters.",
+    "citations": 3,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "LLM directly emits network parameters"
+  },
+  {
+    "id": "darwin-godel-machine",
+    "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "authors": "Jenny Zhang et al.",
+    "date": "2025-05",
+    "venue": "Preprint",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.22954"
+    },
+    "summary": "Keeps an archive of coding agents, samples one, and has a foundation model produce a modified version that rewrites its own code. Each change is validated on coding benchmarks rather than proved, and SWE-bench performance increases.",
+    "citations": 502,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "text-to-lora",
+    "title": "Text-to-LoRA: Instant Transformer Adaption",
+    "authors": "Rujikorn Charakorn, Edoardo Cetin, Yujin Tang, Robert Tjarko Lange",
+    "date": "2025-06",
+    "venue": "ICML 2025",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.06105"
+    },
+    "summary": "Trains a hypernetwork to construct LoRA adapters for an LLM in one forward pass from a natural-language task description. Trained on 9 pre-trained LoRAs, its reconstructed adapters match task-specific adapters on test sets and generalize zero-shot to unseen tasks.",
+    "citations": 74,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Text description to LoRA"
+  },
+  {
+    "id": "alphaevolve",
+    "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+    "authors": "Alexander Novikov et al.",
+    "date": "2025-06",
+    "venue": "Preprint",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.13131"
+    },
+    "summary": "Orchestrates LLMs in an evolutionary pipeline that improves algorithms by directly changing code, using feedback from evaluators. Applied to Google data-center scheduling and mathematics problems, it found a procedure multiplying two 4×4 complex matrices using 48 scalar multiplications.",
+    "citations": 1167,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "seal",
+    "title": "Self-Adapting Language Models",
+    "authors": "Adam Zweiger et al.",
+    "date": "2025-06",
+    "venue": "NeurIPS 2025",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.10943"
+    },
+    "summary": "Has an LLM generate its own self-edits, meaning finetuning data and update directives, applied through supervised finetuning as persistent weight updates. A reinforcement learning loop rewards self-edits by downstream performance; tested on knowledge incorporation and few-shot generalization.",
+    "citations": 103,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "drag-and-drop-llms",
+    "title": "Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights",
+    "authors": "Zhiyuan Liang et al.",
+    "date": "2025-06",
+    "venue": "NeurIPS 2025",
+    "category": "found-lang",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.16406"
+    },
+    "summary": "Maps a handful of unlabeled task prompts to LoRA matrices using a text encoder and a hyper-convolutional decoder. Reports up to 12,000× lower overhead than full fine-tuning and average gains up to 30% over trained LoRAs on unseen benchmarks.",
+    "citations": 29,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "liu-2017",
+    "title": "Fault Injection Attack on Deep Neural Network",
+    "authors": "Yannan Liu, Lingxiao Wei, Bo Luo, Qiang Xu",
+    "date": "2017",
+    "venue": "ICCAD 2017",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.1109/ICCAD.2017.8203770"
+    },
+    "summary": "Shows that faults injected into a network's parameters can force misclassification, including a single bias attack that changes one bias term.",
+    "citations": 247,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "bit-flip-attack",
+    "title": "Bit-Flip Attack: Crushing Neural Network with Progressive Bit Search",
+    "authors": "Adnan Siraj Rakin, Zhezhi He, Deliang Fan",
+    "date": "2019-03",
+    "venue": "ICCV 2019",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1903.12269"
+    },
+    "summary": "Proposes an attack that flips a few bits in DRAM-stored weights, using Progressive Bit Search that combines gradient ranking and progressive search. Drops ResNet-18 top-1 accuracy from 69.8% to 0.1% with 13 flips out of 93 million bits.",
+    "citations": 370,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "terminal-brain-damage",
+    "title": "Terminal Brain Damage: Exposing the Graceless Degradation in Deep Neural Networks Under Hardware Fault Attacks",
+    "authors": "Sanghyun Hong et al.",
+    "date": "2019-06",
+    "venue": "USENIX Security 2019",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1906.01017"
+    },
+    "summary": "Studies bitwise corruptions on 19 DNN models across six architectures and three image tasks. Finds most models have at least one parameter whose bit-flip causes over 90% accuracy loss; Rowhammer drops accuracy up to 99%.",
+    "citations": 292,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "kurita-2020",
+    "title": "Weight Poisoning Attacks on Pre-trained Models",
+    "authors": "Keita Kurita, Paul Michel, Graham Neubig",
+    "date": "2020-04",
+    "venue": "ACL 2020",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2004.06660"
+    },
+    "summary": "Constructs weight poisoning attacks in which pre-trained weights carry backdoors that appear after fine-tuning, triggered by a keyword. Uses a regularization method called RIPPLe and an initialization called Embedding Surgery, tested on sentiment, toxicity and spam tasks.",
+    "citations": 657,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "trojannet",
+    "title": "An Embarrassingly Simple Approach for Trojan Attack in Deep Neural Networks",
+    "authors": "Ruixiang Tang et al.",
+    "date": "2020-06",
+    "venue": "KDD 2020",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2006.08131"
+    },
+    "summary": "Proposes a training-free trojan attack that inserts a tiny trojan module into a target model without changing the original parameters. Reports 100% attack success rate without affecting original-task accuracy, and evades state-of-the-art trojan detection algorithms.",
+    "citations": 242,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "hong-2022",
+    "title": "Handcrafted Backdoors in Deep Neural Networks",
+    "authors": "Sanghyun Hong, Nicholas Carlini, Alexey Kurakin",
+    "date": "2021-06",
+    "venue": "NeurIPS 2022",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2106.04690"
+    },
+    "summary": "Introduces a handcrafted backdoor attack that directly manipulates a model's weights instead of poisoning training data. Keeps attack success rate above 96% across four datasets and four architectures, and evades many backdoor detection and removal defenses.",
+    "citations": 108,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Backdoors written directly into weights"
+  },
+  {
+    "id": "goldwasser-2022",
+    "title": "Planting Undetectable Backdoors in Machine Learning Models",
+    "authors": "Shafi Goldwasser, Michael P. Kim, Vinod Vaikuntanathan, Or Zamir",
+    "date": "2022-04",
+    "venue": "FOCS 2022",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2204.06974"
+    },
+    "summary": "Shows how a malicious learner can plant a backdoor that no computationally bounded observer can detect without the key. Gives a digital-signature construction for any model and a white-box undetectable construction for Random Fourier Features and random ReLU networks.",
+    "citations": 118,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "clp",
+    "title": "Data-free Backdoor Removal based on Channel Lipschitzness",
+    "authors": "Runkai Zheng, Rongjun Tang, Jianze Li, Li Liu",
+    "date": "2022-08",
+    "venue": "ECCV 2022",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2208.03111"
+    },
+    "summary": "Defines a Channel Lipschitz Constant and computes an upper bound directly from weight matrices. Prunes channels with high values to remove backdoors without data, reporting state-of-the-art results among mainstream defense methods.",
+    "citations": 167,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "badedit",
+    "title": "BadEdit: Backdooring Large Language Models by Model Editing",
+    "authors": "Yanzhou Li et al.",
+    "date": "2024-03",
+    "venue": "ICLR 2024",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.13355"
+    },
+    "summary": "Formulates backdoor injection as a lightweight knowledge editing problem that directly alters a subset of LLM parameters. Needs 15 samples, reaches up to 100% attack success rate, and the backdoor survives later fine-tuning.",
+    "citations": 163,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "wei-2024",
+    "title": "Assessing the Brittleness of Safety Alignment via Pruning and Low-Rank Modifications",
+    "authors": "Boyi Wei et al.",
+    "date": "2024-02",
+    "venue": "ICML 2024",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.05162"
+    },
+    "summary": "Identifies safety-critical regions in LLMs through pruning and low-rank modifications, finding them sparse: about 3% at the parameter level and 2.5% at the rank level. Removing them compromises safety without significantly reducing utility.",
+    "citations": 284,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "prisonbreak",
+    "title": "PrisonBreak: Jailbreaking Large Language Models with at Most Twenty-Five Targeted Bit-flips",
+    "authors": "Zachary Coalson et al.",
+    "date": "2024-12",
+    "venue": "Preprint",
+    "category": "found-security",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.07192"
+    },
+    "summary": "Jailbreaks safety-aligned LLMs by flipping 5 to 25 targeted bits in parameters, using a bit-selection algorithm. Reaches 80-98% attack success on 10 open-source LLMs, and 69-91% on 5 models in a GDDR6 Rowhammer demonstration.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "reluplex",
+    "title": "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks",
+    "authors": "Guy Katz et al.",
+    "date": "2017-02",
+    "venue": "CAV 2017",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1702.01135"
+    },
+    "summary": "Presents an SMT-based technique that extends the simplex method to handle ReLU activations, verifying properties of deep networks or giving counter-examples. Tested on ACAS Xu collision-avoidance networks, it proves properties of networks an order of magnitude larger than prior methods.",
+    "citations": 2243,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "param-space-noise",
+    "title": "Parameter Space Noise for Exploration",
+    "authors": "Matthias Plappert et al.",
+    "date": "2017-06",
+    "venue": "ICLR 2018",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1706.01905"
+    },
+    "summary": "Adds noise directly to an agent's parameters rather than to its actions to drive exploration. Tested with DQN, DDPG and TRPO, it learns more efficiently than action-space noise and evolutionary strategies alone.",
+    "citations": 709,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "ars-2018",
+    "title": "Simple random search provides a competitive approach to reinforcement learning",
+    "authors": "Horia Mania, Aurelia Guy, Benjamin Recht",
+    "date": "2018-03",
+    "venue": "NeurIPS 2018",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1803.07055"
+    },
+    "summary": "Introduces a random search method for training static linear policies for continuous control. It matches state-of-the-art sample efficiency on MuJoCo locomotion tasks and is at least 15 times more computationally efficient than the fastest competing model-free methods.",
+    "citations": 340,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "viper",
+    "title": "Verifiable Reinforcement Learning via Policy Extraction",
+    "authors": "Osbert Bastani, Yewen Pu, Armando Solar-Lezama",
+    "date": "2018-05",
+    "venue": "NeurIPS 2018",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1805.08328"
+    },
+    "summary": "Trains decision-tree policies guided by a DNN oracle and its Q-function, combining model compression with imitation learning. The trees are verified on Pong variants and cart-pole, and match the original DNN policy's performance.",
+    "citations": 442,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "verisig",
+    "title": "Verisig: Verifying Safety Properties of Hybrid Systems with Neural Network Controllers",
+    "authors": "Radoslav Ivanov et al.",
+    "date": "2018-11",
+    "venue": "HSCC 2019",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1811.01828"
+    },
+    "summary": "Converts sigmoid-based neural network controllers into equivalent hybrid systems, then checks closed-loop safety with reachability tools. Shows reachability is decidable for one-hidden-layer networks, and for general networks if Schanuel's conjecture holds. Evaluated in two case studies.",
+    "citations": 303,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "openai-five",
+    "title": "Dota 2 with Large Scale Deep Reinforcement Learning",
+    "authors": "Christopher Berner et al.",
+    "date": "2019-12",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/1912.06680"
+    },
+    "summary": "Trains OpenAI Five with self-play RL over 10 months and beats the Dota 2 world champions; over twenty offline surgeries change the live policy's architecture while preserving its function.",
+    "citations": 2266,
+    "citations_source": "S2",
+    "added": "2026-11-06",
+    "history_milestone": "Hand-engineered surgery on live policy"
+  },
+  {
+    "id": "surgery-with-sets",
+    "title": "Neural Network Surgery with Sets",
+    "authors": "Jonathan Raiman, Susan Zhang, Christy Dennison",
+    "date": "2019-12",
+    "venue": "Preprint",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/1912.06719"
+    },
+    "summary": "Formalizes surgery, the transfer of trained weights between networks across feature and architecture changes. Uses discrete feature sets and set operations to determine automatically which components to keep and which to retrain, validated on the OpenAI Five model.",
+    "citations": 2,
+    "citations_source": "OA",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "wann",
+    "title": "Weight Agnostic Neural Networks",
+    "authors": "Adam Gaier, David Ha",
+    "date": "2019-06",
+    "venue": "NeurIPS 2019",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1906.04358"
+    },
+    "summary": "Searches for network architectures that perform tasks without weight training, evaluating each with a single shared weight sampled from a uniform distribution. Finds minimal networks solving reinforcement learning tasks, and MNIST networks with accuracy well above chance.",
+    "citations": 272,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "karg-lucia-2020",
+    "title": "Efficient Representation and Approximation of Model Predictive Control Laws via Deep Learning",
+    "authors": "Benjamin Karg, Sergio Lucia",
+    "date": "2018-06",
+    "venue": "IEEE Transactions on Cybernetics",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/1806.10644"
+    },
+    "summary": "Shows that ReLU networks can exactly represent the piecewise affine function from model predictive control of linear time-invariant systems. Gives bounds on the minimum layers and neurons required, and illustrates smaller memory needs through simulation examples.",
+    "citations": 315,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "es-maml-legged",
+    "title": "Rapidly Adaptable Legged Robots via Evolutionary Meta-Learning",
+    "authors": "Xingyou Song et al.",
+    "date": "2020-03",
+    "venue": "IROS 2020",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2003.01239"
+    },
+    "summary": "Combines evolutionary-strategies meta-learning with a Batch Hill-Climbing adaptation operator to adapt robot policies to changed dynamics. On a quadruped, it adapts the policy using less than 3 minutes of real data.",
+    "citations": 98,
+    "citations_source": "S2",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "reincarnating-rl",
+    "title": "Reincarnating Reinforcement Learning: Reusing Prior Computation to Accelerate Progress",
+    "authors": "Rishabh Agarwal et al.",
+    "date": "2022-06",
+    "venue": "NeurIPS 2022",
+    "category": "found-robot",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://arxiv.org/abs/2206.01626"
+    },
+    "summary": "Proposes reincarnating RL, a workflow where prior computation such as learned policies is reused across design iterations or agents. Proposes an algorithm for transferring a sub-optimal policy to a value-based agent, tested on Atari 2600, locomotion and stratospheric balloon navigation.",
+    "citations": 102,
+    "citations_source": "S2",
     "added": "2026-11-06"
   }
 ]
