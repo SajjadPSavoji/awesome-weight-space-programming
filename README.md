@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-532-blue)
+![Entries](https://img.shields.io/badge/entries-534-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,8 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-07** · [Rohitthimaya/weight-space-programming](https://github.com/Rohitthimaya/weight-space-programming) (Other Domains)
+- **2026-11-07** · [Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public) (Analyses and Critiques)
 - **2026-11-07** · [Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility](https://arxiv.org/abs/2610.20139) (Interpretability)
 - **2026-11-07** · [From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models](https://arxiv.org/abs/2609.19553) (Model merging and weight arithmetic)
 - **2026-11-07** · [Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions](https://arxiv.org/abs/2609.30909) (Steering, representation engineering and unlearning)
@@ -26,8 +28,6 @@
 - **2026-11-07** · [Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops](https://arxiv.org/abs/2607.07663) (LLMs as optimizers and self-improving agents)
 - **2026-11-07** · [Position: The Term "Machine Unlearning" Is Overused in LLMs](https://arxiv.org/abs/2606.27379) (Steering, representation engineering and unlearning)
 - **2026-11-07** · [Make Mechanistic Interpretability Auditable: A Call to Develop Guidelines via Continuous Collaborative Reviewing](https://arxiv.org/abs/2606.00033) (Interpretability)
-- **2026-11-07** · [Large Language Models as Optimizers: A Survey of Direct vs. Tool-Augmented Approaches and Their Performance Frontiers](https://arxiv.org/abs/2606.15577) (LLMs as optimizers and self-improving agents)
-- **2026-11-07** · [Safety in Self-Evolving LLM Agent Systems: Threats, Amplification, and Case Studies](https://arxiv.org/abs/2606.23075) (LLMs as optimizers and self-improving agents)
 
 ## 🧭 Milestones
 
@@ -47,11 +47,11 @@
 - [🦾 Robotics and Control](#-robotics-and-control) (10)
   - [Vision-language-action models](#vision-language-action-models) (3)
   - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (7)
+- [🧩 Other Domains](#-other-domains) (8)
 - [🎮 Games](#-games) (5)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (2)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (9)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (9)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (10)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -198,6 +198,11 @@
 
 *Classifiers, small decision networks and anything else.*
 
+- **[Rohitthimaya/weight-space-programming](https://github.com/Rohitthimaya/weight-space-programming)**  
+  Rohitthimaya · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/Rohitthimaya/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/Rohitthimaya/weight-space-programming?style=social)  
+  Edits Stable Diffusion 1.5 weights directly, with no training, so cat prompts produce dogs. Round 1 copies 3 token-embedding rows (2,304 weights, 0.00022%). Round 2 edits only the UNet, applying a rank-3 map to 32 cross-attention to_k/to_v matrices (1.79%). CLIP labels 15 of 15 cat images as dog, with 3 control prompts unchanged.
+
 - **[sachgaur/WSP](https://github.com/sachgaur/WSP)**  
   sachgaur · *GitHub* · 2026-11-06 · `💻 code / results`  
   [[Code](https://github.com/sachgaur/WSP)] ![GitHub stars](https://img.shields.io/github/stars/sachgaur/WSP?style=social)  
@@ -328,6 +333,11 @@
 ## 🔍 Analyses and Critiques
 
 *Audits, replications of claims and critical takes.*
+
+- **[Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public)**  
+  hamley241 · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/hamley241/wsp-harness-public)] ![GitHub stars](https://img.shields.io/github/stars/hamley241/wsp-harness-public?style=social)  
+  Code, frozen decision rules and run records for an extended abstract on language-model weight repair. In an unconstrained pilot, two editor models reached the task ceiling by writing a replacement network. Under a bounded numeric-edit budget, neither repaired the trained network beyond the threshold, while projected gradient descent did on every seed. One task, one architecture, five seeds.
 
 - **[Does Claude have it too? Replicating 'Sparks of Weight-Space Programming'](https://github.com/dhaneshnm/wsp-replication)**  
   dhaneshnm · *GitHub* · 2026-11-06 · `💻 code / results`  

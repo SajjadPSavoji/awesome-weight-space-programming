@@ -9089,5 +9089,37 @@
     },
     "summary": "Gives conditions under which a selective edit to a transformer's final feed-forward module is possible, minimum-cost edits under explicit preservation constraints, and certificates of infeasibility. The editors are explicit algorithms, not LLMs; on GPT-2 CounterFact edits, interval constraints improved neighbor retention by about 20 points.",
     "added": "2026-11-06"
+  },
+  {
+    "id": "sd15-cat-to-dog-weight-edit",
+    "title": "Rohitthimaya/weight-space-programming",
+    "authors": "Rohitthimaya",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Rohitthimaya/weight-space-programming"
+    },
+    "repo": "Rohitthimaya/weight-space-programming",
+    "summary": "Edits Stable Diffusion 1.5 weights directly, with no training, so cat prompts produce dogs. Round 1 copies 3 token-embedding rows (2,304 weights, 0.00022%). Round 2 edits only the UNet, applying a rank-3 map to 32 cross-attention to_k/to_v matrices (1.79%). CLIP labels 15 of 15 cat images as dog, with 3 control prompts unchanged.",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "wsp-harness-lm-weight-repair",
+    "title": "Can a language model repair a network's weights by reading them?",
+    "authors": "hamley241",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/hamley241/wsp-harness-public"
+    },
+    "repo": "hamley241/wsp-harness-public",
+    "summary": "Code, frozen decision rules and run records for an extended abstract on language-model weight repair. In an unconstrained pilot, two editor models reached the task ceiling by writing a replacement network. Under a bounded numeric-edit budget, neither repaired the trained network beyond the threshold, while projected gradient descent did on every seed. One task, one architecture, five seeds.",
+    "added": "2026-11-07"
   }
 ]
