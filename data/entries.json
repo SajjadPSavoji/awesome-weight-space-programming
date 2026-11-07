@@ -9121,5 +9121,85 @@
     "repo": "hamley241/wsp-harness-public",
     "summary": "Code, frozen decision rules and run records for an extended abstract on language-model weight repair. In an unconstrained pilot, two editor models reached the task ceiling by writing a replacement network. Under a bounded numeric-edit budget, neither repaired the trained network beyond the threshold, while projected gradient descent did on every seed. One task, one architecture, five seeds.",
     "added": "2026-11-07"
+  },
+  {
+    "id": "goddoe-wsp-reproduction",
+    "title": "Weight-Space Programming: an independent reproduction",
+    "authors": "goddoe",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/goddoe/weight-space-programming"
+    },
+    "repo": "goddoe/weight-space-programming",
+    "summary": "Reruns two experiments from the original report with the same prompts and gpt-6-astra, tools off. Breakout: a fresh answer scores 416.8 ± 6.9 over 1,000 games (original weights re-scored 502.9 ± 7.7). Car: 1 of 4 independent answers works, 0 to 1,024 of 1,024 test games.",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "apetcu-wsp-emnist",
+    "title": "Weight-space programming on a character recognizer",
+    "authors": "apetcu",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/apetcu/weight-space-programming"
+    },
+    "repo": "apetcu/weight-space-programming",
+    "summary": "Claude as a coding agent repairs a planted defect (50% of E relabeled V) in a 108,271-parameter EMNIST CNN by rewriting 35 weights, no gradients: E accuracy 75.2% to 97.0% (seed 0). Reports five seeds, weights-only and data-assisted tiers, and a fine-tuning control.",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "mfaseehuddin-wsp",
+    "title": "wsp: weight space programming",
+    "authors": "mfaseehuddin",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/mfaseehuddin/wsp"
+    },
+    "repo": "mfaseehuddin/wsp",
+    "summary": "Harnesses, agent prompts and results for LLM agents that explain, write or graft network weights without training. Experiments: Pong policy, 8.6k-parameter help-desk transformer (97% exact replies on test set), tool-calling chatbot, GenGPT assistant (79–81% hidden test, 0 safety violations); a general-chat attempt was a negative result.",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "wsp-banking77",
+    "title": "Banking77 by weight-space programming",
+    "authors": "sfc-gh-tosmith",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/sfc-gh-tosmith/wsp-banking77"
+    },
+    "repo": "sfc-gh-tosmith/wsp-banking77",
+    "summary": "Claude Opus 5.5, with numpy and 30 forward passes, writes a 77-way intent classifier into 188 layer-31 neurons of Llama 3.1 8B Instruct (0.029% of weights), no gradients. Banking77 test accuracy 91.95%, versus 91.1% for a fine-tuned reference and 58.7% zero-shot; retention 40/40.",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "clavis-astra-gsm8k-transformers-16k",
+    "title": "The Astra weight edit on Qwen3.5-0.8B: a GSM8K rerun with transformers and a 16K budget",
+    "authors": "Emanuele Rizzan",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/clavis-systems/astra-gsm8k-transformers-16k"
+    },
+    "repo": "clavis-systems/astra-gsm8k-transformers-16k",
+    "summary": "Reruns the Astra edit of Qwen3.5-0.8B (130,188 weights) on 100 GSM8K problems with transformers and a 16,384-token limit. Thinking on: 7 to 50 correct; thinking off: 47 to 43. Verdict rule written before generation; independent recheck included.",
+    "added": "2026-11-07"
   }
 ]

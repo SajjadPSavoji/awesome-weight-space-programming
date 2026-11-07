@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-534-blue)
+![Entries](https://img.shields.io/badge/entries-539-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -18,16 +18,16 @@
 
 - **2026-11-07** · [Rohitthimaya/weight-space-programming](https://github.com/Rohitthimaya/weight-space-programming) (Other Domains)
 - **2026-11-07** · [Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public) (Analyses and Critiques)
+- **2026-11-07** · [Weight-Space Programming: an independent reproduction](https://github.com/goddoe/weight-space-programming) (Analyses and Critiques)
+- **2026-11-07** · [Weight-space programming on a character recognizer](https://github.com/apetcu/weight-space-programming) (Other Domains)
+- **2026-11-07** · [Banking77 by weight-space programming](https://github.com/sfc-gh-tosmith/wsp-banking77) (Writing networks from scratch)
+- **2026-11-07** · [The Astra weight edit on Qwen3.5-0.8B: a GSM8K rerun with transformers and a 16K budget](https://github.com/clavis-systems/astra-gsm8k-transformers-16k) (Analyses and Critiques)
+- **2026-11-07** · [wsp: weight space programming](https://github.com/mfaseehuddin/wsp) (Writing networks from scratch)
 - **2026-11-07** · [Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility](https://arxiv.org/abs/2610.20139) (Interpretability)
 - **2026-11-07** · [From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models](https://arxiv.org/abs/2609.19553) (Model merging and weight arithmetic)
 - **2026-11-07** · [Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions](https://arxiv.org/abs/2609.30909) (Steering, representation engineering and unlearning)
 - **2026-11-07** · [A Survey on the Linear Representation Hypothesis](https://arxiv.org/abs/2609.22695) (Interpretability)
 - **2026-11-07** · [Open Technical Problems in Open-Weight AI Model Risk Management](https://arxiv.org/abs/2608.07514) (Backdoors and weight-level attacks)
-- **2026-11-07** · [Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks](https://arxiv.org/abs/2607.07907) (Steering, representation engineering and unlearning)
-- **2026-11-07** · [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) (LLMs as optimizers and self-improving agents)
-- **2026-11-07** · [Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops](https://arxiv.org/abs/2607.07663) (LLMs as optimizers and self-improving agents)
-- **2026-11-07** · [Position: The Term "Machine Unlearning" Is Overused in LLMs](https://arxiv.org/abs/2606.27379) (Steering, representation engineering and unlearning)
-- **2026-11-07** · [Make Mechanistic Interpretability Auditable: A Call to Develop Guidelines via Continuous Collaborative Reviewing](https://arxiv.org/abs/2606.00033) (Interpretability)
 
 ## 🧭 Milestones
 
@@ -40,18 +40,18 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (6)
+- [💬 Language Models](#-language-models) (8)
   - [Repairing behavior](#repairing-behavior) (3)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
-  - [Writing networks from scratch](#writing-networks-from-scratch) (1)
+  - [Writing networks from scratch](#writing-networks-from-scratch) (3)
 - [🦾 Robotics and Control](#-robotics-and-control) (10)
   - [Vision-language-action models](#vision-language-action-models) (3)
   - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (8)
+- [🧩 Other Domains](#-other-domains) (9)
 - [🎮 Games](#-games) (5)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (2)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (9)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (10)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (12)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -131,10 +131,20 @@
 
 ### Writing networks from scratch
 
+- **[Banking77 by weight-space programming](https://github.com/sfc-gh-tosmith/wsp-banking77)**  
+  sfc-gh-tosmith · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/sfc-gh-tosmith/wsp-banking77)] ![GitHub stars](https://img.shields.io/github/stars/sfc-gh-tosmith/wsp-banking77?style=social)  
+  Claude Opus 5.5, with numpy and 30 forward passes, writes a 77-way intent classifier into 188 layer-31 neurons of Llama 3.1 8B Instruct (0.029% of weights), no gradients. Banking77 test accuracy 91.95%, versus 91.1% for a fine-tuned reference and 58.7% zero-shot; retention 40/40.
+
 - **[allthingssecurity/weight_space_programming](https://github.com/allthingssecurity/weight_space_programming)**  
   allthingssecurity · *GitHub* · 2026-11-06 · `💻 code / results`  
   [[Code](https://github.com/allthingssecurity/weight_space_programming)] ![GitHub stars](https://img.shields.io/github/stars/allthingssecurity/weight_space_programming?style=social)  
   Writes parameters of a randomly initialized model with the Qwen3.5-0.8B architecture directly, without gradient descent, to answer ABAP questions. Reports 18/25 correct in a small, unblinded static review, with random controls at 0/25. Includes 7 supplied-answer recall cases; not an expert ABAP model.
+
+- **[wsp: weight space programming](https://github.com/mfaseehuddin/wsp)**  
+  mfaseehuddin · *GitHub* · 2026-11-06 · `💻 code / results`  
+  [[Code](https://github.com/mfaseehuddin/wsp)] ![GitHub stars](https://img.shields.io/github/stars/mfaseehuddin/wsp?style=social)  
+  Harnesses, agent prompts and results for LLM agents that explain, write or graft network weights without training. Experiments: Pong policy, 8.6k-parameter help-desk transformer (97% exact replies on test set), tool-calling chatbot, GenGPT assistant (79–81% hidden test, 0 safety violations); a general-chat attempt was a negative result.
 
 ## 🦾 Robotics and Control
 
@@ -202,6 +212,11 @@
   Rohitthimaya · *GitHub* · 2026-11-07 · `💻 code / results`  
   [[Code](https://github.com/Rohitthimaya/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/Rohitthimaya/weight-space-programming?style=social)  
   Edits Stable Diffusion 1.5 weights directly, with no training, so cat prompts produce dogs. Round 1 copies 3 token-embedding rows (2,304 weights, 0.00022%). Round 2 edits only the UNet, applying a rank-3 map to 32 cross-attention to_k/to_v matrices (1.79%). CLIP labels 15 of 15 cat images as dog, with 3 control prompts unchanged.
+
+- **[Weight-space programming on a character recognizer](https://github.com/apetcu/weight-space-programming)**  
+  apetcu · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/apetcu/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/apetcu/weight-space-programming?style=social)  
+  Claude as a coding agent repairs a planted defect (50% of E relabeled V) in a 108,271-parameter EMNIST CNN by rewriting 35 weights, no gradients: E accuracy 75.2% to 97.0% (seed 0). Reports five seeds, weights-only and data-assisted tiers, and a fine-tuning control.
 
 - **[sachgaur/WSP](https://github.com/sachgaur/WSP)**  
   sachgaur · *GitHub* · 2026-11-06 · `💻 code / results`  
@@ -338,6 +353,16 @@
   hamley241 · *GitHub* · 2026-11-07 · `💻 code / results`  
   [[Code](https://github.com/hamley241/wsp-harness-public)] ![GitHub stars](https://img.shields.io/github/stars/hamley241/wsp-harness-public?style=social)  
   Code, frozen decision rules and run records for an extended abstract on language-model weight repair. In an unconstrained pilot, two editor models reached the task ceiling by writing a replacement network. Under a bounded numeric-edit budget, neither repaired the trained network beyond the threshold, while projected gradient descent did on every seed. One task, one architecture, five seeds.
+
+- **[Weight-Space Programming: an independent reproduction](https://github.com/goddoe/weight-space-programming)**  
+  goddoe · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/goddoe/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/goddoe/weight-space-programming?style=social)  
+  Reruns two experiments from the original report with the same prompts and gpt-6-astra, tools off. Breakout: a fresh answer scores 416.8 ± 6.9 over 1,000 games (original weights re-scored 502.9 ± 7.7). Car: 1 of 4 independent answers works, 0 to 1,024 of 1,024 test games.
+
+- **[The Astra weight edit on Qwen3.5-0.8B: a GSM8K rerun with transformers and a 16K budget](https://github.com/clavis-systems/astra-gsm8k-transformers-16k)**  
+  Emanuele Rizzan · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/clavis-systems/astra-gsm8k-transformers-16k)] ![GitHub stars](https://img.shields.io/github/stars/clavis-systems/astra-gsm8k-transformers-16k?style=social)  
+  Reruns the Astra edit of Qwen3.5-0.8B (130,188 weights) on 100 GSM8K problems with transformers and a 16,384-token limit. Thinking on: 7 to 50 correct; thinking off: 47 to 43. Verdict rule written before generation; independent recheck included.
 
 - **[Does Claude have it too? Replicating 'Sparks of Weight-Space Programming'](https://github.com/dhaneshnm/wsp-replication)**  
   dhaneshnm · *GitHub* · 2026-11-06 · `💻 code / results`  
