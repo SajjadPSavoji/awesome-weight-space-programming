@@ -8800,5 +8800,54 @@
     },
     "summary": "Presents a PRISMA-guided systematic review of pretrained knowledge reuse in deep reinforcement learning, narrowing 589 retrieved records to 15 empirical studies. Analyzes them by source-target similarity, diversity of reused models, and fairness of comparisons against from-scratch baselines.",
     "added": "2026-11-07"
+  },
+  {
+    "id": "gepa-wsp",
+    "title": "devichand579/gepa_wsp",
+    "authors": "devichand579",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/devichand579/gepa_wsp"
+    },
+    "repo": "devichand579/gepa_wsp",
+    "summary": "Reflective GEPA loop in which LLMs (DeepSeek, MiniMax, Nemotron) propose weight edits for MNIST, Fashion-MNIST, SST-2 and diffusion networks, with no parameter-gradient updates. 45 retained trajectories, 3 seeds, 60 mutations, compared to Adam. It improves one-shot statistical weight programs but does not generally replace Adam.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "flecart-weight-programming",
+    "title": "Flecart/weight-programming",
+    "authors": "Xuanqiang Angelo Huang",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Flecart/weight-programming",
+      "post": "https://flecart.github.io/posts/2026-11-03-i-tried-to-break-weight-programming/"
+    },
+    "repo": "Flecart/weight-programming",
+    "summary": "Replication and stress tests of 'Sparks of Weight Space Programming'. Hand-written MinAtar networks match published scores; the Kinetix car fix succeeds in 1,024/1,024 episodes. A Breakout network scores 517 versus 534 for a Python script with the same algorithm. Tests obfuscation (156/156 correct) and Claude Opus 5.5 writing networks.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "wsp-replication-claude",
+    "title": "Does Claude have it too? Replicating 'Sparks of Weight-Space Programming'",
+    "authors": "dhaneshnm",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/dhaneshnm/wsp-replication"
+    },
+    "repo": "dhaneshnm/wsp-replication",
+    "summary": "Replication of the MinAtar write-from-scratch experiment with Claude Opus 5.5, using the same prompts and scorer. In each game one of three one-shot replies reached 87%, 97% and 86% of GPT-6 Astra's score; median replies reached 51%, 14% and 62%. Claude beats PPO at 100M steps in every game.",
+    "added": "2026-11-06"
   }
 ]

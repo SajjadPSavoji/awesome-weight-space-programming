@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-522-blue)
+![Entries](https://img.shields.io/badge/entries-525-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -47,11 +47,11 @@
 - [🦾 Robotics and Control](#-robotics-and-control) (10)
   - [Vision-language-action models](#vision-language-action-models) (3)
   - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (5)
+- [🧩 Other Domains](#-other-domains) (6)
 - [🎮 Games](#-games) (5)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (2)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (9)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (6)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (8)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -218,6 +218,11 @@
   [[Code](https://github.com/KristinaMruts/weight-space-programming-spliceai)] ![GitHub stars](https://img.shields.io/github/stars/KristinaMruts/weight-space-programming-spliceai?style=social)  
   Claude Opus 5.5 hand-edits 165 weights of OpenSpliceAI-MANE-10000nt to separate pathogenic from benign ClinVar variants. Hidden-test AUPRC 0.9385 → 0.9746. A temperature-only control gives 0.9695 and gradient fine-tuning of the same layers 0.9697-0.9710; authors conclude the edit matched ordinary training rather than beating it.
 
+- **[devichand579/gepa_wsp](https://github.com/devichand579/gepa_wsp)**  
+  devichand579 · *GitHub* · 2026-11-04 · `💻 code / results`  
+  [[Code](https://github.com/devichand579/gepa_wsp)] ![GitHub stars](https://img.shields.io/github/stars/devichand579/gepa_wsp?style=social)  
+  Reflective GEPA loop in which LLMs (DeepSeek, MiniMax, Nemotron) propose weight edits for MNIST, Fashion-MNIST, SST-2 and diffusion networks, with no parameter-gradient updates. 45 retained trajectories, 3 seeds, 60 mutations, compared to Adam. It improves one-shot statistical weight programs but does not generally replace Adam.
+
 - **[Weight-space programming for auditing clinical decision networks](https://arxiv.org/abs/2611.05341)**  
   Henry Ford Health · *Preprint* · 2026-11-03 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.05341)] ![GitHub stars](https://img.shields.io/github/stars/hnusrat1/weightspace-rt?style=social)  
@@ -319,6 +324,11 @@
 
 *Audits, replications of claims and critical takes.*
 
+- **[Does Claude have it too? Replicating 'Sparks of Weight-Space Programming'](https://github.com/dhaneshnm/wsp-replication)**  
+  dhaneshnm · *GitHub* · 2026-11-06 · `💻 code / results`  
+  [[Code](https://github.com/dhaneshnm/wsp-replication)] ![GitHub stars](https://img.shields.io/github/stars/dhaneshnm/wsp-replication?style=social)  
+  Replication of the MinAtar write-from-scratch experiment with Claude Opus 5.5, using the same prompts and scorer. In each game one of three one-shot replies reached 87%, 97% and 86% of GPT-6 Astra's score; median replies reached 51%, 14% and 62%. Claude beats PPO at 100M steps in every game.
+
 - **[Rethinking Weight-Space Programming](https://github.com/ZhangYiqun018/rethinking-weight-space-programming)**  
   Yiqun Zhang · *GitHub* · 2026-11-05 · `💻 code / results`  
   [[Code](https://github.com/ZhangYiqun018/rethinking-weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/ZhangYiqun018/rethinking-weight-space-programming?style=social)  
@@ -348,6 +358,11 @@
   statsleelab · *GitHub* · 2026-11-03 · `💻 code / results`  
   [[Code](https://github.com/statsleelab/weight_space_programming)] [[Project](https://statsleelab.github.io/weight_space_programming/)] ![GitHub stars](https://img.shields.io/github/stars/statsleelab/weight_space_programming?style=social)  
   Reproduction of all 8 experiments of the MIT report from the released weights, prompts and logs, with standalone NumPy/SciPy verification scripts. Reports max tensor difference 0.0 and a full run of about 3.5 seconds on CPU. Includes a bilingual (English/Korean) interactive web report and a separate Drosophila connectome weight-edit page.
+
+- **[Flecart/weight-programming](https://flecart.github.io/posts/2026-11-03-i-tried-to-break-weight-programming/)**  
+  Xuanqiang Angelo Huang · *GitHub* · 2026-11-03 · `💻 code / results`  
+  [[Post](https://flecart.github.io/posts/2026-11-03-i-tried-to-break-weight-programming/)] [[Code](https://github.com/Flecart/weight-programming)] ![GitHub stars](https://img.shields.io/github/stars/Flecart/weight-programming?style=social)  
+  Replication and stress tests of 'Sparks of Weight Space Programming'. Hand-written MinAtar networks match published scores; the Kinetix car fix succeeds in 1,024/1,024 episodes. A Breakout network scores 517 versus 534 for a Python script with the same algorithm. Tests obfuscation (156/156 correct) and Claude Opus 5.5 writing networks.
 
 ## 📜 Foundations: Weight Programming Before WSP
 
