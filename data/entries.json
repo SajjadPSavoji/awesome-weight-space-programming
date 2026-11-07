@@ -334,7 +334,9 @@
       "paper": "https://arxiv.org/abs/2308.10248"
     },
     "summary": "Adds a direction computed from contrasting prompts to the residual stream at inference.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 1069,
+    "citations_source": "S2"
   },
   {
     "id": "repe",
@@ -351,7 +353,9 @@
     },
     "repo": "andyzoujm/representation-engineering",
     "summary": "Reads and controls high-level concepts through population-level directions in representations.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 1578,
+    "citations_source": "S2"
   },
   {
     "id": "caa",
@@ -366,7 +370,9 @@
       "paper": "https://arxiv.org/abs/2312.06681"
     },
     "summary": "Steering vectors from paired positive and negative examples shift behaviors such as sycophancy.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 1388,
+    "citations_source": "S2"
   },
   {
     "id": "refusal-direction",
@@ -417,7 +423,9 @@
       "paper": "https://arxiv.org/abs/2603.10090"
     },
     "summary": "Taxonomy of learning on weights: geometry and symmetries, weight embeddings, and weight generation.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 26,
+    "citations_source": "S2"
   },
   {
     "id": "wa-lqr",
@@ -432,7 +440,9 @@
       "paper": "https://arxiv.org/abs/2607.14943"
     },
     "summary": "Closed-loop LQR activation steering of Cosmos-Policy, DiT4DiT and LingBot-VA under camera, gripper and noise perturbations. Linear separability predicts which models can be steered.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 8,
+    "citations_source": "S2"
   },
   {
     "id": "coast",
@@ -447,7 +457,9 @@
       "paper": "https://arxiv.org/abs/2605.17144"
     },
     "summary": "Training-free conceptor steering of a VLA's action-expert residual stream (GR00T N1.5), learned from a few success and failure rollouts.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 9,
+    "citations_source": "S2"
   },
   {
     "id": "dimas",
@@ -464,7 +476,9 @@
     },
     "repo": "pegah-kh/dimas",
     "summary": "In flow-matching VLAs, behavioral features are linearly decodable but not linearly steerable, which motivates distribution matching instead.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 2,
+    "citations_source": "S2"
   },
   {
     "id": "dart",
@@ -479,7 +493,9 @@
       "paper": "https://arxiv.org/abs/2607.00666"
     },
     "summary": "Adapts a VLA to camera and embodiment shifts from one demonstration through weight-vector arithmetic with subspace alignment.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 3,
+    "citations_source": "S2"
   },
   {
     "id": "wizard",
@@ -494,7 +510,9 @@
       "paper": "https://arxiv.org/abs/2606.07217"
     },
     "summary": "A meta-network turns language and video into LoRA weights for a frozen VLA, with no test-time optimization.",
-    "added": "2026-11-04"
+    "added": "2026-11-04",
+    "citations": 1,
+    "citations_source": "S2"
   },
   {
     "id": "wsp-auditing-clinical-decision-networks",
@@ -836,7 +854,9 @@
       "project": "https://rollingoat.github.io/roboirs/"
     },
     "summary": "Linear classifiers on success and failure rollouts pick intervention sites and directions in frozen policies. π0.5 on 15 LIBERO-PRO tasks: 44.4% to 66.2%; Cosmos Policy: 35.4% to 55.4%. A plain diff-of-means direction already reaches 62.6% on π0.5, the baseline any agent edit has to beat.",
-    "added": "2026-11-05"
+    "added": "2026-11-05",
+    "citations": 0,
+    "citations_source": "S2"
   },
   {
     "id": "tv-negation-audit",
@@ -851,7 +871,9 @@
       "paper": "https://arxiv.org/abs/2608.04692"
     },
     "summary": "Subtracting per-skill task vectors on 10 LIBERO-Goal skills: 5 are cleanly suppressed, 3 resist and 2 collapse the policy. Unrelated tasks keep only 52% of their success on average, and cosine between task vectors does not predict the outcome.",
-    "added": "2026-11-05"
+    "added": "2026-11-05",
+    "citations": 1,
+    "citations_source": "S2"
   },
   {
     "id": "tinylora-vla",
@@ -866,7 +888,9 @@
       "paper": "https://arxiv.org/abs/2611.00522"
     },
     "summary": "TinyLoRA adapters of 8 to 384 parameters on a frozen OpenVLA-OFT, trained by GRPO or gradient-free CMA-ES. With 256 parameters carry height rises 120 mm at 92% success. The closest tiny-weight-edit baseline for an agent edit.",
-    "added": "2026-11-05"
+    "added": "2026-11-05",
+    "citations": 0,
+    "citations_source": "S2"
   },
   {
     "id": "causal-robot-fm",
@@ -881,7 +905,9 @@
       "paper": "https://arxiv.org/abs/2610.20750"
     },
     "summary": "Activation patching on π0.5, MolmoAct2 and MolmoBot: information reaches the action expert through a narrow band of mid-to-late cross-attention layers, and patching there redirects which object is picked and where the arm moves. A map of where edits should land.",
-    "added": "2026-11-05"
+    "added": "2026-11-05",
+    "citations": 0,
+    "citations_source": "S2"
   },
   {
     "id": "drvla-sae",
@@ -898,7 +924,9 @@
     },
     "summary": "SAEs on π0.5 and OpenVLA: amplifying general features induces matching behavior and ablating them destroys performance, but most features are episode-specific memorization.",
     "added": "2026-11-05",
-    "repo": "swannaiden/drvla"
+    "repo": "swannaiden/drvla",
+    "citations": 32,
+    "citations_source": "S2"
   },
   {
     "id": "haon-vla-steering",
@@ -1395,7 +1423,9 @@
       "paper": "https://proceedings.neurips.cc/paper_files/paper/1991/hash/cf67355a3333e6e143439161adc2d82e-Abstract.html"
     },
     "summary": "Describes RuleNet, which alternates learning with projecting the network's weights onto explicit rules and re-inserting those rules into the network.",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "citations": 65,
+    "citations_source": "S2"
   },
   {
     "id": "giles-omlin-1993",
@@ -1503,8 +1533,8 @@
       "paper": "https://proceedings.neurips.cc/paper_files/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html"
     },
     "summary": "Extracts tree-structured representations (TREPAN) from trained networks by querying the network as an oracle rather than reading its weights.",
-    "citations": 600,
-    "citations_source": "OA",
+    "citations": 434,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -1557,8 +1587,8 @@
       "paper": "https://proceedings.neurips.cc/paper_files/paper/1989/hash/6c9882bbac1c7093bd25041881277658-Abstract.html"
     },
     "summary": "Ranks weights by a saliency computed from a diagonal approximation of the Hessian and deletes the lowest-ranked ones. Bell Labs authors present it as a way to prune trained networks.",
-    "citations": 3210,
-    "citations_source": "OA",
+    "citations": 5601,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -1611,8 +1641,8 @@
       "paper": "https://proceedings.neurips.cc/paper_files/paper/1992/hash/303ed4c69846ab36c2904d3ba8573050-Abstract.html"
     },
     "summary": "Uses the full inverse Hessian to choose which weight to delete and to compute a closed-form update for all remaining weights. The update is commonly written δw = −(w_q/[H⁻¹]_qq) H⁻¹ e_q.",
-    "citations": 1500,
-    "citations_source": "OA",
+    "citations": 2230,
+    "citations_source": "S2",
     "added": "2026-11-06",
     "history_milestone": "Closed-form weight edit"
   },
@@ -1684,8 +1714,8 @@
       "paper": "https://arxiv.org/abs/1905.10650"
     },
     "summary": "Observes that a large percentage of attention heads can be removed at test time without significantly impacting performance, and some layers can be reduced to a single head. Also examines greedy pruning algorithms.",
-    "citations": 450,
-    "citations_source": "OA",
+    "citations": 1593,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -1702,8 +1732,8 @@
       "paper": "https://arxiv.org/abs/2208.11580"
     },
     "summary": "Introduces a framework covering weight pruning and quantization in the one-shot, post-training setting. It is built on an exact and efficient realization of the Optimal Brain Surgeon framework, extended to quantization.",
-    "citations": 85,
-    "citations_source": "OA",
+    "citations": 461,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -1720,8 +1750,8 @@
       "paper": "https://arxiv.org/abs/2301.00774"
     },
     "summary": "Prunes GPT-family models in one shot without retraining. Runs on OPT-175B and BLOOM-176B in under 4.5 hours, reaching 60% unstructured sparsity with negligible perplexity increase, ignoring more than 100 billion weights.",
-    "citations": 204,
-    "citations_source": "OA",
+    "citations": 1663,
+    "citations_source": "S2",
     "added": "2026-11-06",
     "history_milestone": "OBS-style editing at 175B scale"
   },
@@ -1739,8 +1769,8 @@
       "paper": "https://arxiv.org/abs/2306.11695"
     },
     "summary": "Prunes pretrained LLMs by weight magnitude multiplied by input activation on a per-output basis. Requires no retraining or weight update, and is evaluated on LLaMA and LLaMA-2 against magnitude pruning.",
-    "citations": 302,
-    "citations_source": "OA",
+    "citations": 1079,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -1756,8 +1786,8 @@
       "paper": "https://arxiv.org/abs/1803.03635"
     },
     "summary": "Proposes that dense, randomly initialized networks contain subnetworks that reach comparable test accuracy when trained in isolation. Finds winning tickets under 10-20% of the size of fully-connected and convolutional networks on MNIST and CIFAR10.",
-    "citations": 1971,
-    "citations_source": "OA",
+    "citations": 4624,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -2416,8 +2446,8 @@
       "paper": "https://arxiv.org/abs/2104.08164"
     },
     "summary": "Trains a hyper-network with constrained optimization to predict the weight update that changes one fact without affecting other knowledge. Tests it on a BERT fact-checking model and a BART question-answering model, with paraphrases changing consistently.",
-    "citations": 232,
-    "citations_source": "OA",
+    "citations": 781,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -2452,8 +2482,8 @@
       "paper": "https://arxiv.org/abs/2110.11309"
     },
     "summary": "Introduces MEND, small auxiliary editing networks that transform the fine-tuning gradient with a low-rank decomposition to make fast, local edits from one input-output pair. Trains on a single GPU in under a day for models of 10 billion+ parameters.",
-    "citations": 195,
-    "citations_source": "OA",
+    "citations": 645,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -2488,8 +2518,8 @@
       "paper": "https://arxiv.org/abs/2206.06520"
     },
     "summary": "Introduces SERAC, which stores edits in an explicit memory and learns to reason over them to modulate the base model's predictions. Adds three editing problems on question answering, fact-checking and dialogue; only SERAC performs well on all three.",
-    "citations": 64,
-    "citations_source": "OA",
+    "citations": 627,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -2506,8 +2536,8 @@
       "paper": "https://arxiv.org/abs/2301.04213"
     },
     "summary": "Shows that causal-tracing localization conclusions do not indicate which MLP layer is best to edit to override a stored fact. Also studies erasing and amplifying facts, where the edited layer predicts performance better than localization does.",
-    "citations": 44,
-    "citations_source": "OA",
+    "citations": 321,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -2542,8 +2572,8 @@
       "paper": "https://arxiv.org/abs/2410.02355"
     },
     "summary": "Projects the perturbation of locate-then-edit methods onto the null space of preserved knowledge before applying it to parameters. Boosts most such methods by an average of 36.7% on LLaMA3, GPT2-XL and GPT-J with one added line of code.",
-    "citations": 52,
-    "citations_source": "OA",
+    "citations": 324,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -2968,7 +2998,9 @@
     },
     "summary": "Generates a dataset of transformer-weight and RASP-program pairs with Tracr, then trains a model to recover RASP code from weights. Reproduces over 30% of test programs exactly; over 70% of outputs are functionally equivalent.",
     "added": "2026-11-06",
-    "history_milestone": "Weights decompiled back to code"
+    "history_milestone": "Weights decompiled back to code",
+    "citations": 3,
+    "citations_source": "S2"
   },
   {
     "id": "zeiler-fergus-2013",
@@ -3785,7 +3817,9 @@
       "paper": "https://arxiv.org/abs/2412.07192"
     },
     "summary": "Jailbreaks safety-aligned LLMs by flipping 5 to 25 targeted bits in parameters, using a bit-selection algorithm. Reaches 80-98% attack success on 10 open-source LLMs, and 69-91% on 5 models in a GDDR6 Rowhammer demonstration.",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "citations": 7,
+    "citations_source": "S2"
   },
   {
     "id": "reluplex",
@@ -3903,8 +3937,8 @@
       "paper": "https://arxiv.org/abs/1912.06719"
     },
     "summary": "Formalizes surgery, the transfer of trained weights between networks across feature and architecture changes. Uses discrete feature sets and set operations to determine automatically which components to keep and which to retrain, validated on the OpenAI Five model.",
-    "citations": 2,
-    "citations_source": "OA",
+    "citations": 6,
+    "citations_source": "S2",
     "added": "2026-11-06"
   },
   {
@@ -4124,7 +4158,9 @@
       "paper": "https://arxiv.org/abs/2508.08795"
     },
     "summary": "Introduces a taxonomy of knowledge editing for LLMs along two axes: editing mechanism and the function of edited knowledge, spanning factual, temporal, conceptual, commonsense, and social knowledge, plus problem definition, evaluation tasks, and datasets.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 0,
+    "citations_source": "S2"
   },
   {
     "id": "wang-2025-bring-your-survey",
@@ -4173,7 +4209,9 @@
       "paper": "https://aclanthology.org/2024.lrec-tutorials.6"
     },
     "summary": "Presents a tutorial on knowledge editing for large language models, serving as an introduction to the topic of modifying what a model knows after it has been trained.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 11,
+    "citations_source": "S2"
   },
   {
     "id": "zjunlp-2023-editing-tutorial",
@@ -4188,7 +4226,9 @@
     },
     "summary": "Presents a three-hour tutorial on editing large language models, introducing the practice of modifying the behavior and knowledge of an already trained model.",
     "added": "2026-11-07",
-    "org": "zjunlp group"
+    "org": "zjunlp group",
+    "citations": 5,
+    "citations_source": "S2"
   },
   {
     "id": "pinter-2023-emptying-ocean-survey",
@@ -4815,7 +4855,9 @@
       "paper": "https://arxiv.org/abs/2609.30909"
     },
     "summary": "Compares machine unlearning methods, benchmarks, and evidence across LLMs and systems with retrieval, memory, tools, and agents. Organizes them with a five-layer framework, seven-stage lifecycle, and six evidence dimensions, and argues current evidence is insufficient to establish removal.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 0,
+    "citations_source": "S2"
   },
   {
     "id": "qu-2024-frontier-data-survey",
@@ -5408,7 +5450,9 @@
       "paper": "https://arxiv.org/abs/2610.20139"
     },
     "summary": "Surveys 138 studies on sparse autoencoders in NLP, proposing a task-grounded taxonomy that links dictionary design, feature operations and NLP functions, and assessing evidence on recoverability, interpretability, faithfulness and behavioral utility.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 0,
+    "citations_source": "S2"
   },
   {
     "id": "song-2025-position-mechanistic-survey",
@@ -5474,7 +5518,9 @@
       "paper": "https://arxiv.org/abs/2609.22695"
     },
     "summary": "Analyzes inconsistencies in how the linear representation hypothesis is treated across AI, neuroscience and cognitive science, and proposes a formalization that makes dependencies on model, representation location, feature definition and evaluation dataset explicit, plus open problems.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 0,
+    "citations_source": "S2"
   },
   {
     "id": "zheng-2024-attention-heads-survey",
@@ -5591,7 +5637,9 @@
       "paper": "https://doi.org/10.20944/preprints202607.1441.v1"
     },
     "summary": "Surveys mechanistic interpretability work on language abilities in LLMs, covering probing, neuron-level and circuit-level analysis, and causal interventions used to study linguistic competence.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 1,
+    "citations_source": "S2"
   },
   {
     "id": "naseem-2026-mechanistic-interpretability-survey",
@@ -6455,8 +6503,8 @@
     },
     "summary": "Presents a memorial lecture laying out an agenda for AI's third summer, and is the origin of a six-type taxonomy of neural-symbolic system designs.",
     "added": "2026-11-07",
-    "citations": 85,
-    "citations_source": "CR"
+    "citations": 218,
+    "citations_source": "S2"
   },
   {
     "id": "yu-2021-symbolic-systems-survey",
@@ -6641,7 +6689,9 @@
       "paper": "https://arxiv.org/abs/2506.13018"
     },
     "summary": "Surveys symmetries in neural network parameter spaces, meaning transformations that leave the network function unchanged, and how they shape loss landscapes and learning dynamics. Summarizes the literature, links symmetry to learning theory, and identifies gaps.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 39,
+    "citations_source": "S2"
   },
   {
     "id": "zheng-2023-fine-tuning-survey",
@@ -6724,7 +6774,9 @@
       "paper": "https://arxiv.org/abs/2102.04906"
     },
     "summary": "Reviews dynamic networks that adapt their structure or parameters to each input, divided into instance-wise, spatial-wise and temporal-wise categories. Covers architecture design, decision-making schemes, optimization techniques, applications and open problems.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 1040,
+    "citations_source": "S2"
   },
   {
     "id": "chen-2021-optimize-primer-survey",
@@ -6858,7 +6910,9 @@
       "paper": "https://arxiv.org/abs/2303.07502"
     },
     "summary": "Surveys meta-learning approaches for few-shot learning after a brief introduction, organizing recent methods into metric-based, memory-based and learning-based families. Discusses current challenges and directions for future research.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 244,
+    "citations_source": "S2"
   },
   {
     "id": "wang-2020-generalizing-few-survey",
@@ -7212,8 +7266,8 @@
     },
     "summary": "Reviews the state of the art in evolution strategies, a family of evolutionary algorithms for optimizing over continuous search spaces, as a survey of methods developed in this area.",
     "added": "2026-11-07",
-    "citations": 86,
-    "citations_source": "CR"
+    "citations": 89,
+    "citations_source": "S2"
   },
   {
     "id": "larson-2019-derivative-free-survey",
@@ -7603,8 +7657,8 @@
     },
     "summary": "Surveys backdoor attacks and defenses in deep learning, categorizing existing work, offering a unified framework for analyzing poisoning-based attacks, relating backdoors to adversarial attacks and data poisoning, and summarizing benchmark datasets.",
     "added": "2026-11-07",
-    "citations": 521,
-    "citations_source": "CR"
+    "citations": 909,
+    "citations_source": "S2"
   },
   {
     "id": "gao-2020-backdoor-attacks-survey",
@@ -7619,7 +7673,9 @@
       "paper": "https://arxiv.org/abs/2007.10760"
     },
     "summary": "Organizes backdoor attacks into six categories by attacker capability and pipeline stage and defenses into four classes, comparing their strengths and weaknesses and covering beneficial uses such as intellectual property protection, honeypots and data deletion verification.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 305,
+    "citations_source": "S2"
   },
   {
     "id": "goldblum-2020-dataset-security-survey",
@@ -7635,8 +7691,8 @@
     },
     "summary": "Categorizes dataset vulnerabilities and exploits in machine learning, covering poisoning and backdoor threat models, defenses and open problems, and develops a unified taxonomy of the threat models and the relationships among them.",
     "added": "2026-11-07",
-    "citations": 295,
-    "citations_source": "CR"
+    "citations": 445,
+    "citations_source": "S2"
   },
   {
     "id": "guo-2021-overview-backdoor-survey",
@@ -7652,8 +7708,8 @@
     },
     "summary": "Reviews published work on training-time backdoor attacks against deep networks and their defenses, classifying them by the attacker's control over training and the defender's ability to verify training data integrity and monitor the network.",
     "added": "2026-11-07",
-    "citations": 89,
-    "citations_source": "CR"
+    "citations": 117,
+    "citations_source": "S2"
   },
   {
     "id": "wu-2023-attacks-adversarial-survey",
@@ -7669,8 +7725,8 @@
     },
     "summary": "Reviews adversarial machine learning attacks from a life-cycle perspective, proposing a unified mathematical framework and taxonomy covering backdoor attacks, weight attacks and adversarial attacks, and clarifying connections and differences among these paradigms.",
     "added": "2026-11-07",
-    "citations": 5,
-    "citations_source": "CR"
+    "citations": 40,
+    "citations_source": "S2"
   },
   {
     "id": "wang-2022-trojan-attacks-survey",
@@ -7685,7 +7741,9 @@
       "paper": "https://arxiv.org/abs/2202.07183"
     },
     "summary": "Reviews techniques for devising Trojan attacks on deep learning and their defenses, organizing recent literature systematically and explaining key concepts with minimal assumed background, including risks from outsourced training or data annotation.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 31,
+    "citations_source": "S2"
   },
   {
     "id": "jin-2024-trojan-attacks-survey",
@@ -7700,7 +7758,9 @@
       "paper": "https://arxiv.org/abs/2408.08920"
     },
     "summary": "Surveys Trojan attacks on deep networks and countermeasures, tracing the concept from traditional Trojans to neural network Trojans, comparing attack and defense strategies, and assessing the feasibility of such attacks in real-world scenarios.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 7,
+    "citations_source": "S2"
   },
   {
     "id": "childress-2025-architectural-backdoors-survey",
@@ -7715,7 +7775,9 @@
       "paper": "https://arxiv.org/abs/2507.12919"
     },
     "summary": "Consolidates research on architectural backdoors embedded in a model's computational graph, spanning compiler-level manipulations, tainted AutoML pipelines and supply-chain vulnerabilities, and assesses detection and defense strategies such as static graph inspection, dynamic fuzzing and partial formal verification.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 4,
+    "citations_source": "S2"
   },
   {
     "id": "abbasi-2025-backdoor-attacks-survey",
@@ -7730,7 +7792,9 @@
       "paper": "https://arxiv.org/abs/2509.07504"
     },
     "summary": "Reviews computer-vision backdoor attacks and defenses using a multi-dimensional taxonomy by injection stage, trigger type, labeling strategy, representation stage and target task, and discusses where defenses succeed or fail and gaps such as supply-chain and hardware threats.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 3,
+    "citations_source": "S2"
   },
   {
     "id": "zhao-2025-data-poisoning-survey",
@@ -7745,7 +7809,9 @@
       "paper": "https://arxiv.org/abs/2503.22759"
     },
     "summary": "Reviews data poisoning attacks in deep learning, categorizing them from multiple perspectives, extending the discussion to poisoning of large language models, and outlining open challenges and research directions.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 38,
+    "citations_source": "S2"
   },
   {
     "id": "zhao-2024-recent-backdoor-survey",
@@ -7760,7 +7826,9 @@
       "paper": "https://arxiv.org/abs/2406.06852"
     },
     "summary": "Surveys backdoor attacks and defenses in large language models from a fine-tuning perspective, classifying attacks into full-parameter fine-tuning, parameter-efficient fine-tuning and no fine-tuning, and discussing future directions such as attacks without fine-tuning and more covert algorithms.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 59,
+    "citations_source": "S2"
   },
   {
     "id": "zhou-2025-backdoor-threats-survey",
@@ -7776,8 +7844,8 @@
     },
     "summary": "Surveys backdoor threats to large language models, adapting a general machine-learning attack taxonomy to training-time white-box backdoor attacks, and covers corresponding defense methods as a guideline for future research.",
     "added": "2026-11-07",
-    "citations": 29,
-    "citations_source": "CR"
+    "citations": 41,
+    "citations_source": "S2"
   },
   {
     "id": "cheng-2023-backdoor-attacks-survey",
@@ -7793,8 +7861,8 @@
     },
     "summary": "Reviews backdoor attacks and countermeasures for language models, organizing attacks into four categories by attacker capability and affected stage, and countermeasures into sample inspection and model inspection, with benchmark datasets and comparative evaluations.",
     "added": "2026-11-07",
-    "citations": 33,
-    "citations_source": "CR"
+    "citations": 76,
+    "citations_source": "S2"
   },
   {
     "id": "sheng-2022-backdoor-attack-survey",
@@ -7810,8 +7878,8 @@
     },
     "summary": "Reviews backdoor attacks and defenses in natural language processing, where attackers manipulate training to inject triggers, and summarizes benchmark datasets and open issues for building systems that resist such attacks.",
     "added": "2026-11-07",
-    "citations": 24,
-    "citations_source": "CR"
+    "citations": 32,
+    "citations_source": "S2"
   },
   {
     "id": "omar-2023-backdoor-nlp-survey",
@@ -7826,7 +7894,9 @@
       "paper": "https://arxiv.org/abs/2302.06801"
     },
     "summary": "Surveys backdoor learning for NLP, covering attack techniques, applications, defenses and mitigation methods, plus evaluation metrics, benchmark datasets, threat models and open challenges, with a continually updated companion paper list.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 20,
+    "citations_source": "S2"
   },
   {
     "id": "yang-2023-comprehensive-overview-survey",
@@ -7842,8 +7912,8 @@
     },
     "summary": "Surveys backdoor attacks on large language models in communication networks, proposing a taxonomy of input-triggered, prompt-triggered, instruction-triggered and demonstration-triggered attacks, and analyzes benchmark datasets and open challenges.",
     "added": "2026-11-07",
-    "citations": 61,
-    "citations_source": "CR"
+    "citations": 90,
+    "citations_source": "S2"
   },
   {
     "id": "hu-2025-rethinking-reasoning-survey",
@@ -7858,7 +7928,9 @@
       "paper": "https://arxiv.org/abs/2510.07697"
     },
     "summary": "Reviews reasoning-based backdoor attacks in LLMs, proposing a taxonomy that groups them into associative, passive and active attacks, and covers defense strategies, current challenges and future research directions.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 4,
+    "citations_source": "S2"
   },
   {
     "id": "wang-2024-unique-security-survey",
@@ -7874,8 +7946,8 @@
     },
     "summary": "Surveys privacy and security threats unique to large language models across four scenarios: pre-training, fine-tuning, deployment and LLM-based agents, and analyzes potential countermeasures for each scenario.",
     "added": "2026-11-07",
-    "citations": 46,
-    "citations_source": "CR"
+    "citations": 79,
+    "citations_source": "S2"
   },
   {
     "id": "ma-2025-safety-at-survey",
@@ -7890,7 +7962,9 @@
       "paper": "https://arxiv.org/abs/2502.05206"
     },
     "summary": "Reviews safety research on vision foundation, language, vision-language and diffusion models and model-powered agents, with a taxonomy of threats from adversarial and backdoor attacks to jailbreaks and extraction, plus defenses, benchmarks and open challenges.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 82,
+    "citations_source": "S2"
   },
   {
     "id": "wang-2025-comprehensive-llm-survey",
@@ -7905,7 +7979,9 @@
       "paper": "https://arxiv.org/abs/2504.15585"
     },
     "summary": "Surveys LLM and agent safety across the full lifecycle of data preparation, pre-training, post-training, deployment and commercialization, drawing on over 800 papers to organize security issues holistically.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 145,
+    "citations_source": "S2"
   },
   {
     "id": "qian-2023-bit-flip-survey",
@@ -7921,8 +7997,8 @@
     },
     "summary": "Surveys bit-flip attacks on deep neural networks and corresponding defense methods, covering fault-injection techniques such as RowHammer, clock glitching and laser injection.",
     "added": "2026-11-07",
-    "citations": 36,
-    "citations_source": "CR"
+    "citations": 49,
+    "citations_source": "S2"
   },
   {
     "id": "xu-2021-security-hardware-survey",
@@ -7938,8 +8014,8 @@
     },
     "summary": "Surveys hardware-level security threats to deep neural networks, including fault injection, and discusses directions beyond the surveyed work.",
     "added": "2026-11-07",
-    "citations": 30,
-    "citations_source": "CR"
+    "citations": 49,
+    "citations_source": "S2"
   },
   {
     "id": "tajik-2020-artificial-fault-survey",
@@ -7955,8 +8031,8 @@
     },
     "summary": "Examines security assessment of neural network accelerators under fault injection attacks, comparing their assets with those of cryptographic systems to define threat models, and explores fault attacks mounted on such platforms.",
     "added": "2026-11-07",
-    "citations": 4,
-    "citations_source": "CR"
+    "citations": 13,
+    "citations_source": "S2"
   },
   {
     "id": "khalid-2021-exploiting-vulnerabilities-survey",
@@ -7971,7 +8047,9 @@
       "paper": "https://arxiv.org/abs/2105.03251"
     },
     "summary": "Overviews vulnerabilities of deep neural networks in cyber-physical systems, covering adversarial and fault-injection attacks, challenges in practical implementation, and prospective approaches toward robust, resilient DNN-based systems.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 12,
+    "citations_source": "S2"
   },
   {
     "id": "khoshavi-2020-impact-transient-survey",
@@ -7986,7 +8064,9 @@
       "paper": "https://arxiv.org/abs/2004.05915"
     },
     "summary": "Examines the impact of soft errors on binarized neural network inference accelerators, using fault injection on image classifiers trained on CIFAR-10 and MNIST to show drastic accuracy drops.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 9,
+    "citations_source": "S2"
   },
   {
     "id": "yu-2024-failure-analysis-survey",
@@ -8002,8 +8082,8 @@
     },
     "summary": "Surveys failure analysis and fault injection approaches across six layers of AI systems, analyzing 160 papers and repositories to build a taxonomy of failures and assess what faults injection tools can simulate.",
     "added": "2026-11-07",
-    "citations": 18,
-    "citations_source": "CR"
+    "citations": 42,
+    "citations_source": "S2"
   },
   {
     "id": "huang-2024-harmful-fine-survey",
@@ -8019,8 +8099,8 @@
     },
     "summary": "Reviews harmful fine-tuning attacks and defenses for LLMs, formulating the threat model and organizing the literature by attack setting, defense design and evaluation methodology, with a curated companion paper list.",
     "added": "2026-11-07",
-    "citations": 5,
-    "citations_source": "CR"
+    "citations": 107,
+    "citations_source": "S2"
   },
   {
     "id": "qi-2024-evaluating-durability-survey",
@@ -8035,7 +8115,9 @@
       "paper": "https://arxiv.org/abs/2412.07097"
     },
     "summary": "Argues that evaluating durable safeguards for open-weight LLMs against adversarial fine-tuning is difficult, using case studies to show evaluation pitfalls and urging claims limited to well-defined, rigorously examined threat models.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 68,
+    "citations_source": "S2"
   },
   {
     "id": "casper-2026-open-technical-survey",
@@ -8051,8 +8133,8 @@
     },
     "summary": "Presents 16 open technical challenges for open-weight model safety across training data, training algorithms, evaluations, deployment and ecosystem monitoring, arguing that openness about research and evaluations is key.",
     "added": "2026-11-07",
-    "citations": 4,
-    "citations_source": "CR"
+    "citations": 21,
+    "citations_source": "S2"
   },
   {
     "id": "reuel-2024-open-problems-survey",
@@ -8067,7 +8149,9 @@
       "paper": "https://arxiv.org/abs/2407.14981"
     },
     "summary": "Introduces technical AI governance and presents a taxonomy and incomplete catalog of its open problems, as a resource for technical researchers and funders seeking to contribute to AI governance.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 94,
+    "citations_source": "S2"
   },
   {
     "id": "wu-2024-evolutionary-computation-survey",
@@ -8117,8 +8201,8 @@
     },
     "summary": "Offers a forward-looking overview of how LLMs can improve evolutionary computation, focusing on the algorithms themselves, population design and additional enhancements.",
     "added": "2026-11-07",
-    "citations": 13,
-    "citations_source": "CR"
+    "citations": 11,
+    "citations_source": "S2"
   },
   {
     "id": "huang-2024-when-meets-survey",
@@ -8134,8 +8218,8 @@
     },
     "summary": "Reviews the combination of LLMs and optimization algorithms, covering how LLMs support modeling and decision-making in optimization and how optimization algorithms refine LLM architectures and output quality.",
     "added": "2026-11-07",
-    "citations": 67,
-    "citations_source": "CR"
+    "citations": 76,
+    "citations_source": "S2"
   },
   {
     "id": "yu-2024-insights-into-survey",
@@ -8150,7 +8234,9 @@
       "paper": "https://arxiv.org/abs/2410.20848"
     },
     "summary": "Reviews LLM use in optimization, focusing on LLMs as solution generators and algorithm designers, and proposes an LLM-EA paradigm analyzed through individual representation, variation operators and fitness evaluation.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 24,
+    "citations_source": "S2"
   },
   {
     "id": "liu-2024-systematic-algorithm-survey",
@@ -8165,7 +8251,9 @@
       "paper": "https://arxiv.org/abs/2410.14716"
     },
     "summary": "Surveys LLMs for algorithm design with a taxonomy of LLM roles as optimizers, predictors, extractors and designers, synthesizing literature across three pipeline phases and applications, and outlining open challenges.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 141,
+    "citations_source": "S2"
   },
   {
     "id": "zhang-2025-systematic-evolutionary-survey",
@@ -8181,8 +8269,8 @@
     },
     "summary": "Reviews large language models for evolutionary optimization through a workflow of optimization modeling and optimization solving, splitting solving into stand-alone optimizers, embedded low-level components, and high-level managers for algorithm selection and generation, plus benchmarks and applications.",
     "added": "2026-11-07",
-    "citations": 3,
-    "citations_source": "CR"
+    "citations": 19,
+    "citations_source": "S2"
   },
   {
     "id": "chauhan-2025-evolutionary-computation-survey",
@@ -8198,8 +8286,8 @@
     },
     "summary": "Reviews the bidirectional interaction between LLMs and evolutionary computation, covering EC improving LLM systems via prompt optimization and architecture search, LLMs improving EC via metaheuristic and heuristic design, and co-adaptive feedback-loop frameworks.",
     "added": "2026-11-07",
-    "citations": 2,
-    "citations_source": "CR"
+    "citations": 10,
+    "citations_source": "S2"
   },
   {
     "id": "zhao-2026-comprehensive-llm-survey",
@@ -8230,8 +8318,8 @@
     },
     "summary": "Surveys LLMs used as optimizers across three paradigms: direct optimization via iterative prompting, tool-augmented optimization that orchestrates external solvers, and tool-creating optimization that discovers reusable algorithms. Describes benchmark-based performance frontiers and argues for trade-offs between direct and tool-augmented approaches.",
     "added": "2026-11-07",
-    "citations": 1,
-    "citations_source": "CR"
+    "citations": 3,
+    "citations_source": "S2"
   },
   {
     "id": "tornede-2023-automl-age-survey",
@@ -8246,7 +8334,9 @@
       "paper": "https://arxiv.org/abs/2306.08107"
     },
     "summary": "Explores the symbiosis of AutoML and LLMs, surveying existing work on enhancing AutoML with LLMs and on using AutoML to improve LLMs, and critically assessing the risks of integrating the two fields.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 53,
+    "citations_source": "S2"
   },
   {
     "id": "gu-2024-constructing-optimizing-survey",
@@ -8262,8 +8352,8 @@
     },
     "summary": "Reviews how LLMs construct and optimize machine learning workflows, organized around data and feature engineering, model selection and hyperparameter optimization, and workflow evaluation, with discussion of advantages, limitations, open challenges and future directions.",
     "added": "2026-11-07",
-    "citations": 16,
-    "citations_source": "CR"
+    "citations": 39,
+    "citations_source": "S2"
   },
   {
     "id": "chen-2025-based-data-survey",
@@ -8279,8 +8369,8 @@
     },
     "summary": "Reviews LLM-based agents for data science from two perspectives: agent design principles covering roles, execution, knowledge and reflection, and data science processes such as preprocessing, model development, evaluation and visualization, linked by a dual-perspective framework.",
     "added": "2026-11-07",
-    "citations": 5,
-    "citations_source": "CR"
+    "citations": 30,
+    "citations_source": "S2"
   },
   {
     "id": "tao-2024-self-evolution-survey",
@@ -8295,7 +8385,9 @@
       "paper": "https://arxiv.org/abs/2404.14387"
     },
     "summary": "Surveys self-evolution of LLMs as iterative cycles of experience acquisition, experience refinement, updating and evaluation, categorizes evolution objectives for LLMs and LLM-based agents, and gives a taxonomy and insights for each module.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 100,
+    "citations_source": "S2"
   },
   {
     "id": "gao-2025-self-evolving-survey",
@@ -8310,7 +8402,9 @@
       "paper": "https://arxiv.org/abs/2507.21046"
     },
     "summary": "Reviews self-evolving agents along three dimensions: what to evolve across agent components such as models, memory, tools and architecture, when to adapt by stage, and how, plus benchmarks, applications in coding, education and healthcare, and open challenges.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 182,
+    "citations_source": "S2"
   },
   {
     "id": "fang-2025-comprehensive-self-survey",
@@ -8325,7 +8419,9 @@
       "paper": "https://arxiv.org/abs/2508.07407"
     },
     "summary": "Reviews self-evolving AI agents through a unified feedback-loop framework of system inputs, agent system, environment and optimisers, surveying techniques targeting each component, domain-specific strategies in biomedicine, programming and finance, and evaluation, safety and ethics.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 222,
+    "citations_source": "S2"
   },
   {
     "id": "ren-2026-self-improvements-survey",
@@ -8340,7 +8436,9 @@
       "paper": "https://arxiv.org/abs/2607.13104"
     },
     "summary": "Frames modern self-improving agents as a foundation model coupled with a scaffold of prompts, memory, tools and control logic, formalizes self-improvement as a self-induced update operator, and organizes prior work by update target and driving signal.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 24,
+    "citations_source": "S2"
   },
   {
     "id": "chen-2026-recursive-self-survey",
@@ -8355,7 +8453,9 @@
       "paper": "https://arxiv.org/abs/2607.07663"
     },
     "summary": "Surveys 1,250 arXiv papers from 2024–2026 along two axes: what the system improves and the degree of loop closure, separating bounded self-refinement from open-ended recursive self-improvement and ordering evaluator signals into a verification hierarchy.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 49,
+    "citations_source": "S2"
   },
   {
     "id": "wu-2026-recursive-self-survey",
@@ -8400,7 +8500,9 @@
       "paper": "https://arxiv.org/abs/2602.00359"
     },
     "summary": "Argues that agentic evolution, in which an autonomous evolver agent drives deployment-time adaptation, is the future of LLM adaptation, introduces the A-Evolve framework, and proposes an evolution-scaling hypothesis tying adaptation capacity to evolution compute.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 19,
+    "citations_source": "S2"
   },
   {
     "id": "clune-2019-ai-gas-survey",
@@ -8415,7 +8517,9 @@
       "paper": "https://arxiv.org/abs/1905.10985"
     },
     "summary": "Argues that the AI-generating algorithm approach, built on three pillars of meta-learning architectures, meta-learning learning algorithms and generating learning environments, deserves more research investment than the manual approach to general AI, and discusses safety and ethics.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 163,
+    "citations_source": "S2"
   },
   {
     "id": "hughes-2024-open-endedness-survey",
@@ -8430,7 +8534,9 @@
       "paper": "https://arxiv.org/abs/2406.04268"
     },
     "summary": "Argues that open-endedness, formally defined through novelty and learnability, is essential for artificial superhuman intelligence, outlines a path via open-ended systems built on foundation models, and examines safety implications.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 97,
+    "citations_source": "S2"
   },
   {
     "id": "lin-2026-safety-self-survey",
@@ -8445,7 +8551,9 @@
       "paper": "https://arxiv.org/abs/2606.23075"
     },
     "summary": "Analyzes security and privacy threats in self-evolving LLM agent systems using a matrix of five functional modules by five lifecycle stages, identifying seven amplification effects and comparing two open-source frameworks in case studies.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 12,
+    "citations_source": "S2"
   },
   {
     "id": "tie-2025-ai-scientists-survey",
@@ -8460,7 +8568,9 @@
       "paper": "https://arxiv.org/abs/2510.23045"
     },
     "summary": "Surveys AI scientist systems through a six-stage framework spanning literature review, idea generation, experimental preparation, experimental execution, scientific writing and paper generation, and traces the field's evolution from foundational modules to closed-loop systems and current scalability work.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 10,
+    "citations_source": "S2"
   },
   {
     "id": "zheng-2025-automation-autonomy-survey",
@@ -8476,8 +8586,8 @@
     },
     "summary": "Surveys LLMs in scientific discovery through a three-level taxonomy of Tool, Analyst and Scientist that reflects escalating autonomy across the research lifecycle, and identifies challenges including robotic automation, self-improvement and ethical governance.",
     "added": "2026-11-07",
-    "citations": 18,
-    "citations_source": "CR"
+    "citations": 131,
+    "citations_source": "S2"
   },
   {
     "id": "ren-2025-scientific-intelligence-survey",
@@ -8492,7 +8602,9 @@
       "paper": "https://arxiv.org/abs/2503.24047"
     },
     "summary": "Reviews LLM-based scientific agents, covering their architectures, design, benchmarks, applications and ethical considerations, and how they differ from general-purpose agents in tasks from hypothesis generation to experiment design, data analysis and simulation.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 129,
+    "citations_source": "S2"
   },
   {
     "id": "wei-2025-ai-science-survey",
@@ -8507,7 +8619,9 @@
       "paper": "https://arxiv.org/abs/2508.14111"
     },
     "summary": "Reviews autonomous scientific discovery across life sciences, chemistry, materials science and physics, unifying process-, autonomy- and mechanism-oriented perspectives in a framework with five core capabilities and a four-stage discovery workflow.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 102,
+    "citations_source": "S2"
   },
   {
     "id": "chen-2025-ai4research-artificial-survey",
@@ -8523,8 +8637,8 @@
     },
     "summary": "Surveys AI for scientific research with a systematic taxonomy of five mainstream tasks, identifies research gaps and future directions on rigor, scalability and societal impact, and compiles applications, data corpora and tools.",
     "added": "2026-11-07",
-    "citations": 1,
-    "citations_source": "CR"
+    "citations": 66,
+    "citations_source": "S2"
   },
   {
     "id": "luo-2025-llm4sr-scientific-survey",
@@ -8539,7 +8653,9 @@
       "paper": "https://arxiv.org/abs/2501.04306"
     },
     "summary": "Surveys the roles of LLMs across four stages of the research cycle: hypothesis discovery, experiment planning and implementation, scientific writing and peer reviewing, covering task-specific methods, evaluation benchmarks, challenges and future directions.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 110,
+    "citations_source": "S2"
   },
   {
     "id": "gridach-2025-agentic-ai-survey",
@@ -8554,7 +8670,9 @@
       "paper": "https://arxiv.org/abs/2503.08979"
     },
     "summary": "Surveys agentic AI for scientific discovery, categorizing existing systems and tools and their progress in chemistry, biology and materials science, and covering evaluation metrics, implementation frameworks, datasets, challenges such as reliability and ethics, and human-AI collaboration directions.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 129,
+    "citations_source": "S2"
   },
   {
     "id": "liu-2019-algorithms-verifying-survey",
@@ -8570,8 +8688,8 @@
     },
     "summary": "Surveys methods for soundly verifying input-output properties of deep neural networks, drawing on reachability analysis, optimization, and search. Discusses connections between algorithms and provides pedagogical implementations compared on benchmark problems.",
     "added": "2026-11-07",
-    "citations": 191,
-    "citations_source": "CR"
+    "citations": 502,
+    "citations_source": "S2"
   },
   {
     "id": "huang-2018-safety-trustworthiness-survey",
@@ -8604,8 +8722,8 @@
     },
     "summary": "Systematizes certifiably robust approaches for deep neural networks, providing a taxonomy of robustness verification and robust training methods and discussing their strengths, limitations, and connections. Includes an open-source unified platform evaluating more than 20 representative approaches.",
     "added": "2026-11-07",
-    "citations": 105,
-    "citations_source": "CR"
+    "citations": 171,
+    "citations_source": "S2"
   },
   {
     "id": "albarghouthi-2021-introduction-verification-survey",
@@ -8621,8 +8739,8 @@
     },
     "summary": "Introduces foundational ideas from formal verification and their adaptation to reasoning about the safety, security, correctness, and robustness of neural networks and deep learning, in book-length form.",
     "added": "2026-11-07",
-    "citations": 40,
-    "citations_source": "CR"
+    "citations": 122,
+    "citations_source": "S2"
   },
   {
     "id": "meng-2022-adversarial-robustness-survey",
@@ -8638,8 +8756,8 @@
     },
     "summary": "Surveys 39 works on adversarial robustness verification for neural networks, analyzing how robustness is formulated and which verification techniques are used. Classifies techniques by property specification, problem reduction, and reasoning strategies.",
     "added": "2026-11-07",
-    "citations": 46,
-    "citations_source": "CR"
+    "citations": 99,
+    "citations_source": "S2"
   },
   {
     "id": "urban-2021-formal-methods-survey",
@@ -8654,7 +8772,9 @@
       "paper": "https://arxiv.org/abs/2104.02466"
     },
     "summary": "Reviews formal methods for verifying machine learning systems, first recalling established methods in avionic software. Notes most methods target trained neural networks using SMT, optimization, or abstract interpretation, and also covers support vector machines and decision tree ensembles.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 81,
+    "citations_source": "S2"
   },
   {
     "id": "brix-2023-first-three-survey",
@@ -8670,8 +8790,8 @@
     },
     "summary": "Summarizes and meta-analyzes the first three annual neural network verification competitions, held in 2020, 2021, and 2022, covering processes, rules, results, and observed trends across problem classes such as image classification, neural control, and reinforcement learning.",
     "added": "2026-11-07",
-    "citations": 74,
-    "citations_source": "CR"
+    "citations": 118,
+    "citations_source": "S2"
   },
   {
     "id": "seshia-2016-verified-artificial-survey",
@@ -8686,7 +8806,9 @@
       "paper": "https://arxiv.org/abs/1606.08514"
     },
     "summary": "Considers verified AI, meaning systems with provable correctness assurances, from a formal methods perspective. Describes five challenges for achieving it and five corresponding principles for addressing them.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 220,
+    "citations_source": "S2"
   },
   {
     "id": "cordeiro-2025-verification-programming-survey",
@@ -8701,7 +8823,9 @@
       "paper": "https://arxiv.org/abs/2501.05867"
     },
     "summary": "Argues that neural network verification challenges should be formulated as programming language challenges, and suggests possible future solutions drawing on insights from the programming language community.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 17,
+    "citations_source": "S2"
   },
   {
     "id": "sbai-2025-checking-opportunities-survey",
@@ -8717,8 +8841,8 @@
     },
     "summary": "Takes a model-checking perspective on deep neural networks, outlining the opportunities and challenges of applying that approach to them.",
     "added": "2026-11-07",
-    "citations": 4,
-    "citations_source": "CR"
+    "citations": 3,
+    "citations_source": "S2"
   },
   {
     "id": "taylor-2009-transfer-reinforcement-survey",
@@ -8733,7 +8857,9 @@
       "paper": "https://www.jmlr.org/papers/v10/taylor09a.html"
     },
     "summary": "Surveys the literature on transfer learning in classical reinforcement learning domains, giving an overview of how the topic has been studied.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 2204,
+    "citations_source": "S2"
   },
   {
     "id": "zhu-2020-transfer-reinforcement-survey",
@@ -8749,8 +8875,8 @@
     },
     "summary": "Surveys transfer learning approaches in deep reinforcement learning, proposing a framework that categorizes them and analyzes their goals, methodologies, compatible reinforcement learning backbones, and practical applications. Also connects transfer learning to related topics and outlines future challenges.",
     "added": "2026-11-07",
-    "citations": 714,
-    "citations_source": "CR"
+    "citations": 960,
+    "citations_source": "S2"
   },
   {
     "id": "khetarpal-2022-continual-reinforcement-survey",
@@ -8766,8 +8892,8 @@
     },
     "summary": "Reviews formulations and approaches to continual reinforcement learning, offering taxonomies of formulations, based on scope and driver of non-stationarity, and of methods. Covers evaluation benchmarks and metrics, and open problems linking the field to neuroscience.",
     "added": "2026-11-07",
-    "citations": 187,
-    "citations_source": "CR"
+    "citations": 486,
+    "citations_source": "S2"
   },
   {
     "id": "kirk-2023-zero-shot-survey",
@@ -8783,8 +8909,8 @@
     },
     "summary": "Surveys zero-shot generalisation in deep reinforcement learning, using a unifying formalism to categorise existing benchmarks and methods. Offers a critical discussion with recommendations, including building benchmarks in underexplored settings such as offline RL and reward-function variation.",
     "added": "2026-11-07",
-    "citations": 192,
-    "citations_source": "CR"
+    "citations": 323,
+    "citations_source": "S2"
   },
   {
     "id": "patil-2026-combining-trained-survey",
@@ -8799,7 +8925,9 @@
       "paper": "https://arxiv.org/abs/2605.02159"
     },
     "summary": "Presents a PRISMA-guided systematic review of pretrained knowledge reuse in deep reinforcement learning, narrowing 589 retrieved records to 15 empirical studies. Analyzes them by source-target similarity, diversity of reused models, and fairness of comparisons against from-scratch baselines.",
-    "added": "2026-11-07"
+    "added": "2026-11-07",
+    "citations": 0,
+    "citations_source": "S2"
   },
   {
     "id": "gepa-wsp",
@@ -8848,6 +8976,118 @@
     },
     "repo": "dhaneshnm/wsp-replication",
     "summary": "Replication of the MinAtar write-from-scratch experiment with Claude Opus 5.5, using the same prompts and scorer. In each game one of three one-shot replies reached 87%, 97% and 86% of GPT-6 Astra's score; median replies reached 51%, 14% and 62%. Claude beats PPO at 100M steps in every game.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "jena-2026-weights-skills-survey",
+    "title": "Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills",
+    "authors": "Gaytri Jena et al.",
+    "date": "2026-08",
+    "venue": "arXiv",
+    "category": "surv-agents",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.01851"
+    },
+    "summary": "Organizes robot learning by whether competence lives in frozen policy weights (VLA models) or in executable skills that agents write and refine as code. It ranks code-as-policy methods by degree of self-improvement across 77 systems and notes that only the code sense of skill improves without gradient updates.",
+    "added": "2026-11-06",
+    "citations": 1,
+    "citations_source": "S2"
+  },
+  {
+    "id": "chen-2026-where-knowledge-survey",
+    "title": "Where Does Knowledge Live? Representational, Causal, and Editable Localization in Language Models: A Survey",
+    "authors": "Zhuomin Chen et al.",
+    "date": "2026-08",
+    "venue": "Preprints.org",
+    "category": "surv-editing",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://doi.org/10.20944/preprints202608.1605.v1"
+    },
+    "summary": "Separates three senses of knowledge localization in language models (representational, causal and editable) and reviews the evidence that they disagree: causal tracing can miss the best edit site and superposition makes single neurons polysemantic.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "cai-2026-actionable-interpretability-survey",
+    "title": "A Survey on Actionable Interpretability in Large Language Models",
+    "authors": "Jie Cai, Mafizur Rahman, James Enouen, Lijun Qian, Yan Liu",
+    "org": "USC",
+    "date": "2026-09",
+    "venue": "IJCAI 2026",
+    "category": "surv-interp",
+    "kind": "paper",
+    "evidence": "peer",
+    "links": {
+      "paper": "https://doi.org/10.24963/ijcai.2026/865"
+    },
+    "summary": "Reviews attributional and mechanistic interpretability methods by whether they lead to an intervention, and how they support hallucination mitigation, knowledge editing, fairness, safety and efficiency in LLMs and VLMs.",
+    "added": "2026-11-06",
+    "citations": 1,
+    "citations_source": "S2"
+  },
+  {
+    "id": "pitre-2026-mechanistic-behavior-survey",
+    "title": "Mechanistic Interpretability of LLM Behavior: A Survey",
+    "authors": "Priya Pitre, Jun Hou, Ziyu Yao, Naren Ramakrishnan, Xuan Wang",
+    "org": "Virginia Tech",
+    "date": "2026-10",
+    "venue": "Preprints.org",
+    "category": "surv-interp",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://doi.org/10.20944/preprints202610.2446.v1"
+    },
+    "summary": "Surveys 229 papers across five behavior families (epistemic, linguistic, reasoning, safety, social) and grades mechanistic evidence on five levels, from decodability to generalization.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "xiang-2026-knowledge-lifecycle-survey",
+    "title": "Knowledge Mechanisms Across the Lifecycle of Large Language Models",
+    "authors": "Hao Xiang et al.",
+    "date": "2026-07",
+    "venue": "OSF Preprints",
+    "category": "surv-editing",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://doi.org/10.17605/osf.io/c8hxb"
+    },
+    "summary": "Traces how knowledge is acquired, represented, used, revised and transferred inside LLMs with a stage-driven taxonomy, moving from the model-as-knowledge-base view to micro-level mechanisms such as localization, superposition and knowledge conflict.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "aslanturk-2026-wsp-asr",
+    "title": "Weight-Space Programming on Qwen3-ASR-0.6B: Nine Independent Agent Edits, Random-Direction Controls, and a Missing Attention Mask",
+    "authors": "Taha Enes Aslantürk",
+    "date": "2026-11-05",
+    "venue": "Zenodo preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://doi.org/10.5281/zenodo.23976684",
+      "code": "https://huggingface.co/tahaenesaslanturk/Qwen3-ASR-0.6B-weight-space-programming"
+    },
+    "summary": "Applied the Sparks repair protocol to speech recognition. Nine Claude agent edits each reduced a silence-induced language-tagging failure, and the real edit beat matched random-direction controls in 26 of 27 comparisons. The failure turned out to be largely a missing attention mask in the inference backend, which the edits compensated for in weight space.",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "noguer-2026-mathematics-wsp",
+    "title": "The Mathematics of Weight-Space Programming",
+    "authors": "Miquel Noguer Alonso",
+    "date": "2026-11-03",
+    "venue": "Zenodo preprint",
+    "category": "analysis",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://doi.org/10.5281/zenodo.23933590"
+    },
+    "summary": "Gives conditions under which a selective edit to a transformer's final feed-forward module is possible, minimum-cost edits under explicit preservation constraints, and certificates of infeasibility. The editors are explicit algorithms, not LLMs; on GPT-2 CounterFact edits, interval constraints improved neighbor retention by about 20 points.",
     "added": "2026-11-06"
   }
 ]
