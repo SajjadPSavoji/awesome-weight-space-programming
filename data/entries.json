@@ -9201,5 +9201,90 @@
     "repo": "clavis-systems/astra-gsm8k-transformers-16k",
     "summary": "Reruns the Astra edit of Qwen3.5-0.8B (130,188 weights) on 100 GSM8K problems with transformers and a 16,384-token limit. Thinking on: 7 to 50 correct; thinking off: 47 to 43. Verdict rule written before generation; independent recheck included.",
     "added": "2026-11-07"
+  },
+  {
+    "id": "wsp-for-turing-complete",
+    "title": "Weight-Space Programming and Gradient Optimization on Nonconvex Algorithmic Tasks",
+    "authors": "Francois Chaubard, Astra (GPT-6 Astra)",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Fchaubard/WSP-for-turing-complete",
+      "post": "https://fchaubard.github.io/weight_space_programming.html"
+    },
+    "repo": "Fchaubard/WSP-for-turing-complete",
+    "summary": "A language model writes weights for fixed small networks on ten algorithmic tasks (29 task-architecture pairs, three starts, 87 settings), compared with gradient-based optimizer pipelines. Examples-only WSP matches every binary64 extrapolation reference in 30 of 87 settings; gradient descent and gradient descent plus L-BFGS match in zero. Iterative WSP examples-only RMSE total drops from about 1.06 trillion to 2.03 billion.",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "weight-space-programming-claude",
+    "title": "Weight-space programming with Claude Opus 5.5",
+    "authors": "Cenrax",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Cenrax/weight-space-programming-claude",
+      "post": "https://cenrax.github.io/weight-space-programming-claude/"
+    },
+    "repo": "Cenrax/weight-space-programming-claude",
+    "summary": "Independent replication of Sparks of Weight-Space Programming with Claude Opus 5.5 instead of GPT-6 Astra, on Gymnasium, ALE and PettingZoo environments. Probes: reading Atari policies (3/4 games read), fixing failing policies (MountainCar 0% to 100%, LunarLander 0% to 85.6%), writing policies zero-shot, writing a 9x9 Go network, and identifying a sycophantic Gemma 3 270M finetune (6/6).",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "weight-space-programming-stacking",
+    "title": "Independently Discovered Weight Edits Compose: A Replication and Extension of Weight-Space Programming",
+    "authors": "Ajay Grover",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ajaygrover/weight-space-programming-stacking",
+      "post": "https://ajaygrover.github.io/weight-space-programming-stacking/"
+    },
+    "repo": "ajaygrover/weight-space-programming-stacking",
+    "summary": "Replication of Sparks of Weight-Space Programming on Qwen3.5-0.8B: Astra's edit scores 46.8% on MATH-500 against a 6% base. Claude Opus 5.5 writes a second edit; stacking both reaches 52.2% on all 500 problems, with 31% fewer tokens than Astra's edit. A random edit of the same size reaches 20% on the first 100 problems.",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "weight-space-programming-genomics",
+    "title": "Weight-space programming on a regulatory-genomics CNN: public release 1",
+    "authors": "Bruni Cardoso",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/brunicardoso/weight-space-programming-genomics"
+    },
+    "repo": "brunicardoso/weight-space-programming-genomics",
+    "summary": "Preregistered, blinded test of whether Claude Opus 5.5 in Claude Code can detect and remove a planted shortcut in a CTCF-binding CNN from its weights, without gradients. 56 sessions on 18 planted and 10 clean models. Detection: D = 0.396 [0.021, 0.792], one-sided p = 0.0177. Repair: 2 of 36 planted-model sessions met the fix criterion.",
+    "added": "2026-11-07"
+  },
+  {
+    "id": "wsp-sql",
+    "title": "Weight-space programming, but for SQL",
+    "authors": "Exorust",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Exorust/wsp-sql",
+      "post": "https://charoori.com/blog/weight-space-programming-sql",
+      "project": "https://wsp-sql.vercel.app"
+    },
+    "repo": "Exorust/wsp-sql",
+    "summary": "Independent test of the MIT report on Qwen3.5-0.8B for text-to-SQL, with Claude Fable 5.1 as editor. A 4,083-entry edit cuts the loop rate from 90.7% to 26.0% and raises accuracy from 0.7% to 6.0% on 150 BIRD Mini-Dev questions. Random edits of the same size do nothing; base with thinking off scores 7.3%.",
+    "added": "2026-11-07"
   }
 ]

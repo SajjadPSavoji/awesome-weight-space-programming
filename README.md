@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-539-blue)
+![Entries](https://img.shields.io/badge/entries-544-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,18 +16,18 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-07** · [Weight-space programming with Claude Opus 5.5](https://cenrax.github.io/weight-space-programming-claude/) (Analyses and Critiques)
 - **2026-11-07** · [Rohitthimaya/weight-space-programming](https://github.com/Rohitthimaya/weight-space-programming) (Other Domains)
 - **2026-11-07** · [Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public) (Analyses and Critiques)
 - **2026-11-07** · [Weight-Space Programming: an independent reproduction](https://github.com/goddoe/weight-space-programming) (Analyses and Critiques)
 - **2026-11-07** · [Weight-space programming on a character recognizer](https://github.com/apetcu/weight-space-programming) (Other Domains)
 - **2026-11-07** · [Banking77 by weight-space programming](https://github.com/sfc-gh-tosmith/wsp-banking77) (Writing networks from scratch)
 - **2026-11-07** · [The Astra weight edit on Qwen3.5-0.8B: a GSM8K rerun with transformers and a 16K budget](https://github.com/clavis-systems/astra-gsm8k-transformers-16k) (Analyses and Critiques)
+- **2026-11-07** · [Weight-Space Programming and Gradient Optimization on Nonconvex Algorithmic Tasks](https://fchaubard.github.io/weight_space_programming.html) (Writing networks from scratch)
+- **2026-11-07** · [Independently Discovered Weight Edits Compose: A Replication and Extension of Weight-Space Programming](https://ajaygrover.github.io/weight-space-programming-stacking/) (Repairing behavior)
+- **2026-11-07** · [Weight-space programming on a regulatory-genomics CNN: public release 1](https://github.com/brunicardoso/weight-space-programming-genomics) (Other Domains)
+- **2026-11-07** · [Weight-space programming, but for SQL](https://charoori.com/blog/weight-space-programming-sql) (Repairing behavior)
 - **2026-11-07** · [wsp: weight space programming](https://github.com/mfaseehuddin/wsp) (Writing networks from scratch)
-- **2026-11-07** · [Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility](https://arxiv.org/abs/2610.20139) (Interpretability)
-- **2026-11-07** · [From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models](https://arxiv.org/abs/2609.19553) (Model merging and weight arithmetic)
-- **2026-11-07** · [Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions](https://arxiv.org/abs/2609.30909) (Steering, representation engineering and unlearning)
-- **2026-11-07** · [A Survey on the Linear Representation Hypothesis](https://arxiv.org/abs/2609.22695) (Interpretability)
-- **2026-11-07** · [Open Technical Problems in Open-Weight AI Model Risk Management](https://arxiv.org/abs/2608.07514) (Backdoors and weight-level attacks)
 
 ## 🧭 Milestones
 
@@ -40,18 +40,18 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (8)
-  - [Repairing behavior](#repairing-behavior) (3)
+- [💬 Language Models](#-language-models) (11)
+  - [Repairing behavior](#repairing-behavior) (5)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
-  - [Writing networks from scratch](#writing-networks-from-scratch) (3)
+  - [Writing networks from scratch](#writing-networks-from-scratch) (4)
 - [🦾 Robotics and Control](#-robotics-and-control) (10)
   - [Vision-language-action models](#vision-language-action-models) (3)
   - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (9)
+- [🧩 Other Domains](#-other-domains) (10)
 - [🎮 Games](#-games) (5)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (2)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (9)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (12)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (13)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -102,6 +102,16 @@
 
 ### Repairing behavior
 
+- **[Independently Discovered Weight Edits Compose: A Replication and Extension of Weight-Space Programming](https://ajaygrover.github.io/weight-space-programming-stacking/)**  
+  Ajay Grover · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Post](https://ajaygrover.github.io/weight-space-programming-stacking/)] [[Code](https://github.com/ajaygrover/weight-space-programming-stacking)] ![GitHub stars](https://img.shields.io/github/stars/ajaygrover/weight-space-programming-stacking?style=social)  
+  Replication of Sparks of Weight-Space Programming on Qwen3.5-0.8B: Astra's edit scores 46.8% on MATH-500 against a 6% base. Claude Opus 5.5 writes a second edit; stacking both reaches 52.2% on all 500 problems, with 31% fewer tokens than Astra's edit. A random edit of the same size reaches 20% on the first 100 problems.
+
+- **[Weight-space programming, but for SQL](https://charoori.com/blog/weight-space-programming-sql)**  
+  Exorust · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Post](https://charoori.com/blog/weight-space-programming-sql)] [[Code](https://github.com/Exorust/wsp-sql)] [[Project](https://wsp-sql.vercel.app)] ![GitHub stars](https://img.shields.io/github/stars/Exorust/wsp-sql?style=social)  
+  Independent test of the MIT report on Qwen3.5-0.8B for text-to-SQL, with Claude Fable 5.1 as editor. A 4,083-entry edit cuts the loop rate from 90.7% to 26.0% and raises accuracy from 0.7% to 6.0% on 150 BIRD Mini-Dev questions. Random edits of the same size do nothing; base with thinking off scores 7.3%.
+
 - **[fderrigo/weight-space-programming-experiments](https://github.com/fderrigo/weight-space-programming-experiments)**  
   Filippo Derrigo · *GitHub* · 2026-11-06 · `💻 code / results`  
   [[Code](https://github.com/fderrigo/weight-space-programming-experiments)] ![GitHub stars](https://img.shields.io/github/stars/fderrigo/weight-space-programming-experiments?style=social)  
@@ -135,6 +145,11 @@
   sfc-gh-tosmith · *GitHub* · 2026-11-07 · `💻 code / results`  
   [[Code](https://github.com/sfc-gh-tosmith/wsp-banking77)] ![GitHub stars](https://img.shields.io/github/stars/sfc-gh-tosmith/wsp-banking77?style=social)  
   Claude Opus 5.5, with numpy and 30 forward passes, writes a 77-way intent classifier into 188 layer-31 neurons of Llama 3.1 8B Instruct (0.029% of weights), no gradients. Banking77 test accuracy 91.95%, versus 91.1% for a fine-tuned reference and 58.7% zero-shot; retention 40/40.
+
+- **[Weight-Space Programming and Gradient Optimization on Nonconvex Algorithmic Tasks](https://fchaubard.github.io/weight_space_programming.html)**  
+  Francois Chaubard, Astra (GPT-6 Astra) · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Post](https://fchaubard.github.io/weight_space_programming.html)] [[Code](https://github.com/Fchaubard/WSP-for-turing-complete)] ![GitHub stars](https://img.shields.io/github/stars/Fchaubard/WSP-for-turing-complete?style=social)  
+  A language model writes weights for fixed small networks on ten algorithmic tasks (29 task-architecture pairs, three starts, 87 settings), compared with gradient-based optimizer pipelines. Examples-only WSP matches every binary64 extrapolation reference in 30 of 87 settings; gradient descent and gradient descent plus L-BFGS match in zero. Iterative WSP examples-only RMSE total drops from about 1.06 trillion to 2.03 billion.
 
 - **[allthingssecurity/weight_space_programming](https://github.com/allthingssecurity/weight_space_programming)**  
   allthingssecurity · *GitHub* · 2026-11-06 · `💻 code / results`  
@@ -217,6 +232,11 @@
   apetcu · *GitHub* · 2026-11-07 · `💻 code / results`  
   [[Code](https://github.com/apetcu/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/apetcu/weight-space-programming?style=social)  
   Claude as a coding agent repairs a planted defect (50% of E relabeled V) in a 108,271-parameter EMNIST CNN by rewriting 35 weights, no gradients: E accuracy 75.2% to 97.0% (seed 0). Reports five seeds, weights-only and data-assisted tiers, and a fine-tuning control.
+
+- **[Weight-space programming on a regulatory-genomics CNN: public release 1](https://github.com/brunicardoso/weight-space-programming-genomics)**  
+  Bruni Cardoso · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/brunicardoso/weight-space-programming-genomics)] ![GitHub stars](https://img.shields.io/github/stars/brunicardoso/weight-space-programming-genomics?style=social)  
+  Preregistered, blinded test of whether Claude Opus 5.5 in Claude Code can detect and remove a planted shortcut in a CTCF-binding CNN from its weights, without gradients. 56 sessions on 18 planted and 10 clean models. Detection: D = 0.396 [0.021, 0.792], one-sided p = 0.0177. Repair: 2 of 36 planted-model sessions met the fix criterion.
 
 - **[sachgaur/WSP](https://github.com/sachgaur/WSP)**  
   sachgaur · *GitHub* · 2026-11-06 · `💻 code / results`  
@@ -348,6 +368,11 @@
 ## 🔍 Analyses and Critiques
 
 *Audits, replications of claims and critical takes.*
+
+- **[Weight-space programming with Claude Opus 5.5](https://cenrax.github.io/weight-space-programming-claude/)**  
+  Cenrax · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Post](https://cenrax.github.io/weight-space-programming-claude/)] [[Code](https://github.com/Cenrax/weight-space-programming-claude)] ![GitHub stars](https://img.shields.io/github/stars/Cenrax/weight-space-programming-claude?style=social)  
+  Independent replication of Sparks of Weight-Space Programming with Claude Opus 5.5 instead of GPT-6 Astra, on Gymnasium, ALE and PettingZoo environments. Probes: reading Atari policies (3/4 games read), fixing failing policies (MountainCar 0% to 100%, LunarLander 0% to 85.6%), writing policies zero-shot, writing a 9x9 Go network, and identifying a sycophantic Gemma 3 270M finetune (6/6).
 
 - **[Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public)**  
   hamley241 · *GitHub* · 2026-11-07 · `💻 code / results`  
