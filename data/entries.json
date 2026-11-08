@@ -9286,5 +9286,101 @@
     "repo": "Exorust/wsp-sql",
     "summary": "Independent test of the MIT report on Qwen3.5-0.8B for text-to-SQL, with Claude Fable 5.1 as editor. A 4,083-entry edit cuts the loop rate from 90.7% to 26.0% and raises accuracy from 0.7% to 6.0% on 150 BIRD Mini-Dev questions. Random edits of the same size do nothing; base with thinking off scores 7.3%.",
     "added": "2026-11-07"
+  },
+  {
+    "id": "conceptcountry-overthinking-qwen38-27b",
+    "title": "Gradient-Free Weight Editing Reduces Overthinking in Qwen3.8-27B",
+    "authors": "conceptcountry",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/conceptcountry/weight-space-programming"
+    },
+    "repo": "conceptcountry/weight-space-programming",
+    "summary": "Norm-matched controlled replication of weight-space programming. A nine-layer gradient-free edit to Qwen3.8-27B cuts thinking tokens by up to 54% while accuracy rises. An equal-norm random edit on the same layers does nothing. Statistics are generated from released artifacts; bootstrap seed check flags the IFBench control interval as borderline.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "desmondzee-wsp-harness",
+    "title": "wsp: LLM as an optimiser - weight space programming",
+    "authors": "desmondzee",
+    "date": "2026-11-04",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/desmondzee/wsp"
+    },
+    "repo": "desmondzee/wsp",
+    "summary": "Autoresearch-style harness where an agent reads and edits network weights with a metered budget of forward passes and no optimiser. Tasks are pluggable. Reported: IFEval on Qwen2.5-0.5B-Instruct held-out 0.351 to 0.406; one network written from zero weights for chess and 9x9 Go, held-out win rate 0.244 to 0.980.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "wsp4rec",
+    "title": "WSP4Rec: Exploring weight-space programming for recommender systems",
+    "authors": "Jyonn",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Jyonn/WSP4Rec"
+    },
+    "repo": "Jyonn/WSP4Rec",
+    "summary": "Controlled study of Astra editing MovieLens-100K factorization-machine recommenders, with three training seeds, eight editor conditions, and calibration, random and title-smoothing controls. Mean test NDCG@10 base / no-title WSP / WSP+titles: 0.05801 / 0.07328 / 0.07534 (MSE), 0.10441 / 0.10490 / 0.10566 (BPR). EASE: 0.12031.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "khajavi-wsp-replication",
+    "title": "Weight-Space Programming Replication",
+    "authors": "Matin Khajavi",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/MatinKhajavi/Weight-Space-Programming"
+    },
+    "repo": "MatinKhajavi/Weight-Space-Programming",
+    "summary": "Replicates all eight experiments of Sparks of Weight-Space Programming with Claude Opus 5.5 and Claude Fable 5.1, using a rebuilt harness checked against Astra's released results. Experiment 1: Opus 4/4, Fable 3/4. Breakout mean score 483.6 (Opus), 38.4 (Fable), 517.4 (Astra).",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "wsp-bfcl-smollm2",
+    "title": "weight-space-programming: editing SmolLM2-360M for BFCL tool calls",
+    "authors": "mallikaakash",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/mallikaakash/weight-space-programming"
+    },
+    "repo": "mallikaakash/weight-space-programming",
+    "summary": "Claude Opus 5.5 makes three weight edits to SmolLM2-360M-Instruct using 100 metered practice forwards on BFCL v4 simple_python. Practice accuracy goes from 41% to 62%; sealed 100-item holdout from 33% to 50%. Gains are from call formatting, not new knowledge.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "homohabilis-wsp-kit",
+    "title": "Weight-space programming: local replication kit",
+    "authors": "HomoHabilis",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/HomoHabilis/weight-space-programming"
+    },
+    "repo": "HomoHabilis/weight-space-programming",
+    "summary": "Replication kit on one 8 GB GPU. Opus 5.5 gets 4/4 and 3/3 on experiments 1-2. New experiments: writing company facts, held-out 86% against LoRA 53% (0.8B) and 96.7% against QLoRA 47% (9B, 4-bit); LiveCodeBench on 4B, thinking-off edit 52.6% to 59.5% (p about 0.05).",
+    "added": "2026-11-08"
   }
 ]
