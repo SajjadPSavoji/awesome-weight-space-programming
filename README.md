@@ -1374,7 +1374,7 @@
   A meta-network turns language and video into LoRA weights for a frozen VLA, with no test-time optimization.
 
 - **[Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control (WA-LQR)](https://arxiv.org/abs/2607.14943)**  
-  *Preprint* · 2026-07 · `📝 preprint` · 8 citations (S2)  
+  Jihoon Hong, Julian Skifstad, Qi-Yu Dai, Alice Chan, Glen Chou · *Preprint* · 2026-07 · `📝 preprint` · 8 citations (S2)  
   [[Paper](https://arxiv.org/abs/2607.14943)]  
   Closed-loop LQR activation steering of Cosmos-Policy, DiT4DiT and LingBot-VA under camera, gripper and noise perturbations. Linear separability predicts which models can be steered.
 
