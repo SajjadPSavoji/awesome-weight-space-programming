@@ -1128,7 +1128,7 @@
   },
   {
     "id": "hopfield-tank-1985",
-    "title": "Neural\" computation of decisions in optimization problems",
+    "title": "\"Neural\" computation of decisions in optimization problems",
     "authors": "J.J. Hopfield, D.W. Tank",
     "org": "Caltech / AT&T Bell Laboratories",
     "date": "1985",
@@ -6749,7 +6749,7 @@
     "title": "A Brief Review of Hypernetworks in Deep Learning",
     "authors": "Vinod Kumar Chauhan et al.",
     "date": "2023-06",
-    "venue": "Artificial Intelligence Review 57, art.",
+    "venue": "Artificial Intelligence Review 57",
     "category": "surv-wsl",
     "kind": "paper",
     "evidence": "peer",

@@ -465,7 +465,7 @@
   [[Paper](https://doi.org/10.1073/pnas.79.8.2554)]  
   Writes the weights of a symmetric recurrent network in one pass with the outer-product rule T_ij = Σ_s (2V_i^s−1)(2V_j^s−1) over the stored patterns, with no training.
 
-- **[Neural" computation of decisions in optimization problems](https://doi.org/10.1007/BF00339943)**  
+- **["Neural" computation of decisions in optimization problems](https://doi.org/10.1007/BF00339943)**  
   Caltech / AT&T Bell Laboratories · *Biological Cybernetics* · 1985 · `📄 peer-reviewed` · 3.4k citations (S2)  
   [[Paper](https://doi.org/10.1007/BF00339943)]  
   Derives a continuous Hopfield network's weights analytically from an energy function that encodes the Travelling Salesman Problem, with no learning. Moves from storing memories to compiling a task into the network.
@@ -2250,7 +2250,7 @@
   Surveys implicit neural representation models in medical imaging, covering reconstruction, segmentation, registration, novel view synthesis and compression. Discusses advantages, limitations, data-related challenges and future directions, and compiles cited studies with open-source implementations.
 
 - **[A Brief Review of Hypernetworks in Deep Learning](https://arxiv.org/abs/2306.06955)**  
-  Vinod Kumar Chauhan et al. · *Artificial Intelligence Review 57, art.* · 2023-06 · `📄 peer-reviewed` · 215 citations (S2)  
+  Vinod Kumar Chauhan et al. · *Artificial Intelligence Review 57* · 2023-06 · `📄 peer-reviewed` · 215 citations (S2)  
   [[Paper](https://arxiv.org/abs/2306.06955)]  
   Reviews hypernetworks, which generate weights for a target network, and categorizes them by five design criteria: inputs, outputs, variability of inputs and outputs, and architecture. Covers applications across deep learning problem settings and open challenges.
 
