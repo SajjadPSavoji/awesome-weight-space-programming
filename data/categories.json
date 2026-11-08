@@ -68,6 +68,12 @@
     "blurb": "Weight programming of game-playing networks and board-game policies."
   },
   {
+    "id": "quantum",
+    "title": "Quantum Circuits",
+    "emoji": "🧪",
+    "blurb": "LLMs writing the parameters of variational quantum circuits directly."
+  },
+  {
     "id": "bench",
     "title": "Benchmarks and Evaluations",
     "emoji": "📊",

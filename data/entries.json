@@ -9382,5 +9382,54 @@
     "repo": "HomoHabilis/weight-space-programming",
     "summary": "Replication kit on one 8 GB GPU. Opus 5.5 gets 4/4 and 3/3 on experiments 1-2. New experiments: writing company facts, held-out 86% against LoRA 53% (0.8B) and 96.7% against QLoRA 47% (9B, 4-bit); LiveCodeBench on 4B, thinking-off edit 52.6% to 59.5% (p about 0.05).",
     "added": "2026-11-08"
+  },
+  {
+    "id": "weight-space-programming-variational-quantum-circuits",
+    "title": "Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer",
+    "authors": "Debarshi Kundu, Swaroop Ghosh, Vasant Honavar",
+    "org": "The Pennsylvania State University",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "quantum",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming"
+    },
+    "repo": "DebarshiKunduPSU/Quantum-Weight-Space-Programming",
+    "summary": "GPT-6 Astra writes the angles of parameterized quantum circuits directly, with no optimizer or feedback, for VQE, QAOA and quantum machine learning. VQE is within 0.007 of the optimizer on the normalized energy scale on all 11 problem–ansatz pairs. QAOA depth-1 angles are optimal on all six graphs. A warm-started optimizer reaches its best value after a median of 1 evaluation.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "aner-weight-space-programming",
+    "title": "aner-lang/aner-weight-space-programming",
+    "authors": "aner-lang",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/aner-lang/aner-weight-space-programming"
+    },
+    "repo": "aner-lang/aner-weight-space-programming",
+    "summary": "Replays the stored weight changes of MIT's Qwen3.5-0.8B repair through Aner. Both edited BF16 tensor hashes match the manifest, 130,188 entries changed, and rollback restores the original checkpoint hash. Local inference pilots showed no accuracy gain: base 1/8 correct and edited 1/8 on eight prompts with a 2,048-token cap.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "wsp-toolkit",
+    "title": "ZeroTang05/WSP-toolkit",
+    "authors": "ZeroTang05",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ZeroTang05/WSP-toolkit"
+    },
+    "repo": "ZeroTang05/WSP-toolkit",
+    "summary": "Toolkit to read, edit and evaluate open-weight language model weights: safetensors WeightStore, activation patching, a ProgrammingSession workspace for a model as programmer, TIES merging and SparseGPT reconstruction. On the 1,319-question GSM8K test set, Qwen3-0.6B went from 485 correct (36.77%) to 600 (45.49%) after a scaled TIES merge of three trained updates.",
+    "added": "2026-11-08"
   }
 ]

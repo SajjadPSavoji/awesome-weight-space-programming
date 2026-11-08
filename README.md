@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-550-blue)
+![Entries](https://img.shields.io/badge/entries-553-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -17,17 +17,17 @@
 ## 🔥 Recently Added
 
 - **2026-11-08** · [Gradient-Free Weight Editing Reduces Overthinking in Qwen3.8-27B](https://github.com/conceptcountry/weight-space-programming) (Analyses and Critiques)
+- **2026-11-08** · [Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer](https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming) (Quantum Circuits)
+- **2026-11-08** · [aner-lang/aner-weight-space-programming](https://github.com/aner-lang/aner-weight-space-programming) (Analyses and Critiques)
 - **2026-11-08** · [WSP4Rec: Exploring weight-space programming for recommender systems](https://github.com/Jyonn/WSP4Rec) (Other Domains)
 - **2026-11-08** · [Weight-space programming: local replication kit](https://github.com/HomoHabilis/weight-space-programming) (Repairing behavior)
 - **2026-11-08** · [weight-space-programming: editing SmolLM2-360M for BFCL tool calls](https://github.com/mallikaakash/weight-space-programming) (Repairing behavior)
+- **2026-11-08** · [ZeroTang05/WSP-toolkit](https://github.com/ZeroTang05/WSP-toolkit) (Tools, Harnesses and Agent Skills)
 - **2026-11-08** · [Weight-Space Programming Replication](https://github.com/MatinKhajavi/Weight-Space-Programming) (Analyses and Critiques)
 - **2026-11-08** · [wsp: LLM as an optimiser - weight space programming](https://github.com/desmondzee/wsp) (Tools, Harnesses and Agent Skills)
 - **2026-11-07** · [Weight-space programming with Claude Opus 5.5](https://cenrax.github.io/weight-space-programming-claude/) (Analyses and Critiques)
 - **2026-11-07** · [Rohitthimaya/weight-space-programming](https://github.com/Rohitthimaya/weight-space-programming) (Other Domains)
 - **2026-11-07** · [Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public) (Analyses and Critiques)
-- **2026-11-07** · [Weight-Space Programming: an independent reproduction](https://github.com/goddoe/weight-space-programming) (Analyses and Critiques)
-- **2026-11-07** · [Weight-space programming on a character recognizer](https://github.com/apetcu/weight-space-programming) (Other Domains)
-- **2026-11-07** · [Banking77 by weight-space programming](https://github.com/sfc-gh-tosmith/wsp-banking77) (Writing networks from scratch)
 
 ## 🧭 Milestones
 
@@ -49,9 +49,10 @@
   - [RL control policies](#rl-control-policies) (7)
 - [🧩 Other Domains](#-other-domains) (11)
 - [🎮 Games](#-games) (5)
+- [🧪 Quantum Circuits](#-quantum-circuits) (1)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (2)
-- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (10)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (15)
+- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (11)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (16)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -317,6 +318,15 @@
   [[Code](https://github.com/HarleyCoops/weight-space-breakout-pipeline)] [[Model](https://huggingface.co/HarleyCooper)] ![GitHub stars](https://img.shields.io/github/stars/HarleyCoops/weight-space-breakout-pipeline?style=social)  
   A hosted Qwen editor repairs injected faults in a 17,253-parameter Breakout policy behind a verifier gate, publishing accepted weights to Hugging Face. A useful negative result: the one accepted repair just restored the known reference policy, one run made 123 turns without submitting an edit, and a later qualified repair improved sampled play while greedy return fell from 10.25 to 1.57. Follow-up repo: FailureIsAllYouNeed.
 
+## 🧪 Quantum Circuits
+
+*LLMs writing the parameters of variational quantum circuits directly.*
+
+- **[Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer](https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming)**  
+  The Pennsylvania State University · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Code](https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming)] ![GitHub stars](https://img.shields.io/github/stars/DebarshiKunduPSU/Quantum-Weight-Space-Programming?style=social)  
+  GPT-6 Astra writes the angles of parameterized quantum circuits directly, with no optimizer or feedback, for VQE, QAOA and quantum machine learning. VQE is within 0.007 of the optimizer on the normalized energy scale on all 11 problem–ansatz pairs. QAOA depth-1 angles are optimal on all six graphs. A warm-started optimizer reaches its best value after a median of 1 evaluation.
+
 ## 📊 Benchmarks and Evaluations
 
 *Controlled tests of whether weight access helps.*
@@ -339,6 +349,11 @@
   IyadhKhalfallah · *GitHub* · 2026-11-06 · `💻 code / results`  
   [[Code](https://github.com/IyadhKhalfallah/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/IyadhKhalfallah/weight-space-programming?style=social)  
   Experiments editing and writing models without gradient descent, plus a wsl CLI that applies reversible weight patches with per-slice regression checks. A hand-written XGBoost model reached AUC 0.809 on rain forecasting with zero labels (0.839 when trained on 2.5 years). On a 0.8B LLM, the author's edit did not reproduce the published effect.
+
+- **[ZeroTang05/WSP-toolkit](https://github.com/ZeroTang05/WSP-toolkit)**  
+  ZeroTang05 · *GitHub* · 2026-11-06 · `💻 code / results`  
+  [[Code](https://github.com/ZeroTang05/WSP-toolkit)] ![GitHub stars](https://img.shields.io/github/stars/ZeroTang05/WSP-toolkit?style=social)  
+  Toolkit to read, edit and evaluate open-weight language model weights: safetensors WeightStore, activation patching, a ProgrammingSession workspace for a model as programmer, TIES merging and SparseGPT reconstruction. On the 1,319-question GSM8K test set, Qwen3-0.6B went from 485 correct (36.77%) to 600 (45.49%) after a scaled TIES merge of three trained updates.
 
 - **[Weight-Space Programming (wsp-kit)](https://github.com/AuremHQ/weight-space-programming)**  
   Aurem · *GitHub* · 2026-11-05 · `💻 code / results`  
@@ -398,6 +413,11 @@
   conceptcountry · *GitHub* · 2026-11-08 · `💻 code / results`  
   [[Code](https://github.com/conceptcountry/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/conceptcountry/weight-space-programming?style=social)  
   Norm-matched controlled replication of weight-space programming. A nine-layer gradient-free edit to Qwen3.8-27B cuts thinking tokens by up to 54% while accuracy rises. An equal-norm random edit on the same layers does nothing. Statistics are generated from released artifacts; bootstrap seed check flags the IFBench control interval as borderline.
+
+- **[aner-lang/aner-weight-space-programming](https://github.com/aner-lang/aner-weight-space-programming)**  
+  aner-lang · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Code](https://github.com/aner-lang/aner-weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/aner-lang/aner-weight-space-programming?style=social)  
+  Replays the stored weight changes of MIT's Qwen3.5-0.8B repair through Aner. Both edited BF16 tensor hashes match the manifest, 130,188 entries changed, and rollback restores the original checkpoint hash. Local inference pilots showed no accuracy gain: base 1/8 correct and edited 1/8 on eight prompts with a 2,048-token cap.
 
 - **[Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public)**  
   hamley241 · *GitHub* · 2026-11-07 · `💻 code / results`  
