@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-553-blue)
+![Entries](https://img.shields.io/badge/entries-560-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,18 +16,18 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-08** · [khordoo/dusty-wsp](https://github.com/khordoo/dusty-wsp) (Repairing behavior)
 - **2026-11-08** · [Gradient-Free Weight Editing Reduces Overthinking in Qwen3.8-27B](https://github.com/conceptcountry/weight-space-programming) (Analyses and Critiques)
 - **2026-11-08** · [Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer](https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming) (Quantum Circuits)
 - **2026-11-08** · [aner-lang/aner-weight-space-programming](https://github.com/aner-lang/aner-weight-space-programming) (Analyses and Critiques)
+- **2026-11-08** · [ray-invnt/weight-space-programming-at-scale](https://ray-invnt.github.io/blog/weight-space-programming-at-scale/) (Repairing behavior)
+- **2026-11-08** · [yahya010/wsp-ptq](https://sharar-project.github.io/blog/repairing-quantized-llm/) (Repairing behavior)
+- **2026-11-08** · [manaskarra/magenta-wsp](https://manaskarra.com/blog/magenta-wsp) (Other Domains)
+- **2026-11-08** · [fus3r/wspserve](https://github.com/fus3r/wspserve) (Tools, Harnesses and Agent Skills)
+- **2026-11-08** · [Egzakta-AILab/wsp-lab](https://github.com/Egzakta-AILab/wsp-lab) (Repairing behavior)
 - **2026-11-08** · [WSP4Rec: Exploring weight-space programming for recommender systems](https://github.com/Jyonn/WSP4Rec) (Other Domains)
 - **2026-11-08** · [Weight-space programming: local replication kit](https://github.com/HomoHabilis/weight-space-programming) (Repairing behavior)
 - **2026-11-08** · [weight-space-programming: editing SmolLM2-360M for BFCL tool calls](https://github.com/mallikaakash/weight-space-programming) (Repairing behavior)
-- **2026-11-08** · [ZeroTang05/WSP-toolkit](https://github.com/ZeroTang05/WSP-toolkit) (Tools, Harnesses and Agent Skills)
-- **2026-11-08** · [Weight-Space Programming Replication](https://github.com/MatinKhajavi/Weight-Space-Programming) (Analyses and Critiques)
-- **2026-11-08** · [wsp: LLM as an optimiser - weight space programming](https://github.com/desmondzee/wsp) (Tools, Harnesses and Agent Skills)
-- **2026-11-07** · [Weight-space programming with Claude Opus 5.5](https://cenrax.github.io/weight-space-programming-claude/) (Analyses and Critiques)
-- **2026-11-07** · [Rohitthimaya/weight-space-programming](https://github.com/Rohitthimaya/weight-space-programming) (Other Domains)
-- **2026-11-07** · [Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -40,18 +40,18 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (13)
-  - [Repairing behavior](#repairing-behavior) (7)
+- [💬 Language Models](#-language-models) (17)
+  - [Repairing behavior](#repairing-behavior) (11)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (4)
 - [🦾 Robotics and Control](#-robotics-and-control) (10)
   - [Vision-language-action models](#vision-language-action-models) (3)
   - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (11)
+- [🧩 Other Domains](#-other-domains) (12)
 - [🎮 Games](#-games) (5)
 - [🧪 Quantum Circuits](#-quantum-circuits) (1)
-- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (2)
-- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (11)
+- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (3)
+- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (12)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (16)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
@@ -102,6 +102,26 @@
 *Reading, repairing and writing the weights of language models.*
 
 ### Repairing behavior
+
+- **[khordoo/dusty-wsp](https://github.com/khordoo/dusty-wsp)**  
+  khordoo · *GitHub* · 2026-11-09 · `💻 code / results`  
+  [[Code](https://github.com/khordoo/dusty-wsp)] ![GitHub stars](https://img.shields.io/github/stars/khordoo/dusty-wsp?style=social)  
+  GPT-6 Astra makes analytical low-rank weight edits to an 8M-parameter language model without training. A Dusty-to-Milo rename raised identity-suite success from 13/30 to 21/30 greedy. A fear-to-curiosity association edit scored 0/48 on held-out responses, matching the original.
+
+- **[ray-invnt/weight-space-programming-at-scale](https://ray-invnt.github.io/blog/weight-space-programming-at-scale/)**  
+  ray-invnt · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Post](https://ray-invnt.github.io/blog/weight-space-programming-at-scale/)] [[Code](https://github.com/ray-invnt/weight-space-programming-at-scale)] ![GitHub stars](https://img.shields.io/github/stars/ray-invnt/weight-space-programming-at-scale?style=social)  
+  Code and logs for a blog post in which an agent (Claude Fable 5.1) edits weights without training: a MedGemma 4B skill into Gemma 3 4B, TranslateGemma 4B, Gemma 4 26B, Qwen3 4B LoRA merges and gpt-oss-120b. Includes prompts, step logs, edits, build scripts and per-question scores.
+
+- **[yahya010/wsp-ptq](https://sharar-project.github.io/blog/repairing-quantized-llm/)**  
+  yahya010 · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Post](https://sharar-project.github.io/blog/repairing-quantized-llm/)] [[Code](https://github.com/yahya010/wsp-ptq)] ![GitHub stars](https://img.shields.io/github/stars/yahya010/wsp-ptq?style=social)  
+  Agent prompt and harness for repairing a 3-bit quantized LLM by editing codes and scales, with no fitting or training. On Nemotron-3.5-Lightning-30B-A3B, editing 0.0008% of weights of a poorly calibrated checkpoint raised GSM8K from 71.4 to 91.6 and MATH-500 from 60.8 to 82.2.
+
+- **[Egzakta-AILab/wsp-lab](https://github.com/Egzakta-AILab/wsp-lab)**  
+  Egzakta-AILab · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Code](https://github.com/Egzakta-AILab/wsp-lab)] ![GitHub stars](https://img.shields.io/github/stars/Egzakta-AILab/wsp-lab?style=social)  
+  Harness, measurements and transcripts for an editor agent editing Qwen3.8-27B in a sandboxed CPU kernel with a metered forward-pass budget and a sealed held-out test. One edited tensor targets Serbian defects: Croatian/ijekavian forms fell from 4.4% to 2–3%. GPQA Diamond was 89.0 versus 88.3.
 
 - **[Independently Discovered Weight Edits Compose: A Replication and Extension of Weight-Space Programming](https://ajaygrover.github.io/weight-space-programming-stacking/)**  
   Ajay Grover · *GitHub* · 2026-11-07 · `💻 code / results`  
@@ -234,6 +254,11 @@
 
 *Classifiers, small decision networks and anything else.*
 
+- **[manaskarra/magenta-wsp](https://manaskarra.com/blog/magenta-wsp)**  
+  manaskarra · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Post](https://manaskarra.com/blog/magenta-wsp)] [[Code](https://github.com/manaskarra/magenta-wsp)] [[Project](https://manaskarra.com/projects/magenta-wsp)] ![GitHub stars](https://img.shields.io/github/stars/manaskarra/magenta-wsp?style=social)  
+  Weight-space programming experiment on Google Magenta RealTime 2. One 768×1,024 adapter matrix (0.032% of the checkpoint) is replaced by a calculated update, without backpropagation, so piano-conditioned music comes out as flute. Two blind comparisons against prompting for flute split 1–1; one listener.
+
 - **[Rohitthimaya/weight-space-programming](https://github.com/Rohitthimaya/weight-space-programming)**  
   Rohitthimaya · *GitHub* · 2026-11-07 · `💻 code / results`  
   [[Code](https://github.com/Rohitthimaya/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/Rohitthimaya/weight-space-programming?style=social)  
@@ -331,6 +356,11 @@
 
 *Controlled tests of whether weight access helps.*
 
+- **[IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection](https://arxiv.org/abs/2611.08647)**  
+  Chris von Csefalvay, Pranav Doma, Achyuthan Unni Krishnan, Tamás Földi · *Preprint* · 2026-11-05 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.08647)]  
+  Benchmark of a large editor model modifying the weights of a smaller target model (typically Gemma 3 4B IT) for ten text-editing objectives. Editors get four weight read/write tools and a fixed rollout budget. A validator applies each patch and compares it with the unmodified target. A few models lead far ahead; structured response was never solved.
+
 - **[Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers](https://arxiv.org/abs/2611.05798)**  
   Sungguk Cha, Mintae Kim, Youngsub Han, Byoung-Ki Jeon, Sangyeob Lee · *Preprint* · 2026-11-04 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.05798)]  
@@ -344,6 +374,11 @@
 ## 🛠️ Tools, Harnesses and Agent Skills
 
 *Libraries and agent skills for reading and editing weights.*
+
+- **[fus3r/wspserve](https://github.com/fus3r/wspserve)**  
+  fus3r · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Code](https://github.com/fus3r/wspserve)] ![GitHub stars](https://img.shields.io/github/stars/fus3r/wspserve?style=social)  
+  Forward-pass server for weight-space programming sessions, plus measurements of the released Sparks of WSP Experiment 8 logs. All 88 edits are channel scalings or rank-one projections. A single session keeps a dedicated GPU 51 to 78% busy. The server applies each edit as a per-row delta in one resident model.
 
 - **[IyadhKhalfallah/weight-space-programming](https://github.com/IyadhKhalfallah/weight-space-programming)**  
   IyadhKhalfallah · *GitHub* · 2026-11-06 · `💻 code / results`  

@@ -9431,5 +9431,121 @@
     "repo": "ZeroTang05/WSP-toolkit",
     "summary": "Toolkit to read, edit and evaluate open-weight language model weights: safetensors WeightStore, activation patching, a ProgrammingSession workspace for a model as programmer, TIES merging and SparseGPT reconstruction. On the 1,319-question GSM8K test set, Qwen3-0.6B went from 485 correct (36.77%) to 600 (45.49%) after a scaled TIES merge of three trained updates.",
     "added": "2026-11-08"
+  },
+  {
+    "id": "iwibench",
+    "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+    "authors": "Chris von Csefalvay, Pranav Doma, Achyuthan Unni Krishnan, Tamás Földi",
+    "date": "2026-11-05",
+    "venue": "Preprint",
+    "category": "bench",
+    "kind": "benchmark",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08647"
+    },
+    "summary": "Benchmark of a large editor model modifying the weights of a smaller target model (typically Gemma 3 4B IT) for ten text-editing objectives. Editors get four weight read/write tools and a fixed rollout budget. A validator applies each patch and compares it with the unmodified target. A few models lead far ahead; structured response was never solved.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "weight-space-programming-at-scale",
+    "title": "ray-invnt/weight-space-programming-at-scale",
+    "authors": "ray-invnt",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ray-invnt/weight-space-programming-at-scale",
+      "post": "https://ray-invnt.github.io/blog/weight-space-programming-at-scale/"
+    },
+    "repo": "ray-invnt/weight-space-programming-at-scale",
+    "summary": "Code and logs for a blog post in which an agent (Claude Fable 5.1) edits weights without training: a MedGemma 4B skill into Gemma 3 4B, TranslateGemma 4B, Gemma 4 26B, Qwen3 4B LoRA merges and gpt-oss-120b. Includes prompts, step logs, edits, build scripts and per-question scores.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "wsp-ptq",
+    "title": "yahya010/wsp-ptq",
+    "authors": "yahya010",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/yahya010/wsp-ptq",
+      "post": "https://sharar-project.github.io/blog/repairing-quantized-llm/"
+    },
+    "repo": "yahya010/wsp-ptq",
+    "summary": "Agent prompt and harness for repairing a 3-bit quantized LLM by editing codes and scales, with no fitting or training. On Nemotron-3.5-Lightning-30B-A3B, editing 0.0008% of weights of a poorly calibrated checkpoint raised GSM8K from 71.4 to 91.6 and MATH-500 from 60.8 to 82.2.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "magenta-wsp",
+    "title": "manaskarra/magenta-wsp",
+    "authors": "manaskarra",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/manaskarra/magenta-wsp",
+      "project": "https://manaskarra.com/projects/magenta-wsp",
+      "post": "https://manaskarra.com/blog/magenta-wsp"
+    },
+    "repo": "manaskarra/magenta-wsp",
+    "summary": "Weight-space programming experiment on Google Magenta RealTime 2. One 768×1,024 adapter matrix (0.032% of the checkpoint) is replaced by a calculated update, without backpropagation, so piano-conditioned music comes out as flute. Two blind comparisons against prompting for flute split 1–1; one listener.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "wspserve",
+    "title": "fus3r/wspserve",
+    "authors": "fus3r",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/fus3r/wspserve"
+    },
+    "repo": "fus3r/wspserve",
+    "summary": "Forward-pass server for weight-space programming sessions, plus measurements of the released Sparks of WSP Experiment 8 logs. All 88 edits are channel scalings or rank-one projections. A single session keeps a dedicated GPU 51 to 78% busy. The server applies each edit as a per-row delta in one resident model.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "wsp-lab-2",
+    "title": "Egzakta-AILab/wsp-lab",
+    "authors": "Egzakta-AILab",
+    "org": "Egzakta-AILab",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Egzakta-AILab/wsp-lab"
+    },
+    "repo": "Egzakta-AILab/wsp-lab",
+    "summary": "Harness, measurements and transcripts for an editor agent editing Qwen3.8-27B in a sandboxed CPU kernel with a metered forward-pass budget and a sealed held-out test. One edited tensor targets Serbian defects: Croatian/ijekavian forms fell from 4.4% to 2–3%. GPQA Diamond was 89.0 versus 88.3.",
+    "added": "2026-11-08"
+  },
+  {
+    "id": "dusty-wsp",
+    "title": "khordoo/dusty-wsp",
+    "authors": "khordoo",
+    "date": "2026-11-09",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/khordoo/dusty-wsp"
+    },
+    "repo": "khordoo/dusty-wsp",
+    "summary": "GPT-6 Astra makes analytical low-rank weight edits to an 8M-parameter language model without training. A Dusty-to-Milo rename raised identity-suite success from 13/30 to 21/30 greedy. A fear-to-curiosity association edit scored 0/48 on held-out responses, matching the original.",
+    "added": "2026-11-08"
   }
 ]
