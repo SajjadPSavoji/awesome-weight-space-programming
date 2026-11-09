@@ -9629,5 +9629,53 @@
     "repo": "Ahmedn1/wsplab",
     "summary": "Python library that runs weight-space programming sessions: an LLM editor gets a sandboxed kernel and a forward-pass budget, edits are scored on hidden evaluation with paired statistics and a same-size random-edit control, and saved as patches that rebuild the edited model from the public base. Works on language models and other PyTorch networks.",
     "added": "2026-11-09"
+  },
+  {
+    "id": "weight-space-programming-example",
+    "title": "DanieleMenchetti/weight-space-programming-example",
+    "authors": "DanieleMenchetti",
+    "date": "2026-11-09",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/DanieleMenchetti/weight-space-programming-example"
+    },
+    "repo": "DanieleMenchetti/weight-space-programming-example",
+    "summary": "CPU-only notebook where Claude Opus 5.5, run through Claude Code, reads, repairs and writes the weights of tiny PyTorch MLPs without gradients. Repair changed 1 of 33 weights, taking accuracy from 66.4% to 99.8%. Writing an XOR net from scratch reached 100%. Adam baselines are included.",
+    "added": "2026-11-09"
+  },
+  {
+    "id": "weight-space-lp",
+    "title": "nathanrs/weight-space-lp",
+    "authors": "nathanrs",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/nathanrs/weight-space-lp"
+    },
+    "repo": "nathanrs/weight-space-lp",
+    "summary": "Follow-up to the Qwen3.5-0.8B looping fix. Given the agent's loop direction, one linear-program solve chooses which down_proj neurons to change and by how much. It matches the agent's edit with 8× fewer weights. A variant that takes the direction from detected loops, with no LLM, gets about 93% of the way. A same-size steering vector scores 50.8 on MATH-500.",
+    "added": "2026-11-09"
+  },
+  {
+    "id": "weight-space-programming-rag-reranker",
+    "title": "AryaGPT2022/weight-space-programming",
+    "authors": "AryaGPT2022",
+    "date": "2026-11-09",
+    "venue": "GitHub",
+    "category": "other-nlp",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/AryaGPT2022/weight-space-programming"
+    },
+    "repo": "AryaGPT2022/weight-space-programming",
+    "summary": "Applies weight-space programming to the BERT cross-encoder ms-marco-MiniLM-L-6-v2 used as a RAG reranker. Claude Opus 5.5 in Claude Code reads the weights and runs the network for at most 25 forward passes. It writes edits such as pruning, layer drop and direction projection, with no gradients. Evaluated on MS MARCO and BEIR with an audit script and data-free baselines.",
+    "added": "2026-11-09"
   }
 ]
