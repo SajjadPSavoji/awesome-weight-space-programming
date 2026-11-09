@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-560-blue)
+![Entries](https://img.shields.io/badge/entries-565-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,11 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-09** · [Ahmedn1/wsplab](https://github.com/Ahmedn1/wsplab) (Tools, Harnesses and Agent Skills)
+- **2026-11-09** · [Can a Language Model Write the Weights? An Empirical Study of LLM-Written Scoring Networks for Column Generation and MILP Branching, with a Bus-Driver Scheduling Application](https://arxiv.org/abs/2611.09559) (Other Domains)
+- **2026-11-09** · [Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations](https://arxiv.org/abs/2611.09382) (Repairing behavior)
+- **2026-11-09** · [Can LLMs Debug Robots by Editing Their Weights?](https://arxiv.org/abs/2611.09376) (Vision-language-action models)
+- **2026-11-09** · [Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games](https://arxiv.org/abs/2611.09271) (Games)
 - **2026-11-08** · [khordoo/dusty-wsp](https://github.com/khordoo/dusty-wsp) (Repairing behavior)
 - **2026-11-08** · [Gradient-Free Weight Editing Reduces Overthinking in Qwen3.8-27B](https://github.com/conceptcountry/weight-space-programming) (Analyses and Critiques)
 - **2026-11-08** · [Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer](https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming) (Quantum Circuits)
@@ -23,11 +28,6 @@
 - **2026-11-08** · [ray-invnt/weight-space-programming-at-scale](https://ray-invnt.github.io/blog/weight-space-programming-at-scale/) (Repairing behavior)
 - **2026-11-08** · [yahya010/wsp-ptq](https://sharar-project.github.io/blog/repairing-quantized-llm/) (Repairing behavior)
 - **2026-11-08** · [manaskarra/magenta-wsp](https://manaskarra.com/blog/magenta-wsp) (Other Domains)
-- **2026-11-08** · [fus3r/wspserve](https://github.com/fus3r/wspserve) (Tools, Harnesses and Agent Skills)
-- **2026-11-08** · [Egzakta-AILab/wsp-lab](https://github.com/Egzakta-AILab/wsp-lab) (Repairing behavior)
-- **2026-11-08** · [WSP4Rec: Exploring weight-space programming for recommender systems](https://github.com/Jyonn/WSP4Rec) (Other Domains)
-- **2026-11-08** · [Weight-space programming: local replication kit](https://github.com/HomoHabilis/weight-space-programming) (Repairing behavior)
-- **2026-11-08** · [weight-space-programming: editing SmolLM2-360M for BFCL tool calls](https://github.com/mallikaakash/weight-space-programming) (Repairing behavior)
 
 ## 🧭 Milestones
 
@@ -40,18 +40,18 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (17)
-  - [Repairing behavior](#repairing-behavior) (11)
+- [💬 Language Models](#-language-models) (18)
+  - [Repairing behavior](#repairing-behavior) (12)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (4)
-- [🦾 Robotics and Control](#-robotics-and-control) (10)
-  - [Vision-language-action models](#vision-language-action-models) (3)
+- [🦾 Robotics and Control](#-robotics-and-control) (11)
+  - [Vision-language-action models](#vision-language-action-models) (4)
   - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (12)
-- [🎮 Games](#-games) (5)
+- [🧩 Other Domains](#-other-domains) (13)
+- [🎮 Games](#-games) (6)
 - [🧪 Quantum Circuits](#-quantum-circuits) (1)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (3)
-- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (12)
+- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (13)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (16)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
@@ -148,6 +148,11 @@
   [[Code](https://github.com/mallikaakash/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/mallikaakash/weight-space-programming?style=social)  
   Claude Opus 5.5 makes three weight edits to SmolLM2-360M-Instruct using 100 metered practice forwards on BFCL v4 simple_python. Practice accuracy goes from 41% to 62%; sealed 100-item holdout from 33% to 50%. Gains are from call formatting, not new knowledge.
 
+- **[Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations](https://arxiv.org/abs/2611.09382)**  
+  Junru Hu, Cheng Tang, Wei Li, Hongze Zhu, et al. · *Preprint* · 2026-11-06 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.09382)] [[Code](https://github.com/WSP-Scope/WSP-Scope-Project)] [[Project](https://wsp-scope.github.io/)] ![GitHub stars](https://img.shields.io/github/stars/WSP-Scope/WSP-Scope-Project?style=social)  
+  Studies WSP through 16 editing trajectories across seven benchmarks on Qwen3.5-0.8B and Qwen3.5-9B. Held-out accuracy rises by up to 29.45 points on MATH-500, and modifying 1,023 parameters gives the 29.45-point gain. A Math-edited checkpoint improves GPQA Diamond, IFEval and SciBench. Six of 16 trajectories keep the original weights.
+
 - **[weights_editing: replicating Sparks of Weight-Space Programming across LLMs](https://github.com/alan-turing-institute/weights_editing)**  
   The Alan Turing Institute · *GitHub* · 2026-11-03 · `💻 code / results`  
   [[Code](https://github.com/alan-turing-institute/weights_editing)] ![GitHub stars](https://img.shields.io/github/stars/alan-turing-institute/weights_editing?style=social)  
@@ -197,6 +202,11 @@
 *Weight edits on robot policies, VLAs, world action models and controllers.*
 
 ### Vision-language-action models
+
+- **[Can LLMs Debug Robots by Editing Their Weights?](https://arxiv.org/abs/2611.09376)**  
+  Jusheng Zhang, Keze Wang, Liang Lin · *Preprint* · 2026-11-06 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.09376)]  
+  GPT-6 Astra reads π0.5 weights and edits 65 token-embedding rows with simulator feedback and no gradient updates. Success on 765 held-out paraphrases rises from 86.3% to 92.0% (exact paired p=1.31e-10). Matched random-direction edits do not help. Across 13 further robot sessions the editor declines 12 candidates.
 
 - **[Opus 5.5 makes π0.5 move faster and smoother by editing its weights](https://cuzyoung.github.io/robotics-weight-editing/en/)**  
   Shanghai Innovation Institute, SJTU, HKU · *Project page* · 2026-11-05 · `💬 post only`  
@@ -284,6 +294,11 @@
   [[Code](https://github.com/sachgaur/WSP)] ![GitHub stars](https://img.shields.io/github/stars/sachgaur/WSP?style=social)  
   LeNet/MNIST pilot testing whether an agent can diagnose a failure from bounded numerical queries and repair it by editing the final classifier without training. Paired comparison of Astra and DeepSeek editors on fault and shortcut cases over seeds 42, 43 and 44, with a protocol fixed before evaluation.
 
+- **[Can a Language Model Write the Weights? An Empirical Study of LLM-Written Scoring Networks for Column Generation and MILP Branching, with a Bus-Driver Scheduling Application](https://arxiv.org/abs/2611.09559)**  
+  BIS — Butkeraites Intelligent Solutions · *Preprint* · 2026-11-06 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.09559)] [[Code](https://github.com/butkeraites/llm-written-weights-or)]  
+  An LLM wrote small MLPs, with no gradient training, to score arcs and branching variables in column generation and SCIP branch-and-bound. On a MARTA crew-scheduling model, the written rules took 0.63x the default's time on 32 held-out instances, but SCIP's pseudocost rule did as well (ratio 0.99). On 39 MIPLIB 2017 instances it solved 19 versus 24.
+
 - **[WeightLoop: Weight-Space Programming with Experimental Feedback](https://arxiv.org/abs/2611.07319)**  
   Mengran Li, Bo Li, Weijing Zhao, Chengyang Zhang, et al. · *Preprint* · 2026-11-05 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.07319)]  
@@ -317,6 +332,11 @@
 ## 🎮 Games
 
 *Weight programming of game-playing networks and board-game policies.*
+
+- **[Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games](https://arxiv.org/abs/2611.09271)**  
+  Universidad Pontificia Comillas · *Preprint* · 2026-11-06 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.09271)]  
+  An LLM set every weight of feed-forward networks by hand, with no training data, across a four-rung game ladder (Nim, tic-tac-toe, Connect Four, a chess endgame). Ten networks were built and verified, and six have complete correctness proofs. The chess-endgame network reaches 84.1-100% on one-ply tactics but 0.57-9.13% in full adversarial play.
 
 - **[mraad/weight-space-programming](https://github.com/mraad/weight-space-programming)**  
   mraad · *GitHub* · 2026-11-05 · `💻 code / results`  
@@ -374,6 +394,11 @@
 ## 🛠️ Tools, Harnesses and Agent Skills
 
 *Libraries and agent skills for reading and editing weights.*
+
+- **[Ahmedn1/wsplab](https://github.com/Ahmedn1/wsplab)**  
+  Ahmedn1 · *GitHub* · 2026-11-09 · `💻 code / results`  
+  [[Code](https://github.com/Ahmedn1/wsplab)] ![GitHub stars](https://img.shields.io/github/stars/Ahmedn1/wsplab?style=social)  
+  Python library that runs weight-space programming sessions: an LLM editor gets a sandboxed kernel and a forward-pass budget, edits are scored on hidden evaluation with paired statistics and a same-size random-edit control, and saved as patches that rebuild the edited model from the public base. Works on language models and other PyTorch networks.
 
 - **[fus3r/wspserve](https://github.com/fus3r/wspserve)**  
   fus3r · *GitHub* · 2026-11-08 · `💻 code / results`  

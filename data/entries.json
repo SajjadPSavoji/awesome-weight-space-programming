@@ -9547,5 +9547,87 @@
     "repo": "khordoo/dusty-wsp",
     "summary": "GPT-6 Astra makes analytical low-rank weight edits to an 8M-parameter language model without training. A Dusty-to-Milo rename raised identity-suite success from 13/30 to 21/30 greedy. A fear-to-curiosity association edit scored 0/48 on held-out responses, matching the original.",
     "added": "2026-11-08"
+  },
+  {
+    "id": "llm-written-scoring-networks-milp-branching",
+    "title": "Can a Language Model Write the Weights? An Empirical Study of LLM-Written Scoring Networks for Column Generation and MILP Branching, with a Bus-Driver Scheduling Application",
+    "authors": "Renan Butkeraites",
+    "org": "BIS — Butkeraites Intelligent Solutions",
+    "date": "2026-11-06",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.09559",
+      "code": "https://github.com/butkeraites/llm-written-weights-or"
+    },
+    "summary": "An LLM wrote small MLPs, with no gradient training, to score arcs and branching variables in column generation and SCIP branch-and-bound. On a MARTA crew-scheduling model, the written rules took 0.63x the default's time on 32 held-out instances, but SCIP's pseudocost rule did as well (ratio 0.99). On 39 MIPLIB 2017 instances it solved 19 versus 24.",
+    "added": "2026-11-09"
+  },
+  {
+    "id": "exploring-weight-space-programming",
+    "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+    "authors": "Junru Hu, Cheng Tang, Wei Li, Hongze Zhu, et al.",
+    "date": "2026-11-06",
+    "venue": "Preprint",
+    "category": "llm-repair",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.09382",
+      "project": "https://wsp-scope.github.io/",
+      "code": "https://github.com/WSP-Scope/WSP-Scope-Project"
+    },
+    "repo": "WSP-Scope/WSP-Scope-Project",
+    "summary": "Studies WSP through 16 editing trajectories across seven benchmarks on Qwen3.5-0.8B and Qwen3.5-9B. Held-out accuracy rises by up to 29.45 points on MATH-500, and modifying 1,023 parameters gives the 29.45-point gain. A Math-edited checkpoint improves GPQA Diamond, IFEval and SciBench. Six of 16 trajectories keep the original weights.",
+    "added": "2026-11-09"
+  },
+  {
+    "id": "can-llms-debug-robots-by-editing-their-weights",
+    "title": "Can LLMs Debug Robots by Editing Their Weights?",
+    "authors": "Jusheng Zhang, Keze Wang, Liang Lin",
+    "date": "2026-11-06",
+    "venue": "Preprint",
+    "category": "robotics-vla",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.09376"
+    },
+    "summary": "GPT-6 Astra reads π0.5 weights and edits 65 token-embedding rows with simulator feedback and no gradient updates. Success on 765 held-out paraphrases rises from 86.3% to 92.0% (exact paired p=1.31e-10). Matched random-direction edits do not help. Across 13 further robot sessions the editor declines 12 candidates.",
+    "added": "2026-11-09"
+  },
+  {
+    "id": "zero-shot-wsp-difficulty-graded-ladder-two-player-games",
+    "title": "Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games",
+    "authors": "Eduardo C. Garrido-Merchán",
+    "org": "Universidad Pontificia Comillas",
+    "date": "2026-11-06",
+    "venue": "Preprint",
+    "category": "games",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.09271"
+    },
+    "summary": "An LLM set every weight of feed-forward networks by hand, with no training data, across a four-rung game ladder (Nim, tic-tac-toe, Connect Four, a chess endgame). Ten networks were built and verified, and six have complete correctness proofs. The chess-endgame network reaches 84.1-100% on one-ply tactics but 0.57-9.13% in full adversarial play.",
+    "added": "2026-11-09"
+  },
+  {
+    "id": "wsplab",
+    "title": "Ahmedn1/wsplab",
+    "authors": "Ahmedn1",
+    "date": "2026-11-09",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Ahmedn1/wsplab"
+    },
+    "repo": "Ahmedn1/wsplab",
+    "summary": "Python library that runs weight-space programming sessions: an LLM editor gets a sandboxed kernel and a forward-pass budget, edits are scored on hidden evaluation with paired statistics and a same-size random-edit control, and saved as patches that rebuild the edited model from the public base. Works on language models and other PyTorch networks.",
+    "added": "2026-11-09"
   }
 ]
