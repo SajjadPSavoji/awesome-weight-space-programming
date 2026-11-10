@@ -9677,5 +9677,38 @@
     "repo": "AryaGPT2022/weight-space-programming",
     "summary": "Applies weight-space programming to the BERT cross-encoder ms-marco-MiniLM-L-6-v2 used as a RAG reranker. Claude Opus 5.5 in Claude Code reads the weights and runs the network for at most 25 forward passes. It writes edits such as pruning, layer drop and direction projection, with no gradients. Evaluated on MS MARCO and BEIR with an audit script and data-free baselines.",
     "added": "2026-11-09"
+  },
+  {
+    "id": "g05-weight-space-programming",
+    "title": "G0.5 Weight-Space Programming",
+    "authors": "afinitus",
+    "date": "2026-11-06",
+    "venue": "GitHub",
+    "category": "robotics-vla",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/afinitus/g05-weight-space-programming"
+    },
+    "repo": "afinitus/g05-weight-space-programming",
+    "summary": "Changes one of 2,859,995,988 learned weights in the output projection of the G0.5 flow-matching action expert, with no training. Supported mug hangs go from 1/10 to 6/10 on ten paired held-out RoboTwin simulation scenes (ALOHA-AgileX, SAPIEN). McNemar p = 0.0625. Two global action-offset controls scored 0/6 and 2/6 on development scenes.",
+    "added": "2026-11-09"
+  },
+  {
+    "id": "weight-space-programming-boltz2",
+    "title": "Weight-space programming for Boltz-2 ligand geometry",
+    "authors": "th2ch-g",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/th2ch-g/weight-space-programming-boltz2",
+      "model": "https://huggingface.co/wasarou/weight-space-programming-boltz2"
+    },
+    "repo": "th2ch-g/weight-space-programming-boltz2",
+    "summary": "Applies the Sparks of Weight-Space Programming method to Boltz-2 by editing its weights directly, with no training, inference guidance or coordinate repair. Evaluates thirty edit specifications on the PLINDER cis/trans 209 dataset with matched ligand stereochemistry metrics. Edited checkpoints are on Hugging Face. The README states that none is a validated repair.",
+    "added": "2026-11-09"
   }
 ]

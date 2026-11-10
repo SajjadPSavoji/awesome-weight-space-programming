@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-568-blue)
+![Entries](https://img.shields.io/badge/entries-570-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -24,10 +24,10 @@
 - **2026-11-09** · [Can LLMs Debug Robots by Editing Their Weights?](https://arxiv.org/abs/2611.09376) (Vision-language-action models)
 - **2026-11-09** · [Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games](https://arxiv.org/abs/2611.09271) (Games)
 - **2026-11-09** · [nathanrs/weight-space-lp](https://github.com/nathanrs/weight-space-lp) (Repairing behavior)
+- **2026-11-09** · [G0.5 Weight-Space Programming](https://github.com/afinitus/g05-weight-space-programming) (Vision-language-action models)
+- **2026-11-09** · [Weight-space programming for Boltz-2 ligand geometry](https://github.com/th2ch-g/weight-space-programming-boltz2) (Other Domains)
 - **2026-11-08** · [khordoo/dusty-wsp](https://github.com/khordoo/dusty-wsp) (Repairing behavior)
 - **2026-11-08** · [Gradient-Free Weight Editing Reduces Overthinking in Qwen3.8-27B](https://github.com/conceptcountry/weight-space-programming) (Analyses and Critiques)
-- **2026-11-08** · [Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer](https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming) (Quantum Circuits)
-- **2026-11-08** · [aner-lang/aner-weight-space-programming](https://github.com/aner-lang/aner-weight-space-programming) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -44,10 +44,10 @@
   - [Repairing behavior](#repairing-behavior) (13)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (4)
-- [🦾 Robotics and Control](#-robotics-and-control) (11)
-  - [Vision-language-action models](#vision-language-action-models) (4)
+- [🦾 Robotics and Control](#-robotics-and-control) (12)
+  - [Vision-language-action models](#vision-language-action-models) (5)
   - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (15)
+- [🧩 Other Domains](#-other-domains) (16)
   - [Classical NLP models](#classical-nlp-models) (1)
 - [🎮 Games](#-games) (6)
 - [🧪 Quantum Circuits](#-quantum-circuits) (1)
@@ -214,6 +214,11 @@
   [[Paper](https://arxiv.org/abs/2611.09376)]  
   GPT-6 Astra reads π0.5 weights and edits 65 token-embedding rows with simulator feedback and no gradient updates. Success on 765 held-out paraphrases rises from 86.3% to 92.0% (exact paired p=1.31e-10). Matched random-direction edits do not help. Across 13 further robot sessions the editor declines 12 candidates.
 
+- **[G0.5 Weight-Space Programming](https://github.com/afinitus/g05-weight-space-programming)**  
+  afinitus · *GitHub* · 2026-11-06 · `💻 code / results`  
+  [[Code](https://github.com/afinitus/g05-weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/afinitus/g05-weight-space-programming?style=social)  
+  Changes one of 2,859,995,988 learned weights in the output projection of the G0.5 flow-matching action expert, with no training. Supported mug hangs go from 1/10 to 6/10 on ten paired held-out RoboTwin simulation scenes (ALOHA-AgileX, SAPIEN). McNemar p = 0.0625. Two global action-offset controls scored 0/6 and 2/6 on development scenes.
+
 - **[Opus 5.5 makes π0.5 move faster and smoother by editing its weights](https://cuzyoung.github.io/robotics-weight-editing/en/)**  
   Shanghai Innovation Institute, SJTU, HKU · *Project page* · 2026-11-05 · `💬 post only`  
   [[Post](https://cuzyoung.github.io/robotics-weight-editing/en/)] [[Code](https://github.com/Cuzyoung/robotics-weight-editing)]  
@@ -319,6 +324,11 @@
   Taha Enes Aslantürk · *Zenodo preprint* · 2026-11-05 · `📝 preprint`  
   [[Paper](https://doi.org/10.5281/zenodo.23976684)] [[Code](https://huggingface.co/tahaenesaslanturk/Qwen3-ASR-0.6B-weight-space-programming)]  
   Applied the Sparks repair protocol to speech recognition. Nine Claude agent edits each reduced a silence-induced language-tagging failure, and the real edit beat matched random-direction controls in 26 of 27 comparisons. The failure turned out to be largely a missing attention mask in the inference backend, which the edits compensated for in weight space.
+
+- **[Weight-space programming for Boltz-2 ligand geometry](https://github.com/th2ch-g/weight-space-programming-boltz2)**  
+  th2ch-g · *GitHub* · 2026-11-05 · `💻 code / results`  
+  [[Code](https://github.com/th2ch-g/weight-space-programming-boltz2)] [[Model](https://huggingface.co/wasarou/weight-space-programming-boltz2)] ![GitHub stars](https://img.shields.io/github/stars/th2ch-g/weight-space-programming-boltz2?style=social)  
+  Applies the Sparks of Weight-Space Programming method to Boltz-2 by editing its weights directly, with no training, inference guidance or coordinate repair. Evaluates thirty edit specifications on the PLINDER cis/trans 209 dataset with matched ligand stereochemistry metrics. Edited checkpoints are on Hugging Face. The README states that none is a validated repair.
 
 - **[Weight-Space Programming for the Social Safety Net](https://github.com/ctrimm/weight-space-programming)**  
   ctrimm · *GitHub* · 2026-11-04 · `💻 code / results`  
