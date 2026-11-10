@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-570-blue)
+![Entries](https://img.shields.io/badge/entries-576-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,18 +16,18 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-10** · [Weight-Space Programming for Medical Imaging: Do We Still Need Training Data?](https://arxiv.org/abs/2611.12066) (Other Domains)
+- **2026-11-10** · [Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading](https://arxiv.org/abs/2611.11894) (Vision-language-action models)
+- **2026-11-10** · [Weight-Space Programming (WSP)](https://github.com/SuyodhanJ6/weight-space-programming) (Other Domains)
+- **2026-11-10** · [Weight-Space Programming of Policies and Their Verification via Model Checking](https://arxiv.org/abs/2611.11604) (RL control policies)
+- **2026-11-10** · [Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer](https://arxiv.org/abs/2611.11537) (Quantum Circuits)
+- **2026-11-10** · [How Reliably Can Language Models Construct Neural Network Weights? Evidence from Modular Arithmetic Tasks](https://github.com/ssakib04/weight_space_programming_module) (Writing networks from scratch)
 - **2026-11-09** · [Ahmedn1/wsplab](https://github.com/Ahmedn1/wsplab) (Tools, Harnesses and Agent Skills)
 - **2026-11-09** · [DanieleMenchetti/weight-space-programming-example](https://github.com/DanieleMenchetti/weight-space-programming-example) (Other Domains)
 - **2026-11-09** · [AryaGPT2022/weight-space-programming](https://github.com/AryaGPT2022/weight-space-programming) (Classical NLP models)
 - **2026-11-09** · [Can a Language Model Write the Weights? An Empirical Study of LLM-Written Scoring Networks for Column Generation and MILP Branching, with a Bus-Driver Scheduling Application](https://arxiv.org/abs/2611.09559) (Other Domains)
 - **2026-11-09** · [Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations](https://arxiv.org/abs/2611.09382) (Repairing behavior)
 - **2026-11-09** · [Can LLMs Debug Robots by Editing Their Weights?](https://arxiv.org/abs/2611.09376) (Vision-language-action models)
-- **2026-11-09** · [Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games](https://arxiv.org/abs/2611.09271) (Games)
-- **2026-11-09** · [nathanrs/weight-space-lp](https://github.com/nathanrs/weight-space-lp) (Repairing behavior)
-- **2026-11-09** · [G0.5 Weight-Space Programming](https://github.com/afinitus/g05-weight-space-programming) (Vision-language-action models)
-- **2026-11-09** · [Weight-space programming for Boltz-2 ligand geometry](https://github.com/th2ch-g/weight-space-programming-boltz2) (Other Domains)
-- **2026-11-08** · [khordoo/dusty-wsp](https://github.com/khordoo/dusty-wsp) (Repairing behavior)
-- **2026-11-08** · [Gradient-Free Weight Editing Reduces Overthinking in Qwen3.8-27B](https://github.com/conceptcountry/weight-space-programming) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -40,17 +40,17 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (19)
+- [💬 Language Models](#-language-models) (20)
   - [Repairing behavior](#repairing-behavior) (13)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
-  - [Writing networks from scratch](#writing-networks-from-scratch) (4)
-- [🦾 Robotics and Control](#-robotics-and-control) (12)
-  - [Vision-language-action models](#vision-language-action-models) (5)
-  - [RL control policies](#rl-control-policies) (7)
-- [🧩 Other Domains](#-other-domains) (16)
+  - [Writing networks from scratch](#writing-networks-from-scratch) (5)
+- [🦾 Robotics and Control](#-robotics-and-control) (14)
+  - [Vision-language-action models](#vision-language-action-models) (6)
+  - [RL control policies](#rl-control-policies) (8)
+- [🧩 Other Domains](#-other-domains) (18)
   - [Classical NLP models](#classical-nlp-models) (1)
 - [🎮 Games](#-games) (6)
-- [🧪 Quantum Circuits](#-quantum-circuits) (1)
+- [🧪 Quantum Circuits](#-quantum-circuits) (2)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (3)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (13)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (16)
@@ -193,6 +193,11 @@
   [[Post](https://fchaubard.github.io/weight_space_programming.html)] [[Code](https://github.com/Fchaubard/WSP-for-turing-complete)] ![GitHub stars](https://img.shields.io/github/stars/Fchaubard/WSP-for-turing-complete?style=social)  
   A language model writes weights for fixed small networks on ten algorithmic tasks (29 task-architecture pairs, three starts, 87 settings), compared with gradient-based optimizer pipelines. Examples-only WSP matches every binary64 extrapolation reference in 30 of 87 settings; gradient descent and gradient descent plus L-BFGS match in zero. Iterative WSP examples-only RMSE total drops from about 1.06 trillion to 2.03 billion.
 
+- **[How Reliably Can Language Models Construct Neural Network Weights? Evidence from Modular Arithmetic Tasks](https://github.com/ssakib04/weight_space_programming_module)**  
+  Kazi Sadman Sakib · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/ssakib04/weight_space_programming_module)] ![GitHub stars](https://img.shields.io/github/stars/ssakib04/weight_space_programming_module?style=social)  
+  Frozen prompts, saved weights and an offline evaluator for LLMs constructing weights on modular arithmetic tasks. Cursor trials with three models reach 27/30 constructions at accuracy ≥ 0.99; Anthropic API modmul gives 38/45 across three hint levels; local open-weight models score 0/12 and 0/72.
+
 - **[allthingssecurity/weight_space_programming](https://github.com/allthingssecurity/weight_space_programming)**  
   allthingssecurity · *GitHub* · 2026-11-06 · `💻 code / results`  
   [[Code](https://github.com/allthingssecurity/weight_space_programming)] ![GitHub stars](https://img.shields.io/github/stars/allthingssecurity/weight_space_programming?style=social)  
@@ -208,6 +213,11 @@
 *Weight edits on robot policies, VLAs, world action models and controllers.*
 
 ### Vision-language-action models
+
+- **[Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading](https://arxiv.org/abs/2611.11894)**  
+  Ali-Adeeb Abbas, Esmaeil Seraj · *Preprint* · 2026-11-09 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.11894)] [[Code](https://github.com/adeeb10abbas/weightsmith)] [[Project](https://ali-adeeb.com/weightsmith/)] ![GitHub stars](https://img.shields.io/github/stars/adeeb10abbas/weightsmith?style=social)  
+  Closed-form instruction distillation copies the per-layer effect of an explicit rewording into the language-model MLP weights of a π0.5 VLA policy in RoboLab. On 128 held-out seeds, success rises from 27 to 106 episodes, while a random-direction update of the same size leaves success unchanged. Of seven blind Claude Opus editors, one passed held-out scoring.
 
 - **[Can LLMs Debug Robots by Editing Their Weights?](https://arxiv.org/abs/2611.09376)**  
   Jusheng Zhang, Keze Wang, Liang Lin · *Preprint* · 2026-11-06 · `📝 preprint`  
@@ -235,6 +245,11 @@
   Changing one number in SmolVLA (the x-action output bias) lifts a LIBERO-Spatial task from 42/100 to 64/100 on unseen initial states (Fisher p = 0.003). The fault was read off rollouts: the gripper closed too far along x and regrasped.
 
 ### RL control policies
+
+- **[Weight-Space Programming of Policies and Their Verification via Model Checking](https://arxiv.org/abs/2611.11604)**  
+  Dennis Gross · *Preprint* · 2026-11-08 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.11604)]  
+  An LLM writes all weights of a policy network from a task description, optionally repairs them on a dataset of optimal actions, and receives Storm model-checking feedback on PCTL requirements. With two LLMs on three environments, the created policy in each of 18 runs attains the optimal probability before any dataset or model-checking feedback.
 
 - **[wsp-lab: cross-editor stress test of weight-space programming](https://github.com/WKJBryan/wsp-lab)**  
   WKJBryan · *GitHub* · 2026-11-05 · `💻 code / results`  
@@ -279,6 +294,16 @@
   DanieleMenchetti · *GitHub* · 2026-11-09 · `💻 code / results`  
   [[Code](https://github.com/DanieleMenchetti/weight-space-programming-example)] ![GitHub stars](https://img.shields.io/github/stars/DanieleMenchetti/weight-space-programming-example?style=social)  
   CPU-only notebook where Claude Opus 5.5, run through Claude Code, reads, repairs and writes the weights of tiny PyTorch MLPs without gradients. Repair changed 1 of 33 weights, taking accuracy from 66.4% to 99.8%. Writing an XOR net from scratch reached 100%. Adam baselines are included.
+
+- **[Weight-Space Programming for Medical Imaging: Do We Still Need Training Data?](https://arxiv.org/abs/2611.12066)**  
+  Charité – Universitätsmedizin Berlin · *Preprint* · 2026-11-09 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.12066)] ![GitHub stars](https://img.shields.io/github/stars/MaximilianLindholz/weight-space-programming-medical?style=social)  
+  Claude Opus 5.5 and GPT-6 Astra each write the parameters of a small LeNet-style CNN in a single reply, without images or tool use, across 7 medical classification tasks. Mean test AUC on six MedMNIST tasks is 0.719 (Opus) and 0.711 (Astra); the same network trained with Adam on 256 labelled images reaches 0.828.
+
+- **[Weight-Space Programming (WSP)](https://github.com/SuyodhanJ6/weight-space-programming)**  
+  SuyodhanJ6 · *GitHub* · 2026-11-09 · `💻 code / results`  
+  [[Code](https://github.com/SuyodhanJ6/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/SuyodhanJ6/weight-space-programming?style=social)  
+  An LLM agent hand-writes and edits the weights of a cat-vs-dog CNN, with no gradient training, under a pre-registered accept/reject rule and hash-replay audits. Sealed-test accuracy goes from 60.7% to 77.1% (WSP-003); a wider network scores 78.0%. Random filters with the same head score 71.2%; most of the gain comes from a closed-form head.
 
 - **[manaskarra/magenta-wsp](https://manaskarra.com/blog/magenta-wsp)**  
   manaskarra · *GitHub* · 2026-11-08 · `💻 code / results`  
@@ -399,6 +424,11 @@
   The Pennsylvania State University · *GitHub* · 2026-11-08 · `💻 code / results`  
   [[Code](https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming)] ![GitHub stars](https://img.shields.io/github/stars/DebarshiKunduPSU/Quantum-Weight-Space-Programming?style=social)  
   GPT-6 Astra writes the angles of parameterized quantum circuits directly, with no optimizer or feedback, for VQE, QAOA and quantum machine learning. VQE is within 0.007 of the optimizer on the normalized energy scale on all 11 problem–ansatz pairs. QAOA depth-1 angles are optimal on all six graphs. A warm-started optimizer reaches its best value after a median of 1 evaluation.
+
+- **[Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer](https://arxiv.org/abs/2611.11537)**  
+  Debarshi Kundu, Swaroop Ghosh, Vasant G Honavar · *Preprint* · 2026-11-08 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.11537)]  
+  A frontier LLM writes circuit angles for digit classification, VQE and MaxCut QAOA across 139 requests, compared with random weights and classical optimization. It reaches 95–100% of the energy spectrum on every VQE problem and 93–96% accuracy on digits 3 vs 8 with 12–18 weights; accuracy drops to chance above 30 fixed weights.
 
 ## 📊 Benchmarks and Evaluations
 

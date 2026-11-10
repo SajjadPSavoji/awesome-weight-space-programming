@@ -9710,5 +9710,102 @@
     "repo": "th2ch-g/weight-space-programming-boltz2",
     "summary": "Applies the Sparks of Weight-Space Programming method to Boltz-2 by editing its weights directly, with no training, inference guidance or coordinate repair. Evaluates thirty edit specifications on the PLINDER cis/trans 209 dataset with matched ligand stereochemistry metrics. Edited checkpoints are on Hugging Face. The README states that none is a validated repair.",
     "added": "2026-11-09"
+  },
+  {
+    "id": "weight-space-programming-medical-imaging",
+    "title": "Weight-Space Programming for Medical Imaging: Do We Still Need Training Data?",
+    "authors": "Maximilian Lindholz, Richard Ruppel, Annette Milnik, Sebastian Halskov, et al.",
+    "org": "Charité – Universitätsmedizin Berlin",
+    "date": "2026-11-09",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.12066"
+    },
+    "repo": "MaximilianLindholz/weight-space-programming-medical",
+    "summary": "Claude Opus 5.5 and GPT-6 Astra each write the parameters of a small LeNet-style CNN in a single reply, without images or tool use, across 7 medical classification tasks. Mean test AUC on six MedMNIST tasks is 0.719 (Opus) and 0.711 (Astra); the same network trained with Adam on 256 labelled images reaches 0.828.",
+    "added": "2026-11-10"
+  },
+  {
+    "id": "wsp-policies-model-checking",
+    "title": "Weight-Space Programming of Policies and Their Verification via Model Checking",
+    "authors": "Dennis Gross",
+    "date": "2026-11-08",
+    "venue": "Preprint",
+    "category": "robotics-rl",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.11604"
+    },
+    "summary": "An LLM writes all weights of a policy network from a task description, optionally repairs them on a dataset of optimal actions, and receives Storm model-checking feedback on PCTL requirements. With two LLMs on three environments, the created policy in each of 18 runs attains the optimal probability before any dataset or model-checking feedback.",
+    "added": "2026-11-10"
+  },
+  {
+    "id": "wsp-variational-quantum-circuits",
+    "title": "Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer",
+    "authors": "Debarshi Kundu, Swaroop Ghosh, Vasant G Honavar",
+    "date": "2026-11-08",
+    "venue": "Preprint",
+    "category": "quantum",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.11537"
+    },
+    "summary": "A frontier LLM writes circuit angles for digit classification, VQE and MaxCut QAOA across 139 requests, compared with random weights and classical optimization. It reaches 95–100% of the energy spectrum on every VQE problem and 93–96% accuracy on digits 3 vs 8 with 12–18 weights; accuracy drops to chance above 30 fixed weights.",
+    "added": "2026-11-10"
+  },
+  {
+    "id": "distilling-instructions-into-weights",
+    "title": "Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading",
+    "authors": "Ali-Adeeb Abbas, Esmaeil Seraj",
+    "date": "2026-11-09",
+    "venue": "Preprint",
+    "category": "robotics-vla",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.11894",
+      "code": "https://github.com/adeeb10abbas/weightsmith",
+      "project": "https://ali-adeeb.com/weightsmith/"
+    },
+    "repo": "adeeb10abbas/weightsmith",
+    "summary": "Closed-form instruction distillation copies the per-layer effect of an explicit rewording into the language-model MLP weights of a π0.5 VLA policy in RoboLab. On 128 held-out seeds, success rises from 27 to 106 episodes, while a random-direction update of the same size leaves success unchanged. Of seven blind Claude Opus editors, one passed held-out scoring.",
+    "added": "2026-11-10"
+  },
+  {
+    "id": "suyodhanj6-weight-space-programming",
+    "title": "Weight-Space Programming (WSP)",
+    "authors": "SuyodhanJ6",
+    "date": "2026-11-09",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/SuyodhanJ6/weight-space-programming"
+    },
+    "repo": "SuyodhanJ6/weight-space-programming",
+    "summary": "An LLM agent hand-writes and edits the weights of a cat-vs-dog CNN, with no gradient training, under a pre-registered accept/reject rule and hash-replay audits. Sealed-test accuracy goes from 60.7% to 77.1% (WSP-003); a wider network scores 78.0%. Random filters with the same head score 71.2%; most of the gain comes from a closed-form head.",
+    "added": "2026-11-10"
+  },
+  {
+    "id": "how-reliably-can-lms-construct-weights",
+    "title": "How Reliably Can Language Models Construct Neural Network Weights? Evidence from Modular Arithmetic Tasks",
+    "authors": "Kazi Sadman Sakib",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ssakib04/weight_space_programming_module"
+    },
+    "repo": "ssakib04/weight_space_programming_module",
+    "summary": "Frozen prompts, saved weights and an offline evaluator for LLMs constructing weights on modular arithmetic tasks. Cursor trials with three models reach 27/30 constructions at accuracy ≥ 0.99; Anthropic API modmul gives 38/45 across three hint levels; local open-weight models score 0/12 and 0/72.",
+    "added": "2026-11-10"
   }
 ]
