@@ -730,7 +730,7 @@
 
 - **[Looped Transformers as Programmable Computers](https://arxiv.org/abs/2301.13196)**  
   UW–Madison and others · *ICML 2023* · 2023-01 · `📄 peer-reviewed` · 319 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2301.13196)]  
+  [[Paper](https://arxiv.org/abs/2301.13196)] [[Code](https://github.com/yuedajiong/looped-transformer)] ![GitHub stars](https://img.shields.io/github/stars/yuedajiong/looped-transformer?style=social)  
   Programs transformers with specific weights and places them in a loop, with the input sequence acting as a punchcard. Emulates a small instruction-set computer, mapping iterative algorithms to programs run by a looped, 13-layer transformer.
 
 - **[Tracr: Compiled Transformers as a Laboratory for Interpretability](https://arxiv.org/abs/2301.05062)**  
@@ -854,22 +854,22 @@
 
 - **[Are Sixteen Heads Really Better than One?](https://arxiv.org/abs/1905.10650)**  
   CMU + Facebook AI Research · *NeurIPS 2019* · 2019-05 · `📄 peer-reviewed` · 1.6k citations (S2)  
-  [[Paper](https://arxiv.org/abs/1905.10650)]  
+  [[Paper](https://arxiv.org/abs/1905.10650)] [[Code](https://github.com/pmichel31415/are-16-heads-really-better-than-1)] ![GitHub stars](https://img.shields.io/github/stars/pmichel31415/are-16-heads-really-better-than-1?style=social)  
   Observes that a large percentage of attention heads can be removed at test time without significantly impacting performance, and some layers can be reduced to a single head. Also examines greedy pruning algorithms.
 
 - **[Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580)**  
   IST Austria · *NeurIPS 2022* · 2022-08 · `📄 peer-reviewed` · 461 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2208.11580)]  
+  [[Paper](https://arxiv.org/abs/2208.11580)] [[Code](https://github.com/ist-daslab/obc)] ![GitHub stars](https://img.shields.io/github/stars/ist-daslab/obc?style=social)  
   Introduces a framework covering weight pruning and quantization in the one-shot, post-training setting. It is built on an exact and efficient realization of the Optimal Brain Surgeon framework, extended to quantization.
 
 - **[SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](https://arxiv.org/abs/2301.00774)**  
   IST Austria · *ICML 2023* · 2023-01 · `📄 peer-reviewed` · 1.7k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2301.00774)]  
+  [[Paper](https://arxiv.org/abs/2301.00774)] [[Code](https://github.com/ist-daslab/sparsegpt)] ![GitHub stars](https://img.shields.io/github/stars/ist-daslab/sparsegpt?style=social)  
   Prunes GPT-family models in one shot without retraining. Runs on OPT-175B and BLOOM-176B in under 4.5 hours, reaching 60% unstructured sparsity with negligible perplexity increase, ignoring more than 100 billion weights.
 
 - **[A Simple and Effective Pruning Approach for Large Language Models (Wanda)](https://arxiv.org/abs/2306.11695)**  
   CMU, Meta AI, Bosch Center for AI · *ICLR 2024* · 2023-06 · `📄 peer-reviewed` · 1.1k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2306.11695)]  
+  [[Paper](https://arxiv.org/abs/2306.11695)] [[Code](https://github.com/locuslab/wanda)] ![GitHub stars](https://img.shields.io/github/stars/locuslab/wanda?style=social)  
   Prunes pretrained LLMs by weight magnitude multiplied by input activation on a per-output basis. Requires no retraining or weight update, and is evaluated on LLaMA and LLaMA-2 against magnitude pruning.
 
 ### Fast weights and self-modifying networks
@@ -901,7 +901,7 @@
 
 - **[Neural Network Quine](https://arxiv.org/abs/1803.05859)**  
   Oscar Chang, Hod Lipson · *IEEE ALIFE 2018* · 2018-03 · `📄 peer-reviewed` · 28 citations (S2)  
-  [[Paper](https://arxiv.org/abs/1803.05859)]  
+  [[Paper](https://arxiv.org/abs/1803.05859)] [[Code](https://github.com/AustinT/nn-quine)] ![GitHub stars](https://img.shields.io/github/stars/AustinT/nn-quine?style=social)  
   Builds self-replicating neural networks that replicate by learning to output their own weights, trained with a loss function and a regeneration method. Also adds an MNIST classification task, observing a trade-off between classification and replication.
 
 - **[Linear Transformers Are Secretly Fast Weight Programmers](https://arxiv.org/abs/2102.11174)**  
@@ -921,7 +921,7 @@
 
 - **[Learning to (Learn at Test Time): RNNs with Expressive Hidden States](https://arxiv.org/abs/2407.04620)**  
   Yu Sun et al. · *ICML 2025* · 2024-07 · `📄 peer-reviewed` · 441 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2407.04620)]  
+  [[Paper](https://arxiv.org/abs/2407.04620)] [[Code](https://github.com/test-time-training/ttt-lm-jax)] ![GitHub stars](https://img.shields.io/github/stars/test-time-training/ttt-lm-jax?style=social)  
   Makes the hidden state of a sequence layer a machine learning model, updated by a step of self-supervised learning even on test sequences. Evaluates TTT-Linear and TTT-MLP at 125M to 1.3B parameters against Transformer and Mamba.
 
 - **[Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663)**  
@@ -988,7 +988,7 @@
 
 - **[Evolution Strategies at Scale: LLM Fine-Tuning Beyond Reinforcement Learning](https://arxiv.org/abs/2509.24372)**  
   Xin Qiu et al. · *Preprint* · 2025-09 · `📝 preprint` · 44 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2509.24372)]  
+  [[Paper](https://arxiv.org/abs/2509.24372)] [[Code](https://github.com/VsonicV/es-fine-tuning-paper)] ![GitHub stars](https://img.shields.io/github/stars/VsonicV/es-fine-tuning-paper?style=social)  
   Applies evolution strategies to full-parameter fine-tuning of LLMs at the billion-parameter scale, without dimensionality reduction. The paper reports that it outperforms established RL implementations on several axes, including tolerance to delayed rewards and stability.
 
 ### Hypernetworks and weight generation
@@ -1015,7 +1015,7 @@
 
 - **[SMASH: One-Shot Model Architecture Search through HyperNetworks](https://arxiv.org/abs/1708.05344)**  
   Andrew Brock, Theodore Lim, J. M. Ritchie, Nick Weston · *ICLR 2018* · 2017-08 · `📄 peer-reviewed` · 855 citations (S2)  
-  [[Paper](https://arxiv.org/abs/1708.05344)]  
+  [[Paper](https://arxiv.org/abs/1708.05344)] [[Code](https://github.com/ajbrock/SMASH)] ![GitHub stars](https://img.shields.io/github/stars/ajbrock/SMASH?style=social)  
   Trains an auxiliary HyperNet that generates the weights of a main model conditioned on its architecture. Validation performance of networks with generated weights ranks architectures at the cost of one training run, tested on CIFAR-10, CIFAR-100, STL-10, ModelNet10 and Imagenet32x32.
 
 - **[Meta-Learning with Latent Embedding Optimization](https://arxiv.org/abs/1807.05960)**  
@@ -1030,7 +1030,7 @@
 
 - **[Parameter Prediction for Unseen Deep Architectures](https://arxiv.org/abs/2110.13100)**  
   Boris Knyazev, Michal Drozdzal, Graham W. Taylor, Adriana Romero-Soriano · *NeurIPS 2021* · 2021-10 · `📄 peer-reviewed` · 114 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2110.13100)]  
+  [[Paper](https://arxiv.org/abs/2110.13100)] [[Code](https://github.com/facebookresearch/ppuda)] ![GitHub stars](https://img.shields.io/github/stars/facebookresearch/ppuda?style=social)  
   Introduces the DeepNets-1M dataset of architecture graphs and a graph hypernetwork that predicts parameters in one forward pass. It predicts all 24 million parameters of a ResNet-50, reaching 60% accuracy on CIFAR-10.
 
 - **[HyperTransformer: Model Generation for Supervised and Semi-Supervised Few-Shot Learning](https://arxiv.org/abs/2201.04182)**  
@@ -1040,12 +1040,12 @@
 
 - **[Learning to Learn with Generative Models of Neural Network Checkpoints](https://arxiv.org/abs/2209.12892)**  
   William Peebles et al. · *Preprint* · 2022-09 · `📝 preprint` · 109 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2209.12892)]  
+  [[Paper](https://arxiv.org/abs/2209.12892)] [[Code](https://github.com/wpeebles/g.pt)] ![GitHub stars](https://img.shields.io/github/stars/wpeebles/g.pt?style=social)  
   Trains a conditional diffusion transformer on a dataset of network checkpoints. Given initial parameters and a prompted loss, error or return, it predicts parameter updates achieving that metric, optimizing unseen parameters in one update.
 
 - **[VeLO: Training Versatile Learned Optimizers by Scaling Up](https://arxiv.org/abs/2211.09760)**  
   Luke Metz et al. · *Preprint* · 2022-11 · `📝 preprint` · 90 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2211.09760)]  
+  [[Paper](https://arxiv.org/abs/2211.09760)] [[Code](https://github.com/google/learned_optimization)] ![GitHub stars](https://img.shields.io/github/stars/google/learned_optimization?style=social)  
   Trains a small neural network optimizer that ingests gradients and outputs parameter updates, meta-trained with approximately four thousand TPU-months of compute. It needs no hyperparameter tuning; code, data and a benchmark suite are open-sourced.
 
 - **[Neural Network Diffusion](https://arxiv.org/abs/2402.13144)**  
@@ -1107,17 +1107,17 @@
 
 - **[Does Localization Inform Editing? Surprising Differences in Causality-Based Localization vs. Knowledge Editing in Language Models](https://arxiv.org/abs/2301.04213)**  
   Google Research + UNC Chapel Hill · *NeurIPS 2023* · 2023-01 · `📄 peer-reviewed` · 321 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2301.04213)]  
+  [[Paper](https://arxiv.org/abs/2301.04213)] [[Code](https://github.com/google/belief-localization)] ![GitHub stars](https://img.shields.io/github/stars/google/belief-localization?style=social)  
   Shows that causal-tracing localization conclusions do not indicate which MLP layer is best to edit to override a stored fact. Also studies erasing and amplifying facts, where the edited layer predicts performance better than localization does.
 
 - **[Unified Concept Editing in Diffusion Models](https://arxiv.org/abs/2308.14761)**  
   Northeastern/MIT/Technion · *WACV 2024* · 2023-08 · `📄 peer-reviewed` · 499 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2308.14761)]  
+  [[Paper](https://arxiv.org/abs/2308.14761)] [[Code](https://github.com/rohitgandikota/unified-concept-editing)] ![GitHub stars](https://img.shields.io/github/stars/rohitgandikota/unified-concept-editing?style=social)  
   Presents UCE, which edits text-to-image diffusion models without training, using a closed-form solution on text-conditional projections. Demonstrates simultaneous debiasing, style erasure and content moderation, with improved efficacy and scalability over prior work.
 
 - **[AlphaEdit: Null-Space Constrained Knowledge Editing for Language Models](https://arxiv.org/abs/2410.02355)**  
   USTC + National University of Singapore · *ICLR 2025* · 2024-10 · `📄 peer-reviewed` · 324 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2410.02355)]  
+  [[Paper](https://arxiv.org/abs/2410.02355)] [[Code](https://github.com/jianghoucheng/alphaedit)] ![GitHub stars](https://img.shields.io/github/stars/jianghoucheng/alphaedit?style=social)  
   Projects the perturbation of locate-then-edit methods onto the null space of preserved knowledge before applying it to parameters. Boosts most such methods by an average of 36.7% on LLaMA3, GPT2-XL and GPT-J with one added line of code.
 
 ### Weight arithmetic and merging
@@ -1144,12 +1144,12 @@
 
 - **[Robust fine-tuning of zero-shot models](https://arxiv.org/abs/2109.01903)**  
   Wortsman et al. · *CVPR 2022* · 2021-09 · `📄 peer-reviewed` · 1.1k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2109.01903)]  
+  [[Paper](https://arxiv.org/abs/2109.01903)] [[Code](https://github.com/mlfoundations/wise-ft)] ![GitHub stars](https://img.shields.io/github/stars/mlfoundations/wise-ft?style=social)  
   Introduces WiSE-FT, which ensembles the weights of zero-shot and fine-tuned models such as CLIP. On ImageNet and five derived distribution shifts it improves shifted accuracy by 4 to 6 pp over prior work and ImageNet accuracy by 1.6 pp.
 
 - **[Merging Models with Fisher-Weighted Averaging](https://arxiv.org/abs/2111.09832)**  
   Matena, Raffel · *NeurIPS 2022* · 2021-11 · `📄 peer-reviewed` · 784 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2111.09832)]  
+  [[Paper](https://arxiv.org/abs/2111.09832)] [[Code](https://github.com/mmatena/model_merging)] ![GitHub stars](https://img.shields.io/github/stars/mmatena/model_merging?style=social)  
   Frames merging as choosing parameters that maximize joint posterior likelihood, approximating each posterior as a Gaussian with Fisher information as precision. Improves on simple averaging and is competitive with gradient-based transfer learning at lower cost.
 
 - **[Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time](https://arxiv.org/abs/2203.05482)**  
@@ -1169,17 +1169,17 @@
 
 - **[TIES-Merging: Resolving Interference When Merging Models](https://arxiv.org/abs/2306.01708)**  
   Yadav et al. · *NeurIPS 2023* · 2023-06 · `📄 peer-reviewed` · 1.1k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2306.01708)]  
+  [[Paper](https://arxiv.org/abs/2306.01708)] [[Code](https://github.com/prateeky2806/ties-merging)] ![GitHub stars](https://img.shields.io/github/stars/prateeky2806/ties-merging?style=social)  
   Introduces TIES-Merging, which resets parameters that changed little during fine-tuning, resolves sign conflicts, and merges only parameters agreeing with the chosen sign. Reports outperforming existing merging methods across modalities, domains, task counts, model sizes and architectures.
 
 - **[Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch](https://arxiv.org/abs/2311.03099)**  
   Yu et al. · *ICML 2024* · 2023-11 · `📄 peer-reviewed` · 911 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2311.03099)]  
+  [[Paper](https://arxiv.org/abs/2311.03099)] [[Code](https://github.com/yule-buaa/mergelm)] ![GitHub stars](https://img.shields.io/github/stars/yule-buaa/mergelm?style=social)  
   Introduces DARE, which randomly drops delta parameters with ratio p and rescales the rest by 1/(1−p). Eliminates 90% or even 99% of SFT deltas, merges task-specific models, and yields a 7B model ranking first on the Open LLM Leaderboard.
 
 - **[Evolutionary optimization of model merging recipes](https://arxiv.org/abs/2403.13187)**  
   Akiba et al. · *Nature Machine Intelligence* · 2024-03 · `📄 peer-reviewed` · 283 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2403.13187)]  
+  [[Paper](https://arxiv.org/abs/2403.13187)] [[Code](https://github.com/sakanaai/evolutionary-model-merge)] ![GitHub stars](https://img.shields.io/github/stars/sakanaai/evolutionary-model-merge?style=social)  
   Proposes an evolutionary search that automatically finds combinations of open-source models, in both parameter space and data flow space. Produces a Japanese Math LLM and a Japanese VLM, reporting state-of-the-art results on Japanese benchmarks.
 
 - **[Arcee's MergeKit: A Toolkit for Merging Large Language Models](https://arxiv.org/abs/2403.13257)**  
@@ -1231,7 +1231,7 @@
 
 - **[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780)**  
   Navon et al. · *ICML 2023* · 2023-01 · `📄 peer-reviewed` · 133 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2301.12780)]  
+  [[Paper](https://arxiv.org/abs/2301.12780)] [[Code](https://github.com/AvivNavon/DWSNets)] ![GitHub stars](https://img.shields.io/github/stars/AvivNavon/DWSNets?style=social)  
   Presents an architecture that takes an MLP's weights and biases as input, using layers equivariant to neuron-permutation symmetry. Characterizes all affine equivariant and invariant layers, built from pooling, broadcasting and fully connected operations.
 
 - **[Permutation Equivariant Neural Functionals](https://arxiv.org/abs/2302.14040)**  
@@ -1241,7 +1241,7 @@
 
 - **[Graph Metanetworks for Processing Diverse Neural Architectures](https://arxiv.org/abs/2312.04501)**  
   Lim et al. · *ICLR 2024* · 2023-12 · `📄 peer-reviewed` · 69 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2312.04501)]  
+  [[Paper](https://arxiv.org/abs/2312.04501)] [[Code](https://github.com/cptq/graph_metanetworks)] ![GitHub stars](https://img.shields.io/github/stars/cptq/graph_metanetworks?style=social)  
   Represents input networks as graphs and processes them with graph neural networks. Handles attention, normalization, convolutional and ResNet blocks, proves expressivity and equivariance to parameter permutation symmetries, and validates on several metanetwork tasks.
 
 - **[Neural Decompiling of Tracr Transformers](https://arxiv.org/abs/2410.00061)**  
@@ -1268,7 +1268,7 @@
 
 - **[Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913)**  
   Tel Aviv University / AI2 · *EMNLP 2021* · 2020-12 · `📄 peer-reviewed` · 1.8k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2012.14913)]  
+  [[Paper](https://arxiv.org/abs/2012.14913)] [[Code](https://github.com/mega002/ff-layers)] ![GitHub stars](https://img.shields.io/github/stars/mega002/ff-layers?style=social)  
   Shows that feed-forward layers act as key-value memories: keys correlate with textual patterns in training examples, and values induce output vocabulary distributions. Lower layers capture shallow patterns, upper layers more semantic ones; a layer's output composes its memories.
 
 - **[Curve Circuits](https://distill.pub/2020/circuits/curve-circuits/)**  
@@ -1293,7 +1293,7 @@
 
 - **[Analyzing Transformers in Embedding Space](https://arxiv.org/abs/2209.02535)**  
   Tel Aviv University · *ACL 2023* · 2022-09 · `📄 peer-reviewed` · 161 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2209.02535)]  
+  [[Paper](https://arxiv.org/abs/2209.02535)] [[Code](https://github.com/guyd1995/embedding-space)] ![GitHub stars](https://img.shields.io/github/stars/guyd1995/embedding-space?style=social)  
   Interprets all parameters of a trained Transformer by projecting them into embedding space, with no forward or backward pass. Applications include aligning parameters across models and building a classifier without training by translating a fine-tuned classifier's parameters.
 
 - **[Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small](https://arxiv.org/abs/2211.00593)**  
@@ -1308,12 +1308,12 @@
 
 - **[Progress Measures for Grokking via Mechanistic Interpretability](https://arxiv.org/abs/2301.05217)**  
   Nanda independent; Chan and Steinhardt at UC Berkeley · *ICLR 2023* · 2023-01 · `📄 peer-reviewed` · 1.1k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2301.05217)]  
+  [[Paper](https://arxiv.org/abs/2301.05217)] [[Code](https://github.com/mechanistic-interpretability-grokking/progress-measures-paper)] ![GitHub stars](https://img.shields.io/github/stars/mechanistic-interpretability-grokking/progress-measures-paper?style=social)  
   Fully reverse engineers the algorithm small transformers learn for modular addition, which uses discrete Fourier transforms and trigonometric identities. Confirms it through activations, weights and ablations, and defines progress measures splitting training into memorization, circuit formation and cleanup.
 
 - **[Sparse Autoencoders Find Highly Interpretable Features in Language Models](https://arxiv.org/abs/2309.08600)**  
   Hoagy Cunningham et al. · *ICLR 2024* · 2023-09 · `📄 peer-reviewed` · 1.8k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2309.08600)]  
+  [[Paper](https://arxiv.org/abs/2309.08600)] [[Code](https://github.com/hoagyc/sparse_coding)] ![GitHub stars](https://img.shields.io/github/stars/hoagyc/sparse_coding?style=social)  
   Trains sparse autoencoders to reconstruct language-model activations, learning sparsely activating features that are more interpretable and monosemantic than alternatives by automated measures. Pinpoints features causally responsible for counterfactual behavior on indirect object identification more finely than prior decompositions.
 
 - **[Interpretability in Parameter Space: Minimizing Mechanistic Description Length with Attribution-based Parameter Decomposition](https://arxiv.org/abs/2501.14926)**  
@@ -1325,7 +1325,7 @@
 
 - **[Steering Language Models With Activation Engineering (ActAdd)](https://arxiv.org/abs/2308.10248)**  
   Alexander Matt Turner et al. · *Preprint* · 2023-08-20 · `📝 preprint` · 1.1k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2308.10248)]  
+  [[Paper](https://arxiv.org/abs/2308.10248)] [[Code](https://github.com/montemac/activation_additions)] ![GitHub stars](https://img.shields.io/github/stars/montemac/activation_additions?style=social)  
   Adds a direction computed from contrasting prompts to the residual stream at inference.
 
 - **[Representation Engineering: A Top-Down Approach to AI Transparency](https://arxiv.org/abs/2310.01405)**  
@@ -1335,7 +1335,7 @@
 
 - **[Steering Llama 2 via Contrastive Activation Addition (CAA)](https://arxiv.org/abs/2312.06681)**  
   Nina Rimsky et al. · *ACL 2024* · 2023-12-09 · `📄 peer-reviewed` · 1.4k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2312.06681)]  
+  [[Paper](https://arxiv.org/abs/2312.06681)] [[Code](https://github.com/wusche1/caa_hallucination)] ![GitHub stars](https://img.shields.io/github/stars/wusche1/caa_hallucination?style=social)  
   Steering vectors from paired positive and negative examples shift behaviors such as sycophancy.
 
 ### Automated interpretability agents
@@ -1347,7 +1347,7 @@
 
 - **[Natural Language Descriptions of Deep Visual Features](https://arxiv.org/abs/2201.11114)**  
   MIT · *ICLR 2022* · 2022-01 · `📄 peer-reviewed` · 173 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2201.11114)]  
+  [[Paper](https://arxiv.org/abs/2201.11114)] [[Code](https://github.com/evandez/neuron-descriptions)] ![GitHub stars](https://img.shields.io/github/stars/evandez/neuron-descriptions?style=social)  
   Introduces MILAN, which labels vision neurons with open-ended natural-language descriptions by searching for strings that maximize pointwise mutual information with the image regions where the neuron is active. Uses the descriptions to remove spurious-feature neurons.
 
 - **[Language Models Can Explain Neurons in Language Models](https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html)**  
@@ -1357,12 +1357,12 @@
 
 - **[Towards Automated Circuit Discovery for Mechanistic Interpretability](https://arxiv.org/abs/2304.14997)**  
   Independent research, UCL, Cambridge and others · *NeurIPS 2023* · 2023-04 · `📄 peer-reviewed` · 924 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2304.14997)]  
+  [[Paper](https://arxiv.org/abs/2304.14997)] [[Code](https://github.com/arthurconmy/automatic-circuit-discovery)] ![GitHub stars](https://img.shields.io/github/stars/arthurconmy/automatic-circuit-discovery?style=social)  
   Automates circuit discovery by pruning computational-graph edges whose patching barely changes the output. Rediscovers 5/5 component types in GPT-2 Small's Greater-Than circuit, selecting 68 of 32,000 edges, all found manually before.
 
 - **[FIND: A Function Description Benchmark for Evaluating Interpretability Methods](https://arxiv.org/abs/2309.03886)**  
   MIT · *NeurIPS 2023* · 2023-09 · `📄 peer-reviewed` · 43 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2309.03886)]  
+  [[Paper](https://arxiv.org/abs/2309.03886)] [[Code](https://github.com/multimodal-interpretability/find)] ![GitHub stars](https://img.shields.io/github/stars/multimodal-interpretability/find?style=social)  
   Introduces FIND, a benchmark of functions resembling neural-network components, with paired descriptions, for evaluating automated interpretability methods. Also presents an Automated Interpretability Agent that generates function descriptions interactively, and evaluates language-model description methods.
 
 - **[Patchscopes: A Unifying Framework for Inspecting Hidden Representations of Language Models](https://arxiv.org/abs/2401.06102)**  
@@ -1372,12 +1372,12 @@
 
 - **[A Multimodal Automated Interpretability Agent](https://arxiv.org/abs/2404.14394)**  
   MIT CSAIL · *ICML 2024* · 2024-04 · `📄 peer-reviewed` · 79 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2404.14394)]  
+  [[Paper](https://arxiv.org/abs/2404.14394)] [[Code](https://github.com/multimodal-interpretability/maia)] ![GitHub stars](https://img.shields.io/github/stars/multimodal-interpretability/maia?style=social)  
   Gives a pre-trained vision-language model tools to synthesize and edit inputs and compute maximally activating exemplars. Describes neurons comparably to expert human experimenters, reduces sensitivity to spurious features, and flags inputs likely to be misclassified.
 
 - **[Automatically Interpreting Millions of Features in Large Language Models](https://arxiv.org/abs/2410.13928)**  
   EleutherAI · *ICML 2025* · 2024-10 · `📄 peer-reviewed` · 133 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2410.13928)]  
+  [[Paper](https://arxiv.org/abs/2410.13928)] [[Code](https://github.com/EleutherAI/delphi)] ![GitHub stars](https://img.shields.io/github/stars/EleutherAI/delphi?style=social)  
   Builds an open-source pipeline using LLMs to generate and score natural-language explanations for SAE features, with five new, cheaper scoring techniques including intervention scoring. Finds SAE latents much more interpretable than neurons, including sparsified ones.
 
 - **[Building and Evaluating Alignment Auditing Agents](https://alignment.anthropic.com/2025/automated-auditing/)**  
@@ -1392,7 +1392,7 @@
 
 - **[Learning to Interpret Weight Differences in Language Models](https://arxiv.org/abs/2510.05092)**  
   MIT · *Preprint* · 2025-10 · `📝 preprint` · 17 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2510.05092)]  
+  [[Paper](https://arxiv.org/abs/2510.05092)] [[Code](https://github.com/Aviously/diff-interpretation-tuning)] ![GitHub stars](https://img.shields.io/github/stars/Aviously/diff-interpretation-tuning?style=social)  
   Introduces Diff Interpretation Tuning, which trains an adapter on synthetic labeled weight diffs so a finetuned model describes its own finetuning-induced changes. Demonstrates it on reporting hidden behaviors and summarizing finetuned knowledge.
 
 ### Language-to-weights and LLM program search
@@ -1414,7 +1414,7 @@
 
 - **[Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409)**  
   Chengrun Yang et al. · *ICLR 2024* · 2023-09 · `📄 peer-reviewed` · 1.3k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2309.03409)]  
+  [[Paper](https://arxiv.org/abs/2309.03409)] [[Code](https://github.com/google-deepmind/opro)] ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/opro?style=social)  
   Prompts an LLM with earlier solutions and their scores so it generates new ones. Tested on linear regression, traveling salesman and prompt optimization; best prompts beat human-designed ones by up to 8% on GSM8K and up to 50% on Big-Bench Hard.
 
 - **[Large Language Models As Evolution Strategies](https://arxiv.org/abs/2402.18381)**  
@@ -1424,7 +1424,7 @@
 
 - **[Transformer-Squared: Self-adaptive LLMs](https://arxiv.org/abs/2501.06252)**  
   Qi Sun, Edoardo Cetin, Yujin Tang · *ICLR 2025* · 2025-01 · `📄 peer-reviewed` · 22 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2501.06252)]  
+  [[Paper](https://arxiv.org/abs/2501.06252)] [[Code](https://github.com/SakanaAI/self-adaptive-llms)] ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/self-adaptive-llms?style=social)  
   Adapts an LLM at inference in two passes: a dispatch system identifies task properties, then expert vectors trained with reinforcement learning, acting on singular components of weight matrices, are mixed. Reports outperforming LoRA with fewer parameters, including on vision-language tasks.
 
 - **[NeuroGen: Neural Network Parameter Generation via Large Language Models](https://arxiv.org/abs/2505.12470)**  
@@ -1434,12 +1434,12 @@
 
 - **[Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954)**  
   Jenny Zhang et al. · *Preprint* · 2025-05 · `📝 preprint` · 502 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2505.22954)]  
+  [[Paper](https://arxiv.org/abs/2505.22954)] [[Code](https://github.com/jennyzzt/dgm)] ![GitHub stars](https://img.shields.io/github/stars/jennyzzt/dgm?style=social)  
   Keeps an archive of coding agents, samples one, and has a foundation model produce a modified version that rewrites its own code. Each change is validated on coding benchmarks rather than proved, and SWE-bench performance increases.
 
 - **[Text-to-LoRA: Instant Transformer Adaption](https://arxiv.org/abs/2506.06105)**  
   Rujikorn Charakorn, Edoardo Cetin, Yujin Tang, Robert Tjarko Lange · *ICML 2025* · 2025-06 · `📄 peer-reviewed` · 74 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2506.06105)]  
+  [[Paper](https://arxiv.org/abs/2506.06105)] [[Code](https://github.com/sakanaai/text-to-lora)] ![GitHub stars](https://img.shields.io/github/stars/sakanaai/text-to-lora?style=social)  
   Trains a hypernetwork to construct LoRA adapters for an LLM in one forward pass from a natural-language task description. Trained on 9 pre-trained LoRAs, its reconstructed adapters match task-specific adapters on test sets and generalize zero-shot to unseen tasks.
 
 - **[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131)**  
@@ -1454,7 +1454,7 @@
 
 - **[Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights](https://arxiv.org/abs/2506.16406)**  
   Zhiyuan Liang et al. · *NeurIPS 2025* · 2025-06 · `📄 peer-reviewed` · 29 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2506.16406)]  
+  [[Paper](https://arxiv.org/abs/2506.16406)] [[Code](https://github.com/jerryliang24/Drag-and-Drop-LLMs)] ![GitHub stars](https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs?style=social)  
   Maps a handful of unlabeled task prompts to LoRA matrices using a text encoder and a hyper-convolutional decoder. Reports up to 12,000× lower overhead than full fine-tuning and average gains up to 30% over trained LoRAs on unseen benchmarks.
 
 ### Weight-level security and safety
@@ -1506,12 +1506,12 @@
 
 - **[BadEdit: Backdooring Large Language Models by Model Editing](https://arxiv.org/abs/2403.13355)**  
   Yanzhou Li et al. · *ICLR 2024* · 2024-03 · `📄 peer-reviewed` · 163 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2403.13355)]  
+  [[Paper](https://arxiv.org/abs/2403.13355)] [[Code](https://github.com/Lyz1213/BadEdit)] ![GitHub stars](https://img.shields.io/github/stars/Lyz1213/BadEdit?style=social)  
   Formulates backdoor injection as a lightweight knowledge editing problem that directly alters a subset of LLM parameters. Needs 15 samples, reaches up to 100% attack success rate, and the backdoor survives later fine-tuning.
 
 - **[Refusal in Language Models Is Mediated by a Single Direction](https://arxiv.org/abs/2406.11717)**  
   Andy Arditi et al. · *NeurIPS 2024* · 2024-06-17 · `📄 peer-reviewed` · 1.3k citations (S2)  
-  [[Paper](https://arxiv.org/abs/2406.11717)]  
+  [[Paper](https://arxiv.org/abs/2406.11717)] [[Code](https://github.com/andyrdt/refusal_direction)] ![GitHub stars](https://img.shields.io/github/stars/andyrdt/refusal_direction?style=social)  
   Orthogonalizing weights against one direction removes refusal. It is the same kind of edit as the Qwen loop fix.
 
 - **[PrisonBreak: Jailbreaking Large Language Models with at Most Twenty-Five Targeted Bit-flips](https://arxiv.org/abs/2412.07192)**  
@@ -1528,7 +1528,7 @@
 
 - **[Parameter Space Noise for Exploration](https://arxiv.org/abs/1706.01905)**  
   Matthias Plappert et al. · *ICLR 2018* · 2017-06 · `📄 peer-reviewed` · 709 citations (S2)  
-  [[Paper](https://arxiv.org/abs/1706.01905)]  
+  [[Paper](https://arxiv.org/abs/1706.01905)] [[Code](https://github.com/aspk/Tensorflow_Deep_RL)] ![GitHub stars](https://img.shields.io/github/stars/aspk/Tensorflow_Deep_RL?style=social)  
   Adds noise directly to an agent's parameters rather than to its actions to drive exploration. Tested with DQN, DDPG and TRPO, it learns more efficiently than action-space noise and evolutionary strategies alone.
 
 - **[Simple random search provides a competitive approach to reinforcement learning](https://arxiv.org/abs/1803.07055)**  
@@ -1558,7 +1558,7 @@
 
 - **[Dota 2 with Large Scale Deep Reinforcement Learning](https://arxiv.org/abs/1912.06680)**  
   Christopher Berner et al. · *Preprint* · 2019-12 · `📝 preprint` · 2.3k citations (S2)  
-  [[Paper](https://arxiv.org/abs/1912.06680)]  
+  [[Paper](https://arxiv.org/abs/1912.06680)] [[Code](https://github.com/bilibili/LastOrder-Dota2)] ![GitHub stars](https://img.shields.io/github/stars/bilibili/LastOrder-Dota2?style=social)  
   Trains OpenAI Five with self-play RL over 10 months and beats the Dota 2 world champions; over twenty offline surgeries change the live policy's architecture while preserving its function.
 
 - **[Neural Network Surgery with Sets](https://arxiv.org/abs/1912.06719)**  
@@ -1593,7 +1593,7 @@
 
 - **[Robotic Policy Adaptation via Weight-Space Meta-Learning (WIZARD)](https://arxiv.org/abs/2606.07217)**  
   Christian Bianchi et al. · *Preprint* · 2026-06 · `📝 preprint` · 1 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2606.07217)]  
+  [[Paper](https://arxiv.org/abs/2606.07217)] [[Code](https://github.com/Fascetta/WIZARD)] ![GitHub stars](https://img.shields.io/github/stars/Fascetta/WIZARD?style=social)  
   A meta-network turns language and video into LoRA weights for a frozen VLA, with no test-time optimization.
 
 - **[Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control (WA-LQR)](https://arxiv.org/abs/2607.14943)**  
@@ -1608,7 +1608,7 @@
 
 - **[Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts (DART)](https://arxiv.org/abs/2607.00666)**  
   Taewook Kang, Taeheon Kim, Donghyun Shin, Jonghyun Choi · *Preprint* · 2026-07-01 · `📝 preprint` · 3 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2607.00666)]  
+  [[Paper](https://arxiv.org/abs/2607.00666)] [[Code](https://github.com/snumprlab/dart)] ![GitHub stars](https://img.shields.io/github/stars/snumprlab/dart?style=social)  
   Adapts a VLA to camera and embodiment shifts from one demonstration through weight-vector arithmetic with subspace alignment.
 
 - **[Suppression Sticks, Locality Is Fragile: A Closed-Loop Audit of Task-Vector Negation in VLA Policies](https://arxiv.org/abs/2608.04692)**  
@@ -1674,7 +1674,7 @@
 
 - **[The Mirage of Model Editing: Revisiting Evaluation in the Wild](https://arxiv.org/abs/2502.11177)**  
   Wanli Yang et al. · *ACL 2025* · 2025-02 · `📄 peer-reviewed` · 34 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2502.11177)]  
+  [[Paper](https://arxiv.org/abs/2502.11177)] [[Code](https://github.com/wanliyoung/revisit-editing-evaluation)] ![GitHub stars](https://img.shields.io/github/stars/wanliyoung/revisit-editing-evaluation?style=social)  
   Revisits model editing evaluation with the QAEdit benchmark and WILD framework, showing that single-edit performance drops from 96.8% to 38.5% under realistic testing and that sequential editing fails drastically at 1000 edits.
 
 - **[Knowledge Mechanisms in Large Language Models: A Survey and Perspective](https://arxiv.org/abs/2407.15017)**  
@@ -1694,12 +1694,12 @@
 
 - **[Towards Lifelong Learning of Large Language Models: A Survey](https://arxiv.org/abs/2406.06391)**  
   Junhao Zheng et al. · *ACM Computing Surveys* · 2024-06 · `📄 peer-reviewed` · 121 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2406.06391)]  
+  [[Paper](https://arxiv.org/abs/2406.06391)] [[Code](https://github.com/qianlima-lab/awesome-lifelong-learning-methods-for-llm)] ![GitHub stars](https://img.shields.io/github/stars/qianlima-lab/awesome-lifelong-learning-methods-for-llm?style=social)  
   Surveys lifelong learning for LLMs, splitting strategies into internal knowledge (continual pretraining and finetuning) and external knowledge (retrieval-based and tool-based), with a taxonomy of 12 scenarios and emerging techniques like model expansion and data selection.
 
 - **[Knowledge Conflicts for LLMs: A Survey](https://arxiv.org/abs/2403.08319)**  
   Rongwu Xu et al. · *EMNLP 2024* · 2024-03 · `📄 peer-reviewed` · 418 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2403.08319)]  
+  [[Paper](https://arxiv.org/abs/2403.08319)] [[Code](https://github.com/pillowsofwind/knowledge-conflicts-survey)] ![GitHub stars](https://img.shields.io/github/stars/pillowsofwind/knowledge-conflicts-survey?style=social)  
   Surveys knowledge conflicts in LLMs across three categories: context-memory, inter-context, and intra-memory conflict, examining their causes, model behaviors under conflict, and available solutions for improving robustness.
 
 - **[Continual Learning for Large Language Models: A Survey](https://arxiv.org/abs/2402.01364)**  
@@ -1709,7 +1709,7 @@
 
 - **[A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286)**  
   Ningyu Zhang et al. · *Preprint* · 2024-01 · `📝 preprint` · 194 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2401.01286)]  
+  [[Paper](https://arxiv.org/abs/2401.01286)] [[Code](https://github.com/zjunlp/knowledgeeditingpapers)] ![GitHub stars](https://img.shields.io/github/stars/zjunlp/knowledgeeditingpapers?style=social)  
   Reviews knowledge editing approaches for LLMs under a three-group categorization: using external knowledge, merging knowledge into the model, and editing intrinsic knowledge. Adds the KnowEdit benchmark for empirical evaluation and an analysis of knowledge location.
 
 - **[Knowledge Editing for Large Language Models](https://aclanthology.org/2024.lrec-tutorials.6)**  
@@ -1739,7 +1739,7 @@
 
 - **[Unveiling the Pitfalls of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2310.02129)**  
   Zhoubo Li et al. · *ICLR 2024* · 2023-10 · `📄 peer-reviewed` · 51 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2310.02129)]  
+  [[Paper](https://arxiv.org/abs/2310.02129)] [[Code](https://github.com/zjunlp/pitfallsknowledgeediting)] ![GitHub stars](https://img.shields.io/github/stars/zjunlp/pitfallsknowledgeediting?style=social)  
   Investigates side effects of knowledge editing in LLMs using new benchmark datasets and metrics, identifying knowledge conflict from logically clashing edits and knowledge distortion of the model's innate knowledge structure.
 
 - **[On Knowledge Editing in Federated Learning: Perspectives, Challenges, and Future Directions](https://arxiv.org/abs/2306.01431)**  
@@ -1786,7 +1786,7 @@
 
 - **[Harnessing Multiple Large Language Models: A Survey on LLM Ensemble](https://arxiv.org/abs/2502.18036)**  
   Zhijun Chen et al. · *IJCAI* · 2025-02 · `📄 peer-reviewed` · 137 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2502.18036)]  
+  [[Paper](https://arxiv.org/abs/2502.18036)] [[Code](https://github.com/junchenzhi/awesome-llm-ensemble)] ![GitHub stars](https://img.shields.io/github/stars/junchenzhi/awesome-llm-ensemble?style=social)  
   Reviews LLM ensemble methods, introducing a taxonomy and classifying approaches as ensemble-before-inference, ensemble-during-inference, or ensemble-after-inference. Also covers benchmarks, applications, and future research directions.
 
 - **[Low-Rank Adaptation for Foundation Models: A Comprehensive Review](https://arxiv.org/abs/2501.00365)**  
@@ -1801,12 +1801,12 @@
 
 - **[Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities](https://arxiv.org/abs/2408.07666)**  
   Enneng Yang et al. · *ACM Computing Surveys* · 2024-08 · `📄 peer-reviewed` · 337 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2408.07666)]  
+  [[Paper](https://arxiv.org/abs/2408.07666)] [[Code](https://github.com/ennengyang/awesome-model-merging-methods-theories-applications)] ![GitHub stars](https://img.shields.io/github/stars/ennengyang/awesome-model-merging-methods-theories-applications?style=social)  
   Surveys model merging across methods, theories, and applications, proposing a taxonomy of merging methods and covering use in LLMs, multimodal LLMs, and over ten machine learning subfields, with challenges and future directions.
 
 - **[A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning](https://arxiv.org/abs/2408.07057)**  
   Prateek Yadav et al. · *Preprint* · 2024-08 · `📝 preprint` · 78 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2408.07057)]  
+  [[Paper](https://arxiv.org/abs/2408.07057)] [[Code](https://github.com/pclucas14/awesome-moerging)] ![GitHub stars](https://img.shields.io/github/stars/pclucas14/awesome-moerging?style=social)  
   Surveys methods that recycle specialized expert models through routers, proposing a taxonomy of key design choices and suitable applications. Also inventories software tools and applications, and relates MoErging to model merging, multitask learning, and mixture-of-experts.
 
 - **[Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models](https://arxiv.org/abs/2407.06089)**  
@@ -1923,12 +1923,12 @@
 
 - **[Controllable Text Generation for Large Language Models: A Survey](https://arxiv.org/abs/2408.12599)**  
   Xun Liang et al. · *Preprint* · 2024-08 · `📝 preprint` · 93 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2408.12599)]  
+  [[Paper](https://arxiv.org/abs/2408.12599)] [[Code](https://github.com/iaar-shanghai/ctgsurvey)] ![GitHub stars](https://img.shields.io/github/stars/iaar-shanghai/ctgsurvey?style=social)  
   Reviews controllable text generation for LLMs, dividing tasks into content control and attribute control. Covers retraining, fine-tuning, reinforcement learning, prompt engineering, latent space manipulation, and decoding-time intervention, plus evaluation, applications, and challenges.
 
 - **[Preserving Privacy in Large Language Models: A Survey on Current Threats and Solutions](https://arxiv.org/abs/2408.05212)**  
   Miranda et al. · *TMLR 2025* · 2024-08 · `📄 peer-reviewed` · 33 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2408.05212)]  
+  [[Paper](https://arxiv.org/abs/2408.05212)] [[Code](https://github.com/michele17284/awesome-privacy-preserving-llms)] ![GitHub stars](https://img.shields.io/github/stars/michele17284/awesome-privacy-preserving-llms?style=social)  
   Surveys privacy threats to LLMs, reviewing privacy attacks and the memorization of sensitive information. Organizes solutions along the learning pipeline, from dataset anonymization to differential privacy during training or inference and machine unlearning after training.
 
 - **[Machine Unlearning in Generative AI: A Survey](https://arxiv.org/abs/2407.20516)**  
@@ -2010,12 +2010,12 @@
 
 - **[Attention Sink in Transformers: A Survey on Utilization, Interpretation, and Mitigation](https://arxiv.org/abs/2604.10098)**  
   Zunhai Su et al. · *Preprint* · 2026-04 · `📝 preprint` · 11 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2604.10098)]  
+  [[Paper](https://arxiv.org/abs/2604.10098)] [[Code](https://github.com/ZunhaiSu/Awesome-Attention-Sink)] ![GitHub stars](https://img.shields.io/github/stars/ZunhaiSu/Awesome-Attention-Sink?style=social)  
   Surveys attention sink in Transformers, where attention concentrates on a few uninformative tokens, organizing research into fundamental utilization, mechanistic interpretation and strategic mitigation.
 
 - **[Locate, Steer, and Improve: A Practical Survey of Actionable Mechanistic Interpretability in Large Language Models](https://arxiv.org/abs/2601.14004)**  
   Hengyuan Zhang et al. · *Computer Science Review* · 2026-01 · `📄 peer-reviewed` · 28 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2601.14004)]  
+  [[Paper](https://arxiv.org/abs/2601.14004)] [[Code](https://github.com/rattlesnakey/Awesome-Actionable-MI-Survey)] ![GitHub stars](https://img.shields.io/github/stars/rattlesnakey/Awesome-Actionable-MI-Survey?style=social)  
   Surveys mechanistic interpretability as an intervention methodology for LLMs, structured as a pipeline of localizing, steering and improving. Categorizes diagnosis and intervention methods by interpretable object and covers gains in alignment, capability and efficiency.
 
 - **[Towards a Mechanistic Understanding of Large Reasoning Models: A Survey of Training, Inference, and Failures](https://arxiv.org/abs/2601.19928)**  
@@ -2060,7 +2060,7 @@
 
 - **[Position: Mechanistic Interpretability Should Prioritize Feature Consistency in SAEs](https://arxiv.org/abs/2505.20254)**  
   Xiangchen Song et al. · *Preprint* · 2025-05 · `📝 preprint` · 18 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2505.20254)]  
+  [[Paper](https://arxiv.org/abs/2505.20254)] [[Code](https://github.com/xiangchensong/sae-feature-consistency)] ![GitHub stars](https://img.shields.io/github/stars/xiangchensong/sae-feature-consistency?style=social)  
   Argues that SAE research should prioritize feature consistency across training runs, proposes the PW-MCC metric to measure it, and reports that TopK SAEs reach high consistency on LLM activations with suitable architectural choices.
 
 - **[LLMs for Explainable AI: A Comprehensive Survey](https://arxiv.org/abs/2504.00125)**  
@@ -2095,7 +2095,7 @@
 
 - **[Attention Heads of Large Language Models: A Survey](https://arxiv.org/abs/2409.03752)**  
   Zifan Zheng et al. · *Patterns 2025* · 2024-09 · `📄 peer-reviewed` · 111 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2409.03752)]  
+  [[Paper](https://arxiv.org/abs/2409.03752)] [[Code](https://github.com/iaar-shanghai/awesome-attention-heads)] ![GitHub stars](https://img.shields.io/github/stars/iaar-shanghai/awesome-attention-heads?style=social)  
   Surveys the roles of attention heads in LLMs through a four-stage framework of Knowledge Recalling, In-Context Identification, Latent Reasoning and Expression Preparation, and divides discovery methods into Modeling-Free and Modeling-Required, alongside evaluation methods and benchmarks.
 
 - **[The Quest for the Right Mediator: Surveying Mechanistic Interpretability Through the Lens of Causal Mediation Analysis](https://arxiv.org/abs/2408.01416)**  
@@ -2160,7 +2160,7 @@
 
 - **[Rethinking Interpretability in the Era of Large Language Models](https://arxiv.org/abs/2402.01761)**  
   Chandan Singh et al. · *Preprint* · 2024-02 · `📝 preprint` · 161 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2402.01761)]  
+  [[Paper](https://arxiv.org/abs/2402.01761)] [[Code](https://github.com/csinva/imodelsX)] ![GitHub stars](https://img.shields.io/github/stars/csinva/imodelsX?style=social)  
   Argues that LLMs offer an opportunity to redefine interpretability with broader scope, including auditing LLMs; reviews evaluation of both interpreting LLMs and using LLMs for explanation, and highlights dataset analysis and interactive explanations as priorities.
 
 - **[From Understanding to Utilization: A Survey on Explainability for Large Language Models](https://arxiv.org/abs/2401.12874)**  
@@ -2511,7 +2511,7 @@
 
 - **[Tutorial on amortized optimization](https://arxiv.org/abs/2202.00665)**  
   Brandon Amos · *Foundations and Trends in Machine Learning* · 2022-02 · `📄 peer-reviewed` · 130 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2202.00665)]  
+  [[Paper](https://arxiv.org/abs/2202.00665)] [[Code](https://github.com/facebookresearch/amortized-optimization-tutorial)] ![GitHub stars](https://img.shields.io/github/stars/facebookresearch/amortized-optimization-tutorial?style=social)  
   Introduces the foundations of amortized optimization, which uses learning to predict solutions to repeated, similar problems. Overviews applications in variational inference, sparse coding, meta-learning, control, reinforcement learning, convex optimization, optimal transport and deep equilibrium networks.
 
 - **[Learning to Optimize: A Primer and A Benchmark](https://arxiv.org/abs/2103.12828)**  

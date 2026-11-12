@@ -331,12 +331,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2308.10248"
+      "paper": "https://arxiv.org/abs/2308.10248",
+      "code": "https://github.com/montemac/activation_additions"
     },
     "summary": "Adds a direction computed from contrasting prompts to the residual stream at inference.",
     "added": "2026-11-04",
     "citations": 1069,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "montemac/activation_additions"
   },
   {
     "id": "repe",
@@ -367,12 +369,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2312.06681"
+      "paper": "https://arxiv.org/abs/2312.06681",
+      "code": "https://github.com/wusche1/caa_hallucination"
     },
     "summary": "Steering vectors from paired positive and negative examples shift behaviors such as sycophancy.",
     "added": "2026-11-04",
     "citations": 1388,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "wusche1/caa_hallucination"
   },
   {
     "id": "refusal-direction",
@@ -384,12 +388,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2406.11717"
+      "paper": "https://arxiv.org/abs/2406.11717",
+      "code": "https://github.com/andyrdt/refusal_direction"
     },
     "summary": "Orthogonalizing weights against one direction removes refusal. It is the same kind of edit as the Qwen loop fix.",
     "added": "2026-11-04",
     "citations": 1295,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "andyrdt/refusal_direction"
   },
   {
     "id": "tracr",
@@ -490,12 +496,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2607.00666"
+      "paper": "https://arxiv.org/abs/2607.00666",
+      "code": "https://github.com/snumprlab/dart"
     },
     "summary": "Adapts a VLA to camera and embodiment shifts from one demonstration through weight-vector arithmetic with subspace alignment.",
     "added": "2026-11-04",
     "citations": 3,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "snumprlab/dart"
   },
   {
     "id": "wizard",
@@ -507,12 +515,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2606.07217"
+      "paper": "https://arxiv.org/abs/2606.07217",
+      "code": "https://github.com/Fascetta/WIZARD"
     },
     "summary": "A meta-network turns language and video into LoRA weights for a frozen VLA, with no test-time optimization.",
     "added": "2026-11-04",
     "citations": 1,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "Fascetta/WIZARD"
   },
   {
     "id": "wsp-auditing-clinical-decision-networks",
@@ -1263,12 +1273,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2301.13196"
+      "paper": "https://arxiv.org/abs/2301.13196",
+      "code": "https://github.com/yuedajiong/looped-transformer"
     },
     "summary": "Programs transformers with specific weights and places them in a loop, with the input sequence acting as a punchcard. Emulates a small instruction-set computer, mapping iterative algorithms to programs run by a looped, 13-layer transformer.",
     "citations": 319,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "yuedajiong/looped-transformer"
   },
   {
     "id": "willshaw-1969",
@@ -1711,12 +1723,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/1905.10650"
+      "paper": "https://arxiv.org/abs/1905.10650",
+      "code": "https://github.com/pmichel31415/are-16-heads-really-better-than-1"
     },
     "summary": "Observes that a large percentage of attention heads can be removed at test time without significantly impacting performance, and some layers can be reduced to a single head. Also examines greedy pruning algorithms.",
     "citations": 1593,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "pmichel31415/are-16-heads-really-better-than-1"
   },
   {
     "id": "obc-2022",
@@ -1729,12 +1743,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2208.11580"
+      "paper": "https://arxiv.org/abs/2208.11580",
+      "code": "https://github.com/ist-daslab/obc"
     },
     "summary": "Introduces a framework covering weight pruning and quantization in the one-shot, post-training setting. It is built on an exact and efficient realization of the Optimal Brain Surgeon framework, extended to quantization.",
     "citations": 461,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "ist-daslab/obc"
   },
   {
     "id": "sparsegpt",
@@ -1747,13 +1763,15 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2301.00774"
+      "paper": "https://arxiv.org/abs/2301.00774",
+      "code": "https://github.com/ist-daslab/sparsegpt"
     },
     "summary": "Prunes GPT-family models in one shot without retraining. Runs on OPT-175B and BLOOM-176B in under 4.5 hours, reaching 60% unstructured sparsity with negligible perplexity increase, ignoring more than 100 billion weights.",
     "citations": 1663,
     "citations_source": "S2",
     "added": "2026-11-06",
-    "history_milestone": "OBS-style editing at 175B scale"
+    "history_milestone": "OBS-style editing at 175B scale",
+    "repo": "ist-daslab/sparsegpt"
   },
   {
     "id": "wanda",
@@ -1766,12 +1784,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2306.11695"
+      "paper": "https://arxiv.org/abs/2306.11695",
+      "code": "https://github.com/locuslab/wanda"
     },
     "summary": "Prunes pretrained LLMs by weight magnitude multiplied by input activation on a per-output basis. Requires no retraining or weight update, and is evaluated on LLaMA and LLaMA-2 against magnitude pruning.",
     "citations": 1079,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "locuslab/wanda"
   },
   {
     "id": "lottery-ticket",
@@ -1886,12 +1906,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/1803.05859"
+      "paper": "https://arxiv.org/abs/1803.05859",
+      "code": "https://github.com/AustinT/nn-quine"
     },
     "summary": "Builds self-replicating neural networks that replicate by learning to output their own weights, trained with a loss function and a regeneration method. Also adds an MNIST classification task, observing a trade-off between classification and replication.",
     "citations": 28,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "AustinT/nn-quine"
   },
   {
     "id": "schlag-2021",
@@ -1955,12 +1977,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2407.04620"
+      "paper": "https://arxiv.org/abs/2407.04620",
+      "code": "https://github.com/test-time-training/ttt-lm-jax"
     },
     "summary": "Makes the hidden state of a sequence layer a machine learning model, updated by a step of self-supervised learning even on test sequences. Evaluates TTT-Linear and TTT-MLP at 125M to 1.3B parameters against Transformer and Mamba.",
     "citations": 441,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "test-time-training/ttt-lm-jax"
   },
   {
     "id": "titans",
@@ -2182,12 +2206,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2509.24372"
+      "paper": "https://arxiv.org/abs/2509.24372",
+      "code": "https://github.com/VsonicV/es-fine-tuning-paper"
     },
     "summary": "Applies evolution strategies to full-parameter fine-tuning of LLMs at the billion-parameter scale, without dimensionality reduction. The paper reports that it outperforms established RL implementations on several axes, including tolerance to delayed rewards and stability.",
     "citations": 44,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "VsonicV/es-fine-tuning-paper"
   },
   {
     "id": "denil-2013",
@@ -2268,12 +2294,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/1708.05344"
+      "paper": "https://arxiv.org/abs/1708.05344",
+      "code": "https://github.com/ajbrock/SMASH"
     },
     "summary": "Trains an auxiliary HyperNet that generates the weights of a main model conditioned on its architecture. Validation performance of networks with generated weights ranks architectures at the cost of one training run, tested on CIFAR-10, CIFAR-100, STL-10, ModelNet10 and Imagenet32x32.",
     "citations": 855,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "ajbrock/SMASH"
   },
   {
     "id": "leo",
@@ -2319,13 +2347,15 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2110.13100"
+      "paper": "https://arxiv.org/abs/2110.13100",
+      "code": "https://github.com/facebookresearch/ppuda"
     },
     "summary": "Introduces the DeepNets-1M dataset of architecture graphs and a graph hypernetwork that predicts parameters in one forward pass. It predicts all 24 million parameters of a ResNet-50, reaching 60% accuracy on CIFAR-10.",
     "citations": 114,
     "citations_source": "S2",
     "added": "2026-11-06",
-    "history_milestone": "Zero-shot weights for unseen networks"
+    "history_milestone": "Zero-shot weights for unseen networks",
+    "repo": "facebookresearch/ppuda"
   },
   {
     "id": "hypertransformer",
@@ -2354,12 +2384,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2209.12892"
+      "paper": "https://arxiv.org/abs/2209.12892",
+      "code": "https://github.com/wpeebles/g.pt"
     },
     "summary": "Trains a conditional diffusion transformer on a dataset of network checkpoints. Given initial parameters and a prompted loss, error or return, it predicts parameter updates achieving that metric, optimizing unseen parameters in one update.",
     "citations": 109,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "wpeebles/g.pt"
   },
   {
     "id": "velo",
@@ -2371,12 +2403,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2211.09760"
+      "paper": "https://arxiv.org/abs/2211.09760",
+      "code": "https://github.com/google/learned_optimization"
     },
     "summary": "Trains a small neural network optimizer that ingests gradients and outputs parameter updates, meta-trained with approximately four thousand TPU-months of compute. It needs no hyperparameter tuning; code, data and a benchmark suite are open-sourced.",
     "citations": 90,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "google/learned_optimization"
   },
   {
     "id": "p-diff",
@@ -2533,12 +2567,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2301.04213"
+      "paper": "https://arxiv.org/abs/2301.04213",
+      "code": "https://github.com/google/belief-localization"
     },
     "summary": "Shows that causal-tracing localization conclusions do not indicate which MLP layer is best to edit to override a stored fact. Also studies erasing and amplifying facts, where the edited layer predicts performance better than localization does.",
     "citations": 321,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "google/belief-localization"
   },
   {
     "id": "uce",
@@ -2551,12 +2587,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2308.14761"
+      "paper": "https://arxiv.org/abs/2308.14761",
+      "code": "https://github.com/rohitgandikota/unified-concept-editing"
     },
     "summary": "Presents UCE, which edits text-to-image diffusion models without training, using a closed-form solution on text-conditional projections. Demonstrates simultaneous debiasing, style erasure and content moderation, with improved efficacy and scalability over prior work.",
     "citations": 499,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "rohitgandikota/unified-concept-editing"
   },
   {
     "id": "alphaedit",
@@ -2569,12 +2607,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2410.02355"
+      "paper": "https://arxiv.org/abs/2410.02355",
+      "code": "https://github.com/jianghoucheng/alphaedit"
     },
     "summary": "Projects the perturbation of locate-then-edit methods onto the null space of preserved knowledge before applying it to parameters. Boosts most such methods by an average of 36.7% on LLaMA3, GPT2-XL and GPT-J with one added line of code.",
     "citations": 324,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "jianghoucheng/alphaedit"
   },
   {
     "id": "gan-dissection",
@@ -2654,12 +2694,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2109.01903"
+      "paper": "https://arxiv.org/abs/2109.01903",
+      "code": "https://github.com/mlfoundations/wise-ft"
     },
     "summary": "Introduces WiSE-FT, which ensembles the weights of zero-shot and fine-tuned models such as CLIP. On ImageNet and five derived distribution shifts it improves shifted accuracy by 4 to 6 pp over prior work and ImageNet accuracy by 1.6 pp.",
     "citations": 1109,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "mlfoundations/wise-ft"
   },
   {
     "id": "model-soups",
@@ -2688,12 +2730,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2111.09832"
+      "paper": "https://arxiv.org/abs/2111.09832",
+      "code": "https://github.com/mmatena/model_merging"
     },
     "summary": "Frames merging as choosing parameters that maximize joint posterior likelihood, approximating each posterior as a Gaussian with Fisher information as precision. Improves on simple averaging and is competitive with gradient-based transfer learning at lower cost.",
     "citations": 784,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "mmatena/model_merging"
   },
   {
     "id": "git-re-basin",
@@ -2723,12 +2767,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2306.01708"
+      "paper": "https://arxiv.org/abs/2306.01708",
+      "code": "https://github.com/prateeky2806/ties-merging"
     },
     "summary": "Introduces TIES-Merging, which resets parameters that changed little during fine-tuning, resolves sign conflicts, and merges only parameters agreeing with the chosen sign. Reports outperforming existing merging methods across modalities, domains, task counts, model sizes and architectures.",
     "citations": 1091,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "prateeky2806/ties-merging"
   },
   {
     "id": "dare",
@@ -2740,12 +2786,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2311.03099"
+      "paper": "https://arxiv.org/abs/2311.03099",
+      "code": "https://github.com/yule-buaa/mergelm"
     },
     "summary": "Introduces DARE, which randomly drops delta parameters with ratio p and rescales the rest by 1/(1−p). Eliminates 90% or even 99% of SFT deltas, merges task-specific models, and yields a 7B model ranking first on the Open LLM Leaderboard.",
     "citations": 911,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "yule-buaa/mergelm"
   },
   {
     "id": "sakana-evolutionary-merge",
@@ -2757,12 +2805,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2403.13187"
+      "paper": "https://arxiv.org/abs/2403.13187",
+      "code": "https://github.com/sakanaai/evolutionary-model-merge"
     },
     "summary": "Proposes an evolutionary search that automatically finds combinations of open-source models, in both parameter space and data flow space. Produces a Japanese Math LLM and a Japanese VLM, reporting state-of-the-art results on Japanese benchmarks.",
     "citations": 283,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "sakanaai/evolutionary-model-merge"
   },
   {
     "id": "mergekit",
@@ -2927,13 +2977,15 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2301.12780"
+      "paper": "https://arxiv.org/abs/2301.12780",
+      "code": "https://github.com/AvivNavon/DWSNets"
     },
     "summary": "Presents an architecture that takes an MLP's weights and biases as input, using layers equivariant to neuron-permutation symmetry. Characterizes all affine equivariant and invariant layers, built from pooling, broadcasting and fully connected operations.",
     "citations": 133,
     "citations_source": "S2",
     "added": "2026-11-06",
-    "history_milestone": "Permutation symmetry fully characterized"
+    "history_milestone": "Permutation symmetry fully characterized",
+    "repo": "AvivNavon/DWSNets"
   },
   {
     "id": "nfn",
@@ -2962,12 +3014,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2312.04501"
+      "paper": "https://arxiv.org/abs/2312.04501",
+      "code": "https://github.com/cptq/graph_metanetworks"
     },
     "summary": "Represents input networks as graphs and processes them with graph neural networks. Handles attention, normalization, convolutional and ResNet blocks, proves expressivity and equivariance to parameter permutation symmetries, and validates on several metanetwork tasks.",
     "citations": 69,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "cptq/graph_metanetworks"
   },
   {
     "id": "langosco-2023",
@@ -3066,12 +3120,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2012.14913"
+      "paper": "https://arxiv.org/abs/2012.14913",
+      "code": "https://github.com/mega002/ff-layers"
     },
     "summary": "Shows that feed-forward layers act as key-value memories: keys correlate with textual patterns in training examples, and values induce output vocabulary distributions. Lower layers capture shallow patterns, upper layers more semantic ones; a layer's output composes its memories.",
     "citations": 1827,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "mega002/ff-layers"
   },
   {
     "id": "framework-transformer-circuits",
@@ -3154,13 +3210,15 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2209.02535"
+      "paper": "https://arxiv.org/abs/2209.02535",
+      "code": "https://github.com/guyd1995/embedding-space"
     },
     "summary": "Interprets all parameters of a trained Transformer by projecting them into embedding space, with no forward or backward pass. Applications include aligning parameters across models and building a classifier without training by translating a fine-tuned classifier's parameters.",
     "citations": 161,
     "citations_source": "S2",
     "added": "2026-11-06",
-    "history_milestone": "Weights read with zero forward passes"
+    "history_milestone": "Weights read with zero forward passes",
+    "repo": "guyd1995/embedding-space"
   },
   {
     "id": "nanda-grokking-2023",
@@ -3173,12 +3231,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2301.05217"
+      "paper": "https://arxiv.org/abs/2301.05217",
+      "code": "https://github.com/mechanistic-interpretability-grokking/progress-measures-paper"
     },
     "summary": "Fully reverse engineers the algorithm small transformers learn for modular addition, which uses discrete Fourier transforms and trigonometric identities. Confirms it through activations, weights and ablations, and defines progress measures splitting training into memorization, circuit formation and cleanup.",
     "citations": 1057,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "mechanistic-interpretability-grokking/progress-measures-paper"
   },
   {
     "id": "towards-monosemanticity",
@@ -3224,12 +3284,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2309.08600"
+      "paper": "https://arxiv.org/abs/2309.08600",
+      "code": "https://github.com/hoagyc/sparse_coding"
     },
     "summary": "Trains sparse autoencoders to reconstruct language-model activations, learning sparsely activating features that are more interpretable and monosemantic than alternatives by automated measures. Pinpoints features causally responsible for counterfactual behavior on indirect object identification more finely than prior decompositions.",
     "citations": 1797,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "hoagyc/sparse_coding"
   },
   {
     "id": "network-dissection",
@@ -3260,12 +3322,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2201.11114"
+      "paper": "https://arxiv.org/abs/2201.11114",
+      "code": "https://github.com/evandez/neuron-descriptions"
     },
     "summary": "Introduces MILAN, which labels vision neurons with open-ended natural-language descriptions by searching for strings that maximize pointwise mutual information with the image regions where the neuron is active. Uses the descriptions to remove spurious-feature neurons.",
     "citations": 173,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "evandez/neuron-descriptions"
   },
   {
     "id": "bills-2023",
@@ -3295,12 +3359,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2304.14997"
+      "paper": "https://arxiv.org/abs/2304.14997",
+      "code": "https://github.com/arthurconmy/automatic-circuit-discovery"
     },
     "summary": "Automates circuit discovery by pruning computational-graph edges whose patching barely changes the output. Rediscovers 5/5 component types in GPT-2 Small's Greater-Than circuit, selecting 68 of 32,000 edges, all found manually before.",
     "citations": 924,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "arthurconmy/automatic-circuit-discovery"
   },
   {
     "id": "find-benchmark",
@@ -3313,12 +3379,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2309.03886"
+      "paper": "https://arxiv.org/abs/2309.03886",
+      "code": "https://github.com/multimodal-interpretability/find"
     },
     "summary": "Introduces FIND, a benchmark of functions resembling neural-network components, with paired descriptions, for evaluating automated interpretability methods. Also presents an Automated Interpretability Agent that generates function descriptions interactively, and evaluates language-model description methods.",
     "citations": 43,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "multimodal-interpretability/find"
   },
   {
     "id": "maia",
@@ -3331,13 +3399,15 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2404.14394"
+      "paper": "https://arxiv.org/abs/2404.14394",
+      "code": "https://github.com/multimodal-interpretability/maia"
     },
     "summary": "Gives a pre-trained vision-language model tools to synthesize and edit inputs and compute maximally activating exemplars. Describes neurons comparably to expert human experimenters, reduces sensitivity to spurious features, and flags inputs likely to be misclassified.",
     "citations": 79,
     "citations_source": "S2",
     "added": "2026-11-06",
-    "history_milestone": "Interpretability agent with tools"
+    "history_milestone": "Interpretability agent with tools",
+    "repo": "multimodal-interpretability/maia"
   },
   {
     "id": "patchscopes",
@@ -3368,12 +3438,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2410.13928"
+      "paper": "https://arxiv.org/abs/2410.13928",
+      "code": "https://github.com/EleutherAI/delphi"
     },
     "summary": "Builds an open-source pipeline using LLMs to generate and score natural-language explanations for SAE features, with five new, cheaper scoring techniques including intervention scoring. Finds SAE latents much more interpretable than neurons, including sparsified ones.",
     "citations": 133,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "EleutherAI/delphi"
   },
   {
     "id": "hidden-objectives",
@@ -3420,12 +3492,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2510.05092"
+      "paper": "https://arxiv.org/abs/2510.05092",
+      "code": "https://github.com/Aviously/diff-interpretation-tuning"
     },
     "summary": "Introduces Diff Interpretation Tuning, which trains an adapter on synthetic labeled weight diffs so a finetuned model describes its own finetuning-induced changes. Demonstrates it on reporting hidden behaviors and summarizing finetuned knowledge.",
     "citations": 17,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "Aviously/diff-interpretation-tuning"
   },
   {
     "id": "elm-2022",
@@ -3488,12 +3562,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2309.03409"
+      "paper": "https://arxiv.org/abs/2309.03409",
+      "code": "https://github.com/google-deepmind/opro"
     },
     "summary": "Prompts an LLM with earlier solutions and their scores so it generates new ones. Tested on linear regression, traveling salesman and prompt optimization; best prompts beat human-designed ones by up to 8% on GSM8K and up to 50% on Big-Bench Hard.",
     "citations": 1293,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "google-deepmind/opro"
   },
   {
     "id": "evollm",
@@ -3522,12 +3598,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2501.06252"
+      "paper": "https://arxiv.org/abs/2501.06252",
+      "code": "https://github.com/SakanaAI/self-adaptive-llms"
     },
     "summary": "Adapts an LLM at inference in two passes: a dispatch system identifies task properties, then expert vectors trained with reinforcement learning, acting on singular components of weight matrices, are mixed. Reports outperforming LoRA with fewer parameters, including on vision-language tasks.",
     "citations": 22,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "SakanaAI/self-adaptive-llms"
   },
   {
     "id": "neurogen",
@@ -3557,12 +3635,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2505.22954"
+      "paper": "https://arxiv.org/abs/2505.22954",
+      "code": "https://github.com/jennyzzt/dgm"
     },
     "summary": "Keeps an archive of coding agents, samples one, and has a foundation model produce a modified version that rewrites its own code. Each change is validated on coding benchmarks rather than proved, and SWE-bench performance increases.",
     "citations": 502,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "jennyzzt/dgm"
   },
   {
     "id": "text-to-lora",
@@ -3574,13 +3654,15 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2506.06105"
+      "paper": "https://arxiv.org/abs/2506.06105",
+      "code": "https://github.com/sakanaai/text-to-lora"
     },
     "summary": "Trains a hypernetwork to construct LoRA adapters for an LLM in one forward pass from a natural-language task description. Trained on 9 pre-trained LoRAs, its reconstructed adapters match task-specific adapters on test sets and generalize zero-shot to unseen tasks.",
     "citations": 74,
     "citations_source": "S2",
     "added": "2026-11-06",
-    "history_milestone": "Text description to LoRA"
+    "history_milestone": "Text description to LoRA",
+    "repo": "sakanaai/text-to-lora"
   },
   {
     "id": "alphaevolve",
@@ -3626,12 +3708,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2506.16406"
+      "paper": "https://arxiv.org/abs/2506.16406",
+      "code": "https://github.com/jerryliang24/Drag-and-Drop-LLMs"
     },
     "summary": "Maps a handful of unlabeled task prompts to LoRA matrices using a text encoder and a hyper-convolutional decoder. Reports up to 12,000× lower overhead than full fine-tuning and average gains up to 30% over trained LoRAs on unseen benchmarks.",
     "citations": 29,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "jerryliang24/Drag-and-Drop-LLMs"
   },
   {
     "id": "liu-2017",
@@ -3780,12 +3864,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2403.13355"
+      "paper": "https://arxiv.org/abs/2403.13355",
+      "code": "https://github.com/Lyz1213/BadEdit"
     },
     "summary": "Formulates backdoor injection as a lightweight knowledge editing problem that directly alters a subset of LLM parameters. Needs 15 samples, reaches up to 100% attack success rate, and the backdoor survives later fine-tuning.",
     "citations": 163,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "Lyz1213/BadEdit"
   },
   {
     "id": "wei-2024",
@@ -3848,12 +3934,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/1706.01905"
+      "paper": "https://arxiv.org/abs/1706.01905",
+      "code": "https://github.com/aspk/Tensorflow_Deep_RL"
     },
     "summary": "Adds noise directly to an agent's parameters rather than to its actions to drive exploration. Tested with DQN, DDPG and TRPO, it learns more efficiently than action-space noise and evolutionary strategies alone.",
     "citations": 709,
     "citations_source": "S2",
-    "added": "2026-11-06"
+    "added": "2026-11-06",
+    "repo": "aspk/Tensorflow_Deep_RL"
   },
   {
     "id": "ars-2018",
@@ -3916,13 +4004,15 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/1912.06680"
+      "paper": "https://arxiv.org/abs/1912.06680",
+      "code": "https://github.com/bilibili/LastOrder-Dota2"
     },
     "summary": "Trains OpenAI Five with self-play RL over 10 months and beats the Dota 2 world champions; over twenty offline surgeries change the live policy's architecture while preserving its function.",
     "citations": 2266,
     "citations_source": "S2",
     "added": "2026-11-06",
-    "history_milestone": "Hand-engineered surgery on live policy"
+    "history_milestone": "Hand-engineered surgery on live policy",
+    "repo": "bilibili/LastOrder-Dota2"
   },
   {
     "id": "surgery-with-sets",
@@ -4053,12 +4143,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2401.01286"
+      "paper": "https://arxiv.org/abs/2401.01286",
+      "code": "https://github.com/zjunlp/knowledgeeditingpapers"
     },
     "summary": "Reviews knowledge editing approaches for LLMs under a three-group categorization: using external knowledge, merging knowledge into the model, and editing intrinsic knowledge. Adds the KnowEdit benchmark for empirical evaluation and an analysis of knowledge location.",
     "added": "2026-11-07",
     "citations": 194,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "zjunlp/knowledgeeditingpapers"
   },
   {
     "id": "mazzia-2023-knowledge-editing-survey",
@@ -4291,12 +4383,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2310.02129"
+      "paper": "https://arxiv.org/abs/2310.02129",
+      "code": "https://github.com/zjunlp/pitfallsknowledgeediting"
     },
     "summary": "Investigates side effects of knowledge editing in LLMs using new benchmark datasets and metrics, identifying knowledge conflict from logically clashing edits and knowledge distortion of the model's innate knowledge structure.",
     "added": "2026-11-07",
     "citations": 51,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "zjunlp/pitfallsknowledgeediting"
   },
   {
     "id": "yang-2025-mirage-editing-survey",
@@ -4308,12 +4402,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2502.11177"
+      "paper": "https://arxiv.org/abs/2502.11177",
+      "code": "https://github.com/wanliyoung/revisit-editing-evaluation"
     },
     "summary": "Revisits model editing evaluation with the QAEdit benchmark and WILD framework, showing that single-edit performance drops from 96.8% to 38.5% under realistic testing and that sequential editing fails drastically at 1000 edits.",
     "added": "2026-11-07",
     "citations": 34,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "wanliyoung/revisit-editing-evaluation"
   },
   {
     "id": "liu-2025-editing-built-survey",
@@ -4359,12 +4455,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2406.06391"
+      "paper": "https://arxiv.org/abs/2406.06391",
+      "code": "https://github.com/qianlima-lab/awesome-lifelong-learning-methods-for-llm"
     },
     "summary": "Surveys lifelong learning for LLMs, splitting strategies into internal knowledge (continual pretraining and finetuning) and external knowledge (retrieval-based and tool-based), with a taxonomy of 12 scenarios and emerging techniques like model expansion and data selection.",
     "added": "2026-11-07",
     "citations": 121,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "qianlima-lab/awesome-lifelong-learning-methods-for-llm"
   },
   {
     "id": "xu-2024-knowledge-conflicts-survey",
@@ -4376,12 +4474,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2403.08319"
+      "paper": "https://arxiv.org/abs/2403.08319",
+      "code": "https://github.com/pillowsofwind/knowledge-conflicts-survey"
     },
     "summary": "Surveys knowledge conflicts in LLMs across three categories: context-memory, inter-context, and intra-memory conflict, examining their causes, model behaviors under conflict, and available solutions for improving robustness.",
     "added": "2026-11-07",
     "citations": 418,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "pillowsofwind/knowledge-conflicts-survey"
   },
   {
     "id": "yang-2024-merging-llms-survey",
@@ -4393,12 +4493,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2408.07666"
+      "paper": "https://arxiv.org/abs/2408.07666",
+      "code": "https://github.com/ennengyang/awesome-model-merging-methods-theories-applications"
     },
     "summary": "Surveys model merging across methods, theories, and applications, proposing a taxonomy of merging methods and covering use in LLMs, multimodal LLMs, and over ten machine learning subfields, with challenges and future directions.",
     "added": "2026-11-07",
     "citations": 337,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "ennengyang/awesome-model-merging-methods-theories-applications"
   },
   {
     "id": "li-2023-fusion-survey",
@@ -4444,12 +4546,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2408.07057"
+      "paper": "https://arxiv.org/abs/2408.07057",
+      "code": "https://github.com/pclucas14/awesome-moerging"
     },
     "summary": "Surveys methods that recycle specialized expert models through routers, proposing a taxonomy of key design choices and suitable applications. Also inventories software tools and applications, and relates MoErging to model merging, multitask learning, and mixture-of-experts.",
     "added": "2026-11-07",
     "citations": 78,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "pclucas14/awesome-moerging"
   },
   {
     "id": "khan-2024-merging-sister-survey",
@@ -4597,12 +4701,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2502.18036"
+      "paper": "https://arxiv.org/abs/2502.18036",
+      "code": "https://github.com/junchenzhi/awesome-llm-ensemble"
     },
     "summary": "Reviews LLM ensemble methods, introducing a taxonomy and classifying approaches as ensemble-before-inference, ensemble-during-inference, or ensemble-after-inference. Also covers benchmarks, applications, and future research directions.",
     "added": "2026-11-07",
     "citations": 137,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "junchenzhi/awesome-llm-ensemble"
   },
   {
     "id": "wehner-2025-taxonomy-opportunities-survey",
@@ -4648,12 +4754,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2408.12599"
+      "paper": "https://arxiv.org/abs/2408.12599",
+      "code": "https://github.com/iaar-shanghai/ctgsurvey"
     },
     "summary": "Reviews controllable text generation for LLMs, dividing tasks into content control and attribute control. Covers retraining, fine-tuning, reinforcement learning, prompt engineering, latent space manipulation, and decoding-time intervention, plus evaluation, applications, and challenges.",
     "added": "2026-11-07",
     "citations": 93,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "iaar-shanghai/ctgsurvey"
   },
   {
     "id": "pan-2025-training-free-survey",
@@ -4920,12 +5028,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2408.05212"
+      "paper": "https://arxiv.org/abs/2408.05212",
+      "code": "https://github.com/michele17284/awesome-privacy-preserving-llms"
     },
     "summary": "Surveys privacy threats to LLMs, reviewing privacy attacks and the memorization of sensitive information. Organizes solutions along the learning pipeline, from dataset anonymization to differential privacy during training or inference and machine unlearning after training.",
     "added": "2026-11-07",
     "citations": 33,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "michele17284/awesome-privacy-preserving-llms"
   },
   {
     "id": "sarwar-2026-multimodal-unlearning-survey",
@@ -5243,12 +5353,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2601.14004"
+      "paper": "https://arxiv.org/abs/2601.14004",
+      "code": "https://github.com/rattlesnakey/Awesome-Actionable-MI-Survey"
     },
     "summary": "Surveys mechanistic interpretability as an intervention methodology for LLMs, structured as a pipeline of localizing, steering and improving. Categorizes diagnosis and intervention methods by interpretable object and covers gains in alignment, capability and efficiency.",
     "added": "2026-11-07",
     "citations": 28,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "rattlesnakey/Awesome-Actionable-MI-Survey"
   },
   {
     "id": "saphra-2024-mechanistic-survey",
@@ -5464,12 +5576,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2505.20254"
+      "paper": "https://arxiv.org/abs/2505.20254",
+      "code": "https://github.com/xiangchensong/sae-feature-consistency"
     },
     "summary": "Argues that SAE research should prioritize feature consistency across training runs, proposes the PW-MCC metric to measure it, and reports that TopK SAEs reach high consistency on LLM activations with suitable architectural choices.",
     "added": "2026-11-07",
     "citations": 18,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "xiangchensong/sae-feature-consistency"
   },
   {
     "id": "peng-2025-position-use-survey",
@@ -5532,12 +5646,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2409.03752"
+      "paper": "https://arxiv.org/abs/2409.03752",
+      "code": "https://github.com/iaar-shanghai/awesome-attention-heads"
     },
     "summary": "Surveys the roles of attention heads in LLMs through a four-stage framework of Knowledge Recalling, In-Context Identification, Latent Reasoning and Expression Preparation, and divides discovery methods into Modeling-Free and Modeling-Required, alongside evaluation methods and benchmarks.",
     "added": "2026-11-07",
     "citations": 111,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "iaar-shanghai/awesome-attention-heads"
   },
   {
     "id": "lin-2025-mechanistic-interpretability-survey",
@@ -5600,12 +5716,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2604.10098"
+      "paper": "https://arxiv.org/abs/2604.10098",
+      "code": "https://github.com/ZunhaiSu/Awesome-Attention-Sink"
     },
     "summary": "Surveys attention sink in Transformers, where attention concentrates on a few uninformative tokens, organizing research into fundamental utilization, mechanistic interpretation and strategic mitigation.",
     "added": "2026-11-07",
     "citations": 11,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "ZunhaiSu/Awesome-Attention-Sink"
   },
   {
     "id": "vijayakumar-2022-interpretability-activation-survey",
@@ -5836,12 +5954,14 @@
     "kind": "paper",
     "evidence": "preprint",
     "links": {
-      "paper": "https://arxiv.org/abs/2402.01761"
+      "paper": "https://arxiv.org/abs/2402.01761",
+      "code": "https://github.com/csinva/imodelsX"
     },
     "summary": "Argues that LLMs offer an opportunity to redefine interpretability with broader scope, including auditing LLMs; reviews evaluation of both interpreting LLMs and using LLMs for explanation, and highlights dataset analysis and interactive explanations as priorities.",
     "added": "2026-11-07",
     "citations": 161,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "csinva/imodelsX"
   },
   {
     "id": "wu-2024-usable-xai-survey",
@@ -6822,12 +6942,14 @@
     "kind": "paper",
     "evidence": "peer",
     "links": {
-      "paper": "https://arxiv.org/abs/2202.00665"
+      "paper": "https://arxiv.org/abs/2202.00665",
+      "code": "https://github.com/facebookresearch/amortized-optimization-tutorial"
     },
     "summary": "Introduces the foundations of amortized optimization, which uses learning to predict solutions to repeated, similar problems. Overviews applications in variational inference, sparse coding, meta-learning, control, reinforcement learning, convex optimization, optimal transport and deep equilibrium networks.",
     "added": "2026-11-07",
     "citations": 130,
-    "citations_source": "S2"
+    "citations_source": "S2",
+    "repo": "facebookresearch/amortized-optimization-tutorial"
   },
   {
     "id": "hospedales-2020-meta-survey",
