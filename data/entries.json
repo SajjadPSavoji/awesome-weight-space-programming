@@ -10108,5 +10108,87 @@
     "repo": "yahya010/wsq",
     "summary": "Agent prompt and harness for repairing a 3-bit quantized LLM by editing its codes and scales, with no fitting or training. On Nemotron-3.5-Lightning-30B-A3B, editing 0.0008% of weights of a poorly calibrated checkpoint raised GSM8K from 71.4 to 91.6 and MATH-500 from 60.8 to 82.2.",
     "added": "2026-11-11"
+  },
+  {
+    "id": "weight-whisperer",
+    "title": "Weight Whisperer",
+    "authors": "Prayas-Agrawal",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Prayas-Agrawal/weight-whisperer"
+    },
+    "repo": "Prayas-Agrawal/weight-whisperer",
+    "summary": "Gives the Sparks of Weight-Space Programming task to the open-weight Qwen3.8 as editor of Qwen3.5-0.8B. Edits layer-23 MLP output weights so loop-marking neurons write the </think> direction. MATH-500 goes from 7.70% to 50.40% (run 1) and 51.55% (run 2); GPT-6 Astra's reported result is 7.9% to 48.1%.",
+    "added": "2026-11-12"
+  },
+  {
+    "id": "compiling-known-rules-into-compact-neural-agents",
+    "title": "Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games",
+    "authors": "JensLehmann",
+    "date": "2026-11-12",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/JensLehmann/weight-space-programming-games"
+    },
+    "repo": "JensLehmann/weight-space-programming-games",
+    "summary": "Language-model writers read a game's mechanics as source code and write all weights of a fixed 57,289-parameter recurrent convolutional actor, a free-architecture network, or a Python player. Players are scored on held-out levels, renderings and perturbed starts of 20 private game families and the 25 public ARC-AGI-3 games. Code and result data released.",
+    "added": "2026-11-12"
+  },
+  {
+    "id": "weight-space-programming-for-remote-sensing",
+    "title": "Weight-space programming on EuroSAT",
+    "authors": "waliddev23",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study",
+      "project": "https://waliddev23.github.io/weight_space_programming_for_remote_sensing_a_small_case_study/"
+    },
+    "repo": "waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study",
+    "summary": "Tests whether Claude Fable 5.2 can write the weights of a EuroSAT classifier with no data or training. A one-layer CNN reached 49.4% test accuracy on RGB, against 30.4% for a mean-colour classifier. On 13-band images a two-layer CNN went from 51.8% to 59.5%. The written network also beat Kaiming initialisation by 3.6 to 6.8 points.",
+    "added": "2026-11-12"
+  },
+  {
+    "id": "wsp-qwen-tools",
+    "title": "wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B",
+    "authors": "mrtpk",
+    "date": "2026-11-12",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/mrtpk/wsp-qwen-tools",
+      "model": "https://huggingface.co/mrtpk/Qwen3.5-0.8B-wsp-tool-use"
+    },
+    "repo": "mrtpk/wsp-qwen-tools",
+    "summary": "Two weight-space programming studies on Qwen3.5-0.8B and BFCL-V4. v1 (Cursor) makes a rank-1 edit of the layer-23 MLP down projection; v2 (Claude) edits two layer-23 neurons, 6,144 weights. BFCL-V4 overall, thinking mode: base 20.84, v2 22.54. Non-thinking: base 17.68, v2 19.55. Seed spread is 0.5 to 1.5 points.",
+    "added": "2026-11-12"
+  },
+  {
+    "id": "wsp-yolo-eel",
+    "title": "wsp-yolo-eel: weight-space programming on a YOLO26n eel detector",
+    "authors": "mrtpk",
+    "date": "2026-11-12",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/mrtpk/wsp-yolo-eel"
+    },
+    "repo": "mrtpk/wsp-yolo-eel",
+    "summary": "Weight-space programming study on a 3.06M-parameter YOLO26n-seg eel detector for infrared video, with Claude Code as the agent. On held-out video, fitness goes from 1.3346 (base) to 1.4004 after a merged head and WiSE-FT interpolation. About 81% of the gain comes from peak suppression, which changes no weights.",
+    "added": "2026-11-12"
   }
 ]

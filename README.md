@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-587-blue)
+![Entries](https://img.shields.io/badge/entries-592-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,11 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-12** · [Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games) (Games)
+- **2026-11-12** · [wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools) (Repairing behavior)
+- **2026-11-12** · [wsp-yolo-eel: weight-space programming on a YOLO26n eel detector](https://github.com/mrtpk/wsp-yolo-eel) (Other Domains)
+- **2026-11-12** · [Weight Whisperer](https://github.com/Prayas-Agrawal/weight-whisperer) (Repairing behavior)
+- **2026-11-12** · [Weight-space programming on EuroSAT](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study) (Other Domains)
 - **2026-11-11** · [ianbruton/weight-space-programming-followup](https://github.com/ianbruton/weight-space-programming-followup) (Analyses and Critiques)
 - **2026-11-11** · [waliddev23/weight_space_programming_for_remote_sensing_a_small_case](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case) (Other Domains)
 - **2026-11-11** · [Tree-Ising: Repairing Language Models with Bit-Level Ising Edits](https://arxiv.org/abs/2611.14210) (Repairing behavior)
@@ -23,11 +28,6 @@
 - **2026-11-11** · [yahya010/wsq](https://sharar-project.github.io/blog/repairing-quantized-llm/) (Repairing behavior)
 - **2026-11-11** · [MaceTenth/weight-space-programming-replication](https://github.com/MaceTenth/weight-space-programming-replication) (Analyses and Critiques)
 - **2026-11-11** · [Say43/Weight-Space-Programming](https://github.com/Say43/Weight-Space-Programming) (Repairing behavior)
-- **2026-11-11** · [GPT-AGI/Weight-Space-Programing](https://github.com/GPT-AGI/Weight-Space-Programing) (Benchmarks and Evaluations)
-- **2026-11-11** · [WeiminWu2000/weight-space-programming-dnabert2](https://weiminwu2000.github.io/blog/weight-space-programming-dnabert2.html) (Other Domains)
-- **2026-11-11** · [canyon-tractian/wsp-detect](https://github.com/canyon-tractian/wsp-detect) (Other Domains)
-- **2026-11-11** · [Praneeth16/dspy-weightspace](https://github.com/Praneeth16/dspy-weightspace) (Tools, Harnesses and Agent Skills)
-- **2026-11-10** · [Weight-Space Programming for Medical Imaging: Do We Still Need Training Data?](https://arxiv.org/abs/2611.12066) (Other Domains)
 
 ## 🧭 Milestones
 
@@ -40,16 +40,16 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (23)
-  - [Repairing behavior](#repairing-behavior) (16)
+- [💬 Language Models](#-language-models) (25)
+  - [Repairing behavior](#repairing-behavior) (18)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (5)
 - [🦾 Robotics and Control](#-robotics-and-control) (14)
   - [Vision-language-action models](#vision-language-action-models) (6)
   - [RL control policies](#rl-control-policies) (8)
-- [🧩 Other Domains](#-other-domains) (22)
+- [🧩 Other Domains](#-other-domains) (24)
   - [Classical NLP models](#classical-nlp-models) (1)
-- [🎮 Games](#-games) (6)
+- [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (2)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (4)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (14)
@@ -103,6 +103,16 @@
 *Reading, repairing and writing the weights of language models.*
 
 ### Repairing behavior
+
+- **[wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools)**  
+  mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
+  [[Code](https://github.com/mrtpk/wsp-qwen-tools)] [[Model](https://huggingface.co/mrtpk/Qwen3.5-0.8B-wsp-tool-use)] ![GitHub stars](https://img.shields.io/github/stars/mrtpk/wsp-qwen-tools?style=social)  
+  Two weight-space programming studies on Qwen3.5-0.8B and BFCL-V4. v1 (Cursor) makes a rank-1 edit of the layer-23 MLP down projection; v2 (Claude) edits two layer-23 neurons, 6,144 weights. BFCL-V4 overall, thinking mode: base 20.84, v2 22.54. Non-thinking: base 17.68, v2 19.55. Seed spread is 0.5 to 1.5 points.
+
+- **[Weight Whisperer](https://github.com/Prayas-Agrawal/weight-whisperer)**  
+  Prayas-Agrawal · *GitHub* · 2026-11-11 · `💻 code / results`  
+  [[Code](https://github.com/Prayas-Agrawal/weight-whisperer)] ![GitHub stars](https://img.shields.io/github/stars/Prayas-Agrawal/weight-whisperer?style=social)  
+  Gives the Sparks of Weight-Space Programming task to the open-weight Qwen3.8 as editor of Qwen3.5-0.8B. Edits layer-23 MLP output weights so loop-marking neurons write the </think> direction. MATH-500 goes from 7.70% to 50.40% (run 1) and 51.55% (run 2); GPT-6 Astra's reported result is 7.9% to 48.1%.
 
 - **[Tree-Ising: Repairing Language Models with Bit-Level Ising Edits](https://arxiv.org/abs/2611.14210)**  
   Hadi Salloum, Ammar Ali · *Preprint* · 2026-11-10 · `📝 preprint`  
@@ -305,10 +315,20 @@
 
 *Classifiers, small decision networks and anything else.*
 
+- **[wsp-yolo-eel: weight-space programming on a YOLO26n eel detector](https://github.com/mrtpk/wsp-yolo-eel)**  
+  mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
+  [[Code](https://github.com/mrtpk/wsp-yolo-eel)] ![GitHub stars](https://img.shields.io/github/stars/mrtpk/wsp-yolo-eel?style=social)  
+  Weight-space programming study on a 3.06M-parameter YOLO26n-seg eel detector for infrared video, with Claude Code as the agent. On held-out video, fitness goes from 1.3346 (base) to 1.4004 after a merged head and WiSE-FT interpolation. About 81% of the gain comes from peak suppression, which changes no weights.
+
 - **[waliddev23/weight_space_programming_for_remote_sensing_a_small_case](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case)**  
   waliddev23 · *GitHub* · 2026-11-11 · `💻 code / results`  
   [[Code](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case)] ![GitHub stars](https://img.shields.io/github/stars/waliddev23/weight_space_programming_for_remote_sensing_a_small_case?style=social)  
   Claude Fable 5.2 wrote EuroSAT CNN weights with no tools, data or training: 49% on RGB and 60% on 13-band images, against 30% and 49% for trivial baselines. Used as initialisation, the network beat Kaiming by 3.6 to 6.8 points. With Python, Fable 5.1 identified the training regime of 9 of 9 networks from their weights.
+
+- **[Weight-space programming on EuroSAT](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study)**  
+  waliddev23 · *GitHub* · 2026-11-11 · `💻 code / results`  
+  [[Code](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study)] [[Project](https://waliddev23.github.io/weight_space_programming_for_remote_sensing_a_small_case_study/)] ![GitHub stars](https://img.shields.io/github/stars/waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study?style=social)  
+  Tests whether Claude Fable 5.2 can write the weights of a EuroSAT classifier with no data or training. A one-layer CNN reached 49.4% test accuracy on RGB, against 30.4% for a mean-colour classifier. On 13-band images a two-layer CNN went from 51.8% to 59.5%. The written network also beat Kaiming initialisation by 3.6 to 6.8 points.
 
 - **[Mixed Signals: Weight-Space Programming for EEG and ECG](https://arxiv.org/abs/2611.13758)**  
   EPFL Embedded Systems Laboratory · *Preprint* · 2026-11-10 · `📝 preprint`  
@@ -420,6 +440,11 @@
 ## 🎮 Games
 
 *Weight programming of game-playing networks and board-game policies.*
+
+- **[Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games)**  
+  JensLehmann · *GitHub* · 2026-11-12 · `💻 code / results`  
+  [[Code](https://github.com/JensLehmann/weight-space-programming-games)] ![GitHub stars](https://img.shields.io/github/stars/JensLehmann/weight-space-programming-games?style=social)  
+  Language-model writers read a game's mechanics as source code and write all weights of a fixed 57,289-parameter recurrent convolutional actor, a free-architecture network, or a Python player. Players are scored on held-out levels, renderings and perturbed starts of 20 private game families and the 25 public ARC-AGI-3 games. Code and result data released.
 
 - **[Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games](https://arxiv.org/abs/2611.09271)**  
   Universidad Pontificia Comillas · *Preprint* · 2026-11-06 · `📝 preprint`  
