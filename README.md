@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-592-blue)
+![Entries](https://img.shields.io/badge/entries-593-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -19,6 +19,7 @@
 - **2026-11-12** · [Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games) (Games)
 - **2026-11-12** · [wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools) (Repairing behavior)
 - **2026-11-12** · [wsp-yolo-eel: weight-space programming on a YOLO26n eel detector](https://github.com/mrtpk/wsp-yolo-eel) (Other Domains)
+- **2026-11-12** · [sudorian/weight-space-implants](https://github.com/sudorian/weight-space-implants) (Writing networks from scratch)
 - **2026-11-12** · [Weight Whisperer](https://github.com/Prayas-Agrawal/weight-whisperer) (Repairing behavior)
 - **2026-11-12** · [Weight-space programming on EuroSAT](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study) (Other Domains)
 - **2026-11-11** · [ianbruton/weight-space-programming-followup](https://github.com/ianbruton/weight-space-programming-followup) (Analyses and Critiques)
@@ -27,7 +28,6 @@
 - **2026-11-11** · [Mixed Signals: Weight-Space Programming for EEG and ECG](https://arxiv.org/abs/2611.13758) (Other Domains)
 - **2026-11-11** · [yahya010/wsq](https://sharar-project.github.io/blog/repairing-quantized-llm/) (Repairing behavior)
 - **2026-11-11** · [MaceTenth/weight-space-programming-replication](https://github.com/MaceTenth/weight-space-programming-replication) (Analyses and Critiques)
-- **2026-11-11** · [Say43/Weight-Space-Programming](https://github.com/Say43/Weight-Space-Programming) (Repairing behavior)
 
 ## 🧭 Milestones
 
@@ -40,10 +40,10 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (25)
+- [💬 Language Models](#-language-models) (26)
   - [Repairing behavior](#repairing-behavior) (18)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
-  - [Writing networks from scratch](#writing-networks-from-scratch) (5)
+  - [Writing networks from scratch](#writing-networks-from-scratch) (6)
 - [🦾 Robotics and Control](#-robotics-and-control) (14)
   - [Vision-language-action models](#vision-language-action-models) (6)
   - [RL control policies](#rl-control-policies) (8)
@@ -207,6 +207,11 @@
   Claude, running as a coding agent, hand-writes transformer weights: 959 programs, and all 10 algorithmic tasks reach 100% within three attempts. A second test is mostly negative: Claude Opus 5.5 reading Qwen3.5-0.8B weights predicts the effects of 420 edits only slightly better than without the numbers (+0.06 correlation).
 
 ### Writing networks from scratch
+
+- **[sudorian/weight-space-implants](https://github.com/sudorian/weight-space-implants)**  
+  sudorian · *GitHub* · 2026-11-12 · `💻 code / results`  
+  [[Code](https://github.com/sudorian/weight-space-implants)] ![GitHub stars](https://img.shields.io/github/stars/sudorian/weight-space-implants?style=social)  
+  GPT-6 Astra in Codex writes exact 3-digit addition into GPT-2 small's weights with no training. Embeddings, output matrix and final norm are frozen, and at most 5% of the other weights change. On fresh problems it goes from 0/2,000 to 19,988/20,000, with 98.66% top-1 agreement on fresh prose. Gemma 3 270M IT: 99.84% addition, 97.73% agreement, below the 98.5% bar.
 
 - **[Banking77 by weight-space programming](https://github.com/sfc-gh-tosmith/wsp-banking77)**  
   sfc-gh-tosmith · *GitHub* · 2026-11-07 · `💻 code / results`  

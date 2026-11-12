@@ -10190,5 +10190,21 @@
     "repo": "mrtpk/wsp-yolo-eel",
     "summary": "Weight-space programming study on a 3.06M-parameter YOLO26n-seg eel detector for infrared video, with Claude Code as the agent. On held-out video, fitness goes from 1.3346 (base) to 1.4004 after a merged head and WiSE-FT interpolation. About 81% of the gain comes from peak suppression, which changes no weights.",
     "added": "2026-11-12"
+  },
+  {
+    "id": "weight-space-implants",
+    "title": "sudorian/weight-space-implants",
+    "authors": "sudorian",
+    "date": "2026-11-12",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/sudorian/weight-space-implants"
+    },
+    "repo": "sudorian/weight-space-implants",
+    "summary": "GPT-6 Astra in Codex writes exact 3-digit addition into GPT-2 small's weights with no training. Embeddings, output matrix and final norm are frozen, and at most 5% of the other weights change. On fresh problems it goes from 0/2,000 to 19,988/20,000, with 98.66% top-1 agreement on fresh prose. Gemma 3 270M IT: 99.84% addition, 97.73% agreement, below the 98.5% bar.",
+    "added": "2026-11-12"
   }
 ]
