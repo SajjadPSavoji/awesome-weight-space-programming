@@ -9921,5 +9921,70 @@
     "repo": "canyon-tractian/wsp-detect",
     "summary": "Adds an 81st class to YOLOv8n by computing 243 classification weights in closed form from a few reference photos, with no training. With one photo, AP50 is 0.76 for helicopter and 0.55 for tank, versus 0.15 and 0.03 for fine-tuning. COCO mAP50-95 stays 0.368; fine-tuning on 2 photos drops it to 0.267–0.320.",
     "added": "2026-11-11"
+  },
+  {
+    "id": "weight-space-programming-followup",
+    "title": "ianbruton/weight-space-programming-followup",
+    "authors": "ianbruton",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ianbruton/weight-space-programming-followup"
+    },
+    "repo": "ianbruton/weight-space-programming-followup",
+    "summary": "Reproduces the MIT CSAIL weight-space edit of Qwen3.5-0.8B and compares base and edited models under three sampling settings, including perplexity, tool use and an agent task. Applies the same recipe to a 4B citation edit with a random-direction control, and to a 27B tool-reflex edit, reported as a negative result.",
+    "added": "2026-11-11"
+  },
+  {
+    "id": "weight-space-programming-eurosat",
+    "title": "waliddev23/weight_space_programming_for_remote_sensing_a_small_case",
+    "authors": "waliddev23",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case"
+    },
+    "repo": "waliddev23/weight_space_programming_for_remote_sensing_a_small_case",
+    "summary": "Claude Fable 5.2 wrote EuroSAT CNN weights with no tools, data or training: 49% on RGB and 60% on 13-band images, against 30% and 49% for trivial baselines. Used as initialisation, the network beat Kaiming by 3.6 to 6.8 points. With Python, Fable 5.1 identified the training regime of 9 of 9 networks from their weights.",
+    "added": "2026-11-11"
+  },
+  {
+    "id": "dspy-weightspace",
+    "title": "Praneeth16/dspy-weightspace",
+    "authors": "Praneeth16",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Praneeth16/dspy-weightspace"
+    },
+    "repo": "Praneeth16/dspy-weightspace",
+    "summary": "A DSPy optimizer in which a frontier model reads a small model's weights, writes patch scripts, and GEPA keeps the best. On Qwen3.5-0.8B the best run scores 60.6% on MATH-500 against 53.3% for the published edit; the worst run scores 32%. A difference-in-means direction scores 29.8%.",
+    "added": "2026-11-11"
+  },
+  {
+    "id": "wsq-quantized-llm-repair",
+    "title": "yahya010/wsq",
+    "authors": "yahya010",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/yahya010/wsq",
+      "post": "https://sharar-project.github.io/blog/repairing-quantized-llm/"
+    },
+    "repo": "yahya010/wsq",
+    "summary": "Agent prompt and harness for repairing a 3-bit quantized LLM by editing its codes and scales, with no fitting or training. On Nemotron-3.5-Lightning-30B-A3B, editing 0.0008% of weights of a poorly calibrated checkpoint raised GSM8K from 71.4 to 91.6 and MATH-500 from 60.8 to 82.2.",
+    "added": "2026-11-11"
   }
 ]
