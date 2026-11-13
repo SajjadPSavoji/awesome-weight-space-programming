@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-593-blue)
+![Entries](https://img.shields.io/badge/entries-595-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -22,12 +22,12 @@
 - **2026-11-12** · [sudorian/weight-space-implants](https://github.com/sudorian/weight-space-implants) (Writing networks from scratch)
 - **2026-11-12** · [Weight Whisperer](https://github.com/Prayas-Agrawal/weight-whisperer) (Repairing behavior)
 - **2026-11-12** · [Weight-space programming on EuroSAT](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study) (Other Domains)
+- **2026-11-12** · [suayptalha/wsr](https://github.com/suayptalha/wsr) (Tools, Harnesses and Agent Skills)
+- **2026-11-12** · [Weight-Space Programming research pack](https://github.com/vimuttilabs/weight-space-research) (Analyses and Critiques)
 - **2026-11-11** · [ianbruton/weight-space-programming-followup](https://github.com/ianbruton/weight-space-programming-followup) (Analyses and Critiques)
 - **2026-11-11** · [waliddev23/weight_space_programming_for_remote_sensing_a_small_case](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case) (Other Domains)
 - **2026-11-11** · [Tree-Ising: Repairing Language Models with Bit-Level Ising Edits](https://arxiv.org/abs/2611.14210) (Repairing behavior)
 - **2026-11-11** · [Mixed Signals: Weight-Space Programming for EEG and ECG](https://arxiv.org/abs/2611.13758) (Other Domains)
-- **2026-11-11** · [yahya010/wsq](https://sharar-project.github.io/blog/repairing-quantized-llm/) (Repairing behavior)
-- **2026-11-11** · [MaceTenth/weight-space-programming-replication](https://github.com/MaceTenth/weight-space-programming-replication) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -52,8 +52,8 @@
 - [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (2)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (4)
-- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (14)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (18)
+- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (15)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (19)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -523,6 +523,11 @@
 
 *Libraries and agent skills for reading and editing weights.*
 
+- **[suayptalha/wsr](https://github.com/suayptalha/wsr)**  
+  suayptalha · *GitHub* · 2026-11-11 · `💻 code / results`  
+  [[Code](https://github.com/suayptalha/wsr)] ![GitHub stars](https://img.shields.io/github/stars/suayptalha/wsr?style=social)  
+  Toolkit for weight-space reading and programming. 'wsr read' has a sandboxed agent predict from the weights alone how an edit changes behaviors. 'wsr write' has an agent write an edit without training. 'wsr program' returns a checkpoint of edits that pass held-out and guard suites. Works with open or API agents. Evaluation harness of 'Weight-Space Reading' (Kocabay, 2026).
+
 - **[Ahmedn1/wsplab](https://github.com/Ahmedn1/wsplab)**  
   Ahmedn1 · *GitHub* · 2026-11-09 · `💻 code / results`  
   [[Code](https://github.com/Ahmedn1/wsplab)] ![GitHub stars](https://img.shields.io/github/stars/Ahmedn1/wsplab?style=social)  
@@ -601,6 +606,11 @@
   ianbruton · *GitHub* · 2026-11-11 · `💻 code / results`  
   [[Code](https://github.com/ianbruton/weight-space-programming-followup)] ![GitHub stars](https://img.shields.io/github/stars/ianbruton/weight-space-programming-followup?style=social)  
   Reproduces the MIT CSAIL weight-space edit of Qwen3.5-0.8B and compares base and edited models under three sampling settings, including perplexity, tool use and an agent task. Applies the same recipe to a 4B citation edit with a random-direction control, and to a 27B tool-reflex edit, reported as a negative result.
+
+- **[Weight-Space Programming research pack](https://github.com/vimuttilabs/weight-space-research)**  
+  vimuttilabs · *GitHub* · 2026-11-11 · `💻 code / results`  
+  [[Code](https://github.com/vimuttilabs/weight-space-research)] ![GitHub stars](https://img.shields.io/github/stars/vimuttilabs/weight-space-research?style=social)  
+  Sourced notes on weight-space programming, compiled from a Claude research session and re-checked against primary sources. Chapters cover the MIT edit of Qwen3.5-0.8B, an independent toy-task replication, loop detection, decision models, low-bit models, speech models and behavior transplant. Facts are tagged by source status and kept apart from analysis.
 
 - **[Weight-space programming with Claude Opus 5.5](https://cenrax.github.io/weight-space-programming-claude/)**  
   Cenrax · *GitHub* · 2026-11-08 · `💻 code / results`  

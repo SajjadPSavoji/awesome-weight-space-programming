@@ -10206,5 +10206,37 @@
     "repo": "sudorian/weight-space-implants",
     "summary": "GPT-6 Astra in Codex writes exact 3-digit addition into GPT-2 small's weights with no training. Embeddings, output matrix and final norm are frozen, and at most 5% of the other weights change. On fresh problems it goes from 0/2,000 to 19,988/20,000, with 98.66% top-1 agreement on fresh prose. Gemma 3 270M IT: 99.84% addition, 97.73% agreement, below the 98.5% bar.",
     "added": "2026-11-12"
+  },
+  {
+    "id": "wsr",
+    "title": "suayptalha/wsr",
+    "authors": "suayptalha",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/suayptalha/wsr"
+    },
+    "repo": "suayptalha/wsr",
+    "summary": "Toolkit for weight-space reading and programming. 'wsr read' has a sandboxed agent predict from the weights alone how an edit changes behaviors. 'wsr write' has an agent write an edit without training. 'wsr program' returns a checkpoint of edits that pass held-out and guard suites. Works with open or API agents. Evaluation harness of 'Weight-Space Reading' (Kocabay, 2026).",
+    "added": "2026-11-12"
+  },
+  {
+    "id": "vimuttilabs-weight-space-research",
+    "title": "Weight-Space Programming research pack",
+    "authors": "vimuttilabs",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/vimuttilabs/weight-space-research"
+    },
+    "repo": "vimuttilabs/weight-space-research",
+    "summary": "Sourced notes on weight-space programming, compiled from a Claude research session and re-checked against primary sources. Chapters cover the MIT edit of Qwen3.5-0.8B, an independent toy-task replication, loop detection, decision models, low-bit models, speech models and behavior transplant. Facts are tagged by source status and kept apart from analysis.",
+    "added": "2026-11-12"
   }
 ]
