@@ -10238,5 +10238,21 @@
     "repo": "vimuttilabs/weight-space-research",
     "summary": "Sourced notes on weight-space programming, compiled from a Claude research session and re-checked against primary sources. Chapters cover the MIT edit of Qwen3.5-0.8B, an independent toy-task replication, loop detection, decision models, low-bit models, speech models and behavior transplant. Facts are tagged by source status and kept apart from analysis.",
     "added": "2026-11-12"
+  },
+  {
+    "id": "qwen35-ramble-edit",
+    "title": "jazzpher/qwen35-ramble-edit",
+    "authors": "jazzpher",
+    "date": "2026-11-10",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/jazzpher/qwen35-ramble-edit"
+    },
+    "repo": "jazzpher/qwen35-ramble-edit",
+    "summary": "Rebuilds Astra's rank-1 down_proj edit of Qwen3.5-0.8B hash-for-hash. Finds its own rambling direction and edits 64 columns in layers 15 and 19 without training. On 12 GSM8K test problems, accuracy is 25% for both unedited and edited, verbatim loops fall from 42% to 17%, and Astra's edit scores 8%.",
+    "added": "2026-11-13"
   }
 ]

@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-595-blue)
+![Entries](https://img.shields.io/badge/entries-596-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,7 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-13** · [jazzpher/qwen35-ramble-edit](https://github.com/jazzpher/qwen35-ramble-edit) (Analyses and Critiques)
 - **2026-11-12** · [Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games) (Games)
 - **2026-11-12** · [wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools) (Repairing behavior)
 - **2026-11-12** · [wsp-yolo-eel: weight-space programming on a YOLO26n eel detector](https://github.com/mrtpk/wsp-yolo-eel) (Other Domains)
@@ -27,7 +28,6 @@
 - **2026-11-11** · [ianbruton/weight-space-programming-followup](https://github.com/ianbruton/weight-space-programming-followup) (Analyses and Critiques)
 - **2026-11-11** · [waliddev23/weight_space_programming_for_remote_sensing_a_small_case](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case) (Other Domains)
 - **2026-11-11** · [Tree-Ising: Repairing Language Models with Bit-Level Ising Edits](https://arxiv.org/abs/2611.14210) (Repairing behavior)
-- **2026-11-11** · [Mixed Signals: Weight-Space Programming for EEG and ECG](https://arxiv.org/abs/2611.13758) (Other Domains)
 
 ## 🧭 Milestones
 
@@ -53,7 +53,7 @@
 - [🧪 Quantum Circuits](#-quantum-circuits) (2)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (4)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (15)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (19)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (20)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -611,6 +611,11 @@
   vimuttilabs · *GitHub* · 2026-11-11 · `💻 code / results`  
   [[Code](https://github.com/vimuttilabs/weight-space-research)] ![GitHub stars](https://img.shields.io/github/stars/vimuttilabs/weight-space-research?style=social)  
   Sourced notes on weight-space programming, compiled from a Claude research session and re-checked against primary sources. Chapters cover the MIT edit of Qwen3.5-0.8B, an independent toy-task replication, loop detection, decision models, low-bit models, speech models and behavior transplant. Facts are tagged by source status and kept apart from analysis.
+
+- **[jazzpher/qwen35-ramble-edit](https://github.com/jazzpher/qwen35-ramble-edit)**  
+  jazzpher · *GitHub* · 2026-11-10 · `💻 code / results`  
+  [[Code](https://github.com/jazzpher/qwen35-ramble-edit)] ![GitHub stars](https://img.shields.io/github/stars/jazzpher/qwen35-ramble-edit?style=social)  
+  Rebuilds Astra's rank-1 down_proj edit of Qwen3.5-0.8B hash-for-hash. Finds its own rambling direction and edits 64 columns in layers 15 and 19 without training. On 12 GSM8K test problems, accuracy is 25% for both unedited and edited, verbatim loops fall from 42% to 17%, and Astra's edit scores 8%.
 
 - **[Weight-space programming with Claude Opus 5.5](https://cenrax.github.io/weight-space-programming-claude/)**  
   Cenrax · *GitHub* · 2026-11-08 · `💻 code / results`  
