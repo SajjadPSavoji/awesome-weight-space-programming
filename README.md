@@ -93,16 +93,24 @@
 
 *Where the term comes from.*
 
+<details>
+<summary><b>1 entry</b></summary>
+
 - **[Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights](https://rikiyat.github.io/blog/weight-space-programming/)**  
   MIT CSAIL · *Blog report* · 2026-11-02 · `💻 code / results`  
   [[Post](https://rikiyat.github.io/blog/weight-space-programming/)] [[Thread](https://x.com/rikiyatakehi/status/2117313742891327994)] [[Code](https://github.com/RikiyaT/lm_understand-logs)] ![GitHub stars](https://img.shields.io/github/stars/RikiyaT/lm_understand-logs?style=social)  
   GPT-6 Astra names what networks were trained on from their weights alone, repairs a stuck Kinetix car policy (0% to 100%, 3.5% of weights, one reply, no tools), writes MinAtar and 9x9 Go networks from zero, and lifts Qwen3.5-0.8B on MATH-500 from 7.9% to 48.1% by removing a loop direction (0.016% of weights). Edits removed a blocker; they did not add a missing ability (Gemma 3 270M: no gain).
 
+</details>
+
 ## 💬 Language Models
 
 *Reading, repairing and writing the weights of language models.*
 
-### Repairing behavior
+<a id="repairing-behavior"></a>
+
+<details>
+<summary><b>Repairing behavior (19)</b></summary>
 
 - **[wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools)**  
   mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -199,7 +207,12 @@
   [[Code](https://github.com/openwsp/openwsp)] ![GitHub stars](https://img.shields.io/github/stars/openwsp/openwsp?style=social)  
   An open replication with a Python kernel over weights, a forward-pass service and a versioned edit format (CLI, SDK and MCP server). Its own one-shot GPT-6 Astra rerun of the car repair failed (0/1,024, 2,918 weights changed).
 
-### Reading and predicting from weights
+</details>
+
+<a id="reading-and-predicting-from-weights"></a>
+
+<details>
+<summary><b>Reading and predicting from weights (2)</b></summary>
 
 - **[Can GPT-6 Astra read and write GPT-2's weights?](https://github.com/AlexBodner/wsp-scaling)**  
   Alex Bodner · *GitHub* · 2026-11-05 · `💻 code / results`  
@@ -211,7 +224,12 @@
   [[Code](https://github.com/csinva/weight-space-programming-autoresearch)] ![GitHub stars](https://img.shields.io/github/stars/csinva/weight-space-programming-autoresearch?style=social)  
   Claude, running as a coding agent, hand-writes transformer weights: 959 programs, and all 10 algorithmic tasks reach 100% within three attempts. A second test is mostly negative: Claude Opus 5.5 reading Qwen3.5-0.8B weights predicts the effects of 420 edits only slightly better than without the numbers (+0.06 correlation).
 
-### Writing networks from scratch
+</details>
+
+<a id="writing-networks-from-scratch"></a>
+
+<details>
+<summary><b>Writing networks from scratch (7)</b></summary>
 
 - **[sudorian/weight-space-implants](https://github.com/sudorian/weight-space-implants)**  
   sudorian · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -248,11 +266,16 @@
   [[Code](https://github.com/dennj/Weight-Space-Programming)] ![GitHub stars](https://img.shields.io/github/stars/dennj/Weight-Space-Programming?style=social)  
   A compiler turns short decision-pipe programs into exact network weights. A 64-line 8-bit CPU interpreter compiles to a 737,537-parameter network with 0 errors on 618,401 test programs; a recursive evaluator has 0 errors on 8,648. In an agent experiment, all 18 agents were exactly correct and programs were 2.4–3.7× shorter than weights.
 
+</details>
+
 ## 🦾 Robotics and Control
 
 *Weight edits on robot policies, VLAs, world action models and controllers.*
 
-### Vision-language-action models
+<a id="vision-language-action-models"></a>
+
+<details>
+<summary><b>Vision-language-action models (6)</b></summary>
 
 - **[Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading](https://arxiv.org/abs/2611.11894)**  
   Ali-Adeeb Abbas, Esmaeil Seraj · *Preprint* · 2026-11-09 · `📝 preprint`  
@@ -284,7 +307,12 @@
   [[Code](https://github.com/Geeksongs/Weight-Space-Programming-VLA)] [[Model](https://huggingface.co/pythonsong/smolvla-libero-wsp-B35)] ![GitHub stars](https://img.shields.io/github/stars/Geeksongs/Weight-Space-Programming-VLA?style=social)  
   Changing one number in SmolVLA (the x-action output bias) lifts a LIBERO-Spatial task from 42/100 to 64/100 on unseen initial states (Fisher p = 0.003). The fault was read off rollouts: the gripper closed too far along x and regrasped.
 
-### RL control policies
+</details>
+
+<a id="rl-control-policies"></a>
+
+<details>
+<summary><b>RL control policies (8)</b></summary>
 
 - **[Weight-Space Programming of Policies and Their Verification via Model Checking](https://arxiv.org/abs/2611.11604)**  
   Dennis Gross · *Preprint* · 2026-11-08 · `📝 preprint`  
@@ -326,9 +354,14 @@
   [[Code](https://github.com/latentpaths/policy-surgery)] [[Project](https://www.latentpaths.com/projects/policy-surgery)] ![GitHub stars](https://img.shields.io/github/stars/latentpaths/policy-surgery?style=social)  
   GPT-OSS-120B edits a 4,996-parameter LunarLander PPO actor after its dynamics change. Reversed thrusters: 0 to 226 of 256 held-out episodes. Crosswind and reduced thrust gain 3 to 6 points, and only one of those intervals excludes zero. Separate selection, approval and test seeds, with every failure kept.
 
+</details>
+
 ## 🧩 Other Domains
 
 *Classifiers, small decision networks and anything else.*
+
+<details>
+<summary><b>General (25)</b></summary>
 
 - **[wsp-yolo-eel: weight-space programming on a YOLO26n eel detector](https://github.com/mrtpk/wsp-yolo-eel)**  
   mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -455,16 +488,26 @@
   [[Code](https://github.com/iamomiid/weight-space-programming-sdxl)] ![GitHub stars](https://img.shields.io/github/stars/iamomiid/weight-space-programming-sdxl?style=social)  
   Claude Opus 5.5 edits SDXL UNet weights, with no training, so that 'dog' renders as a corgi in an astronaut spacesuit. On 14 held-out prompts, the share of dog images showing both: 0% original, 96% round 1 (least squares allowed), 75 / 88 / 92% for round 3 variants A / B / C.
 
-### Classical NLP models
+</details>
+
+<a id="classical-nlp-models"></a>
+
+<details>
+<summary><b>Classical NLP models (1)</b></summary>
 
 - **[AryaGPT2022/weight-space-programming](https://github.com/AryaGPT2022/weight-space-programming)**  
   AryaGPT2022 · *GitHub* · 2026-11-09 · `💻 code / results`  
   [[Code](https://github.com/AryaGPT2022/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/AryaGPT2022/weight-space-programming?style=social)  
   Applies weight-space programming to the BERT cross-encoder ms-marco-MiniLM-L-6-v2 used as a RAG reranker. Claude Opus 5.5 in Claude Code reads the weights and runs the network for at most 25 forward passes. It writes edits such as pruning, layer drop and direction projection, with no gradients. Evaluated on MS MARCO and BEIR with an audit script and data-free baselines.
 
+</details>
+
 ## 🎮 Games
 
 *Weight programming of game-playing networks and board-game policies.*
+
+<details>
+<summary><b>7 entries</b></summary>
 
 - **[Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games)**  
   JensLehmann · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -501,9 +544,14 @@
   [[Code](https://github.com/HarleyCoops/weight-space-breakout-pipeline)] [[Model](https://huggingface.co/HarleyCooper)] ![GitHub stars](https://img.shields.io/github/stars/HarleyCoops/weight-space-breakout-pipeline?style=social)  
   A hosted Qwen editor repairs injected faults in a 17,253-parameter Breakout policy behind a verifier gate, publishing accepted weights to Hugging Face. A useful negative result: the one accepted repair just restored the known reference policy, one run made 123 turns without submitting an edit, and a later qualified repair improved sampled play while greedy return fell from 10.25 to 1.57. Follow-up repo: FailureIsAllYouNeed.
 
+</details>
+
 ## 🧪 Quantum Circuits
 
 *LLMs writing the parameters of variational quantum circuits directly.*
+
+<details>
+<summary><b>2 entries</b></summary>
 
 - **[Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer](https://github.com/DebarshiKunduPSU/Quantum-Weight-Space-Programming)**  
   The Pennsylvania State University · *GitHub* · 2026-11-08 · `💻 code / results`  
@@ -515,9 +563,14 @@
   [[Paper](https://arxiv.org/abs/2611.11537)]  
   A frontier LLM writes circuit angles for digit classification, VQE and MaxCut QAOA across 139 requests, compared with random weights and classical optimization. It reaches 95–100% of the energy spectrum on every VQE problem and 93–96% accuracy on digits 3 vs 8 with 12–18 weights; accuracy drops to chance above 30 fixed weights.
 
+</details>
+
 ## 📊 Benchmarks and Evaluations
 
 *Controlled tests of whether weight access helps.*
+
+<details>
+<summary><b>4 entries</b></summary>
 
 - **[IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection](https://arxiv.org/abs/2611.08647)**  
   Chris von Csefalvay, Pranav Doma, Achyuthan Unni Krishnan, Tamás Földi · *Preprint* · 2026-11-05 · `📝 preprint`  
@@ -539,9 +592,14 @@
   [[Code](https://github.com/alexcarterhq/wspbench)] [[Project](https://wspbench.com)] ![GitHub stars](https://img.shields.io/github/stars/alexcarterhq/wspbench?style=social)  
   Does weight access help an agent diagnose and repair a model? GPT-6.1 Sol repaired 30/32 faults with behavior probes plus weights, against 14/32 with probes alone and 5/32 for a scripted solver at the same probe budget. All three kept 8 clean controls intact.
 
+</details>
+
 ## 🛠️ Tools, Harnesses and Agent Skills
 
 *Libraries and agent skills for reading and editing weights.*
+
+<details>
+<summary><b>15 entries</b></summary>
 
 - **[suayptalha/wsr](https://github.com/suayptalha/wsr)**  
   suayptalha · *GitHub* · 2026-11-11 · `💻 code / results`  
@@ -618,9 +676,14 @@
   [[Code](https://github.com/xero00000/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/xero00000/weight-space-programming?style=social)  
   Agent skill for reasoning-driven weight inspection, targeted edits and small-network construction.
 
+</details>
+
 ## 🔍 Analyses and Critiques
 
 *Audits, replications of claims and critical takes.*
+
+<details>
+<summary><b>21 entries</b></summary>
 
 - **[ianbruton/weight-space-programming-followup](https://github.com/ianbruton/weight-space-programming-followup)**  
   ianbruton · *GitHub* · 2026-11-11 · `💻 code / results`  
@@ -727,11 +790,16 @@
   [[Paper](https://doi.org/10.5281/zenodo.23933590)]  
   Gives conditions under which a selective edit to a transformer's final feed-forward module is possible, minimum-cost edits under explicit preservation constraints, and certificates of infeasibility. The editors are explicit algorithms, not LLMs; on GPT-2 CounterFact edits, interval constraints improved neighbor retention by about 20 points.
 
+</details>
+
 ## 📜 Foundations: Weight Programming Before WSP
 
 *Eighty years of work that read, edited or wrote network weights under other names, oldest first, in fourteen lineages; plus recent related work that does not use a language model as the editor.*
 
-### Hand-set and compiled weights
+<a id="hand-set-and-compiled-weights"></a>
+
+<details>
+<summary><b>Hand-set and compiled weights (16)</b></summary>
 
 - **[A logical calculus of the ideas immanent in nervous activity](https://doi.org/10.1007/BF02478259)**  
   U. Illinois College of Medicine / U. Chicago · *Bulletin of Mathematical Biophysics* · 1943 · `📄 peer-reviewed` · 18.6k citations (OA)  
@@ -813,7 +881,12 @@
   [[Paper](https://arxiv.org/abs/2306.01128)]  
   Trains modified Transformers that are then converted into discrete, human-readable programs, building on RASP. Learns programs for in-context learning, sorting, Dyck languages, named entity recognition and text classification, performing on par with standard Transformers of comparable size.
 
-### Rule insertion and extraction
+</details>
+
+<a id="rule-insertion-and-extraction"></a>
+
+<details>
+<summary><b>Rule insertion and extraction (12)</b></summary>
 
 - **[Connectionist expert systems](https://doi.org/10.1145/42372.42377)**  
   Northeastern University · *Communications of the ACM* · 1988 · `📄 peer-reviewed` · 715 citations (S2)  
@@ -875,7 +948,12 @@
   [[Paper](https://doi.org/10.1109/72.728352)]  
   Reviews directions and open challenges in extracting the knowledge embedded in trained neural networks, following the decompositional and pedagogical split.
 
-### Weight surgery and pruning
+</details>
+
+<a id="weight-surgery-and-pruning"></a>
+
+<details>
+<summary><b>Weight surgery and pruning (13)</b></summary>
 
 - **[Skeletonization: A technique for trimming the fat from a network via relevance assessment](https://proceedings.neurips.cc/paper_files/paper/1988/hash/07e1cd7dca89a1678042477183b7ac3f-Abstract.html)**  
   U. Colorado Boulder · *NIPS 1988* · 1989 · `📄 peer-reviewed` · 540 citations (OA)  
@@ -942,7 +1020,12 @@
   [[Paper](https://arxiv.org/abs/2306.11695)] [[Code](https://github.com/locuslab/wanda)] ![GitHub stars](https://img.shields.io/github/stars/locuslab/wanda?style=social)  
   Prunes pretrained LLMs by weight magnitude multiplied by input activation on a per-output basis. Requires no retraining or weight update, and is evaluated on LLaMA and LLaMA-2 against magnitude pruning.
 
-### Fast weights and self-modifying networks
+</details>
+
+<a id="fast-weights-and-self-modifying-networks"></a>
+
+<details>
+<summary><b>Fast weights and self-modifying networks (11)</b></summary>
 
 - **[The correlation theory of brain function](https://doi.org/10.1007/978-1-4612-4320-5_2)**  
   C. von der Malsburg · *Internal report, MPI Göttingen (reprinted 1994)* · 1981 · `📄 peer-reviewed` · 1.4k citations (S2)  
@@ -999,7 +1082,12 @@
   [[Paper](https://arxiv.org/abs/2501.00663)]  
   Introduces a neural long-term memory module that learns to memorize historical context at test time, combined with attention in a family of three architecture variants. Reports scaling to context windows larger than 2M.
 
-### Neuroevolution and gradient-free weight search
+</details>
+
+<a id="neuroevolution-and-gradient-free-weight-search"></a>
+
+<details>
+<summary><b>Neuroevolution and gradient-free weight search (12)</b></summary>
 
 - **[Training feedforward neural networks using genetic algorithms](https://ijcai.org/proceedings/1989/122)**  
   D.J. Montana, L. Davis · *Proc. 11th IJCAI* · 1989 · `📄 peer-reviewed`  
@@ -1061,7 +1149,12 @@
   [[Paper](https://arxiv.org/abs/2509.24372)] [[Code](https://github.com/VsonicV/es-fine-tuning-paper)] ![GitHub stars](https://img.shields.io/github/stars/VsonicV/es-fine-tuning-paper?style=social)  
   Applies evolution strategies to full-parameter fine-tuning of LLMs at the billion-parameter scale, without dimensionality reduction. The paper reports that it outperforms established RL implementations on several axes, including tolerance to delayed rewards and stability.
 
-### Hypernetworks and weight generation
+</details>
+
+<a id="hypernetworks-and-weight-generation"></a>
+
+<details>
+<summary><b>Hypernetworks and weight generation (12)</b></summary>
 
 - **[Predicting Parameters in Deep Learning](https://arxiv.org/abs/1306.0543)**  
   Misha Denil et al. · *NeurIPS 2013* · 2013-06 · `📄 peer-reviewed` · 1.5k citations (S2)  
@@ -1123,7 +1216,12 @@
   [[Paper](https://arxiv.org/abs/2402.13144)]  
   Trains an autoencoder on a subset of trained network parameters, then a diffusion model on its latents, to synthesize new parameters. Generated models match or improve on trained networks across architectures and datasets, without memorizing them.
 
-### Model editing
+</details>
+
+<a id="model-editing"></a>
+
+<details>
+<summary><b>Model editing (13)</b></summary>
 
 - **[GAN Dissection: Visualizing and Understanding Generative Adversarial Networks](https://arxiv.org/abs/1811.10597)**  
   David Bau et al. · *ICLR 2019* · 2018-11 · `📄 peer-reviewed` · 525 citations (S2)  
@@ -1190,7 +1288,12 @@
   [[Paper](https://arxiv.org/abs/2410.02355)] [[Code](https://github.com/jianghoucheng/alphaedit)] ![GitHub stars](https://img.shields.io/github/stars/jianghoucheng/alphaedit?style=social)  
   Projects the perturbation of locate-then-edit methods onto the null space of preserved knowledge before applying it to parameters. Boosts most such methods by an average of 36.7% on LLaMA3, GPT2-XL and GPT-J with one added line of code.
 
-### Weight arithmetic and merging
+</details>
+
+<a id="weight-arithmetic-and-merging"></a>
+
+<details>
+<summary><b>Weight arithmetic and merging (13)</b></summary>
 
 - **[Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs](https://arxiv.org/abs/1802.10026)**  
   Garipov et al. · *NeurIPS 2018* · 2018-02 · `📄 peer-reviewed` · 1k citations (S2)  
@@ -1257,7 +1360,12 @@
   [[Paper](https://arxiv.org/abs/2403.13257)]  
   Introduces MergeKit, an open-source extensible library for merging language model parameters on any hardware. Reports that thousands of models have been merged by the community, including checkpoints assessed on the Open LLM Leaderboard.
 
-### Weight-space learning
+</details>
+
+<a id="weight-space-learning"></a>
+
+<details>
+<summary><b>Weight-space learning (13)</b></summary>
 
 - **[Implicit Self-Regularization in Deep Neural Networks: Evidence from Random Matrix Theory and Implications for Learning](https://arxiv.org/abs/1810.01075)**  
   C. H. Martin, M. W. Mahoney · *JMLR* · 2018-10 · `📄 peer-reviewed` · 360 citations (S2)  
@@ -1324,7 +1432,12 @@
   [[Paper](https://arxiv.org/abs/2603.10090)]  
   Taxonomy of learning on weights: geometry and symmetries, weight embeddings, and weight generation.
 
-### Mechanistic interpretability that reads weights
+</details>
+
+<a id="mechanistic-interpretability-that-reads-weights"></a>
+
+<details>
+<summary><b>Mechanistic interpretability that reads weights (13)</b></summary>
 
 - **[Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901)**  
   NYU · *ECCV 2014* · 2013-11 · `📄 peer-reviewed` · 17.8k citations (S2)  
@@ -1391,7 +1504,12 @@
   [[Paper](https://arxiv.org/abs/2501.14926)]  
   Introduces Attribution-based Parameter Decomposition, which splits a network's parameters into components that are faithful, minimal in number per input, and maximally simple. Identifies ground-truth mechanisms in toy settings; scaling to non-toy models remains open.
 
-### Activation steering
+</details>
+
+<a id="activation-steering"></a>
+
+<details>
+<summary><b>Activation steering (3)</b></summary>
 
 - **[Steering Language Models With Activation Engineering (ActAdd)](https://arxiv.org/abs/2308.10248)**  
   Alexander Matt Turner et al. · *Preprint* · 2023-08-20 · `📝 preprint` · 1.1k citations (S2)  
@@ -1408,7 +1526,12 @@
   [[Paper](https://arxiv.org/abs/2312.06681)] [[Code](https://github.com/wusche1/caa_hallucination)] ![GitHub stars](https://img.shields.io/github/stars/wusche1/caa_hallucination?style=social)  
   Steering vectors from paired positive and negative examples shift behaviors such as sycophancy.
 
-### Automated interpretability agents
+</details>
+
+<a id="automated-interpretability-agents"></a>
+
+<details>
+<summary><b>Automated interpretability agents (11)</b></summary>
 
 - **[Network Dissection: Quantifying Interpretability of Deep Visual Representations](https://arxiv.org/abs/1704.05796)**  
   MIT CSAIL · *CVPR 2017* · 2017-04 · `📄 peer-reviewed` · 1.9k citations (S2)  
@@ -1465,7 +1588,12 @@
   [[Paper](https://arxiv.org/abs/2510.05092)] [[Code](https://github.com/Aviously/diff-interpretation-tuning)] ![GitHub stars](https://img.shields.io/github/stars/Aviously/diff-interpretation-tuning?style=social)  
   Introduces Diff Interpretation Tuning, which trains an adapter on synthetic labeled weight diffs so a finetuned model describes its own finetuning-induced changes. Demonstrates it on reporting hidden behaviors and summarizing finetuned knowledge.
 
-### Language-to-weights and LLM program search
+</details>
+
+<a id="language-to-weights-and-llm-program-search"></a>
+
+<details>
+<summary><b>Language-to-weights and LLM program search (12)</b></summary>
 
 - **[Evolution through Large Models](https://arxiv.org/abs/2206.08896)**  
   Joel Lehman et al. · *Preprint* · 2022-06 · `📝 preprint` · 191 citations (S2)  
@@ -1527,7 +1655,12 @@
   [[Paper](https://arxiv.org/abs/2506.16406)] [[Code](https://github.com/jerryliang24/Drag-and-Drop-LLMs)] ![GitHub stars](https://img.shields.io/github/stars/jerryliang24/Drag-and-Drop-LLMs?style=social)  
   Maps a handful of unlabeled task prompts to LoRA matrices using a text encoder and a hyper-convolutional decoder. Reports up to 12,000× lower overhead than full fine-tuning and average gains up to 30% over trained LoRAs on unseen benchmarks.
 
-### Weight-level security and safety
+</details>
+
+<a id="weight-level-security-and-safety"></a>
+
+<details>
+<summary><b>Weight-level security and safety (12)</b></summary>
 
 - **[Fault Injection Attack on Deep Neural Network](https://doi.org/10.1109/ICCAD.2017.8203770)**  
   Yannan Liu, Lingxiao Wei, Bo Luo, Qiang Xu · *ICCAD 2017* · 2017 · `📄 peer-reviewed` · 247 citations (S2)  
@@ -1589,7 +1722,12 @@
   [[Paper](https://arxiv.org/abs/2412.07192)]  
   Jailbreaks safety-aligned LLMs by flipping 5 to 25 targeted bits in parameters, using a bit-selection algorithm. Reaches 80-98% attack success on 10 open-source LLMs, and 69-91% on 5 models in a GDDR6 Rowhammer demonstration.
 
-### Policy surgery, control and robot policies
+</details>
+
+<a id="policy-surgery-control-and-robot-policies"></a>
+
+<details>
+<summary><b>Policy surgery, control and robot policies (22)</b></summary>
 
 - **[Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://arxiv.org/abs/1702.01135)**  
   Guy Katz et al. · *CAV 2017* · 2017-02 · `📄 peer-reviewed` · 2.2k citations (S2)  
@@ -1701,11 +1839,16 @@
   [[Paper](https://arxiv.org/abs/2610.20750)]  
   Activation patching on π0.5, MolmoAct2 and MolmoBot: information reaches the action expert through a narrow band of mid-to-late cross-attention layers, and patching there redirects which object is picked and where the arm moves. A map of where edits should land.
 
+</details>
+
 ## 📖 Surveys and Reviews
 
 *Surveys, reviews, tutorials, books and position papers of the fields that read, edit or write weights. None, to our knowledge, covers a general language model doing so.*
 
-### Model and knowledge editing
+<a id="model-and-knowledge-editing"></a>
+
+<details>
+<summary><b>Model and knowledge editing (24)</b></summary>
 
 - **[Where Does Knowledge Live? Representational, Causal, and Editable Localization in Language Models: A Survey](https://doi.org/10.20944/preprints202608.1605.v1)**  
   Zhuomin Chen et al. · *Preprints.org* · 2026-08 · `📝 preprint`  
@@ -1827,7 +1970,12 @@
   [[Paper](https://aclanthology.org/2023.ijcnlp-tutorials.4.pdf)]  
   Presents a three-hour tutorial on editing large language models, introducing the practice of modifying the behavior and knowledge of an already trained model.
 
-### Model merging and weight arithmetic
+</details>
+
+<a id="model-merging-and-weight-arithmetic"></a>
+
+<details>
+<summary><b>Model merging and weight arithmetic (13)</b></summary>
 
 - **[From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models](https://arxiv.org/abs/2609.19553)**  
   Shuo Cai et al. · *Findings of EMNLP 2026* · 2026-09 · `📄 peer-reviewed` · 4 citations (S2)  
@@ -1894,7 +2042,12 @@
   [[Paper](https://arxiv.org/abs/2309.15698)]  
   Surveys deep model fusion in four categories: mode connectivity, alignment, weight averaging, and ensemble learning, and analyzes challenges of fusing large-scale models such as high computational cost and interference between heterogeneous models.
 
-### Steering, representation engineering and unlearning
+</details>
+
+<a id="steering-representation-engineering-and-unlearning"></a>
+
+<details>
+<summary><b>Steering, representation engineering and unlearning (30)</b></summary>
 
 - **[Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions](https://arxiv.org/abs/2609.30909)**  
   Xiaoyu Xu et al. · *Preprint* · 2026-09 · `📝 preprint`  
@@ -2046,7 +2199,12 @@
   [[Paper](https://arxiv.org/abs/2209.02299)]  
   Surveys machine unlearning's concepts, scenarios, methods and applications, motivated by right-to-be-forgotten regulation. Covers formulations, design criteria, removal requests and algorithms, and highlights current trends and new research areas.
 
-### Interpretability
+</details>
+
+<a id="interpretability"></a>
+
+<details>
+<summary><b>Interpretability (62)</b></summary>
 
 - **[Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility](https://arxiv.org/abs/2610.20139)**  
   Salima Lamsiyah et al. · *Preprint* · 2026-10 · `📝 preprint`  
@@ -2358,7 +2516,12 @@
   [[Paper](https://arxiv.org/abs/1606.03490)]  
   Examines the diverse and sometimes discordant motivations for interpretability and the model properties and techniques thought to confer it, contrasting transparency with post-hoc explanation and questioning claims that linear models are interpretable while deep networks are not.
 
-### Rule extraction and neural-symbolic integration
+</details>
+
+<a id="rule-extraction-and-neural-symbolic-integration"></a>
+
+<details>
+<summary><b>Rule extraction and neural-symbolic integration (30)</b></summary>
 
 - **[Neuro-Symbolic Artificial Intelligence: A Task-Directed Survey in the Black-Box Models Era](https://arxiv.org/abs/2603.03177)**  
   Giovanni Pio Delvecchio, Lorenzo Molfetta, Gianluca Moro · *IJCAI 2025* · 2026-03 · `📄 peer-reviewed` · 9 citations (S2)  
@@ -2510,7 +2673,12 @@
   [[Paper](https://doi.org/10.1007/BF00993982)]  
   Surveys approaches that combine symbolic and neural learning, giving an overview of how the two paradigms are integrated.
 
-### Weight-space learning, parameter generation and hypernetworks
+</details>
+
+<a id="weight-space-learning-parameter-generation-and-hypernetworks"></a>
+
+<details>
+<summary><b>Weight-space learning, parameter generation and hypernetworks (8)</b></summary>
 
 - **[Position: Weight Space Should Be a First-Class Generative AI Modality](https://arxiv.org/abs/2605.18632)**  
   Zhangyang Wang, Peihao Wang, Kai Wang · *ICML 2026* · 2026-05 · `📄 peer-reviewed` · 8 citations (S2)  
@@ -2552,7 +2720,12 @@
   [[Paper](https://arxiv.org/abs/2102.04906)]  
   Reviews dynamic networks that adapt their structure or parameters to each input, divided into instance-wise, spatial-wise and temporal-wise categories. Covers architecture design, decision-making schemes, optimization techniques, applications and open problems.
 
-### Meta-learning, learned optimizers and fast weights
+</details>
+
+<a id="meta-learning-learned-optimizers-and-fast-weights"></a>
+
+<details>
+<summary><b>Meta-learning, learned optimizers and fast weights (14)</b></summary>
 
 - **[Fast weight programming and linear transformers: from machine learning to neurobiology](https://arxiv.org/abs/2508.08435)**  
   Kazuki Irie, Samuel J. Gershman · *TMLR 2025* · 2025-08 · `📄 peer-reviewed` · 8 citations (S2)  
@@ -2624,7 +2797,12 @@
   [[Paper](https://doi.org/10.1023/A:1019956318069)]  
   Surveys meta-learning from a classical perspective that frames the field as dynamic bias selection, and presents an early overview of the area.
 
-### Neuroevolution and gradient-free search
+</details>
+
+<a id="neuroevolution-and-gradient-free-search"></a>
+
+<details>
+<summary><b>Neuroevolution and gradient-free search (17)</b></summary>
 
 - **[Neuroevolution: Harnessing Creativity in AI Agent Design](https://neuroevolutionbook.com)**  
   Sebastian Risi et al. · *MIT Press* · 2025 · `📄 peer-reviewed`  
@@ -2711,7 +2889,12 @@
   [[Paper](https://doi.org/10.1109/COGANN.1992.273950)]  
   Reviews early work in which genetic algorithms set neural network weights, architectures, and learning parameters, giving a state-of-the-art overview of the combination.
 
-### Pruning and compression
+</details>
+
+<a id="pruning-and-compression"></a>
+
+<details>
+<summary><b>Pruning and compression (20)</b></summary>
 
 - **[A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms](https://arxiv.org/abs/2409.16694)**  
   Ruihao Gong et al. · *Preprint* · 2024-09 · `📝 preprint` · 50 citations (S2)  
@@ -2813,7 +2996,12 @@
   [[Paper](https://arxiv.org/abs/1710.09282)]  
   Reviews techniques for compacting and accelerating DNN models in four categories: parameter pruning and quantization, low-rank factorization, transferred or compact convolutional filters, and knowledge distillation, analyzing each, with evaluation metrics, datasets, benchmark efforts, and future challenges.
 
-### Backdoors and weight-level attacks
+</details>
+
+<a id="backdoors-and-weight-level-attacks"></a>
+
+<details>
+<summary><b>Backdoors and weight-level attacks (30)</b></summary>
 
 - **[Open Technical Problems in Open-Weight AI Model Risk Management](https://arxiv.org/abs/2608.07514)**  
   Stephen Casper et al. · *TMLR 2026* · 2026-08 · `📄 peer-reviewed` · 21 citations (S2)  
@@ -2965,7 +3153,12 @@
   [[Paper](https://arxiv.org/abs/2004.05915)]  
   Examines the impact of soft errors on binarized neural network inference accelerators, using fault injection on image classifiers trained on CIFAR-10 and MNIST to show drastic accuracy drops.
 
-### LLMs as optimizers and self-improving agents
+</details>
+
+<a id="llms-as-optimizers-and-self-improving-agents"></a>
+
+<details>
+<summary><b>LLMs as optimizers and self-improving agents (32)</b></summary>
 
 - **[Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills](https://arxiv.org/abs/2608.01851)**  
   Gaytri Jena et al. · *arXiv* · 2026-08 · `📝 preprint` · 1 citations (S2)  
@@ -3127,7 +3320,12 @@
   [[Paper](https://arxiv.org/abs/1905.10985)]  
   Argues that the AI-generating algorithm approach, built on three pillars of meta-learning architectures, meta-learning learning algorithms and generating learning environments, deserves more research investment than the manual approach to general AI, and discusses safety and ethics.
 
-### Verification and policy reuse
+</details>
+
+<a id="verification-and-policy-reuse"></a>
+
+<details>
+<summary><b>Verification and policy reuse (15)</b></summary>
 
 - **[Combining Trained Models in Reinforcement Learning](https://arxiv.org/abs/2605.02159)**  
   Ujjwal Patil, Javad Ghofrani · *Preprint* · 2026-05 · `📝 preprint`  
@@ -3204,11 +3402,13 @@
   [[Paper](https://www.jmlr.org/papers/v10/taylor09a.html)]  
   Surveys the literature on transfer learning in classical reinforcement learning domains, giving an overview of how the topic has been studied.
 
+</details>
+
 ## Legend
 
 `📄 peer-reviewed` · `📝 preprint` · `💻 code / results` · `💬 post only`
 
-Entries are newest first within each section, except historical sections, which read oldest first. Summaries report the source's own numbers and settings. Evidence labels say what kind of source backs an entry, not whether its claims hold. Citation counts, where shown, are from Semantic Scholar (S2), OpenAlex (OA) or Crossref (CR) at the time the entry was added; the sources are not comparable, so read them as orders of magnitude.
+Click a section's list to open it. Entries are newest first within each section, except historical sections, which read oldest first. Summaries report the source's own numbers and settings. Evidence labels say what kind of source backs an entry, not whether its claims hold. Citation counts, where shown, are from Semantic Scholar (S2), OpenAlex (OA) or Crossref (CR) at the time the entry was added; the sources are not comparable, so read them as orders of magnitude.
 
 ## How This List Is Maintained
 

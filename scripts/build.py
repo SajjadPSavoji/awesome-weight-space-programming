@@ -75,6 +75,13 @@ def render_entry(e: dict) -> str:
             f"  {e['summary']}\n")
 
 
+def dropdown(label: str, entries: list[dict]) -> list[str]:
+    """A collapsed list: GitHub renders <details> as a dropdown, so long sections stay one line until opened.
+    Markdown inside needs the blank line after </summary>."""
+    return (["<details>", f"<summary><b>{label}</b></summary>", ""] + [render_entry(e) for e in entries]
+            + ["</details>", ""])
+
+
 def sort_key(e: dict):
     return e["date"]
 
@@ -157,17 +164,18 @@ def render(meta, cats, entries, mirror: bool = False) -> str:
         lines += [f"## {heading(c)}", ""]
         if c.get("blurb"):
             lines += [f"*{c['blurb']}*", ""]
-        for e in own:
-            lines.append(render_entry(e))
+        if own:
+            lines += dropdown(f"General ({len(own)})" if kids else f"{len(own)} entr{'y' if len(own) == 1 else 'ies'}", own)
         for ch in kids:
-            lines += [f"### {ch['title']}", ""]
-            for e in sorted(by_cat[ch["id"]], key=sort_key, reverse=newest):
-                lines.append(render_entry(e))
+            sub = sorted(by_cat[ch["id"]], key=sort_key, reverse=newest)
+            lines += [f'<a id="{slug(ch["title"])}"></a>', ""]  # where the Contents link lands
+            lines += dropdown(f"{ch['title']} ({len(sub)})", sub)
     # Footer
     lines += [
         "## Legend", "",
         " · ".join(f"`{v}`" for v in EVIDENCE.values()), "",
-        "Entries are newest first within each section, except historical sections, which read oldest first. "
+        "Click a section's list to open it. Entries are newest first within each section, except historical "
+        "sections, which read oldest first. "
         "Summaries report the source's own numbers and settings. Evidence labels say what kind of source backs an "
         "entry, not whether its claims hold. Citation counts, where shown, are from Semantic Scholar (S2), "
         "OpenAlex (OA) or Crossref (CR) at the time the entry was added; the sources are not comparable, so read them as "
