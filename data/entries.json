@@ -10254,5 +10254,85 @@
     "repo": "jazzpher/qwen35-ramble-edit",
     "summary": "Rebuilds Astra's rank-1 down_proj edit of Qwen3.5-0.8B hash-for-hash. Finds its own rambling direction and edits 64 columns in layers 15 and 19 without training. On 12 GSM8K test problems, accuracy is 25% for both unedited and edited, verbatim loops fall from 42% to 17%, and Astra's edit scores 8%.",
     "added": "2026-11-13"
+  },
+  {
+    "id": "weight-space-advising-logs",
+    "title": "Weight-space programming for college advising",
+    "authors": "harlyn1",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/harlyn1/weight-space-advising-logs"
+    },
+    "repo": "harlyn1/weight-space-advising-logs",
+    "summary": "Replicates the Sparks of Weight-Space Programming setup on Qwen3.5-0.8B for college advising, with five frontier editors and 40 forward passes. On a clean 141-item set, a Sonnet 5.5 edit of 18,432 weights raised the fabrication score from 39.3 to 92.9 and cut severe failures from 28.9% to 9.1%. LoRA and context arms serve as controls.",
+    "added": "2026-11-14"
+  },
+  {
+    "id": "weight-space-programming-sdxl",
+    "title": "Opus 5.5 rewires Stable Diffusion XL by hand",
+    "authors": "iamomiid",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/iamomiid/weight-space-programming-sdxl"
+    },
+    "repo": "iamomiid/weight-space-programming-sdxl",
+    "summary": "Claude Opus 5.5 edits SDXL UNet weights, with no training, so that 'dog' renders as a corgi in an astronaut spacesuit. On 14 held-out prompts, the share of dog images showing both: 0% original, 96% round 1 (least squares allowed), 75 / 88 / 92% for round 3 variants A / B / C.",
+    "added": "2026-11-14"
+  },
+  {
+    "id": "pipec-decision-pipes",
+    "title": "Weight-space programming (decision pipes and pipec compiler)",
+    "authors": "dennj",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/dennj/Weight-Space-Programming"
+    },
+    "repo": "dennj/Weight-Space-Programming",
+    "summary": "A compiler turns short decision-pipe programs into exact network weights. A 64-line 8-bit CPU interpreter compiles to a 737,537-parameter network with 0 errors on 618,401 test programs; a recursive evaluator has 0 errors on 8,648. In an agent experiment, all 18 agents were exactly correct and programs were 2.4–3.7× shorter than weights.",
+    "added": "2026-11-14"
+  },
+  {
+    "id": "wsplore",
+    "title": "[WSPlore] Follow-up Explorations of Weight-Space Programming",
+    "authors": "jasperzhao05",
+    "date": "2026-11-11",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/jasperzhao05/wsplore"
+    },
+    "repo": "jasperzhao05/wsplore",
+    "summary": "Four follow-ups: other models write Astra's Breakout network from its own explanation; reading from a one-layer footprint baseline; editing a rule in a cellular-automaton CNN (GPT-6.1 Sol and Claude Opus 5.5 succeed, GPT-6 Luna fails); and editing Qwen3.5-0.8B with graded feedback.",
+    "added": "2026-11-14"
+  },
+  {
+    "id": "llm-directed-wsp-netfound",
+    "title": "LLM-directed weight-space programming on a network encoder",
+    "authors": "Abdul Rauf",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Raufnarejo505/llm-directed-weight-space-programming"
+    },
+    "repo": "Raufnarejo505/llm-directed-weight-space-programming",
+    "summary": "Closed-form rank-1 edits to snlucsb/netFound-small, a network-traffic encoder. Between-class distance rises linearly from 17.28 to 34.54 at the strongest dose, yet macro F1 stays 0.9889 with zero decision flips under a nearest-centroid readout. A negative-control tensor moves nothing.",
+    "added": "2026-11-14"
   }
 ]
