@@ -10334,5 +10334,20 @@
     "repo": "Raufnarejo505/llm-directed-weight-space-programming",
     "summary": "Closed-form rank-1 edits to snlucsb/netFound-small, a network-traffic encoder. Between-class distance rises linearly from 17.28 to 34.54 at the strongest dose, yet macro F1 stays 0.9889 with zero decision flips under a nearest-centroid readout. A negative-control tensor moves nothing.",
     "added": "2026-11-14"
+  },
+  {
+    "id": "kuusela-hot-swapped-weight-files",
+    "title": "Hot-swapped weight files let a 4B model beat a 35B MoE with 43% of the memory",
+    "authors": "Kevin Kuusela",
+    "date": "2026-11-05",
+    "venue": "Blog",
+    "category": "llm-repair",
+    "kind": "post",
+    "evidence": "post",
+    "links": {
+      "post": "https://kevin.stream/blog/swap-the-weights"
+    },
+    "summary": "Claude Opus 5.5 writes small weight files for Qwen3.5-4B with no training, and a router hot-swaps one in per question. With trained files for three families, the 4B scored 84.4 against 82.4 for Qwen3.5-35B-A3B on 3,548 fresh questions, with 43% of the memory. Fable 5.2 as writer tied Opus 5.5.",
+    "added": "2026-11-14"
   }
 ]

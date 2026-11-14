@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-601-blue)
+![Entries](https://img.shields.io/badge/entries-602-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -20,6 +20,7 @@
 - **2026-11-14** · [LLM-directed weight-space programming on a network encoder](https://github.com/Raufnarejo505/llm-directed-weight-space-programming) (Other Domains)
 - **2026-11-14** · [Weight-space programming for college advising](https://github.com/harlyn1/weight-space-advising-logs) (Repairing behavior)
 - **2026-11-14** · [Weight-space programming (decision pipes and pipec compiler)](https://github.com/dennj/Weight-Space-Programming) (Writing networks from scratch)
+- **2026-11-14** · [Hot-swapped weight files let a 4B model beat a 35B MoE with 43% of the memory](https://kevin.stream/blog/swap-the-weights) (Repairing behavior)
 - **2026-11-14** · [Opus 5.5 rewires Stable Diffusion XL by hand](https://github.com/iamomiid/weight-space-programming-sdxl) (Other Domains)
 - **2026-11-13** · [jazzpher/qwen35-ramble-edit](https://github.com/jazzpher/qwen35-ramble-edit) (Analyses and Critiques)
 - **2026-11-12** · [Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games) (Games)
@@ -27,7 +28,6 @@
 - **2026-11-12** · [wsp-yolo-eel: weight-space programming on a YOLO26n eel detector](https://github.com/mrtpk/wsp-yolo-eel) (Other Domains)
 - **2026-11-12** · [sudorian/weight-space-implants](https://github.com/sudorian/weight-space-implants) (Writing networks from scratch)
 - **2026-11-12** · [Weight Whisperer](https://github.com/Prayas-Agrawal/weight-whisperer) (Repairing behavior)
-- **2026-11-12** · [Weight-space programming on EuroSAT](https://github.com/waliddev23/weight_space_programming_for_remote_sensing_a_small_case_study) (Other Domains)
 
 ## 🧭 Milestones
 
@@ -40,8 +40,8 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (28)
-  - [Repairing behavior](#repairing-behavior) (19)
+- [💬 Language Models](#-language-models) (29)
+  - [Repairing behavior](#repairing-behavior) (20)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (7)
 - [🦾 Robotics and Control](#-robotics-and-control) (14)
@@ -110,7 +110,7 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (19)</b></summary>
+<summary><b>Repairing behavior (20)</b></summary>
 
 - **[wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools)**  
   mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -191,6 +191,11 @@
   harlyn1 · *GitHub* · 2026-11-05 · `💻 code / results`  
   [[Code](https://github.com/harlyn1/weight-space-advising-logs)] ![GitHub stars](https://img.shields.io/github/stars/harlyn1/weight-space-advising-logs?style=social)  
   Replicates the Sparks of Weight-Space Programming setup on Qwen3.5-0.8B for college advising, with five frontier editors and 40 forward passes. On a clean 141-item set, a Sonnet 5.5 edit of 18,432 weights raised the fabrication score from 39.3 to 92.9 and cut severe failures from 28.9% to 9.1%. LoRA and context arms serve as controls.
+
+- **[Hot-swapped weight files let a 4B model beat a 35B MoE with 43% of the memory](https://kevin.stream/blog/swap-the-weights)**  
+  Kevin Kuusela · *Blog* · 2026-11-05 · `💬 post only`  
+  [[Post](https://kevin.stream/blog/swap-the-weights)]  
+  Claude Opus 5.5 writes small weight files for Qwen3.5-4B with no training, and a router hot-swaps one in per question. With trained files for three families, the 4B scored 84.4 against 82.4 for Qwen3.5-35B-A3B on 3,548 fresh questions, with 43% of the memory. Fable 5.2 as writer tied Opus 5.5.
 
 - **[Say43/Weight-Space-Programming](https://github.com/Say43/Weight-Space-Programming)**  
   Say43 · *GitHub* · 2026-11-04 · `💻 code / results`  
