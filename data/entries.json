@@ -11270,5 +11270,41 @@
     "repo": "zkwasm/in-weight-fpga-wsp",
     "summary": "Compiles a state machine into dormant SwiGLU neurons of the terminal MLP layer by closed-form linear algebra, with zero gradient steps. It modifies ~0.035% of parameters in about 30 seconds. Tested on Qwen3-8B and Llama-3.1-8B-Instruct over 3,780 three-turn dialogues, it reports beating SelfD-RL, passing 12/12 paired bootstrap tests.",
     "added": "2026-11-20"
+  },
+  {
+    "id": "weight-space-audit-mit-p50c-sgne-cc",
+    "title": "Weight-Space Audit of MIT-p50c and DNA Weight Editing (SGNE-CC) on Qwen3.5-0.8B at a 32,768-Token Generation Limit",
+    "authors": "Igor M. Zhuk",
+    "date": "2026-11-15",
+    "venue": "Preprint",
+    "category": "analysis",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://doi.org/10.5281/zenodo.24235218",
+      "code": "https://github.com/Nondual-Observer/dna-weight-editing",
+      "model": "https://huggingface.co/Nondual-Observer/Qwen3.5-0.8B-SGNE-CC"
+    },
+    "repo": "Nondual-Observer/dna-weight-editing",
+    "summary": "Audits the MIT-p50c weight edit on Qwen3.5-0.8B across five benchmarks and compares it with SGNE-CC, a 3.13 MiB training-free norm-preserving column rotation. At greedy T=0 with 32,768 tokens, MATH-500 is 43.0% for SGNE-CC, 5.0% for MIT-p50c and 0% for base. Under T=0.6, pp=1.5 it is 47.0% vs 48.2%.",
+    "added": "2026-11-21"
+  },
+  {
+    "id": "sgne-cc-v2-deepseek-r1-distill-qwen-1-5b",
+    "title": "SGNE-CC v2: Training-Free Spherical Rotation of 205 down_proj Columns (0.0177%) in DeepSeek-R1-Distill-Qwen-1.5B",
+    "authors": "Igor M. Zhuk",
+    "date": "2026-11-20",
+    "venue": "Preprint",
+    "category": "llm-repair",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://doi.org/10.5281/zenodo.24398165",
+      "code": "https://github.com/Nondual-Observer/deepseek-r1-1.5b-sgne-cc-v2",
+      "model": "https://huggingface.co/Nondual-Observer/DeepSeek-R1-Distill-Qwen-1.5B-SGNE-CC-v2"
+    },
+    "repo": "Nondual-Observer/deepseek-r1-1.5b-sgne-cc-v2",
+    "summary": "Rotates 205 mlp.down_proj columns (0.0177% of weights) of DeepSeek-R1-Distill-Qwen-1.5B with no training. At T=0 with a 32,768-token budget on 1,054 problems, accuracy goes from 60.5% to 69.5% (MATH-500 65.4% to 76.4%). Under T=0.6 sampling, MATH-500 gains 2.0 pp.",
+    "added": "2026-11-21"
   }
 ]
