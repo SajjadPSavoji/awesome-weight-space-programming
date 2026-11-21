@@ -11306,5 +11306,70 @@
     "repo": "Nondual-Observer/deepseek-r1-1.5b-sgne-cc-v2",
     "summary": "Rotates 205 mlp.down_proj columns (0.0177% of weights) of DeepSeek-R1-Distill-Qwen-1.5B with no training. At T=0 with a 32,768-token budget on 1,054 problems, accuracy goes from 60.5% to 69.5% (MATH-500 65.4% to 76.4%). Under T=0.6 sampling, MATH-500 gains 2.0 pp.",
     "added": "2026-11-21"
+  },
+  {
+    "id": "k-oconnor-wspl",
+    "title": "k-oconnor/WSPL",
+    "authors": "Kevin O'Connor",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/k-oconnor/WSPL"
+    },
+    "repo": "k-oconnor/WSPL",
+    "summary": "Typed weight-space programming interface for LLM-authored neural controllers, with the Skillforge robotics testbed. A fine-tuned Qwen2.5-Coder-1.5B author generated 96/96 behavior-correct neural blocks; a trained executive raised mission success from 124/224 to 210/224 (93.8%) in a planar kinematic workcell with supervised synthetic tasks.",
+    "added": "2026-11-21"
+  },
+  {
+    "id": "zkwasm-in-weight-os-wsp",
+    "title": "In-Weight OS: Composable Zero-Gradient Post-Training via Orthogonal Dormant-Channel Superposition",
+    "authors": "zkwasm",
+    "date": "2026-11-21",
+    "venue": "GitHub",
+    "category": "found-compiled",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/zkwasm/in-weight-os-wsp",
+      "model": "https://huggingface.co/masstensor/Qwen3-8B-InWeight-OS"
+    },
+    "repo": "zkwasm/in-weight-os-wsp",
+    "summary": "Compiles post-training skills (safety, tool calling, System-1/System-2 routing) into disjoint banks of dormant SwiGLU channels in the terminal MLP of Qwen3-8B and Llama-3.1-8B-Instruct. Closed-form solver, 0 gradient steps, 51-57 neurons (~0.014% of parameters). Compared against SFT, continual SFT, Task Arithmetic and TIES-Merging.",
+    "added": "2026-11-21"
+  },
+  {
+    "id": "deb2006-secureweight",
+    "title": "SecureWeight: A Weight-Space Programming Experiment",
+    "authors": "deb2006",
+    "date": "2026-11-19",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment"
+    },
+    "repo": "deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment",
+    "summary": "Tests whether an LLM can spot damage in Iris and Wine classifiers and repair it with scalar edits, using seeded faults and blinded reviews. Across 12 shuffled reviews, 3/6 damaged copies were flagged (0/6 healthy controls) and 1/6 improved on held-out data (Wine trial: 23/27 to 27/27).",
+    "added": "2026-11-21"
+  },
+  {
+    "id": "felixsuarez0727-weight-space-programming-sellma",
+    "title": "Weight-Space Programming for Swedish Language Models (SE.LLMA)",
+    "authors": "Felix Suarez",
+    "date": "2026-11-19",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/felixsuarez0727/weight-space-programming-sellma"
+    },
+    "repo": "felixsuarez0727/weight-space-programming-sellma",
+    "summary": "Column-sparse rank-1 weight edit of 86,016 parameters (0.0174%) in Qwen2.5-0.5B-Instruct for Swedish adaptation, compared with baseline, prompt control, matched random-weight control (3 seeds) and activation steering on 30 Swedish and 20 English prompts. Swedish compliance 93.3% for the edit vs 96.7% baseline.",
+    "added": "2026-11-21"
   }
 ]

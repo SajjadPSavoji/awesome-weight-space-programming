@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-660-blue)
+![Entries](https://img.shields.io/badge/entries-664-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -17,7 +17,10 @@
 ## 🔥 Recently Added
 
 - **2026-11-21** · [SGNE-CC v2: Training-Free Spherical Rotation of 205 down_proj Columns (0.0177%) in DeepSeek-R1-Distill-Qwen-1.5B](https://doi.org/10.5281/zenodo.24398165) (Repairing behavior)
+- **2026-11-21** · [SecureWeight: A Weight-Space Programming Experiment](https://github.com/deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment) (Other Domains)
+- **2026-11-21** · [Weight-Space Programming for Swedish Language Models (SE.LLMA)](https://github.com/felixsuarez0727/weight-space-programming-sellma) (Repairing behavior)
 - **2026-11-21** · [Weight-Space Audit of MIT-p50c and DNA Weight Editing (SGNE-CC) on Qwen3.5-0.8B at a 32,768-Token Generation Limit](https://doi.org/10.5281/zenodo.24235218) (Analyses and Critiques)
+- **2026-11-21** · [k-oconnor/WSPL](https://github.com/k-oconnor/WSPL) (RL control policies)
 - **2026-11-20** · [lextoumbourou/weight-space-programming-experiments](https://github.com/lextoumbourou/weight-space-programming-experiments) (Analyses and Critiques)
 - **2026-11-20** · [In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra](https://github.com/zkwasm/in-weight-fpga-wsp) (Repairing behavior)
 - **2026-11-20** · [Training Vision Models for LLM-Driven Weight-Space Programming](https://arxiv.org/abs/2611.26408) (Benchmarks and Evaluations)
@@ -25,9 +28,6 @@
 - **2026-11-20** · [Can an LLM Fix a Language Model Without Training It?](https://arxiv.org/abs/2611.25613) (Repairing behavior)
 - **2026-11-20** · [MIR-1-WSP/model-intervention-records](https://github.com/MIR-1-WSP/model-intervention-records) (Benchmarks and Evaluations)
 - **2026-11-20** · [mhviraf/weight-space-programming](https://github.com/mhviraf/weight-space-programming) (Benchmarks and Evaluations)
-- **2026-11-20** · [RobGruhl/weight-space-programming](https://github.com/RobGruhl/weight-space-programming) (Analyses and Critiques)
-- **2026-11-20** · [EphraiemSarabamoun/weight-space-programming-reproduction](https://github.com/EphraiemSarabamoun/weight-space-programming-reproduction) (Analyses and Critiques)
-- **2026-11-19** · [wsp-study: weight-space programming on a 125M legal QA model](https://github.com/Ace-2504/wsp-study) (Repairing behavior)
 
 ## 🧭 Milestones
 
@@ -40,14 +40,14 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (45)
-  - [Repairing behavior](#repairing-behavior) (33)
+- [💬 Language Models](#-language-models) (46)
+  - [Repairing behavior](#repairing-behavior) (34)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (10)
-- [🦾 Robotics and Control](#-robotics-and-control) (15)
+- [🦾 Robotics and Control](#-robotics-and-control) (16)
   - [Vision-language-action models](#vision-language-action-models) (6)
-  - [RL control policies](#rl-control-policies) (9)
-- [🧩 Other Domains](#-other-domains) (36)
+  - [RL control policies](#rl-control-policies) (10)
+- [🧩 Other Domains](#-other-domains) (37)
   - [Classical NLP models](#classical-nlp-models) (2)
 - [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (3)
@@ -55,8 +55,8 @@
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (12)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (19)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (37)
-- [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (189)
-  - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (17)
+- [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (190)
+  - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (18)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
   - [Weight surgery and pruning](#weight-surgery-and-pruning) (13)
   - [Fast weights and self-modifying networks](#fast-weights-and-self-modifying-networks) (11)
@@ -111,7 +111,7 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (33)</b></summary>
+<summary><b>Repairing behavior (34)</b></summary>
 
 - **[In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra](https://github.com/zkwasm/in-weight-fpga-wsp)**  
   zkwasm · *GitHub* · 2026-11-20 · `💻 code / results`  
@@ -137,6 +137,11 @@
   Bharath Kumar Bolla, Raghavender Surya Upadhayula, Vishnu Surya Reddy Nandi, Ramesh Nandipalli · *Preprint* · 2026-11-19 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.25613)]  
   Controlled study of Transformer repair in which an editor selects projection recipes to apply without gradient updates, over 20 recorded sessions on five language models. Compared with fixed projections, black-box search and LoRA. On Pythia, live selection reaches 65.62% completion accuracy versus 0% for black-box search; on a compound fault the mean rises from 24.89% to 71.25%.
+
+- **[Weight-Space Programming for Swedish Language Models (SE.LLMA)](https://github.com/felixsuarez0727/weight-space-programming-sellma)**  
+  Felix Suarez · *GitHub* · 2026-11-19 · `💻 code / results`  
+  [[Code](https://github.com/felixsuarez0727/weight-space-programming-sellma)] ![GitHub stars](https://img.shields.io/github/stars/felixsuarez0727/weight-space-programming-sellma?style=social)  
+  Column-sparse rank-1 weight edit of 86,016 parameters (0.0174%) in Qwen2.5-0.5B-Instruct for Swedish adaptation, compared with baseline, prompt control, matched random-weight control (3 seeds) and activation steering on 30 Swedish and 20 English prompts. Swedish compliance 93.3% for the edit vs 96.7% baseline.
 
 - **[Can reading a model's weights fix Swedish answers that come out in the wrong language?](https://github.com/JafarBanar/weight-space-programming-swedish)**  
   JafarBanar · *GitHub* · 2026-11-18 · `💻 code / results`  
@@ -398,7 +403,7 @@
 <a id="rl-control-policies"></a>
 
 <details>
-<summary><b>RL control policies (9)</b></summary>
+<summary><b>RL control policies (10)</b></summary>
 
 - **[Weight-space programming for tractor guidance controller: large language models natively write neural network weights that steer a real tractor](https://arxiv.org/abs/2611.21958)**  
   Timo Oksanen · *Preprint* · 2026-11-16 · `📝 preprint`  
@@ -440,6 +445,11 @@
   [[Code](https://github.com/Ludvik1kul/weight-space-programming-replication)] ![GitHub stars](https://img.shields.io/github/stars/Ludvik1kul/weight-space-programming-replication?style=social)  
   Claude Fable 5.1 repeats the Kinetix car repair at 1,024/1,024 episodes, changing 2.16% of weights, and the MinAtar experiments.
 
+- **[k-oconnor/WSPL](https://github.com/k-oconnor/WSPL)**  
+  Kevin O'Connor · *GitHub* · 2026-11-03 · `💻 code / results`  
+  [[Code](https://github.com/k-oconnor/WSPL)] ![GitHub stars](https://img.shields.io/github/stars/k-oconnor/WSPL?style=social)  
+  Typed weight-space programming interface for LLM-authored neural controllers, with the Skillforge robotics testbed. A fine-tuned Qwen2.5-Coder-1.5B author generated 96/96 behavior-correct neural blocks; a trained executive raised mission success from 124/224 to 210/224 (93.8%) in a planar kinematic workcell with supervised synthetic tasks.
+
 - **[Policy Surgery](https://github.com/latentpaths/policy-surgery)**  
   latentpaths · *GitHub* · 2026-11-02 · `💻 code / results`  
   [[Code](https://github.com/latentpaths/policy-surgery)] [[Project](https://www.latentpaths.com/projects/policy-surgery)] ![GitHub stars](https://img.shields.io/github/stars/latentpaths/policy-surgery?style=social)  
@@ -452,12 +462,17 @@
 *Classifiers, small decision networks and anything else.*
 
 <details>
-<summary><b>General (34)</b></summary>
+<summary><b>General (35)</b></summary>
 
 - **[WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming](https://arxiv.org/abs/2611.25476)**  
   Bo Li, Taoyong Cui, Bob Zhang, Mengran Li, et al. · *Preprint* · 2026-11-19 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.25476)] [[Code](https://github.com/Gen-Verse/WeightCode)]  
   A frozen language model writes executable weight programs that install new computations into trained networks without gradient training. Unseen command compositions go from 0% to 99.8% exact match and a pickup action from 0% to 98.4%. On ImageNet, four programs give net gains of 8.84-17.62 points, outperforming the best of eight fine-tuning methods under matched constraints.
+
+- **[SecureWeight: A Weight-Space Programming Experiment](https://github.com/deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment)**  
+  deb2006 · *GitHub* · 2026-11-19 · `💻 code / results`  
+  [[Code](https://github.com/deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment)] ![GitHub stars](https://img.shields.io/github/stars/deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment?style=social)  
+  Tests whether an LLM can spot damage in Iris and Wine classifiers and repair it with scalar edits, using seeded faults and blinded reviews. Across 12 shuffled reviews, 3/6 damaged copies were flagged (0/6 healthy controls) and 1/6 improved on held-out data (Wine trial: 23/27 to 27/27).
 
 - **[Weight-Space Programming for Materials Science](https://arxiv.org/abs/2611.22013)**  
   Sk Md Ahnaf Akif Alvi, Raymundo Arróyave · *Preprint* · 2026-11-17 · `📝 preprint`  
@@ -1099,7 +1114,7 @@
 <a id="hand-set-and-compiled-weights"></a>
 
 <details>
-<summary><b>Hand-set and compiled weights (17)</b></summary>
+<summary><b>Hand-set and compiled weights (18)</b></summary>
 
 - **[A logical calculus of the ideas immanent in nervous activity](https://doi.org/10.1007/BF02478259)**  
   U. Illinois College of Medicine / U. Chicago · *Bulletin of Mathematical Biophysics* · 1943 · `📄 peer-reviewed` · 18.6k citations (OA)  
@@ -1185,6 +1200,11 @@
   brianbell-x · *GitHub* · 2026-11-18 · `💻 code / results`  
   [[Code](https://github.com/brianbell-x/codehygiene)] ![GitHub stars](https://img.shields.io/github/stars/brianbell-x/codehygiene?style=social)  
   A 23.84 KiB 1.58-bit model for code readability: 35 ternary tensors (1,244,706 trits) compiled deterministically from compile.py without training data or gradient descent. It runs in NumPy or browser workers across 20+ languages. No accuracy numbers are stated in the README excerpt.
+
+- **[In-Weight OS: Composable Zero-Gradient Post-Training via Orthogonal Dormant-Channel Superposition](https://github.com/zkwasm/in-weight-os-wsp)**  
+  zkwasm · *GitHub* · 2026-11-21 · `💻 code / results`  
+  [[Code](https://github.com/zkwasm/in-weight-os-wsp)] [[Model](https://huggingface.co/masstensor/Qwen3-8B-InWeight-OS)] ![GitHub stars](https://img.shields.io/github/stars/zkwasm/in-weight-os-wsp?style=social)  
+  Compiles post-training skills (safety, tool calling, System-1/System-2 routing) into disjoint banks of dormant SwiGLU channels in the terminal MLP of Qwen3-8B and Llama-3.1-8B-Instruct. Closed-form solver, 0 gradient steps, 51-57 neurons (~0.014% of parameters). Compared against SFT, continual SFT, Task Arithmetic and TIES-Merging.
 
 </details>
 
