@@ -11371,5 +11371,21 @@
     "repo": "felixsuarez0727/weight-space-programming-sellma",
     "summary": "Column-sparse rank-1 weight edit of 86,016 parameters (0.0174%) in Qwen2.5-0.5B-Instruct for Swedish adaptation, compared with baseline, prompt control, matched random-weight control (3 seeds) and activation steering on 30 Swedish and 20 English prompts. Swedish compliance 93.3% for the edit vs 96.7% baseline.",
     "added": "2026-11-21"
+  },
+  {
+    "id": "comprehensive-wsp-leaderboard-minatar-exp5",
+    "title": "Comprehensive Weight-Space Programming Leaderboard (MinAtar Experiment 5)",
+    "authors": "opopile",
+    "date": "2026-11-21",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/opopile/comprehensive-weight-space-programming-leaderboard"
+    },
+    "repo": "opopile/comprehensive-weight-space-programming-leaderboard",
+    "summary": "Consolidates 41 publicly reported WSP MinAtar Experiment 5 evaluations from 22 sources and recomputes them under the Writing Weights Index and weight-space-bench PPO-500M Median formulas. Adds local Gemini 4 Neon (xhigh) runs (WWI 53.9532) and a Seaquest one-sentence prompt-intervention ablation reported at +29.66%.",
+    "added": "2026-11-21"
   }
 ]
