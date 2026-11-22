@@ -11438,5 +11438,23 @@
     "repo": "y3nk0/weight-space-programming-study",
     "summary": "A frontier model, given Qwen2.5-0.5B's weights, 16 examples and 50 forward passes, edits the weights without gradients so the model solves a task zero-shot. The notebook re-checks seven stored edits against 16-shot ICL and WikiText-2 perplexity. Antonym accuracy goes from 0.0% to 90.5% (ICL 93.7%); n to n+7 reaches 100.0% (ICL 78.5%).",
     "added": "2026-11-22"
+  },
+  {
+    "id": "wsp-labs-alpha-m1",
+    "title": "WSP Labs: Direct Weight-Space Programming & Alpha M1 on-device machine-control models",
+    "authors": "JohnnyPBelo",
+    "date": "2026-11-22",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/JohnnyPBelo/wsp-labs",
+      "project": "https://johnnypbelo.github.io/wsp-labs/",
+      "model": "https://huggingface.co/absint0o/alpha-m1"
+    },
+    "repo": "JohnnyPBelo/wsp-labs",
+    "summary": "Derives Alpha M1 tool-calling models (121M and 98M parameters) from Needle 3 by editing 25 FP16 scalars (group norms, biases, norm weights) in closed form, with no gradient steps. Mobile Actions at gate 0.10: +8.95 pp (86 gains, 0 losses). Includes a patch ledger, an agent skill and a toolkit CLI.",
+    "added": "2026-11-22"
   }
 ]

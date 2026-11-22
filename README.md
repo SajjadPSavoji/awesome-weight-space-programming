@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-668-blue)
+![Entries](https://img.shields.io/badge/entries-669-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,7 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-22** · [WSP Labs: Direct Weight-Space Programming & Alpha M1 on-device machine-control models](https://github.com/JohnnyPBelo/wsp-labs) (Repairing behavior)
 - **2026-11-22** · [wsp-language-drift](https://mhajili.com/notes/weight-space-programming/) (Repairing behavior)
 - **2026-11-22** · [Weight-Space Programming Writes In-Context Learning and Matches Fine-Tuning in Language Models: the notebook](https://github.com/y3nk0/weight-space-programming-study) (Repairing behavior)
 - **2026-11-21** · [Comprehensive Weight-Space Programming Leaderboard (MinAtar Experiment 5)](https://github.com/opopile/comprehensive-weight-space-programming-leaderboard) (Benchmarks and Evaluations)
@@ -27,7 +28,6 @@
 - **2026-11-21** · [k-oconnor/WSPL](https://github.com/k-oconnor/WSPL) (RL control policies)
 - **2026-11-20** · [lextoumbourou/weight-space-programming-experiments](https://github.com/lextoumbourou/weight-space-programming-experiments) (Analyses and Critiques)
 - **2026-11-20** · [In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra](https://github.com/zkwasm/in-weight-fpga-wsp) (Repairing behavior)
-- **2026-11-20** · [Training Vision Models for LLM-Driven Weight-Space Programming](https://arxiv.org/abs/2611.26408) (Benchmarks and Evaluations)
 
 ## 🧭 Milestones
 
@@ -40,8 +40,8 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (48)
-  - [Repairing behavior](#repairing-behavior) (36)
+- [💬 Language Models](#-language-models) (49)
+  - [Repairing behavior](#repairing-behavior) (37)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (10)
 - [🦾 Robotics and Control](#-robotics-and-control) (16)
@@ -111,7 +111,12 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (36)</b></summary>
+<summary><b>Repairing behavior (37)</b></summary>
+
+- **[WSP Labs: Direct Weight-Space Programming & Alpha M1 on-device machine-control models](https://github.com/JohnnyPBelo/wsp-labs)**  
+  JohnnyPBelo · *GitHub* · 2026-11-22 · `💻 code / results`  
+  [[Code](https://github.com/JohnnyPBelo/wsp-labs)] [[Project](https://johnnypbelo.github.io/wsp-labs/)] [[Model](https://huggingface.co/absint0o/alpha-m1)] ![GitHub stars](https://img.shields.io/github/stars/JohnnyPBelo/wsp-labs?style=social)  
+  Derives Alpha M1 tool-calling models (121M and 98M parameters) from Needle 3 by editing 25 FP16 scalars (group norms, biases, norm weights) in closed form, with no gradient steps. Mobile Actions at gate 0.10: +8.95 pp (86 gains, 0 losses). Includes a patch ledger, an agent skill and a toolkit CLI.
 
 - **[wsp-language-drift](https://mhajili.com/notes/weight-space-programming/)**  
   mammadhajili · *GitHub* · 2026-11-21 · `💻 code / results`  
