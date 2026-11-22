@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-665-blue)
+![Entries](https://img.shields.io/badge/entries-666-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -17,6 +17,7 @@
 ## 🔥 Recently Added
 
 - **2026-11-21** · [Comprehensive Weight-Space Programming Leaderboard (MinAtar Experiment 5)](https://github.com/opopile/comprehensive-weight-space-programming-leaderboard) (Benchmarks and Evaluations)
+- **2026-11-21** · [Footprints and loops: re-testing weight-space programming](https://ofirshechter.github.io/weight-space-programming-controls/) (Analyses and Critiques)
 - **2026-11-21** · [SGNE-CC v2: Training-Free Spherical Rotation of 205 down_proj Columns (0.0177%) in DeepSeek-R1-Distill-Qwen-1.5B](https://doi.org/10.5281/zenodo.24398165) (Repairing behavior)
 - **2026-11-21** · [SecureWeight: A Weight-Space Programming Experiment](https://github.com/deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment) (Other Domains)
 - **2026-11-21** · [Weight-Space Programming for Swedish Language Models (SE.LLMA)](https://github.com/felixsuarez0727/weight-space-programming-sellma) (Repairing behavior)
@@ -27,7 +28,6 @@
 - **2026-11-20** · [Training Vision Models for LLM-Driven Weight-Space Programming](https://arxiv.org/abs/2611.26408) (Benchmarks and Evaluations)
 - **2026-11-20** · [WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming](https://arxiv.org/abs/2611.25476) (Other Domains)
 - **2026-11-20** · [Can an LLM Fix a Language Model Without Training It?](https://arxiv.org/abs/2611.25613) (Repairing behavior)
-- **2026-11-20** · [MIR-1-WSP/model-intervention-records](https://github.com/MIR-1-WSP/model-intervention-records) (Benchmarks and Evaluations)
 
 ## 🧭 Milestones
 
@@ -54,7 +54,7 @@
 - [🧪 Diffusion and Generative Media Models](#-diffusion-and-generative-media-models) (1)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (13)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (19)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (37)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (38)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (190)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (18)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -923,7 +923,12 @@
 *Audits, replications of claims and critical takes.*
 
 <details>
-<summary><b>37 entries</b></summary>
+<summary><b>38 entries</b></summary>
+
+- **[Footprints and loops: re-testing weight-space programming](https://ofirshechter.github.io/weight-space-programming-controls/)**  
+  OfirShechter · *GitHub* · 2026-11-21 · `💻 code / results`  
+  [[Post](https://ofirshechter.github.io/weight-space-programming-controls/)] [[Code](https://github.com/OfirShechter/weight-space-programming-controls)] ![GitHub stars](https://img.shields.io/github/stars/OfirShechter/weight-space-programming-controls?style=social)  
+  Re-tests two claims of Sparks of Weight-Space Programming using controls. Reading: an LLM names a policy network's game from its weights, and controls indicate it reads a footprint of the training data in untouched first-layer rows. Editing: an edit raises Qwen3.5-0.8B on MATH-500 from 7.9% to 48.1%; budget forcing recovers almost all of that gain without touching weights.
 
 - **[lextoumbourou/weight-space-programming-experiments](https://github.com/lextoumbourou/weight-space-programming-experiments)**  
   lextoumbourou · *GitHub* · 2026-11-20 · `💻 code / results`  

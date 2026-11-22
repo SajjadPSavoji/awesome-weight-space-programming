@@ -11387,5 +11387,22 @@
     "repo": "opopile/comprehensive-weight-space-programming-leaderboard",
     "summary": "Consolidates 41 publicly reported WSP MinAtar Experiment 5 evaluations from 22 sources and recomputes them under the Writing Weights Index and weight-space-bench PPO-500M Median formulas. Adds local Gemini 4 Neon (xhigh) runs (WWI 53.9532) and a Seaquest one-sentence prompt-intervention ablation reported at +29.66%.",
     "added": "2026-11-21"
+  },
+  {
+    "id": "weight-space-programming-controls",
+    "title": "Footprints and loops: re-testing weight-space programming",
+    "authors": "OfirShechter",
+    "date": "2026-11-21",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/OfirShechter/weight-space-programming-controls",
+      "post": "https://ofirshechter.github.io/weight-space-programming-controls/"
+    },
+    "repo": "OfirShechter/weight-space-programming-controls",
+    "summary": "Re-tests two claims of Sparks of Weight-Space Programming using controls. Reading: an LLM names a policy network's game from its weights, and controls indicate it reads a footprint of the training data in untouched first-layer rows. Editing: an edit raises Qwen3.5-0.8B on MATH-500 from 7.9% to 48.1%; budget forcing recovers almost all of that gain without touching weights.",
+    "added": "2026-11-21"
   }
 ]
