@@ -11404,5 +11404,39 @@
     "repo": "OfirShechter/weight-space-programming-controls",
     "summary": "Re-tests two claims of Sparks of Weight-Space Programming using controls. Reading: an LLM names a policy network's game from its weights, and controls indicate it reads a footprint of the training data in untouched first-layer rows. Editing: an edit raises Qwen3.5-0.8B on MATH-500 from 7.9% to 48.1%; budget forcing recovers almost all of that gain without touching weights.",
     "added": "2026-11-21"
+  },
+  {
+    "id": "wsp-language-drift",
+    "title": "wsp-language-drift",
+    "authors": "mammadhajili",
+    "date": "2026-11-21",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/mammadhajili/wsp-language-drift",
+      "post": "https://mhajili.com/notes/weight-space-programming/"
+    },
+    "repo": "mammadhajili/wsp-language-drift",
+    "summary": "Closed-form weight edits of Qwen3.5-0.8B, computed from recorded activations with no gradient training, so it answers in the requested language. A rank-one edit of layer 16's MLP down_proj raises Norwegian translations from 47% to 94% on 234 held-out Belebele passages. A ten-row attention patch lifts language-set compliance from 5% to 54% across four wordings.",
+    "added": "2026-11-22"
+  },
+  {
+    "id": "weight-space-programming-study",
+    "title": "Weight-Space Programming Writes In-Context Learning and Matches Fine-Tuning in Language Models: the notebook",
+    "authors": "Konstantinos Skianis, Aristidis Likas",
+    "org": "University of Ioannina",
+    "date": "2026-11-20",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/y3nk0/weight-space-programming-study"
+    },
+    "repo": "y3nk0/weight-space-programming-study",
+    "summary": "A frontier model, given Qwen2.5-0.5B's weights, 16 examples and 50 forward passes, edits the weights without gradients so the model solves a task zero-shot. The notebook re-checks seven stored edits against 16-shot ICL and WikiText-2 perplexity. Antonym accuracy goes from 0.0% to 90.5% (ICL 93.7%); n to n+7 reaches 100.0% (ICL 78.5%).",
+    "added": "2026-11-22"
   }
 ]

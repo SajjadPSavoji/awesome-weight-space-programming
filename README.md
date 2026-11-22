@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-666-blue)
+![Entries](https://img.shields.io/badge/entries-668-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,8 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-22** · [wsp-language-drift](https://mhajili.com/notes/weight-space-programming/) (Repairing behavior)
+- **2026-11-22** · [Weight-Space Programming Writes In-Context Learning and Matches Fine-Tuning in Language Models: the notebook](https://github.com/y3nk0/weight-space-programming-study) (Repairing behavior)
 - **2026-11-21** · [Comprehensive Weight-Space Programming Leaderboard (MinAtar Experiment 5)](https://github.com/opopile/comprehensive-weight-space-programming-leaderboard) (Benchmarks and Evaluations)
 - **2026-11-21** · [Footprints and loops: re-testing weight-space programming](https://ofirshechter.github.io/weight-space-programming-controls/) (Analyses and Critiques)
 - **2026-11-21** · [SGNE-CC v2: Training-Free Spherical Rotation of 205 down_proj Columns (0.0177%) in DeepSeek-R1-Distill-Qwen-1.5B](https://doi.org/10.5281/zenodo.24398165) (Repairing behavior)
@@ -26,8 +28,6 @@
 - **2026-11-20** · [lextoumbourou/weight-space-programming-experiments](https://github.com/lextoumbourou/weight-space-programming-experiments) (Analyses and Critiques)
 - **2026-11-20** · [In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra](https://github.com/zkwasm/in-weight-fpga-wsp) (Repairing behavior)
 - **2026-11-20** · [Training Vision Models for LLM-Driven Weight-Space Programming](https://arxiv.org/abs/2611.26408) (Benchmarks and Evaluations)
-- **2026-11-20** · [WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming](https://arxiv.org/abs/2611.25476) (Other Domains)
-- **2026-11-20** · [Can an LLM Fix a Language Model Without Training It?](https://arxiv.org/abs/2611.25613) (Repairing behavior)
 
 ## 🧭 Milestones
 
@@ -40,8 +40,8 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (46)
-  - [Repairing behavior](#repairing-behavior) (34)
+- [💬 Language Models](#-language-models) (48)
+  - [Repairing behavior](#repairing-behavior) (36)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (10)
 - [🦾 Robotics and Control](#-robotics-and-control) (16)
@@ -111,7 +111,12 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (34)</b></summary>
+<summary><b>Repairing behavior (36)</b></summary>
+
+- **[wsp-language-drift](https://mhajili.com/notes/weight-space-programming/)**  
+  mammadhajili · *GitHub* · 2026-11-21 · `💻 code / results`  
+  [[Post](https://mhajili.com/notes/weight-space-programming/)] [[Code](https://github.com/mammadhajili/wsp-language-drift)] ![GitHub stars](https://img.shields.io/github/stars/mammadhajili/wsp-language-drift?style=social)  
+  Closed-form weight edits of Qwen3.5-0.8B, computed from recorded activations with no gradient training, so it answers in the requested language. A rank-one edit of layer 16's MLP down_proj raises Norwegian translations from 47% to 94% on 234 held-out Belebele passages. A ten-row attention patch lifts language-set compliance from 5% to 54% across four wordings.
 
 - **[In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra](https://github.com/zkwasm/in-weight-fpga-wsp)**  
   zkwasm · *GitHub* · 2026-11-20 · `💻 code / results`  
@@ -122,6 +127,11 @@
   Igor M. Zhuk · *Preprint* · 2026-11-20 · `📝 preprint`  
   [[Paper](https://doi.org/10.5281/zenodo.24398165)] [[Code](https://github.com/Nondual-Observer/deepseek-r1-1.5b-sgne-cc-v2)] [[Model](https://huggingface.co/Nondual-Observer/DeepSeek-R1-Distill-Qwen-1.5B-SGNE-CC-v2)] ![GitHub stars](https://img.shields.io/github/stars/Nondual-Observer/deepseek-r1-1.5b-sgne-cc-v2?style=social)  
   Rotates 205 mlp.down_proj columns (0.0177% of weights) of DeepSeek-R1-Distill-Qwen-1.5B with no training. At T=0 with a 32,768-token budget on 1,054 problems, accuracy goes from 60.5% to 69.5% (MATH-500 65.4% to 76.4%). Under T=0.6 sampling, MATH-500 gains 2.0 pp.
+
+- **[Weight-Space Programming Writes In-Context Learning and Matches Fine-Tuning in Language Models: the notebook](https://github.com/y3nk0/weight-space-programming-study)**  
+  University of Ioannina · *GitHub* · 2026-11-20 · `💻 code / results`  
+  [[Code](https://github.com/y3nk0/weight-space-programming-study)] ![GitHub stars](https://img.shields.io/github/stars/y3nk0/weight-space-programming-study?style=social)  
+  A frontier model, given Qwen2.5-0.5B's weights, 16 examples and 50 forward passes, edits the weights without gradients so the model solves a task zero-shot. The notebook re-checks seven stored edits against 16-shot ICL and WikiText-2 perplexity. Antonym accuracy goes from 0.0% to 90.5% (ICL 93.7%); n to n+7 reaches 100.0% (ICL 78.5%).
 
 - **[wsp-study: weight-space programming on a 125M legal QA model](https://github.com/Ace-2504/wsp-study)**  
   Ace-2504 · *GitHub* · 2026-11-19 · `💻 code / results`  
