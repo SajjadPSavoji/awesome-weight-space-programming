@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-672-blue)
+![Entries](https://img.shields.io/badge/entries-673-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -17,6 +17,7 @@
 ## 🔥 Recently Added
 
 - **2026-11-23** · [Weight-Space Programming: Papers, Code, Models and Guides](https://github.com/weightspaceprogramming/reading-list) (Other Curated Lists)
+- **2026-11-23** · [Looped Weight-Space Programming: LLM-Written Transformers for Long Algorithmic Reasoning](https://github.com/mbzuai-oryx/LoopedWSP) (Writing networks from scratch)
 - **2026-11-23** · [Awesome Weight-Space Programming](https://github.com/Boom5426/Awesome-Weight-Space-Programming) (Other Curated Lists)
 - **2026-11-23** · [Weight-Space Programming for Audio Models: LLMs Can Directly Edit Audio Model Weights and Compress Them](https://aksy1999.github.io/blog/weight-space-programming-for-audio-models/) (Audio and Speech Models)
 - **2026-11-22** · [WSP Labs: Direct Weight-Space Programming & Alpha M1 on-device machine-control models](https://github.com/JohnnyPBelo/wsp-labs) (Repairing behavior)
@@ -27,7 +28,6 @@
 - **2026-11-21** · [SGNE-CC v2: Training-Free Spherical Rotation of 205 down_proj Columns (0.0177%) in DeepSeek-R1-Distill-Qwen-1.5B](https://doi.org/10.5281/zenodo.24398165) (Repairing behavior)
 - **2026-11-21** · [SecureWeight: A Weight-Space Programming Experiment](https://github.com/deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment) (Other Domains)
 - **2026-11-21** · [Weight-Space Programming for Swedish Language Models (SE.LLMA)](https://github.com/felixsuarez0727/weight-space-programming-sellma) (Repairing behavior)
-- **2026-11-21** · [Weight-Space Audit of MIT-p50c and DNA Weight Editing (SGNE-CC) on Qwen3.5-0.8B at a 32,768-Token Generation Limit](https://doi.org/10.5281/zenodo.24235218) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -40,10 +40,10 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (49)
+- [💬 Language Models](#-language-models) (50)
   - [Repairing behavior](#repairing-behavior) (37)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
-  - [Writing networks from scratch](#writing-networks-from-scratch) (10)
+  - [Writing networks from scratch](#writing-networks-from-scratch) (11)
 - [🦾 Robotics and Control](#-robotics-and-control) (16)
   - [Vision-language-action models](#vision-language-action-models) (6)
   - [RL control policies](#rl-control-policies) (10)
@@ -322,7 +322,12 @@
 <a id="writing-networks-from-scratch"></a>
 
 <details>
-<summary><b>Writing networks from scratch (10)</b></summary>
+<summary><b>Writing networks from scratch (11)</b></summary>
+
+- **[Looped Weight-Space Programming: LLM-Written Transformers for Long Algorithmic Reasoning](https://github.com/mbzuai-oryx/LoopedWSP)**  
+  MBZUAI · *GitHub* · 2026-11-23 · `💻 code / results`  
+  [[Code](https://github.com/mbzuai-oryx/LoopedWSP)] ![GitHub stars](https://img.shields.io/github/stars/mbzuai-oryx/LoopedWSP?style=social)  
+  Repository and blog on looped weight-space programming, in which an LLM writes transformer weights for long algorithmic reasoning. It includes interactive Maze and Tower of Hanoi demos. The candidate text excerpt reports no headline number.
 
 - **[Weight-Space Programming Doesn't Need Transformers](https://github.com/effl-lab/Weight-Space-Programming)**  
   POSTECH · *GitHub* · 2026-11-17 · `💻 code / results`  

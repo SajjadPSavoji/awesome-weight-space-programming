@@ -11507,5 +11507,22 @@
     "repo": "Boom5426/Awesome-Weight-Space-Programming",
     "summary": "Curated collection of weight-space programming and weight-centric research covering weight understanding, generation, editing, merging, transfer and continual learning, with a searchable catalog, an interactive research landscape and an evidence matrix.",
     "added": "2026-11-23"
+  },
+  {
+    "id": "loopedwsp",
+    "title": "Looped Weight-Space Programming: LLM-Written Transformers for Long Algorithmic Reasoning",
+    "authors": "Abdelrahman Elsayed, Ahmed Heakl, Abdelrahman Shaker, Fahad Khan, et al.",
+    "org": "MBZUAI",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/mbzuai-oryx/LoopedWSP"
+    },
+    "repo": "mbzuai-oryx/LoopedWSP",
+    "summary": "Repository and blog on looped weight-space programming, in which an LLM writes transformer weights for long algorithmic reasoning. It includes interactive Maze and Tower of Hanoi demos. The candidate text excerpt reports no headline number.",
+    "added": "2026-11-23"
   }
 ]
