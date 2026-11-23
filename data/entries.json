@@ -11456,5 +11456,56 @@
     "repo": "JohnnyPBelo/wsp-labs",
     "summary": "Derives Alpha M1 tool-calling models (121M and 98M parameters) from Needle 3 by editing 25 FP16 scalars (group norms, biases, norm weights) in closed form, with no gradient steps. Mobile Actions at gate 0.10: +8.95 pp (86 gains, 0 losses). Includes a patch ledger, an agent skill and a toolkit CLI.",
     "added": "2026-11-22"
+  },
+  {
+    "id": "audiowsp",
+    "title": "Weight-Space Programming for Audio Models: LLMs Can Directly Edit Audio Model Weights and Compress Them",
+    "authors": "Amit Kumar Singh Yadav, Robert Xu",
+    "org": "Ishiki Labs Research",
+    "date": "2026-11-19",
+    "venue": "GitHub",
+    "category": "audio",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ishikilabsinc/audiowsp",
+      "post": "https://aksy1999.github.io/blog/weight-space-programming-for-audio-models/"
+    },
+    "repo": "ishikilabsinc/audiowsp",
+    "summary": "Open-source code and blogpost for editing audio model weights in one forward pass and zero backward passes: augmentation-subspace nulling, closed-form readout weights, and compression of a deepfake detector from 318M to 86.8M parameters and Wav2Vec2-Large ASR from 315M to 142M.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "wsp-reading-list",
+    "title": "Weight-Space Programming: Papers, Code, Models and Guides",
+    "authors": "weightspaceprogramming",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "lists",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/weightspaceprogramming/reading-list",
+      "project": "https://weightspaceprogramming.tech/"
+    },
+    "repo": "weightspaceprogramming/reading-list",
+    "summary": "Annotated collection of 34 resources on representing and constructing programs in neural-network weights: formal compilation, trained weight generators, LLM reasoning over weights, replications and criticism, with a guide site, BibTeX and JSON.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "awesome-weight-space-programming-boom5426",
+    "title": "Awesome Weight-Space Programming",
+    "authors": "Boom5426",
+    "date": "2026-11-22",
+    "venue": "GitHub",
+    "category": "lists",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Boom5426/Awesome-Weight-Space-Programming"
+    },
+    "repo": "Boom5426/Awesome-Weight-Space-Programming",
+    "summary": "Curated collection of weight-space programming and weight-centric research covering weight understanding, generation, editing, merging, transfer and continual learning, with a searchable catalog, an interactive research landscape and an evidence matrix.",
+    "added": "2026-11-23"
   }
 ]

@@ -80,6 +80,18 @@
     "blurb": "Weight edits on image, video and audio diffusion models and their adapters."
   },
   {
+    "id": "audio",
+    "title": "Audio and Speech Models",
+    "emoji": "🧪",
+    "blurb": "Weight programming of speech recognition and audio classification models."
+  },
+  {
+    "id": "lists",
+    "title": "Other Curated Lists",
+    "emoji": "🧪",
+    "blurb": "Curated collections and reading lists on weight-space programming."
+  },
+  {
     "id": "bench",
     "title": "Benchmarks and Evaluations",
     "emoji": "📊",

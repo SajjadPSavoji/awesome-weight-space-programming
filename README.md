@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-669-blue)
+![Entries](https://img.shields.io/badge/entries-672-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,9 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-23** · [Weight-Space Programming: Papers, Code, Models and Guides](https://github.com/weightspaceprogramming/reading-list) (Other Curated Lists)
+- **2026-11-23** · [Awesome Weight-Space Programming](https://github.com/Boom5426/Awesome-Weight-Space-Programming) (Other Curated Lists)
+- **2026-11-23** · [Weight-Space Programming for Audio Models: LLMs Can Directly Edit Audio Model Weights and Compress Them](https://aksy1999.github.io/blog/weight-space-programming-for-audio-models/) (Audio and Speech Models)
 - **2026-11-22** · [WSP Labs: Direct Weight-Space Programming & Alpha M1 on-device machine-control models](https://github.com/JohnnyPBelo/wsp-labs) (Repairing behavior)
 - **2026-11-22** · [wsp-language-drift](https://mhajili.com/notes/weight-space-programming/) (Repairing behavior)
 - **2026-11-22** · [Weight-Space Programming Writes In-Context Learning and Matches Fine-Tuning in Language Models: the notebook](https://github.com/y3nk0/weight-space-programming-study) (Repairing behavior)
@@ -25,9 +28,6 @@
 - **2026-11-21** · [SecureWeight: A Weight-Space Programming Experiment](https://github.com/deb2006/Secure-Weight-A-Weight-Space-Programming-Experiment) (Other Domains)
 - **2026-11-21** · [Weight-Space Programming for Swedish Language Models (SE.LLMA)](https://github.com/felixsuarez0727/weight-space-programming-sellma) (Repairing behavior)
 - **2026-11-21** · [Weight-Space Audit of MIT-p50c and DNA Weight Editing (SGNE-CC) on Qwen3.5-0.8B at a 32,768-Token Generation Limit](https://doi.org/10.5281/zenodo.24235218) (Analyses and Critiques)
-- **2026-11-21** · [k-oconnor/WSPL](https://github.com/k-oconnor/WSPL) (RL control policies)
-- **2026-11-20** · [lextoumbourou/weight-space-programming-experiments](https://github.com/lextoumbourou/weight-space-programming-experiments) (Analyses and Critiques)
-- **2026-11-20** · [In-Weight FPGA: Compiling Multi-Step Dialectical State Machines into Dormant Transformer Neurons via Zero-KV-Drift Closed-Form Linear Algebra](https://github.com/zkwasm/in-weight-fpga-wsp) (Repairing behavior)
 
 ## 🧭 Milestones
 
@@ -52,6 +52,8 @@
 - [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (3)
 - [🧪 Diffusion and Generative Media Models](#-diffusion-and-generative-media-models) (1)
+- [🧪 Audio and Speech Models](#-audio-and-speech-models) (1)
+- [🧪 Other Curated Lists](#-other-curated-lists) (2)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (13)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (19)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (38)
@@ -752,6 +754,39 @@
   Ganto12 · *GitHub* · 2026-11-16 · `💻 code / results`  
   [[Code](https://github.com/Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora-proof-of-concept)] ![GitHub stars](https://img.shields.io/github/stars/Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora-proof-of-concept?style=social)  
   Edits the weights of the Turbo-8 speed LoRA for the MiniMax H3 audio-video diffusion transformer, without gradients, to stop unwanted speech on silent prompts. On 30 held-out prompts the S4 edit cuts stray speech 4.3x (0.93 s to 0.21 s per clip) and motion falls to 0.65.
+
+</details>
+
+## 🧪 Audio and Speech Models
+
+*Weight programming of speech recognition and audio classification models.*
+
+<details>
+<summary><b>1 entry</b></summary>
+
+- **[Weight-Space Programming for Audio Models: LLMs Can Directly Edit Audio Model Weights and Compress Them](https://aksy1999.github.io/blog/weight-space-programming-for-audio-models/)**  
+  Ishiki Labs Research · *GitHub* · 2026-11-19 · `💻 code / results`  
+  [[Post](https://aksy1999.github.io/blog/weight-space-programming-for-audio-models/)] [[Code](https://github.com/ishikilabsinc/audiowsp)] ![GitHub stars](https://img.shields.io/github/stars/ishikilabsinc/audiowsp?style=social)  
+  Open-source code and blogpost for editing audio model weights in one forward pass and zero backward passes: augmentation-subspace nulling, closed-form readout weights, and compression of a deepfake detector from 318M to 86.8M parameters and Wav2Vec2-Large ASR from 315M to 142M.
+
+</details>
+
+## 🧪 Other Curated Lists
+
+*Curated collections and reading lists on weight-space programming.*
+
+<details>
+<summary><b>2 entries</b></summary>
+
+- **[Weight-Space Programming: Papers, Code, Models and Guides](https://github.com/weightspaceprogramming/reading-list)**  
+  weightspaceprogramming · *GitHub* · 2026-11-23 · `💻 code / results`  
+  [[Code](https://github.com/weightspaceprogramming/reading-list)] [[Project](https://weightspaceprogramming.tech/)] ![GitHub stars](https://img.shields.io/github/stars/weightspaceprogramming/reading-list?style=social)  
+  Annotated collection of 34 resources on representing and constructing programs in neural-network weights: formal compilation, trained weight generators, LLM reasoning over weights, replications and criticism, with a guide site, BibTeX and JSON.
+
+- **[Awesome Weight-Space Programming](https://github.com/Boom5426/Awesome-Weight-Space-Programming)**  
+  Boom5426 · *GitHub* · 2026-11-22 · `💻 code / results`  
+  [[Code](https://github.com/Boom5426/Awesome-Weight-Space-Programming)] ![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Weight-Space-Programming?style=social)  
+  Curated collection of weight-space programming and weight-centric research covering weight understanding, generation, editing, merging, transfer and continual learning, with a searchable catalog, an interactive research landscape and an evidence matrix.
 
 </details>
 
