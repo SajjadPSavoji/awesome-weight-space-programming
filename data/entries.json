@@ -11524,5 +11524,97 @@
     "repo": "mbzuai-oryx/LoopedWSP",
     "summary": "Repository and blog on looped weight-space programming, in which an LLM writes transformer weights for long algorithmic reasoning. It includes interactive Maze and Tower of Hanoi demos. The candidate text excerpt reports no headline number.",
     "added": "2026-11-23"
+  },
+  {
+    "id": "autonomous-parameter-surgery-llm-backdoors",
+    "title": "Autonomous Parameter Surgery: How LLMs Implant Selective Backdoors into Language Models",
+    "authors": "Xuyang Liu, Zhiwei Xu, Zirui Li, Jiabao Gao et al.",
+    "date": "2026-11-20",
+    "venue": "Preprint",
+    "category": "llm-backdoor",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.27920"
+    },
+    "summary": "DeepSeek Flash edits weights directly, with no gradient training, to turn a natural-language backdoor specification into a selective backdoor. Tested on Qwen3.5-0.8B, Llama-3.2-1B and SmolLM3-3B over IMDb and Yelp (18 sessions). Mean attack success is 99.2% on the editing domain and 97.6% on the unseen domain. Cost is $1.74 per run.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "trojanmaxxing-vlm-backdoors-wsp",
+    "title": "TrojanMaxxing: One-shotting VLM Backdoors with Weight-Space Programming",
+    "authors": "Ahaan Dabholkar, Harshvardhan Patel, Michalis Polychronakis, Saurabh Bagchi",
+    "org": "Purdue University; Stony Brook University",
+    "date": "2026-11-20",
+    "venue": "Preprint",
+    "category": "llm-backdoor",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.27425"
+    },
+    "summary": "Claude Opus 5.5 and Mythos 5.2 agents inspect and edit vision-language model weights without training, and co-design an imperceptible visual trigger. Attack success rates are 93%-100% on content moderation and 78%-100% on OCR, with clean accuracy maintained. The paper also studies agent strategies, quantization as a defense, and backdoor detection using WSP.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "writing-weights-or-training-them-spatial-reasoning",
+    "title": "Writing Weights or Training Them? Spatial Reasoning through Weight-Space Programming and Low-Rank Adaptation",
+    "authors": "Yalin Yang, Xiao Huang, Yanan Wu, Hao Yang et al.",
+    "date": "2026-11-20",
+    "venue": "Preprint",
+    "category": "analysis",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.27089"
+    },
+    "summary": "Compares a public weight patch (p50c) with a rank-1 LoRA on Qwen3.5-0.8B. The patch raised accuracy from 0.0% to 22.1% on the reference-frame task and from 19.2% to 33.7% on StepGame. Permuting the patch removed the gain. LoRA reached 100% and 98.8% but dropped distance-task accuracy from 94% and 92% to 0-2%.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "wsp-mech-interp-model-editing-particle-physics",
+    "title": "Weight-space programming and mechanistic interpretability for model editing in particle physics",
+    "authors": "Raphaël Bonnet-Guerrini, Johann Ioannou-Nikolaides, Troels Petersen",
+    "date": "2026-11-20",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.27079"
+    },
+    "summary": "Repairs an infrared-safety flaw in a jet foundation model (OmniLearned) in two ways: removing three sparse-autoencoder latent directions, and letting language-model agents edit weights directly with 50 model queries and no gradients. Both edits remove almost the entire flaw, change far fewer parameters than fine-tuning, and carry over to other signal classes and heads.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "wsp-writes-in-context-learning-matches-fine-tuning",
+    "title": "Weight-Space Programming Writes In-Context Learning and Matches Fine-Tuning in Language Models",
+    "authors": "Konstantinos Skianis, Aristidis Likas",
+    "date": "2026-11-19",
+    "venue": "Preprint",
+    "category": "llm-repair",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.26841"
+    },
+    "summary": "Across six tasks, four frontier editors and three families of weaker models, editors write the in-context-learning task vector into the weights, often as sparse edits to near-silent MLP units. Results reach the accuracy of ICL and of fine-tuning including LoRA, usually leaving perplexity untouched. One editor falls below fine-tuning, and performance is worse under wording changes.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "bturkoglu-weight-space-programming-survey",
+    "title": "bturkoglu/weight-space-programming-survey",
+    "authors": "Bahaeddin Türkoğlu",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/bturkoglu/weight-space-programming-survey"
+    },
+    "repo": "bturkoglu/weight-space-programming-survey",
+    "summary": "Survey, evidence audit and living paper list of weight-space programming studies, with a coded corpus, extracted claims with quotes, and the WSP-12 reporting checklist. Case study on all 500 MATH-500 problems: the GPT-6 Astra edit raises Qwen3.5-0.8B from 7.8% to 51.3%. Thinking off reaches 48.7%, and LoRA reaches 45.0%.",
+    "added": "2026-11-23"
   }
 ]
