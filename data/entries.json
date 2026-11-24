@@ -11616,5 +11616,102 @@
     "repo": "bturkoglu/weight-space-programming-survey",
     "summary": "Survey, evidence audit and living paper list of weight-space programming studies, with a coded corpus, extracted claims with quotes, and the WSP-12 reporting checklist. Case study on all 500 MATH-500 problems: the GPT-6 Astra edit raises Qwen3.5-0.8B from 7.8% to 51.3%. Thinking off reaches 48.7%, and LoRA reaches 45.0%.",
     "added": "2026-11-23"
+  },
+  {
+    "id": "a-c-c-ai-weight-space-programming-rl-specialists",
+    "title": "Can weight-space programming bridge the gap between two RL specialists?",
+    "authors": "A-C-C-AI",
+    "date": "2026-11-21",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/A-C-C-AI/weight-space-programming-rl-specialists"
+    },
+    "repo": "A-C-C-AI/weight-space-programming-rl-specialists",
+    "summary": "A writer model edits weights to combine two simulated Fetch-arm reaching policies of 1,379 parameters each, with no RL in the gap. In the reaching pilot, endpoints scored 128/128 and the midpoint 0/128 before the edit. The bridged policy scored 128/128 at all three positions, but a controller learned from endpoint demonstrations matched it. In the sideways-push test, the midpoint recovered on 0/64 trials neutral and 64/64 with the response turned up.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "ongsici-fable-experiments",
+    "title": "Weight-space programming with Claude Fable 5.2",
+    "authors": "ongsici",
+    "date": "2026-11-12",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/ongsici/fable-experiments"
+    },
+    "repo": "ongsici/fable-experiments",
+    "summary": "Replicates Experiment 5 of Sparks of Weight-Space Programming with Claude Fable 5.2. The model writes every weight of a 600-32-32-6 tanh policy for MinAtar games from the game source, with no tools or feedback. Mean scores over 1,000 episodes: Breakout 457.3 (n=2), Seaquest 50.9 (n=3), Asterix 65.8 (n=2). It compares these with Astra and PPO baselines. Runs were not strictly one-shot.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "faysalchowdhoury-codeweights-ids",
+    "title": "CodeWeights-IDS",
+    "authors": "faysalchowdhoury",
+    "date": "2026-11-22",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/faysalchowdhoury/codeweights-ids"
+    },
+    "repo": "faysalchowdhoury/codeweights-ids",
+    "summary": "An agent writes a 22-parameter V2X intrusion detector as commented weight matrices, scored by a gradient-free evaluator on real VeReMi data. Detection F1 is 0.880 against 0.931 for an MLP with 1,029 parameters. The false-positive rate is 0.007 against 0.268. Multiclass F1 is 0.554 against 0.817. It passes a static weight-code audit.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "weightspaceprogramming-examples",
+    "title": "Weight-Space Programming Examples",
+    "authors": "weightspaceprogramming",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "tools",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/weightspaceprogramming/examples",
+      "project": "https://weightspaceprogramming.tech/"
+    },
+    "repo": "weightspaceprogramming/examples",
+    "summary": "Runnable examples of weight-space programming. They compile a natural-language email-urgency function into a LoRA adapter with PAW, compile a RASP token counter into transformer weights with Tracr and check it on CPU, and inspect input-layer weights of four released policy networks from Sparks.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "thakshil-codeboost-0-5b",
+    "title": "CodeBoost-0.5B: weight-space programming audit",
+    "authors": "Thakshil",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Thakshil/codeboost-0.5b"
+    },
+    "repo": "Thakshil/codeboost-0.5b",
+    "summary": "A sparse, gradient-free edit to one row of the tied embedding tensor of Qwen2.5-Coder-0.5B-Instruct changed 890 of 896 target values. On a 37-task untouched holdout, pass@1 fell from 29.73% (11/37) to 21.62% (8/37), with three regressions and no new solves. The patch was rejected. The repo includes controls, per-task outcomes and a reversible patch.",
+    "added": "2026-11-23"
+  },
+  {
+    "id": "sensein-handwired-brain-transformer",
+    "title": "handwired-brain-transformer",
+    "authors": "sensein",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/sensein/handwired-brain-transformer"
+    },
+    "repo": "sensein/handwired-brain-transformer",
+    "summary": "3D volumetric transformers with hand-written weights, not trained, for segmenting multiscale light-sheet brain volumes from DANDI:000108. Programs have 53 (tissue), 33 (cells) and 330 or 642 (vessels) nonzero weights. On synthetic phantoms, oracle-threshold vessel F1 is 0.79, 0.86 and 0.90 for 13, 26 and 49 directions. There are no real-data accuracy numbers because no labels exist.",
+    "added": "2026-11-23"
   }
 ]
