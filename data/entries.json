@@ -11713,5 +11713,144 @@
     "repo": "sensein/handwired-brain-transformer",
     "summary": "3D volumetric transformers with hand-written weights, not trained, for segmenting multiscale light-sheet brain volumes from DANDI:000108. Programs have 53 (tissue), 33 (cells) and 330 or 642 (vessels) nonzero weights. On synthetic phantoms, oracle-threshold vessel F1 is 0.79, 0.86 and 0.90 for 13, 26 and 49 directions. There are no real-data accuracy numbers because no labels exist.",
     "added": "2026-11-23"
+  },
+  {
+    "id": "towerbridge-dual-encoder-modality-gap",
+    "title": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming",
+    "authors": "Hani Alomari, Md Atabuzzaman, Chris Thomas",
+    "date": "2026-11-23",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.31233"
+    },
+    "summary": "An LLM agent inspects both CLIP towers and writes closed-form weight edits without backpropagation. The agent improves COCO retrieval on all 13 checkpoints. A distilled recipe, TowerBridge, improves COCO retrieval by 16.8 RSUM and Flickr30k by 6.6 on average across 21 CLIP checkpoints, with ImageNet zero-shot drop at most 0.5 points.",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "self-upgrading-embodied-agents",
+    "title": "Self-Upgrading Embodied Agents",
+    "authors": "Jiajun Fan, Neil He, Qinglong Zheng, Changyi Yang, et al.",
+    "date": "2026-11-23",
+    "venue": "Preprint",
+    "category": "robotics",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.31117"
+    },
+    "summary": "A 27B embodied agent in a household environment reads its record, traces wasted token-limit replies to one direction in its hidden states, and rewrites one tensor of its weights. It tests each edit against its unchanged self on practice tasks. Over thousands of held-out episodes the kept edit completes more tasks in fewer steps. Only the 27B model of four sizes does this.",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "ir-odwsp-object-detectors",
+    "title": "Reparameterizing Your Object Detectors for Weight Space Programming",
+    "authors": "Chien-Yao Wang",
+    "date": "2026-11-23",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.29882"
+    },
+    "summary": "IR-ODWSP edits converged object detectors without backpropagation by lifting layers into function-preserving subspaces and folding back with no added parameters or FLOPs. It improves all 26/26 MS COCO settings across 17 detectors (up to +0.31 APs), +1.42 mAP on COCO-O, +2.95 mAP in zero-image repair and +2.79 AP in label-free weather adaptation.",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "pawp-tts-nepali-speech",
+    "title": "PAWP-TTS: Phoneme-Aware Weight Programming for Compact Bilingual English-Nepali Speech Synthesis",
+    "authors": "Firoj Paudel",
+    "date": "2026-11-22",
+    "venue": "Preprint",
+    "category": "audio",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.29455",
+      "code": "https://github.com/Firojpaudel/PAWP_TTS",
+      "model": "https://huggingface.co/Firoj112/pawp-tts-1.5m"
+    },
+    "summary": "A 1.49M-parameter English-Nepali text-to-speech model, then a study of inspection-guided, zero-training weight edits with validation-only selection, paired bootstrap and matched random and gradient baselines. Edits show 27:1 selectivity on word-boundary pauses with 96 weights, but no accuracy gain beyond controls. Two apparent targets were label or phonology artifacts.",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "self-wsp-self-improvement",
+    "title": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
+    "authors": "Guoming Ling, Shanshan Zhong, Kaixuan Zhang, Zhongzhan Huang",
+    "date": "2026-11-21",
+    "venue": "Preprint",
+    "category": "llm-repair",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.28833"
+    },
+    "summary": "Qwen3.5-0.8B reads its own weights, proposes an edit, and continues with the edited weights as solver and editor. Self-edits raise GSM8K accuracy from 11.8% to 62.2% and MATH500 from 7.0% to 32.2%, sometimes changing 16 parameters. The model shows little understanding of its edits, and random search sometimes performs comparably.",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "recursive-self-editing-selfwrite",
+    "title": "Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement",
+    "authors": "Linghua Zhang, Yunhe Li",
+    "date": "2026-11-22",
+    "venue": "Preprint",
+    "category": "llm-repair",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.29513"
+    },
+    "summary": "In SELFWRITE, the model inspects its own weights and activations in a Python session and writes a program building a low-rank edit for itself, with no gradient tool. On Qwen3.8-27B with DAPO-Math, five generations raise gate accuracy from 73.95% to 76.45% and held-out avg@4 from 76.30% to 77.75% (pass@4 82.60% to 84.80%).",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "where-does-weight-editing-agent-help",
+    "title": "Where Does a Weight-Editing Agent Help? Blind Diagnosis and Repair of Deployment Faults in Vision Models",
+    "authors": "Zhuangzi Li, Shilv Cai, Jian Jin, Weisi Lin",
+    "date": "2026-11-21",
+    "venue": "Preprint",
+    "category": "analysis",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.28781"
+    },
+    "summary": "Over 183 runs on classification, segmentation and detection, an agent restricted to forward passes diagnoses and undoes deployment faults by editing weights. With the fault type known, a script repairs 30 of 48 faults against the agent's 33. On five fault types outside every script, the agent repairs 15 of 15 where the script repairs 4. It edits none of 21 fault-free models.",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "akmessi-weight-space-programming",
+    "title": "AKMessi/weight-space-programming",
+    "authors": "Aaryan Kakad",
+    "date": "2026-11-05",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/AKMessi/weight-space-programming"
+    },
+    "repo": "AKMessi/weight-space-programming",
+    "summary": "Zero-gradient weight-space programming compilers and quantization-survival tests across Qwen3-0.6B, Qwen3.5-0.8B and DeepSeek-R1-Distill-Qwen-1.5B, with two companion papers. On Qwen3-0.6B Q8_0 MATH-500 (N=300): baseline 35.0%, matched random 34.7%, oblique_res 40.7% (+5.7pp).",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "wsp-bf16-loop-stopping",
+    "title": "GodfatherTHR/wsp-bf16-loop-stopping",
+    "authors": "GodfatherTHR",
+    "date": "2026-11-24",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/GodfatherTHR/wsp-bf16-loop-stopping"
+    },
+    "repo": "GodfatherTHR/wsp-bf16-loop-stopping",
+    "summary": "Bit-exact reconstruction and causal ablation of a published rank-one BF16 edit that stops a reasoning loop in Qwen3.5-0.8B (131,072 weights, 0.017% of the model). In a 32,768-token pilot, closure rises from 4/8 to 8/8 and median tokens fall from 18,393 to 2,380. The 4,096-token MATH-hard-30 matrix is floor-limited.",
+    "added": "2026-11-24"
   }
 ]
