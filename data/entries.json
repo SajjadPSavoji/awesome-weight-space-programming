@@ -11852,5 +11852,69 @@
     "repo": "GodfatherTHR/wsp-bf16-loop-stopping",
     "summary": "Bit-exact reconstruction and causal ablation of a published rank-one BF16 edit that stops a reasoning loop in Qwen3.5-0.8B (131,072 weights, 0.017% of the model). In a 32,768-token pilot, closure rises from 4/8 to 8/8 and median tokens fall from 18,393 to 2,380. The 4,096-token MATH-hard-30 matrix is floor-limited.",
     "added": "2026-11-24"
+  },
+  {
+    "id": "coelho-wsp-robot-foundation-models",
+    "title": "Sparks of Weight-Space Programming for Robot Foundation Models",
+    "authors": "Kyle Coelho, Eugen Solowjow",
+    "date": "2026-11-24",
+    "venue": "Preprint",
+    "category": "robotics-vla",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.31715"
+    },
+    "summary": "A language-model agent edits near-silent neurons in the action expert of the pi0.5 vision-language-action policy so a corrective movement triggers in recognizable failure states. In simulation, edits to roughly 0.0002% of parameters improve success on recurring failures. Reversed and random edits indicate the gains come from the intended behavior.",
+    "added": "2026-11-25"
+  },
+  {
+    "id": "syed-bias-in-disguise",
+    "title": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit",
+    "authors": "Hussamuddin Syed",
+    "date": "2026-11-24",
+    "venue": "Preprint",
+    "category": "analysis",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.33133"
+    },
+    "summary": "Gradient baseline for the GPT-6 Astra weight edit on Qwen3.5-0.8B. Fine-tuning 140 to 139,750 largest-gradient weights raises thinking-mode MATH-500 at 4k tokens to 39.0-45.5%. The edit acts as constant vectors in the residual stream. Combined with the Astra edit at half strength it scores 62.2% at 32k tokens.",
+    "added": "2026-11-25"
+  },
+  {
+    "id": "yagubyan-wsp-survey-roadmap",
+    "title": "Weight-Space Programming: A Survey and Roadmap",
+    "authors": "Abel Yagubyan",
+    "org": "University of Georgia",
+    "date": "2026-11-25",
+    "venue": "GitHub",
+    "category": "surv-wsp",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Abelo9996/weight-space-programming-survey"
+    },
+    "repo": "Abelo9996/weight-space-programming-survey",
+    "summary": "Survey of 93 weight-space programming studies posted up to 2026-11-25. Gives a four-axis taxonomy with six branches, a reliability agenda with a retention-ratio protocol, and eleven open problems. The repo has reading notes for 101 records and a recount of the original edit's 89.7M-token cost from released logs.",
+    "added": "2026-11-25"
+  },
+  {
+    "id": "bajaj-compile-learn-or-both",
+    "title": "Compile, Learn, or Both? When Weight-Space Programming Helps, What It Breaks, and Why Combining It with LoRA Matters",
+    "authors": "Puneet Bajaj",
+    "date": "2026-11-22",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Puneet-Bajaj-IITM/wsp-vs-lora",
+      "paper": "https://doi.org/10.5281/zenodo.24515793"
+    },
+    "repo": "Puneet-Bajaj-IITM/wsp-vs-lora",
+    "summary": "Compares frontier-model weight-space programming (no gradients, 50 forward passes) with LoRA on Qwen2.5-1.5B-Instruct and SmolLM2-1.7B-Instruct over four five-option tasks. On facts, a bypass lookup circuit scores 100.0% against LoRA's 98.8%, but MMLU falls to 22.2%. LoRA on a programmed edit reaches 99-100% with a tenth of the data.",
+    "added": "2026-11-25"
   }
 ]

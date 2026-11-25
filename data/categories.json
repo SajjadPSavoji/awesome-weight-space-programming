@@ -265,6 +265,10 @@
       {
         "id": "surv-verify",
         "title": "Verification and policy reuse"
+      },
+      {
+        "id": "surv-wsp",
+        "title": "Weight-space programming"
       }
     ]
   }

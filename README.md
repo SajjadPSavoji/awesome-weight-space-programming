@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-694-blue)
+![Entries](https://img.shields.io/badge/entries-698-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,10 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-25** · [Weight-Space Programming: A Survey and Roadmap](https://github.com/Abelo9996/weight-space-programming-survey) (Weight-space programming)
+- **2026-11-25** · [Sparks of Weight-Space Programming for Robot Foundation Models](https://arxiv.org/abs/2611.31715) (Vision-language-action models)
+- **2026-11-25** · [A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit](https://arxiv.org/abs/2611.33133) (Analyses and Critiques)
+- **2026-11-25** · [Compile, Learn, or Both? When Weight-Space Programming Helps, What It Breaks, and Why Combining It with LoRA Matters](https://doi.org/10.5281/zenodo.24515793) (Analyses and Critiques)
 - **2026-11-24** · [GodfatherTHR/wsp-bf16-loop-stopping](https://github.com/GodfatherTHR/wsp-bf16-loop-stopping) (Analyses and Critiques)
 - **2026-11-24** · [TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming](https://arxiv.org/abs/2611.31233) (Other Domains)
 - **2026-11-24** · [Self-Upgrading Embodied Agents](https://arxiv.org/abs/2611.31117) (Robotics and Control)
@@ -24,10 +28,6 @@
 - **2026-11-24** · [Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement](https://arxiv.org/abs/2611.29513) (Repairing behavior)
 - **2026-11-24** · [Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?](https://arxiv.org/abs/2611.28833) (Repairing behavior)
 - **2026-11-24** · [Where Does a Weight-Editing Agent Help? Blind Diagnosis and Repair of Deployment Faults in Vision Models](https://arxiv.org/abs/2611.28781) (Analyses and Critiques)
-- **2026-11-24** · [AKMessi/weight-space-programming](https://github.com/AKMessi/weight-space-programming) (Repairing behavior)
-- **2026-11-23** · [Weight-Space Programming: Papers, Code, Models and Guides](https://github.com/weightspaceprogramming/reading-list) (Other Curated Lists)
-- **2026-11-23** · [Looped Weight-Space Programming: LLM-Written Transformers for Long Algorithmic Reasoning](https://github.com/mbzuai-oryx/LoopedWSP) (Writing networks from scratch)
-- **2026-11-23** · [bturkoglu/weight-space-programming-survey](https://github.com/bturkoglu/weight-space-programming-survey) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -45,8 +45,8 @@
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (11)
   - [Implanting behavior (backdoors)](#implanting-behavior-backdoors) (2)
-- [🦾 Robotics and Control](#-robotics-and-control) (18)
-  - [Vision-language-action models](#vision-language-action-models) (6)
+- [🦾 Robotics and Control](#-robotics-and-control) (19)
+  - [Vision-language-action models](#vision-language-action-models) (7)
   - [RL control policies](#rl-control-policies) (11)
 - [🧩 Other Domains](#-other-domains) (42)
   - [Classical NLP models](#classical-nlp-models) (2)
@@ -57,7 +57,7 @@
 - [🧪 Other Curated Lists](#-other-curated-lists) (2)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (13)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (20)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (43)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (45)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (190)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (18)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -74,7 +74,7 @@
   - [Language-to-weights and LLM program search](#language-to-weights-and-llm-program-search) (12)
   - [Weight-level security and safety](#weight-level-security-and-safety) (12)
   - [Policy surgery, control and robot policies](#policy-surgery-control-and-robot-policies) (22)
-- [📖 Surveys and Reviews](#-surveys-and-reviews) (295)
+- [📖 Surveys and Reviews](#-surveys-and-reviews) (296)
   - [Model and knowledge editing](#model-and-knowledge-editing) (24)
   - [Model merging and weight arithmetic](#model-merging-and-weight-arithmetic) (13)
   - [Steering, representation engineering and unlearning](#steering-representation-engineering-and-unlearning) (30)
@@ -87,6 +87,7 @@
   - [Backdoors and weight-level attacks](#backdoors-and-weight-level-attacks) (30)
   - [LLMs as optimizers and self-improving agents](#llms-as-optimizers-and-self-improving-agents) (32)
   - [Verification and policy reuse](#verification-and-policy-reuse) (15)
+  - [Weight-space programming](#weight-space-programming) (1)
 - [Legend](#legend)
 - [How This List Is Maintained](#how-this-list-is-maintained)
 - [Related Lists](#related-lists)
@@ -436,7 +437,12 @@
 <a id="vision-language-action-models"></a>
 
 <details>
-<summary><b>Vision-language-action models (6)</b></summary>
+<summary><b>Vision-language-action models (7)</b></summary>
+
+- **[Sparks of Weight-Space Programming for Robot Foundation Models](https://arxiv.org/abs/2611.31715)**  
+  Kyle Coelho, Eugen Solowjow · *Preprint* · 2026-11-24 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.31715)]  
+  A language-model agent edits near-silent neurons in the action expert of the pi0.5 vision-language-action policy so a corrective movement triggers in recognizable failure states. In simulation, edits to roughly 0.0002% of parameters improve success on recurring failures. Reversed and random edits indicate the gains come from the intended behavior.
 
 - **[Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading](https://arxiv.org/abs/2611.11894)**  
   Ali-Adeeb Abbas, Esmaeil Seraj · *Preprint* · 2026-11-09 · `📝 preprint`  
@@ -1071,12 +1077,17 @@
 *Audits, replications of claims and critical takes.*
 
 <details>
-<summary><b>43 entries</b></summary>
+<summary><b>45 entries</b></summary>
 
 - **[GodfatherTHR/wsp-bf16-loop-stopping](https://github.com/GodfatherTHR/wsp-bf16-loop-stopping)**  
   GodfatherTHR · *GitHub* · 2026-11-24 · `💻 code / results`  
   [[Code](https://github.com/GodfatherTHR/wsp-bf16-loop-stopping)] ![GitHub stars](https://img.shields.io/github/stars/GodfatherTHR/wsp-bf16-loop-stopping?style=social)  
   Bit-exact reconstruction and causal ablation of a published rank-one BF16 edit that stops a reasoning loop in Qwen3.5-0.8B (131,072 weights, 0.017% of the model). In a 32,768-token pilot, closure rises from 4/8 to 8/8 and median tokens fall from 18,393 to 2,380. The 4,096-token MATH-hard-30 matrix is floor-limited.
+
+- **[A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit](https://arxiv.org/abs/2611.33133)**  
+  Hussamuddin Syed · *Preprint* · 2026-11-24 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.33133)]  
+  Gradient baseline for the GPT-6 Astra weight edit on Qwen3.5-0.8B. Fine-tuning 140 to 139,750 largest-gradient weights raises thinking-mode MATH-500 at 4k tokens to 39.0-45.5%. The edit acts as constant vectors in the residual stream. Combined with the Astra edit at half strength it scores 62.2% at 32k tokens.
 
 - **[bturkoglu/weight-space-programming-survey](https://github.com/bturkoglu/weight-space-programming-survey)**  
   Bahaeddin Türkoğlu · *GitHub* · 2026-11-23 · `💻 code / results`  
@@ -1087,6 +1098,11 @@
   Thakshil · *GitHub* · 2026-11-23 · `💻 code / results`  
   [[Code](https://github.com/Thakshil/codeboost-0.5b)] ![GitHub stars](https://img.shields.io/github/stars/Thakshil/codeboost-0.5b?style=social)  
   A sparse, gradient-free edit to one row of the tied embedding tensor of Qwen2.5-Coder-0.5B-Instruct changed 890 of 896 target values. On a 37-task untouched holdout, pass@1 fell from 29.73% (11/37) to 21.62% (8/37), with three regressions and no new solves. The patch was rejected. The repo includes controls, per-task outcomes and a reversible patch.
+
+- **[Compile, Learn, or Both? When Weight-Space Programming Helps, What It Breaks, and Why Combining It with LoRA Matters](https://doi.org/10.5281/zenodo.24515793)**  
+  Puneet Bajaj · *GitHub* · 2026-11-22 · `💻 code / results`  
+  [[Paper](https://doi.org/10.5281/zenodo.24515793)] [[Code](https://github.com/Puneet-Bajaj-IITM/wsp-vs-lora)] ![GitHub stars](https://img.shields.io/github/stars/Puneet-Bajaj-IITM/wsp-vs-lora?style=social)  
+  Compares frontier-model weight-space programming (no gradients, 50 forward passes) with LoRA on Qwen2.5-1.5B-Instruct and SmolLM2-1.7B-Instruct over four five-option tasks. On facts, a bypass lookup circuit scores 100.0% against LoRA's 98.8%, but MMLU falls to 22.2%. LoRA on a programmed edit reaches 99-100% with a tenth of the data.
 
 - **[Footprints and loops: re-testing weight-space programming](https://ofirshechter.github.io/weight-space-programming-controls/)**  
   OfirShechter · *GitHub* · 2026-11-21 · `💻 code / results`  
@@ -3909,6 +3925,18 @@
   Matthew E. Taylor, Peter Stone · *JMLR 10:1633–1685* · 2009 · `📄 peer-reviewed` · 2.2k citations (S2)  
   [[Paper](https://www.jmlr.org/papers/v10/taylor09a.html)]  
   Surveys the literature on transfer learning in classical reinforcement learning domains, giving an overview of how the topic has been studied.
+
+</details>
+
+<a id="weight-space-programming"></a>
+
+<details>
+<summary><b>Weight-space programming (1)</b></summary>
+
+- **[Weight-Space Programming: A Survey and Roadmap](https://github.com/Abelo9996/weight-space-programming-survey)**  
+  University of Georgia · *GitHub* · 2026-11-25 · `💻 code / results`  
+  [[Code](https://github.com/Abelo9996/weight-space-programming-survey)] ![GitHub stars](https://img.shields.io/github/stars/Abelo9996/weight-space-programming-survey?style=social)  
+  Survey of 93 weight-space programming studies posted up to 2026-11-25. Gives a four-axis taxonomy with six branches, a reliability agenda with a retention-ratio protocol, and eleven open problems. The repo has reading notes for 101 records and a recount of the original edit's 89.7M-token cost from released logs.
 
 </details>
 
