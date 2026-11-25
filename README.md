@@ -850,7 +850,7 @@
 *Weight programming of speech recognition and audio classification models.*
 
 <details>
-<summary><b>2 entries</b></summary>
+<summary><b>3 entries</b></summary>
 
 - **[PAWP-TTS: Phoneme-Aware Weight Programming for Compact Bilingual English-Nepali Speech Synthesis](https://arxiv.org/abs/2611.29455)**  
   Firoj Paudel · *Preprint* · 2026-11-22 · `📝 preprint`  
@@ -880,6 +880,11 @@
   Boom5426 · *GitHub* · 2026-11-22 · `💻 code / results`  
   [[Code](https://github.com/Boom5426/Awesome-Weight-Space-Programming)] ![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Weight-Space-Programming?style=social)  
   Curated collection of weight-space programming and weight-centric research covering weight understanding, generation, editing, merging, transfer and continual learning, with a searchable catalog, an interactive research landscape and an evidence matrix.
+
+- **[Awesome Weight Editing](https://github.com/vicfei/awesome-weight-editing)**  
+  vicfei · *GitHub* · 2026-11-25 · `💻 code / results`  
+  [[Code](https://github.com/vicfei/awesome-weight-editing)] ![GitHub stars](https://img.shields.io/github/stars/vicfei/awesome-weight-editing?style=social)  
+  Umbrella list for direct weight modification across five families — knowledge editing, steering & abliteration, task arithmetic & merging, unlearning, and the weight-space programming wave — bilingual (EN/中文), with a daily arXiv radar and a transactional toolkit ([modifyllm](https://github.com/vicfei/modifyllm)) practicing the map.
 
 </details>
 
