@@ -11916,5 +11916,149 @@
     "repo": "Puneet-Bajaj-IITM/wsp-vs-lora",
     "summary": "Compares frontier-model weight-space programming (no gradients, 50 forward passes) with LoRA on Qwen2.5-1.5B-Instruct and SmolLM2-1.7B-Instruct over four five-option tasks. On facts, a bypass lookup circuit scores 100.0% against LoRA's 98.8%, but MMLU falls to 22.2%. LoRA on a programmed edit reaches 99-100% with a tenth of the data.",
     "added": "2026-11-25"
+  },
+  {
+    "id": "fwsp-deterministic-forward-only",
+    "title": "Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries",
+    "authors": "Lin Yao",
+    "date": "2026-11-25",
+    "venue": "Preprint",
+    "category": "analysis",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.34612"
+    },
+    "summary": "Proposes Forward Weight-Space Programming (FWSP), a deterministic forward-only pipeline of probing, localization and stratified operators, arguing an LLM optimizer is unnecessary for core structured editing. Automatic blind routing reaches 83.3% vs 33.3% for a 27B LLM with the same tool library. A Protected FisherGate patch on DeepSeek-R1-0528-8B reaches 84.2% HumanEval pass@1 (1K budget).",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "kolpona-neuron-programming-rtl",
+    "title": "Kolpona: An Agentic Framework with Gradient-Free Neuron Programming for RTL Generation",
+    "authors": "Musa Tur Farazi, Md Nasir Uddin, Soumik Bhattacharjee, Tishna Sabrina et al.",
+    "org": "Bangladesh University of Engineering and Technology (BUET)",
+    "date": "2026-11-25",
+    "venue": "Preprint",
+    "category": "llm-repair",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.33973"
+    },
+    "summary": "Neuron programming writes single neurons in closed form into the weights of open-weight LLMs to remove failure habits, keeping an edit only if fresh-task testbench results favour it. On Qwen3.5-4B, edits to 16 neurons raise VerilogEval v2 pass@1 from 31.7% to 55.4%. Edits also lift HumanEval+ from 84.8% to 91.5%.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "closed-form-wsp-frozen-encoder",
+    "title": "Fine-Tuning Without Gradients? Closed-Form, LLM-Written Classifiers on a Frozen Encoder",
+    "authors": "Md Nasir Uddin, Musa Tur Farazi, Soumik Bhattacharjee, Tishna Sabrina et al.",
+    "date": "2026-11-25",
+    "venue": "Preprint",
+    "category": "other-nlp",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.33972"
+    },
+    "summary": "An LLM design assistant writes programs that read a frozen RoBERTa-large through cloze templates and fit closed-form heads, with no gradients and no encoder weight change. On 11 development datasets it is ahead of full fine-tuning and LoRA at every label budget by 0.3 to 0.6 points on average, and within 0.5 points of prompt-based fine-tuning.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "temporal-weight-surgery",
+    "title": "Temporal Weight Surgery: Repairing Video Grounding with LLM Editors",
+    "authors": "Ali Asgarov, Chris Thomas",
+    "date": "2026-11-24",
+    "venue": "Preprint",
+    "category": "other",
+    "kind": "paper",
+    "evidence": "preprint",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.33339"
+    },
+    "summary": "A general-purpose LLM reads a video-language model's weights and activations, finds where timestamp errors arise and repairs them without gradients. Three GPT-6 Astra sessions trace a dropped digit in TimeLens-8B to one MLP layer; the largest edit gains 7.9 mIoU on 1,215 unseen questions. Every improving edit beats a random edit of its size.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "openwsp-wsp-bench",
+    "title": "OpenWSP: Benchmarking Weight-Space Programming on Open Language Models",
+    "authors": "MoreiraP12",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "benchmark",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/MoreiraP12/OpenWSP",
+      "project": "https://moreirap12.github.io/OpenWSP/"
+    },
+    "repo": "MoreiraP12/OpenWSP",
+    "summary": "WSP-Bench gives an LLM agent the weights of a small open language model (360M to 1.7B parameters) in a sandboxed Python kernel, with a forward-pass budget and no gradients. Tasks cover reading, editing and skill installation. Release v8 has 152 tasks scored as 168 cells, with keys and scorers; official results use a private test set.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "stochastic-policies-into-weights",
+    "title": "Writing stochastic policies straight into neural-network weights",
+    "authors": "sy4411-sudo",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/sy4411-sudo/weight-space-programming",
+      "project": "https://doi.org/10.5281/zenodo.24452432"
+    },
+    "repo": "sy4411-sudo/weight-space-programming",
+    "summary": "Each run is one tool-free Codex CLI request that writes or edits the weights of a small policy network for an imperfect-information game. Networks are scored by exact exploitability over the full game tree with OpenSpiel. Claims were preregistered, and all 224 formal runs can be regraded from raw answers.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "weight-edits-swedish-lms",
+    "title": "Can weight edits improve Swedish language models?",
+    "authors": "SANGITA-D",
+    "date": "2026-11-19",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/SANGITA-D/can-weight-edits-improve-swedish-lms"
+    },
+    "repo": "SANGITA-D/can-weight-edits-improve-swedish-lms",
+    "summary": "Tests whether the published Qwen3.5-0.8B loop-stopping edit transfers to Swedish. With the article's sampling and 100 items per test, Swedish math finished answers rise from 41 to 77 and correct from 34 to 52; Swedish general questions finished from 63 to 99, rated sensible 34 to 44 by a blind judge.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "janus-pro-1b-wsp",
+    "title": "Weight-space programming of Janus-Pro-1B",
+    "authors": "dataphysician",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/dataphysician/janus-pro-1b-wsp"
+    },
+    "repo": "dataphysician/janus-pro-1b-wsp",
+    "summary": "An AI programmer (Kimi K3.1 Pro on Cerebras) rewrites a few neurons of Janus-Pro-1B in closed form, with no gradient training. The depth edit raises visual-question answers from 69% to 100% and 55% to 99% on the final test. Hand and orientation tasks are partial, and image-edit tasks are mostly open.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "wsp-automode-0-8b",
+    "title": "wsp-automode-0.8b",
+    "authors": "Chiytako",
+    "date": "2026-11-26",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/Chiytako/wsp-automode-0.8b",
+      "model": "https://huggingface.co/ChiTako/wsp-automode-0.8b"
+    },
+    "repo": "Chiytako/wsp-automode-0.8b",
+    "summary": "Gradient-free edits of 8 SwiGLU neurons (0.003264% of weights) in layers 15 and 22 of Qwen3.5-0.8B for Allow/Block action classification, with zero-shot and oracle baselines and causal sanity checks. Locked frozen_test real_cf AUROC is 0.8347. A separate LoRA-trained model-soup track reaches 1.0000.",
+    "added": "2026-11-26"
   }
 ]

@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-698-blue)
+![Entries](https://img.shields.io/badge/entries-707-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,18 +16,18 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-26** · [wsp-automode-0.8b](https://github.com/Chiytako/wsp-automode-0.8b) (Other Domains)
+- **2026-11-26** · [Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries](https://arxiv.org/abs/2611.34612) (Analyses and Critiques)
+- **2026-11-26** · [Kolpona: An Agentic Framework with Gradient-Free Neuron Programming for RTL Generation](https://arxiv.org/abs/2611.33973) (Repairing behavior)
+- **2026-11-26** · [Fine-Tuning Without Gradients? Closed-Form, LLM-Written Classifiers on a Frozen Encoder](https://arxiv.org/abs/2611.33972) (Classical NLP models)
+- **2026-11-26** · [Temporal Weight Surgery: Repairing Video Grounding with LLM Editors](https://arxiv.org/abs/2611.33339) (Other Domains)
+- **2026-11-26** · [OpenWSP: Benchmarking Weight-Space Programming on Open Language Models](https://github.com/MoreiraP12/OpenWSP) (Benchmarks and Evaluations)
+- **2026-11-26** · [Writing stochastic policies straight into neural-network weights](https://github.com/sy4411-sudo/weight-space-programming) (Games)
+- **2026-11-26** · [Weight-space programming of Janus-Pro-1B](https://github.com/dataphysician/janus-pro-1b-wsp) (Other Domains)
+- **2026-11-26** · [Can weight edits improve Swedish language models?](https://github.com/SANGITA-D/can-weight-edits-improve-swedish-lms) (Analyses and Critiques)
 - **2026-11-25** · [Weight-Space Programming: A Survey and Roadmap](https://github.com/Abelo9996/weight-space-programming-survey) (Weight-space programming)
 - **2026-11-25** · [Sparks of Weight-Space Programming for Robot Foundation Models](https://arxiv.org/abs/2611.31715) (Vision-language-action models)
 - **2026-11-25** · [A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit](https://arxiv.org/abs/2611.33133) (Analyses and Critiques)
-- **2026-11-25** · [Compile, Learn, or Both? When Weight-Space Programming Helps, What It Breaks, and Why Combining It with LoRA Matters](https://doi.org/10.5281/zenodo.24515793) (Analyses and Critiques)
-- **2026-11-24** · [GodfatherTHR/wsp-bf16-loop-stopping](https://github.com/GodfatherTHR/wsp-bf16-loop-stopping) (Analyses and Critiques)
-- **2026-11-24** · [TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming](https://arxiv.org/abs/2611.31233) (Other Domains)
-- **2026-11-24** · [Self-Upgrading Embodied Agents](https://arxiv.org/abs/2611.31117) (Robotics and Control)
-- **2026-11-24** · [Reparameterizing Your Object Detectors for Weight Space Programming](https://arxiv.org/abs/2611.29882) (Other Domains)
-- **2026-11-24** · [PAWP-TTS: Phoneme-Aware Weight Programming for Compact Bilingual English-Nepali Speech Synthesis](https://arxiv.org/abs/2611.29455) (Audio and Speech Models)
-- **2026-11-24** · [Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement](https://arxiv.org/abs/2611.29513) (Repairing behavior)
-- **2026-11-24** · [Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?](https://arxiv.org/abs/2611.28833) (Repairing behavior)
-- **2026-11-24** · [Where Does a Weight-Editing Agent Help? Blind Diagnosis and Repair of Deployment Faults in Vision Models](https://arxiv.org/abs/2611.28781) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -40,24 +40,24 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (56)
-  - [Repairing behavior](#repairing-behavior) (41)
+- [💬 Language Models](#-language-models) (57)
+  - [Repairing behavior](#repairing-behavior) (42)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (11)
   - [Implanting behavior (backdoors)](#implanting-behavior-backdoors) (2)
 - [🦾 Robotics and Control](#-robotics-and-control) (19)
   - [Vision-language-action models](#vision-language-action-models) (7)
   - [RL control policies](#rl-control-policies) (11)
-- [🧩 Other Domains](#-other-domains) (42)
-  - [Classical NLP models](#classical-nlp-models) (2)
-- [🎮 Games](#-games) (8)
+- [🧩 Other Domains](#-other-domains) (46)
+  - [Classical NLP models](#classical-nlp-models) (3)
+- [🎮 Games](#-games) (9)
 - [🧪 Quantum Circuits](#-quantum-circuits) (3)
 - [🧪 Diffusion and Generative Media Models](#-diffusion-and-generative-media-models) (1)
 - [🧪 Audio and Speech Models](#-audio-and-speech-models) (2)
 - [🧪 Other Curated Lists](#-other-curated-lists) (2)
-- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (13)
+- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (14)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (20)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (45)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (47)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (190)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (18)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -115,7 +115,12 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (41)</b></summary>
+<summary><b>Repairing behavior (42)</b></summary>
+
+- **[Kolpona: An Agentic Framework with Gradient-Free Neuron Programming for RTL Generation](https://arxiv.org/abs/2611.33973)**  
+  Bangladesh University of Engineering and Technology (BUET) · *Preprint* · 2026-11-25 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.33973)]  
+  Neuron programming writes single neurons in closed form into the weights of open-weight LLMs to remove failure habits, keeping an edit only if fresh-task testbench results favour it. On Qwen3.5-4B, edits to 16 neurons raise VerilogEval v2 pass@1 from 31.7% to 55.4%. Edits also lift HumanEval+ from 84.8% to 91.5%.
 
 - **[WSP Labs: Direct Weight-Space Programming & Alpha M1 on-device machine-control models](https://github.com/JohnnyPBelo/wsp-labs)**  
   JohnnyPBelo · *GitHub* · 2026-11-22 · `💻 code / results`  
@@ -543,7 +548,17 @@
 *Classifiers, small decision networks and anything else.*
 
 <details>
-<summary><b>General (40)</b></summary>
+<summary><b>General (43)</b></summary>
+
+- **[wsp-automode-0.8b](https://github.com/Chiytako/wsp-automode-0.8b)**  
+  Chiytako · *GitHub* · 2026-11-26 · `💻 code / results`  
+  [[Code](https://github.com/Chiytako/wsp-automode-0.8b)] [[Model](https://huggingface.co/ChiTako/wsp-automode-0.8b)] ![GitHub stars](https://img.shields.io/github/stars/Chiytako/wsp-automode-0.8b?style=social)  
+  Gradient-free edits of 8 SwiGLU neurons (0.003264% of weights) in layers 15 and 22 of Qwen3.5-0.8B for Allow/Block action classification, with zero-shot and oracle baselines and causal sanity checks. Locked frozen_test real_cf AUROC is 0.8347. A separate LoRA-trained model-soup track reaches 1.0000.
+
+- **[Temporal Weight Surgery: Repairing Video Grounding with LLM Editors](https://arxiv.org/abs/2611.33339)**  
+  Ali Asgarov, Chris Thomas · *Preprint* · 2026-11-24 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.33339)]  
+  A general-purpose LLM reads a video-language model's weights and activations, finds where timestamp errors arise and repairs them without gradients. Three GPT-6 Astra sessions trace a dropped digit in TimeLens-8B to one MLP layer; the largest edit gains 7.9 mIoU on 1,215 unseen questions. Every improving edit beats a random edit of its size.
 
 - **[handwired-brain-transformer](https://github.com/sensein/handwired-brain-transformer)**  
   sensein · *GitHub* · 2026-11-23 · `💻 code / results`  
@@ -559,6 +574,11 @@
   Chien-Yao Wang · *Preprint* · 2026-11-23 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.29882)]  
   IR-ODWSP edits converged object detectors without backpropagation by lifting layers into function-preserving subspaces and folding back with no added parameters or FLOPs. It improves all 26/26 MS COCO settings across 17 detectors (up to +0.31 APs), +1.42 mAP on COCO-O, +2.95 mAP in zero-image repair and +2.79 AP in label-free weather adaptation.
+
+- **[Weight-space programming of Janus-Pro-1B](https://github.com/dataphysician/janus-pro-1b-wsp)**  
+  dataphysician · *GitHub* · 2026-11-23 · `💻 code / results`  
+  [[Code](https://github.com/dataphysician/janus-pro-1b-wsp)] ![GitHub stars](https://img.shields.io/github/stars/dataphysician/janus-pro-1b-wsp?style=social)  
+  An AI programmer (Kimi K3.1 Pro on Cerebras) rewrites a few neurons of Janus-Pro-1B in closed form, with no gradient training. The depth edit raises visual-question answers from 69% to 100% and 55% to 99% on the final test. Hand and orientation tasks are partial, and image-edit tasks are mostly open.
 
 - **[CodeWeights-IDS](https://github.com/faysalchowdhoury/codeweights-ids)**  
   faysalchowdhoury · *GitHub* · 2026-11-22 · `💻 code / results`  
@@ -750,7 +770,12 @@
 <a id="classical-nlp-models"></a>
 
 <details>
-<summary><b>Classical NLP models (2)</b></summary>
+<summary><b>Classical NLP models (3)</b></summary>
+
+- **[Fine-Tuning Without Gradients? Closed-Form, LLM-Written Classifiers on a Frozen Encoder](https://arxiv.org/abs/2611.33972)**  
+  Md Nasir Uddin, Musa Tur Farazi, Soumik Bhattacharjee, Tishna Sabrina et al. · *Preprint* · 2026-11-25 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.33972)]  
+  An LLM design assistant writes programs that read a frozen RoBERTa-large through cloze templates and fit closed-form heads, with no gradients and no encoder weight change. On 11 development datasets it is ahead of full fine-tuning and LoRA at every label budget by 0.3 to 0.6 points on average, and within 0.5 points of prompt-based fine-tuning.
 
 - **[Can Weight-Space Programming Alter Learned Ethical Priorities?](https://arxiv.org/abs/2611.24330)**  
   Kai Yi Ji · *Preprint* · 2026-11-18 · `📝 preprint`  
@@ -769,7 +794,12 @@
 *Weight programming of game-playing networks and board-game policies.*
 
 <details>
-<summary><b>8 entries</b></summary>
+<summary><b>9 entries</b></summary>
+
+- **[Writing stochastic policies straight into neural-network weights](https://github.com/sy4411-sudo/weight-space-programming)**  
+  sy4411-sudo · *GitHub* · 2026-11-23 · `💻 code / results`  
+  [[Code](https://github.com/sy4411-sudo/weight-space-programming)] [[Project](https://doi.org/10.5281/zenodo.24452432)] ![GitHub stars](https://img.shields.io/github/stars/sy4411-sudo/weight-space-programming?style=social)  
+  Each run is one tool-free Codex CLI request that writes or edits the weights of a small policy network for an imperfect-information game. Networks are scored by exact exploitability over the full game tree with OpenSpiel. Claims were preregistered, and all 224 formal runs can be regraded from raw answers.
 
 - **[Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games)**  
   JensLehmann · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -894,7 +924,12 @@
 *Controlled tests of whether weight access helps.*
 
 <details>
-<summary><b>13 entries</b></summary>
+<summary><b>14 entries</b></summary>
+
+- **[OpenWSP: Benchmarking Weight-Space Programming on Open Language Models](https://github.com/MoreiraP12/OpenWSP)**  
+  MoreiraP12 · *GitHub* · 2026-11-23 · `💻 code / results`  
+  [[Code](https://github.com/MoreiraP12/OpenWSP)] [[Project](https://moreirap12.github.io/OpenWSP/)] ![GitHub stars](https://img.shields.io/github/stars/MoreiraP12/OpenWSP?style=social)  
+  WSP-Bench gives an LLM agent the weights of a small open language model (360M to 1.7B parameters) in a sandboxed Python kernel, with a forward-pass budget and no gradients. Tasks cover reading, editing and skill installation. Release v8 has 152 tasks scored as 168 cells, with keys and scorers; official results use a private test set.
 
 - **[Comprehensive Weight-Space Programming Leaderboard (MinAtar Experiment 5)](https://github.com/opopile/comprehensive-weight-space-programming-leaderboard)**  
   opopile · *GitHub* · 2026-11-21 · `💻 code / results`  
@@ -1077,7 +1112,12 @@
 *Audits, replications of claims and critical takes.*
 
 <details>
-<summary><b>45 entries</b></summary>
+<summary><b>47 entries</b></summary>
+
+- **[Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries](https://arxiv.org/abs/2611.34612)**  
+  Lin Yao · *Preprint* · 2026-11-25 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.34612)]  
+  Proposes Forward Weight-Space Programming (FWSP), a deterministic forward-only pipeline of probing, localization and stratified operators, arguing an LLM optimizer is unnecessary for core structured editing. Automatic blind routing reaches 83.3% vs 33.3% for a 27B LLM with the same tool library. A Protected FisherGate patch on DeepSeek-R1-0528-8B reaches 84.2% HumanEval pass@1 (1K budget).
 
 - **[GodfatherTHR/wsp-bf16-loop-stopping](https://github.com/GodfatherTHR/wsp-bf16-loop-stopping)**  
   GodfatherTHR · *GitHub* · 2026-11-24 · `💻 code / results`  
@@ -1128,6 +1168,11 @@
   Johan Tillman · *GitHub* · 2026-11-19 · `💻 code / results`  
   [[Code](https://github.com/johantillman/wsp-swedish-definiteness)] ![GitHub stars](https://img.shields.io/github/stars/johantillman/wsp-swedish-definiteness?style=social)  
   A pre-registered test of a targeted rank-1 edit to one late MLP of gpt-neo-125M for Swedish definiteness. Held-out accuracy was unchanged at 78.33% (+0.0 pp, p = 1.000). Same-size random edits, a 4-shot prompt, LoRA and a steering vector also stayed at 78.33%. Includes a critical review of the original report.
+
+- **[Can weight edits improve Swedish language models?](https://github.com/SANGITA-D/can-weight-edits-improve-swedish-lms)**  
+  SANGITA-D · *GitHub* · 2026-11-19 · `💻 code / results`  
+  [[Code](https://github.com/SANGITA-D/can-weight-edits-improve-swedish-lms)] ![GitHub stars](https://img.shields.io/github/stars/SANGITA-D/can-weight-edits-improve-swedish-lms?style=social)  
+  Tests whether the published Qwen3.5-0.8B loop-stopping edit transfers to Swedish. With the article's sampling and 100 items per test, Swedish math finished answers rise from 41 to 77 and correct from 34 to 52; Swedish general questions finished from 63 to 99, rated sensible 34 to 44 by a blind judge.
 
 - **[nbirkner/weight-space-programming-open](https://github.com/nbirkner/weight-space-programming-open)**  
   nbirkner · *GitHub* · 2026-11-18 · `💻 code / results`  
