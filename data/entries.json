@@ -12060,5 +12060,41 @@
     "repo": "Chiytako/wsp-automode-0.8b",
     "summary": "Gradient-free edits of 8 SwiGLU neurons (0.003264% of weights) in layers 15 and 22 of Qwen3.5-0.8B for Allow/Block action classification, with zero-shot and oracle baselines and causal sanity checks. Locked frozen_test real_cf AUROC is 0.8347. A separate LoRA-trained model-soup track reaches 1.0000.",
     "added": "2026-11-26"
+  },
+  {
+    "id": "lobehub-awesome-wsp",
+    "title": "lobehub/awesome-wsp",
+    "authors": "lobehub",
+    "org": "lobehub",
+    "date": "2026-11-03",
+    "venue": "GitHub",
+    "category": "lists",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/lobehub/awesome-wsp"
+    },
+    "repo": "lobehub/awesome-wsp",
+    "summary": "Curated guide to weight-space programming covering 37 studies, grouped into reading weights, editing checkpoints, writing networks, control and scientific applications, and benchmarks. Includes BibTeX, a table comparing experimental conditions, and a maze example that runs the released LoopedWSP transformer on a 7×7 maze.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "cellular-wsp-maze",
+    "title": "Cellular Weight-Space Programming: 115 Numbers Find Every Shortest Path in Any Maze",
+    "authors": "Arash Moaddel, Ashkan Moaddel, Nina Uller",
+    "org": "ibiLAB, Luleå University of Technology",
+    "date": "2026-11-25",
+    "venue": "GitHub",
+    "category": "llm-write",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/arashmh/Cellular-WSP-Maze",
+      "project": "https://cellular-wsp-maze.onrender.com",
+      "post": "https://comp-minds-research.onrender.com/maze/maze.html"
+    },
+    "repo": "arashmh/Cellular-WSP-Maze",
+    "summary": "An AI agent (Claude Opus 5.5 in Claude Code) set the weights of a neural cellular automaton directly, with no training. 115 of 1,458 weights are non-zero, and 128/128 test mazes are solved exactly. A 208-weight edition solves 1,000/1,000 Maze-Hard test mazes. Includes browser demos.",
+    "added": "2026-11-26"
   }
 ]

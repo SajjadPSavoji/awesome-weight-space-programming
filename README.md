@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-707-blue)
+![Entries](https://img.shields.io/badge/entries-709-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -20,14 +20,14 @@
 - **2026-11-26** · [Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries](https://arxiv.org/abs/2611.34612) (Analyses and Critiques)
 - **2026-11-26** · [Kolpona: An Agentic Framework with Gradient-Free Neuron Programming for RTL Generation](https://arxiv.org/abs/2611.33973) (Repairing behavior)
 - **2026-11-26** · [Fine-Tuning Without Gradients? Closed-Form, LLM-Written Classifiers on a Frozen Encoder](https://arxiv.org/abs/2611.33972) (Classical NLP models)
+- **2026-11-26** · [Cellular Weight-Space Programming: 115 Numbers Find Every Shortest Path in Any Maze](https://comp-minds-research.onrender.com/maze/maze.html) (Writing networks from scratch)
 - **2026-11-26** · [Temporal Weight Surgery: Repairing Video Grounding with LLM Editors](https://arxiv.org/abs/2611.33339) (Other Domains)
 - **2026-11-26** · [OpenWSP: Benchmarking Weight-Space Programming on Open Language Models](https://github.com/MoreiraP12/OpenWSP) (Benchmarks and Evaluations)
 - **2026-11-26** · [Writing stochastic policies straight into neural-network weights](https://github.com/sy4411-sudo/weight-space-programming) (Games)
 - **2026-11-26** · [Weight-space programming of Janus-Pro-1B](https://github.com/dataphysician/janus-pro-1b-wsp) (Other Domains)
 - **2026-11-26** · [Can weight edits improve Swedish language models?](https://github.com/SANGITA-D/can-weight-edits-improve-swedish-lms) (Analyses and Critiques)
+- **2026-11-26** · [lobehub/awesome-wsp](https://github.com/lobehub/awesome-wsp) (Other Curated Lists)
 - **2026-11-25** · [Weight-Space Programming: A Survey and Roadmap](https://github.com/Abelo9996/weight-space-programming-survey) (Weight-space programming)
-- **2026-11-25** · [Sparks of Weight-Space Programming for Robot Foundation Models](https://arxiv.org/abs/2611.31715) (Vision-language-action models)
-- **2026-11-25** · [A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit](https://arxiv.org/abs/2611.33133) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -40,10 +40,10 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (57)
+- [💬 Language Models](#-language-models) (58)
   - [Repairing behavior](#repairing-behavior) (42)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
-  - [Writing networks from scratch](#writing-networks-from-scratch) (11)
+  - [Writing networks from scratch](#writing-networks-from-scratch) (12)
   - [Implanting behavior (backdoors)](#implanting-behavior-backdoors) (2)
 - [🦾 Robotics and Control](#-robotics-and-control) (19)
   - [Vision-language-action models](#vision-language-action-models) (7)
@@ -54,7 +54,7 @@
 - [🧪 Quantum Circuits](#-quantum-circuits) (3)
 - [🧪 Diffusion and Generative Media Models](#-diffusion-and-generative-media-models) (1)
 - [🧪 Audio and Speech Models](#-audio-and-speech-models) (2)
-- [🧪 Other Curated Lists](#-other-curated-lists) (2)
+- [🧪 Other Curated Lists](#-other-curated-lists) (3)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (14)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (20)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (47)
@@ -349,7 +349,12 @@
 <a id="writing-networks-from-scratch"></a>
 
 <details>
-<summary><b>Writing networks from scratch (11)</b></summary>
+<summary><b>Writing networks from scratch (12)</b></summary>
+
+- **[Cellular Weight-Space Programming: 115 Numbers Find Every Shortest Path in Any Maze](https://comp-minds-research.onrender.com/maze/maze.html)**  
+  ibiLAB, Luleå University of Technology · *GitHub* · 2026-11-25 · `💻 code / results`  
+  [[Post](https://comp-minds-research.onrender.com/maze/maze.html)] [[Code](https://github.com/arashmh/Cellular-WSP-Maze)] [[Project](https://cellular-wsp-maze.onrender.com)] ![GitHub stars](https://img.shields.io/github/stars/arashmh/Cellular-WSP-Maze?style=social)  
+  An AI agent (Claude Opus 5.5 in Claude Code) set the weights of a neural cellular automaton directly, with no training. 115 of 1,458 weights are non-zero, and 128/128 test mazes are solved exactly. A 208-weight edition solves 1,000/1,000 Maze-Hard test mazes. Includes browser demos.
 
 - **[Looped Weight-Space Programming: LLM-Written Transformers for Long Algorithmic Reasoning](https://github.com/mbzuai-oryx/LoopedWSP)**  
   MBZUAI · *GitHub* · 2026-11-23 · `💻 code / results`  
@@ -905,7 +910,7 @@
 *Curated collections and reading lists on weight-space programming.*
 
 <details>
-<summary><b>2 entries</b></summary>
+<summary><b>3 entries</b></summary>
 
 - **[Weight-Space Programming: Papers, Code, Models and Guides](https://github.com/weightspaceprogramming/reading-list)**  
   weightspaceprogramming · *GitHub* · 2026-11-23 · `💻 code / results`  
@@ -916,6 +921,11 @@
   Boom5426 · *GitHub* · 2026-11-22 · `💻 code / results`  
   [[Code](https://github.com/Boom5426/Awesome-Weight-Space-Programming)] ![GitHub stars](https://img.shields.io/github/stars/Boom5426/Awesome-Weight-Space-Programming?style=social)  
   Curated collection of weight-space programming and weight-centric research covering weight understanding, generation, editing, merging, transfer and continual learning, with a searchable catalog, an interactive research landscape and an evidence matrix.
+
+- **[lobehub/awesome-wsp](https://github.com/lobehub/awesome-wsp)**  
+  lobehub · *GitHub* · 2026-11-03 · `💻 code / results`  
+  [[Code](https://github.com/lobehub/awesome-wsp)] ![GitHub stars](https://img.shields.io/github/stars/lobehub/awesome-wsp?style=social)  
+  Curated guide to weight-space programming covering 37 studies, grouped into reading weights, editing checkpoints, writing networks, control and scientific applications, and benchmarks. Includes BibTeX, a table comparing experimental conditions, and a maze example that runs the released LoopedWSP transformer on a 7×7 maze.
 
 </details>
 
