@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-714-blue)
+![Entries](https://img.shields.io/badge/entries-717-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,9 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-27** · [nandaanumolu/weight_space_programming](https://github.com/nandaanumolu/weight_space_programming) (Other Domains)
+- **2026-11-27** · [DSM-DSM/LLM-Weight-Space-Programming](https://github.com/DSM-DSM/LLM-Weight-Space-Programming) (Games)
+- **2026-11-27** · [Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://arxiv.org/abs/2611.16981) (Games)
 - **2026-11-26** · [Zero-Gradient Weight-Space Programming on ChemBERTa-2 and ESM-2](https://github.com/priyamthakar/wsp-chemberta-esm2) (Other Domains)
 - **2026-11-26** · [wsp-automode-0.8b](https://github.com/Chiytako/wsp-automode-0.8b) (Other Domains)
 - **2026-11-26** · [Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries](https://arxiv.org/abs/2611.34612) (Analyses and Critiques)
@@ -25,9 +28,6 @@
 - **2026-11-26** · [Temporal Weight Surgery: Repairing Video Grounding with LLM Editors](https://arxiv.org/abs/2611.33339) (Other Domains)
 - **2026-11-26** · [OpenWSP: Benchmarking Weight-Space Programming on Open Language Models](https://github.com/MoreiraP12/OpenWSP) (Benchmarks and Evaluations)
 - **2026-11-26** · [Writing stochastic policies straight into neural-network weights](https://github.com/sy4411-sudo/weight-space-programming) (Games)
-- **2026-11-26** · [Weight-space programming of Janus-Pro-1B](https://github.com/dataphysician/janus-pro-1b-wsp) (Other Domains)
-- **2026-11-26** · [Hand-writing a Breakout network with Claude](https://github.com/praharshaAdhikari/weight-reading-claude) (Games)
-- **2026-11-26** · [Do the weights GPT-6 Astra writes look like logic gates?](https://github.com/alisongun23-glitch/astra-logic-gates) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -48,9 +48,9 @@
 - [🦾 Robotics and Control](#-robotics-and-control) (19)
   - [Vision-language-action models](#vision-language-action-models) (7)
   - [RL control policies](#rl-control-policies) (11)
-- [🧩 Other Domains](#-other-domains) (47)
+- [🧩 Other Domains](#-other-domains) (48)
   - [Classical NLP models](#classical-nlp-models) (3)
-- [🎮 Games](#-games) (10)
+- [🎮 Games](#-games) (12)
 - [🧪 Quantum Circuits](#-quantum-circuits) (3)
 - [🧪 Diffusion and Generative Media Models](#-diffusion-and-generative-media-models) (1)
 - [🧪 Audio and Speech Models](#-audio-and-speech-models) (2)
@@ -563,12 +563,17 @@
 *Classifiers, small decision networks and anything else.*
 
 <details>
-<summary><b>General (44)</b></summary>
+<summary><b>General (45)</b></summary>
 
 - **[Zero-Gradient Weight-Space Programming on ChemBERTa-2 and ESM-2](https://github.com/priyamthakar/wsp-chemberta-esm2)**  
   priyamthakar · *GitHub* · 2026-11-27 · `💻 code / results`  
   [[Code](https://github.com/priyamthakar/wsp-chemberta-esm2)] ![GitHub stars](https://img.shields.io/github/stars/priyamthakar/wsp-chemberta-esm2?style=social)  
   Evaluates zero-gradient weight edits by Gemini 4 Neon (56 trajectories) on ChemBERTa-77M and ESM-2 for out-of-distribution property prediction. Edits improve 9/9 scaffold splits (Lipophilicity 0.4995 to 0.637–0.666). Includes permutation controls and Ridge, LightGBM and D-MPNN baselines. WSP trails the strongest baselines.
+
+- **[nandaanumolu/weight_space_programming](https://github.com/nandaanumolu/weight_space_programming)**  
+  nandaanumolu · *GitHub* · 2026-11-27 · `💻 code / results`  
+  [[Code](https://github.com/nandaanumolu/weight_space_programming)] ![GitHub stars](https://img.shields.io/github/stars/nandaanumolu/weight_space_programming?style=social)  
+  Trains a 16-ReLU, 65-weight network with Adam and by Claude (Opus 5.5) writing every weight from zeros. On a 4x4 chessboard Adam gets 80.0% (90.8% best of 18 runs) and Claude 100.0%. On a ring Adam gets 87.5% and Claude 98.8%. Tested on 2,000 unseen points.
 
 - **[wsp-automode-0.8b](https://github.com/Chiytako/wsp-automode-0.8b)**  
   Chiytako · *GitHub* · 2026-11-26 · `💻 code / results`  
@@ -814,7 +819,7 @@
 *Weight programming of game-playing networks and board-game policies.*
 
 <details>
-<summary><b>10 entries</b></summary>
+<summary><b>12 entries</b></summary>
 
 - **[Writing stochastic policies straight into neural-network weights](https://github.com/sy4411-sudo/weight-space-programming)**  
   sy4411-sudo · *GitHub* · 2026-11-23 · `💻 code / results`  
@@ -825,6 +830,16 @@
   praharshaAdhikari · *GitHub* · 2026-11-23 · `💻 code / results`  
   [[Code](https://github.com/praharshaAdhikari/weight-reading-claude)] ![GitHub stars](https://img.shields.io/github/stars/praharshaAdhikari/weight-reading-claude?style=social)  
   Replicates Experiment 5 of Sparks of Weight-Space Programming with Claude models. Each model writes all 20,486 weights of a 600-32-32-6 MinAtar Breakout network in one reply, with no tools. 105 runs across models and effort levels are scored over 1,000 games against Astra, random and rule baselines.
+
+- **[DSM-DSM/LLM-Weight-Space-Programming](https://github.com/DSM-DSM/LLM-Weight-Space-Programming)**  
+  俞锦越 · *GitHub* · 2026-11-23 · `💻 code / results`  
+  [[Code](https://github.com/DSM-DSM/LLM-Weight-Space-Programming)] ![GitHub stars](https://img.shields.io/github/stars/DSM-DSM/LLM-Weight-Space-Programming?style=social)  
+  Course project in which an LLM writes network weights without gradients. On MinAtar Breakout the score rises from 2.030 (zero-forward) to 349.288 with a forward budget, over 1,000 episodes. Subprojects cover Atari ALE Breakout, video-prediction model diagnosis, Gaussian contamination and CIFAR-10 weight surgery.
+
+- **[Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://arxiv.org/abs/2611.16981)**  
+  *Preprint* · 2026-11-18 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.16981)]  
+  Tests whether language-model writers can compile known game mechanics into compact agents that generalise to held-out levels, using 20 unpublished ARC-AGI-3-style game families and a fixed 57k-parameter recurrent architecture. The strongest writer reaches 56% held-out-level success with feedback. The four main writers' Python players reach 97-100%.
 
 - **[Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games)**  
   JensLehmann · *GitHub* · 2026-11-12 · `💻 code / results`  
