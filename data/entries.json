@@ -12096,5 +12096,85 @@
     "repo": "arashmh/Cellular-WSP-Maze",
     "summary": "An AI agent (Claude Opus 5.5 in Claude Code) set the weights of a neural cellular automaton directly, with no training. 115 of 1,458 weights are non-zero, and 128/128 test mazes are solved exactly. A 208-weight edition solves 1,000/1,000 Maze-Hard test mazes. Includes browser demos.",
     "added": "2026-11-26"
+  },
+  {
+    "id": "wsp-chemberta-esm2",
+    "title": "Zero-Gradient Weight-Space Programming on ChemBERTa-2 and ESM-2",
+    "authors": "priyamthakar",
+    "date": "2026-11-27",
+    "venue": "GitHub",
+    "category": "other",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/priyamthakar/wsp-chemberta-esm2"
+    },
+    "repo": "priyamthakar/wsp-chemberta-esm2",
+    "summary": "Evaluates zero-gradient weight edits by Gemini 4 Neon (56 trajectories) on ChemBERTa-77M and ESM-2 for out-of-distribution property prediction. Edits improve 9/9 scaffold splits (Lipophilicity 0.4995 to 0.637–0.666). Includes permutation controls and Ridge, LightGBM and D-MPNN baselines. WSP trails the strongest baselines.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "mindloop-weightspace-lab",
+    "title": "MindLoop Weightspace Lab",
+    "authors": "xxammaxx",
+    "date": "2026-11-22",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/xxammaxx/mindloop-weightspace-lab"
+    },
+    "repo": "xxammaxx/mindloop-weightspace-lab",
+    "summary": "Tests calculated rank-2 output-head edits on frozen Qwen3.5-0.8B for synthetic tool-routing tasks. On 24 held-out tasks the edit got 16 correct versus 8 for base, 9 for prompt-only and 7 for a random placebo. It had 3 unsafe writes, so it was rejected on safety.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "weight-reading-claude",
+    "title": "Hand-writing a Breakout network with Claude",
+    "authors": "praharshaAdhikari",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "games",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/praharshaAdhikari/weight-reading-claude"
+    },
+    "repo": "praharshaAdhikari/weight-reading-claude",
+    "summary": "Replicates Experiment 5 of Sparks of Weight-Space Programming with Claude models. Each model writes all 20,486 weights of a 600-32-32-6 MinAtar Breakout network in one reply, with no tools. 105 runs across models and effort levels are scored over 1,000 games against Astra, random and rule baselines.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "astra-logic-gates",
+    "title": "Do the weights GPT-6 Astra writes look like logic gates?",
+    "authors": "Ali Songun",
+    "date": "2026-11-23",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/alisongun23-glitch/astra-logic-gates"
+    },
+    "repo": "alisongun23-glitch/astra-logic-gates",
+    "summary": "Reads three released Astra weight programs. The Breakout network is a two-layer circuit of comparators and AND gates. Rules read from its weights score 498 ± 25 against 508 ± 25 for the network, and 7 without the dead band. The Qwen3.5-0.8B edit is an exact rank-one change.",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "weight-space-tuning",
+    "title": "Claude, Please Fix My Model",
+    "authors": "bradhinkel",
+    "date": "2026-11-12",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/bradhinkel/weight-space-tuning"
+    },
+    "repo": "bradhinkel/weight-space-tuning",
+    "summary": "Replicates weight-space repair on a Qwen3.5-2B tool router that a LoRA fine-tune broke (BFCL irrelevance 78.8 to 0.8). Claude Fable 5.1 edits one tied-embedding row; at budget 25, irrelevance is 64.58 with a 1.13-point call-accuracy loss. Compared with a steering ablation and a corrective LoRA. A blind judge shows refusals rather than answers.",
+    "added": "2026-11-26"
   }
 ]
