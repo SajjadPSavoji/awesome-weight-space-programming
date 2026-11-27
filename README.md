@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-717-blue)
+![Entries](https://img.shields.io/badge/entries-719-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -17,7 +17,9 @@
 ## 🔥 Recently Added
 
 - **2026-11-27** · [nandaanumolu/weight_space_programming](https://github.com/nandaanumolu/weight_space_programming) (Other Domains)
+- **2026-11-27** · [dental-wsp: Weight-Space Programming Benchmark for Digital Dentistry](https://github.com/batuhanyldz498-crypto/dental-wsp) (Medical Imaging)
 - **2026-11-27** · [DSM-DSM/LLM-Weight-Space-Programming](https://github.com/DSM-DSM/LLM-Weight-Space-Programming) (Games)
+- **2026-11-27** · [Comprehensive Weight-Space Programming Leaderboard (MinAtar Experiment 5)](https://github.com/xuyao-zhang/comprehensive-weight-space-programming-leaderboard) (Benchmarks and Evaluations)
 - **2026-11-27** · [Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://arxiv.org/abs/2611.16981) (Games)
 - **2026-11-26** · [Zero-Gradient Weight-Space Programming on ChemBERTa-2 and ESM-2](https://github.com/priyamthakar/wsp-chemberta-esm2) (Other Domains)
 - **2026-11-26** · [wsp-automode-0.8b](https://github.com/Chiytako/wsp-automode-0.8b) (Other Domains)
@@ -26,8 +28,6 @@
 - **2026-11-26** · [Fine-Tuning Without Gradients? Closed-Form, LLM-Written Classifiers on a Frozen Encoder](https://arxiv.org/abs/2611.33972) (Classical NLP models)
 - **2026-11-26** · [Cellular Weight-Space Programming: 115 Numbers Find Every Shortest Path in Any Maze](https://comp-minds-research.onrender.com/maze/maze.html) (Writing networks from scratch)
 - **2026-11-26** · [Temporal Weight Surgery: Repairing Video Grounding with LLM Editors](https://arxiv.org/abs/2611.33339) (Other Domains)
-- **2026-11-26** · [OpenWSP: Benchmarking Weight-Space Programming on Open Language Models](https://github.com/MoreiraP12/OpenWSP) (Benchmarks and Evaluations)
-- **2026-11-26** · [Writing stochastic policies straight into neural-network weights](https://github.com/sy4411-sudo/weight-space-programming) (Games)
 
 ## 🧭 Milestones
 
@@ -55,7 +55,8 @@
 - [🧪 Diffusion and Generative Media Models](#-diffusion-and-generative-media-models) (1)
 - [🧪 Audio and Speech Models](#-audio-and-speech-models) (2)
 - [🧪 Other Curated Lists](#-other-curated-lists) (3)
-- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (14)
+- [🧪 Medical Imaging](#-medical-imaging) (1)
+- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (15)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (20)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (48)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (190)
@@ -964,12 +965,26 @@
 
 </details>
 
+## 🧪 Medical Imaging
+
+*Weight programming of medical and dental imaging classifiers and segmentation networks.*
+
+<details>
+<summary><b>1 entry</b></summary>
+
+- **[dental-wsp: Weight-Space Programming Benchmark for Digital Dentistry](https://github.com/batuhanyldz498-crypto/dental-wsp)**  
+  batuhanyldz498-crypto · *GitHub* · 2026-11-24 · `💻 code / results`  
+  [[Code](https://github.com/batuhanyldz498-crypto/dental-wsp)] ![GitHub stars](https://img.shields.io/github/stars/batuhanyldz498-crypto/dental-wsp?style=social)  
+  Benchmark extending WSP to digital dentistry across 2D periapical, 2D panoramic and 3D CBCT imaging, with classification and 82-parameter segmentation tracks. Compares frozen LLM-written weights (K=0), random-init Adam and WSP warm-start Adam at label budgets, with position-only controls and pathway ablations. Held-out splits are sealed after one evaluation; 36 unique locked replies.
+
+</details>
+
 ## 📊 Benchmarks and Evaluations
 
 *Controlled tests of whether weight access helps.*
 
 <details>
-<summary><b>14 entries</b></summary>
+<summary><b>15 entries</b></summary>
 
 - **[OpenWSP: Benchmarking Weight-Space Programming on Open Language Models](https://github.com/MoreiraP12/OpenWSP)**  
   MoreiraP12 · *GitHub* · 2026-11-23 · `💻 code / results`  
@@ -980,6 +995,11 @@
   opopile · *GitHub* · 2026-11-21 · `💻 code / results`  
   [[Code](https://github.com/opopile/comprehensive-weight-space-programming-leaderboard)] ![GitHub stars](https://img.shields.io/github/stars/opopile/comprehensive-weight-space-programming-leaderboard?style=social)  
   Consolidates 41 publicly reported WSP MinAtar Experiment 5 evaluations from 22 sources and recomputes them under the Writing Weights Index and weight-space-bench PPO-500M Median formulas. Adds local Gemini 4 Neon (xhigh) runs (WWI 53.9532) and a Seaquest one-sentence prompt-intervention ablation reported at +29.66%.
+
+- **[Comprehensive Weight-Space Programming Leaderboard (MinAtar Experiment 5)](https://github.com/xuyao-zhang/comprehensive-weight-space-programming-leaderboard)**  
+  xuyao-zhang · *GitHub* · 2026-11-21 · `💻 code / results`  
+  [[Code](https://github.com/xuyao-zhang/comprehensive-weight-space-programming-leaderboard)] ![GitHub stars](https://img.shields.io/github/stars/xuyao-zhang/comprehensive-weight-space-programming-leaderboard?style=social)  
+  Consolidates 42 reported WSP MinAtar Experiment 5 evaluations from 22 sources, recomputed under the Writing Weights Index and weight-space-bench PPO-500M median formulas, with statistical and circuit analyses and original Gemini 4 Neon (xhigh) runs. Reports a Chinese-prompt run scoring 537.44 Breakout, 94.97 Seaquest and 84.91 Asterix versus 500M-step PPO.
 
 - **[Weight-Space Programming](https://github.com/Abelo9996/weight-space-programming)**  
   Abelo9996 · *GitHub* · 2026-11-19 · `💻 code / results`  

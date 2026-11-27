@@ -12222,5 +12222,37 @@
     "repo": "DSM-DSM/LLM-Weight-Space-Programming",
     "summary": "Course project in which an LLM writes network weights without gradients. On MinAtar Breakout the score rises from 2.030 (zero-forward) to 349.288 with a forward budget, over 1,000 episodes. Subprojects cover Atari ALE Breakout, video-prediction model diagnosis, Gaussian contamination and CIFAR-10 weight surgery.",
     "added": "2026-11-27"
+  },
+  {
+    "id": "comprehensive-wsp-minatar-leaderboard",
+    "title": "Comprehensive Weight-Space Programming Leaderboard (MinAtar Experiment 5)",
+    "authors": "xuyao-zhang",
+    "date": "2026-11-21",
+    "venue": "GitHub",
+    "category": "bench",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/xuyao-zhang/comprehensive-weight-space-programming-leaderboard"
+    },
+    "repo": "xuyao-zhang/comprehensive-weight-space-programming-leaderboard",
+    "summary": "Consolidates 42 reported WSP MinAtar Experiment 5 evaluations from 22 sources, recomputed under the Writing Weights Index and weight-space-bench PPO-500M median formulas, with statistical and circuit analyses and original Gemini 4 Neon (xhigh) runs. Reports a Chinese-prompt run scoring 537.44 Breakout, 94.97 Seaquest and 84.91 Asterix versus 500M-step PPO.",
+    "added": "2026-11-27"
+  },
+  {
+    "id": "dental-wsp",
+    "title": "dental-wsp: Weight-Space Programming Benchmark for Digital Dentistry",
+    "authors": "batuhanyldz498-crypto",
+    "date": "2026-11-24",
+    "venue": "GitHub",
+    "category": "medical",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/batuhanyldz498-crypto/dental-wsp"
+    },
+    "repo": "batuhanyldz498-crypto/dental-wsp",
+    "summary": "Benchmark extending WSP to digital dentistry across 2D periapical, 2D panoramic and 3D CBCT imaging, with classification and 82-parameter segmentation tracks. Compares frozen LLM-written weights (K=0), random-init Adam and WSP warm-start Adam at label budgets, with position-only controls and pathway ablations. Held-out splits are sealed after one evaluation; 36 unique locked replies.",
+    "added": "2026-11-27"
   }
 ]

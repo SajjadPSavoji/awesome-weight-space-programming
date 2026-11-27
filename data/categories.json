@@ -96,6 +96,12 @@
     "blurb": "Curated collections and reading lists on weight-space programming."
   },
   {
+    "id": "medical",
+    "title": "Medical Imaging",
+    "emoji": "🧪",
+    "blurb": "Weight programming of medical and dental imaging classifiers and segmentation networks."
+  },
+  {
     "id": "bench",
     "title": "Benchmarks and Evaluations",
     "emoji": "📊",
