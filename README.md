@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-719-blue)
+![Entries](https://img.shields.io/badge/entries-723-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -16,6 +16,10 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-28** · [mamiche: Weight-Space Programming for Edge LLM Compression](https://github.com/insung3511/mamiche) (Analyses and Critiques)
+- **2026-11-28** · [Can an LLM repair a misaligned model by reading its weights?](https://github.com/martingkc/llm-weight-repair) (Repairing behavior)
+- **2026-11-28** · [Knowing Is Not Committing](https://doi.org/10.5281/zenodo.24058693) (Analyses and Critiques)
+- **2026-11-28** · [wsr: weight-space repair of a robot policy](https://github.com/shashankdurgad/wsp-robotics) (RL control policies)
 - **2026-11-27** · [nandaanumolu/weight_space_programming](https://github.com/nandaanumolu/weight_space_programming) (Other Domains)
 - **2026-11-27** · [dental-wsp: Weight-Space Programming Benchmark for Digital Dentistry](https://github.com/batuhanyldz498-crypto/dental-wsp) (Medical Imaging)
 - **2026-11-27** · [DSM-DSM/LLM-Weight-Space-Programming](https://github.com/DSM-DSM/LLM-Weight-Space-Programming) (Games)
@@ -24,10 +28,6 @@
 - **2026-11-26** · [Zero-Gradient Weight-Space Programming on ChemBERTa-2 and ESM-2](https://github.com/priyamthakar/wsp-chemberta-esm2) (Other Domains)
 - **2026-11-26** · [wsp-automode-0.8b](https://github.com/Chiytako/wsp-automode-0.8b) (Other Domains)
 - **2026-11-26** · [Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries](https://arxiv.org/abs/2611.34612) (Analyses and Critiques)
-- **2026-11-26** · [Kolpona: An Agentic Framework with Gradient-Free Neuron Programming for RTL Generation](https://arxiv.org/abs/2611.33973) (Repairing behavior)
-- **2026-11-26** · [Fine-Tuning Without Gradients? Closed-Form, LLM-Written Classifiers on a Frozen Encoder](https://arxiv.org/abs/2611.33972) (Classical NLP models)
-- **2026-11-26** · [Cellular Weight-Space Programming: 115 Numbers Find Every Shortest Path in Any Maze](https://comp-minds-research.onrender.com/maze/maze.html) (Writing networks from scratch)
-- **2026-11-26** · [Temporal Weight Surgery: Repairing Video Grounding with LLM Editors](https://arxiv.org/abs/2611.33339) (Other Domains)
 
 ## 🧭 Milestones
 
@@ -40,14 +40,14 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (60)
-  - [Repairing behavior](#repairing-behavior) (44)
+- [💬 Language Models](#-language-models) (61)
+  - [Repairing behavior](#repairing-behavior) (45)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (12)
   - [Implanting behavior (backdoors)](#implanting-behavior-backdoors) (2)
-- [🦾 Robotics and Control](#-robotics-and-control) (19)
+- [🦾 Robotics and Control](#-robotics-and-control) (20)
   - [Vision-language-action models](#vision-language-action-models) (7)
-  - [RL control policies](#rl-control-policies) (11)
+  - [RL control policies](#rl-control-policies) (12)
 - [🧩 Other Domains](#-other-domains) (48)
   - [Classical NLP models](#classical-nlp-models) (3)
 - [🎮 Games](#-games) (12)
@@ -58,7 +58,7 @@
 - [🧪 Medical Imaging](#-medical-imaging) (1)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (15)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (20)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (48)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (50)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (190)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (18)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -116,12 +116,17 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (44)</b></summary>
+<summary><b>Repairing behavior (45)</b></summary>
 
 - **[Kolpona: An Agentic Framework with Gradient-Free Neuron Programming for RTL Generation](https://arxiv.org/abs/2611.33973)**  
   Bangladesh University of Engineering and Technology (BUET) · *Preprint* · 2026-11-25 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.33973)]  
   Neuron programming writes single neurons in closed form into the weights of open-weight LLMs to remove failure habits, keeping an edit only if fresh-task testbench results favour it. On Qwen3.5-4B, edits to 16 neurons raise VerilogEval v2 pass@1 from 31.7% to 55.4%. Edits also lift HumanEval+ from 84.8% to 91.5%.
+
+- **[Can an LLM repair a misaligned model by reading its weights?](https://github.com/martingkc/llm-weight-repair)**  
+  martingkc · *GitHub* · 2026-11-24 · `💻 code / results`  
+  [[Code](https://github.com/martingkc/llm-weight-repair)] ![GitHub stars](https://img.shields.io/github/stars/martingkc/llm-weight-repair?style=social)  
+  An LLM programmer (GPT-6.2 Sol or Astra) reads and edits the weights of Qwen2.5-0.5B-Instruct with a misaligning adapter. Experiment 1 writes a steering vector: Sol with weights and 20 scored tries closes 41-46% of the loss gap, against 53% for the standard vector. Experiment 2 edits weights to remove bad medical advice while keeping Italian: dangerous answers fall from 58% to 23-28% in the best runs.
 
 - **[WSP Labs: Direct Weight-Space Programming & Alpha M1 on-device machine-control models](https://github.com/JohnnyPBelo/wsp-labs)**  
   JohnnyPBelo · *GitHub* · 2026-11-22 · `💻 code / results`  
@@ -500,7 +505,7 @@
 <a id="rl-control-policies"></a>
 
 <details>
-<summary><b>RL control policies (11)</b></summary>
+<summary><b>RL control policies (12)</b></summary>
 
 - **[Can weight-space programming bridge the gap between two RL specialists?](https://github.com/A-C-C-AI/weight-space-programming-rl-specialists)**  
   A-C-C-AI · *GitHub* · 2026-11-21 · `💻 code / results`  
@@ -516,6 +521,11 @@
   Dennis Gross · *Preprint* · 2026-11-08 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.11604)]  
   An LLM writes all weights of a policy network from a task description, optionally repairs them on a dataset of optimal actions, and receives Storm model-checking feedback on PCTL requirements. With two LLMs on three environments, the created policy in each of 18 runs attains the optimal probability before any dataset or model-checking feedback.
+
+- **[wsr: weight-space repair of a robot policy](https://github.com/shashankdurgad/wsp-robotics)**  
+  shashankdurgad · *GitHub* · 2026-11-07 · `💻 code / results`  
+  [[Code](https://github.com/shashankdurgad/wsp-robotics)] ![GitHub stars](https://img.shields.io/github/stars/shashankdurgad/wsp-robotics?style=social)  
+  Pre-registered design for an LLM repairing a PPO-trained 2-DOF MuJoCo arm policy that fails on targets behind a wall, by editing its network weights. Compares scripted, behavior-cloning, hill-climb, residual and fine-tune baselines at equal rollout budget. Reports non-LLM pilot numbers and one LLM repair attempt.
 
 - **[wsp-lab: cross-editor stress test of weight-space programming](https://github.com/WKJBryan/wsp-lab)**  
   WKJBryan · *GitHub* · 2026-11-05 · `💻 code / results`  
@@ -1177,7 +1187,12 @@
 *Audits, replications of claims and critical takes.*
 
 <details>
-<summary><b>48 entries</b></summary>
+<summary><b>50 entries</b></summary>
+
+- **[mamiche: Weight-Space Programming for Edge LLM Compression](https://github.com/insung3511/mamiche)**  
+  INSUNG BAHK · *GitHub* · 2026-11-28 · `💻 code / results`  
+  [[Code](https://github.com/insung3511/mamiche)] ![GitHub stars](https://img.shields.io/github/stars/insung3511/mamiche?style=social)  
+  Tests whether a public edited Qwen3.5-0.8B keeps its effect after 4-bit quantization on a MacBook M1. On 50 GSM8K questions at an 8k token limit, edited 4-bit scores 26% against 6% for the original, 2% for a random edit and 40% for a thinking-off control.
 
 - **[Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries](https://arxiv.org/abs/2611.34612)**  
   Lin Yao · *Preprint* · 2026-11-25 · `📝 preprint`  
@@ -1333,6 +1348,11 @@
   University of British Columbia, Vector Institute · *GitHub* · 2026-11-08 · `💻 code / results`  
   [[Post](https://xxlya.github.io/editlens/)] [[Code](https://github.com/assassin808/edit-lens)] ![GitHub stars](https://img.shields.io/github/stars/assassin808/edit-lens?style=social)  
   Rebuilds Astra's rank-one edit to Qwen3.5-0.8B (layers 15 and 19, α = 6) and tests it with ten interpretability tools and controls that change the model. The rebuild gives MATH-500 7.6% to 51.9% under the same protocol (original post: 7.9% to 48.1%).
+
+- **[Knowing Is Not Committing](https://doi.org/10.5281/zenodo.24058693)**  
+  NeoCortex0815 · *GitHub* · 2026-11-08 · `💻 code / results`  
+  [[Paper](https://doi.org/10.5281/zenodo.24058693)] [[Code](https://github.com/NeoCortex0815/knowing-is-not-committing)] [[Model](https://huggingface.co/NeoCortex0815/Qwen3.5-0.8B-WT-A)] ![GitHub stars](https://img.shields.io/github/stars/NeoCortex0815/knowing-is-not-committing?style=social)  
+  Independent replication and extension of Sparks of Weight-Space Programming on Qwen3.5-0.8B: rebuilds the loop-reversal edit, writes a truth-gated reflex into 16 MLP neurons, and checks SGNE-CC. In pre-registered tests, a council rule beats the MIT edit, 83 vs 67 of 150 and 59 vs 49 of 100 problems.
 
 - **[Can a language model repair a network's weights by reading them?](https://github.com/hamley241/wsp-harness-public)**  
   hamley241 · *GitHub* · 2026-11-07 · `💻 code / results`  

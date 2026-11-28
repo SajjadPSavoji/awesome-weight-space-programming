@@ -12254,5 +12254,71 @@
     "repo": "batuhanyldz498-crypto/dental-wsp",
     "summary": "Benchmark extending WSP to digital dentistry across 2D periapical, 2D panoramic and 3D CBCT imaging, with classification and 82-parameter segmentation tracks. Compares frozen LLM-written weights (K=0), random-init Adam and WSP warm-start Adam at label budgets, with position-only controls and pathway ablations. Held-out splits are sealed after one evaluation; 36 unique locked replies.",
     "added": "2026-11-27"
+  },
+  {
+    "id": "mamiche-edge-wsp",
+    "title": "mamiche: Weight-Space Programming for Edge LLM Compression",
+    "authors": "INSUNG BAHK",
+    "date": "2026-11-28",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/insung3511/mamiche"
+    },
+    "repo": "insung3511/mamiche",
+    "summary": "Tests whether a public edited Qwen3.5-0.8B keeps its effect after 4-bit quantization on a MacBook M1. On 50 GSM8K questions at an 8k token limit, edited 4-bit scores 26% against 6% for the original, 2% for a random edit and 40% for a thinking-off control.",
+    "added": "2026-11-28"
+  },
+  {
+    "id": "llm-weight-repair-qwen-misaligned",
+    "title": "Can an LLM repair a misaligned model by reading its weights?",
+    "authors": "martingkc",
+    "date": "2026-11-24",
+    "venue": "GitHub",
+    "category": "llm-repair",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/martingkc/llm-weight-repair"
+    },
+    "repo": "martingkc/llm-weight-repair",
+    "summary": "An LLM programmer (GPT-6.2 Sol or Astra) reads and edits the weights of Qwen2.5-0.5B-Instruct with a misaligning adapter. Experiment 1 writes a steering vector: Sol with weights and 20 scored tries closes 41-46% of the loss gap, against 53% for the standard vector. Experiment 2 edits weights to remove bad medical advice while keeping Italian: dangerous answers fall from 58% to 23-28% in the best runs.",
+    "added": "2026-11-28"
+  },
+  {
+    "id": "knowing-is-not-committing",
+    "title": "Knowing Is Not Committing",
+    "authors": "NeoCortex0815",
+    "date": "2026-11-08",
+    "venue": "GitHub",
+    "category": "analysis",
+    "kind": "report",
+    "evidence": "code",
+    "links": {
+      "paper": "https://doi.org/10.5281/zenodo.24058693",
+      "code": "https://github.com/NeoCortex0815/knowing-is-not-committing",
+      "model": "https://huggingface.co/NeoCortex0815/Qwen3.5-0.8B-WT-A"
+    },
+    "repo": "NeoCortex0815/knowing-is-not-committing",
+    "summary": "Independent replication and extension of Sparks of Weight-Space Programming on Qwen3.5-0.8B: rebuilds the loop-reversal edit, writes a truth-gated reflex into 16 MLP neurons, and checks SGNE-CC. In pre-registered tests, a council rule beats the MIT edit, 83 vs 67 of 150 and 59 vs 49 of 100 problems.",
+    "added": "2026-11-28"
+  },
+  {
+    "id": "wsp-robotics-weight-space-repair",
+    "title": "wsr: weight-space repair of a robot policy",
+    "authors": "shashankdurgad",
+    "date": "2026-11-07",
+    "venue": "GitHub",
+    "category": "robotics-rl",
+    "kind": "repo",
+    "evidence": "code",
+    "links": {
+      "code": "https://github.com/shashankdurgad/wsp-robotics"
+    },
+    "repo": "shashankdurgad/wsp-robotics",
+    "summary": "Pre-registered design for an LLM repairing a PPO-trained 2-DOF MuJoCo arm policy that fails on targets behind a wall, by editing its network weights. Compares scripted, behavior-cloning, hill-climb, residual and fine-tune baselines at equal rollout budget. Reports non-LLM pilot numbers and one LLM repair attempt.",
+    "added": "2026-11-28"
   }
 ]
